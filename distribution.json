@@ -1184,18 +1184,6 @@
                     "path": "mods/fism+1.20.1-forge-1.0.6.jar"
                 },
                 {
-                    "id": "forbidden_tiers-1.20.1-1.0.1.jar",
-                    "name": "forbidden_tiers-1.20.1-1.0.1.jar",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/forbidden_tiers-1.20.1-1.0.1.jar",
-                        "MD5": "0B62622882502E437148F3E50696A8B9",
-                        "size": 228923,
-                        "path": "mods/forbidden_tiers-1.20.1-1.0.1.jar"
-                    },
-                    "path": "mods/forbidden_tiers-1.20.1-1.0.1.jar"
-                },
-                {
                     "id": "FramedBlocks-9.4.3.jar",
                     "name": "FramedBlocks-9.4.3.jar",
                     "type": "File",
