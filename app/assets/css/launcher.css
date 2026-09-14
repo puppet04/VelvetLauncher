@@ -3185,15 +3185,17 @@ input:checked + .toggleSwitchSlider:before {
     letter-spacing: 1px;
     font-weight: bold;
     text-shadow: 0px 0px 0px #bebcbb;
+    white-space: nowrap;
+    text-transform: uppercase;
 }
 
 /* Divider used on the bottom of the landing view. */
 .bot_divider {
-    height: 25px;
+    height: 20px;
     width: 2px;
     background: rgba(107, 105, 105, 0.7);
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 /* * *
@@ -3203,7 +3205,8 @@ input:checked + .toggleSwitchSlider:before {
 /* Maintains maximum width on the status bar. */
 #server_status_wrapper {
     display: inline-flex;
-    width: 75px;
+    align-items: center;
+    white-space: nowrap;
 }
 
 /* Span which displays the player count of the selected server. */
@@ -3212,12 +3215,13 @@ input:checked + .toggleSwitchSlider:before {
     font-size: 8px;
     font-weight: 900;
     text-shadow: 0px 0px 20px #949494;
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 #playtime_wrapper {
     display: inline-flex;
     align-items: center;
+    white-space: nowrap;
 }
 
 #playtime_count {
@@ -3225,22 +3229,26 @@ input:checked + .toggleSwitchSlider:before {
     font-size: 8px;
     font-weight: 900;
     text-shadow: 0px 0px 20px #949494;
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 /* Wrapper container for the mojang status bar. */
 #mojangStatusWrapper {
     position: relative;
-    display: flex;
+    display: inline-flex;
+    align-items: center;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 /* Icon which displays the status of the mojang services. */
 #mojang_status_icon {
-    font-size: 30px;
+    font-size: 16px;
     color: #848484;
-    margin-left: 15px;
-    font-family: 'sans-serif';
+    margin-left: 6px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
 }
 
 /* Tooltip which displays more details about the mojang statuses. */
