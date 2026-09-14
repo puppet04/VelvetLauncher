@@ -30,4 +30,16 @@ exports.default = async function (context) {
             console.log('[AFTER-PACK] Removido LICENSES.chromium.html (economizou ~20MB)')
         } catch (e) { }
     }
+
+    // 3. Limpar compiladores WebGPU não utilizados (dxcompiler.dll e dxil.dll - economiza ~27MB)
+    const webgpuDlls = ['dxcompiler.dll', 'dxil.dll']
+    for (const dll of webgpuDlls) {
+        const dllPath = path.join(appOutDir, dll)
+        if (fs.existsSync(dllPath)) {
+            try {
+                fs.unlinkSync(dllPath)
+                console.log(`[AFTER-PACK] Removido ${dll}`)
+            } catch (e) { }
+        }
+    }
 }
