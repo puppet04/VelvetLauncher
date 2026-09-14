@@ -791,3 +791,20 @@ exports.getAllowPrerelease = function(def = false){
 exports.setAllowPrerelease = function(allowPrerelease){
     config.settings.launcher.allowPrerelease = allowPrerelease
 }
+
+// Playtime Tracker
+exports.getPlaytime = function(serverId){
+    if(!serverId) return 0
+    if(!config.clientData) config.clientData = {}
+    if(!config.clientData.playtime) config.clientData.playtime = {}
+    return config.clientData.playtime[serverId] || 0
+}
+
+exports.addPlaytime = function(serverId, seconds){
+    if(!serverId || !seconds || seconds <= 0) return exports.getPlaytime(serverId)
+    if(!config.clientData) config.clientData = {}
+    if(!config.clientData.playtime) config.clientData.playtime = {}
+    config.clientData.playtime[serverId] = (config.clientData.playtime[serverId] || 0) + seconds
+    exports.save()
+    return config.clientData.playtime[serverId]
+}
