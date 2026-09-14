@@ -792,19 +792,54 @@ exports.setAllowPrerelease = function(allowPrerelease){
     config.settings.launcher.allowPrerelease = allowPrerelease
 }
 
-// Playtime Tracker
+// Playtime Tracker (Permanent storage across all updates/modpack versions)
+const getPlaytimePath = () => path.join(exports.getLauncherDirectory(), 'playtime.json')
+
+function loadPersistentPlaytime(){
+    try {
+        const pPath = getPlaytimePath()
+        if(fs.existsSync(pPath)){
+            return fs.readJsonSync(pPath) || {}
+        }
+    } catch(e){}
+    return {}
+}
+
+function savePersistentPlaytime(data){
+    try {
+        fs.ensureDirSync(exports.getLauncherDirectory())
+        fs.writeJsonSync(getPlaytimePath(), data, { spaces: 2 })
+    } catch(e){}
+}
+
 exports.getPlaytime = function(serverId){
-    if(!serverId) return 0
-    if(!config.clientData) config.clientData = {}
-    if(!config.clientData.playtime) config.clientData.playtime = {}
-    return config.clientData.playtime[serverId] || 0
+    const persistent = loadPersistentPlaytime()
+    if(serverId && persistent[serverId] != null){
+        return persistent[serverId]
+    }
+    if(persistent['total'] != null){
+        return persistent['total']
+    }
+    if(config?.clientData?.playtime && serverId){
+        return config.clientData.playtime[serverId] || 0
+    }
+    return 0
 }
 
 exports.addPlaytime = function(serverId, seconds){
-    if(!serverId || !seconds || seconds <= 0) return exports.getPlaytime(serverId)
+    if(!seconds || seconds <= 0) return exports.getPlaytime(serverId)
+    const persistent = loadPersistentPlaytime()
+    if(serverId){
+        persistent[serverId] = (persistent[serverId] || 0) + seconds
+    }
+    persistent['total'] = (persistent['total'] || 0) + seconds
+    savePersistentPlaytime(persistent)
+
     if(!config.clientData) config.clientData = {}
     if(!config.clientData.playtime) config.clientData.playtime = {}
-    config.clientData.playtime[serverId] = (config.clientData.playtime[serverId] || 0) + seconds
+    if(serverId){
+        config.clientData.playtime[serverId] = persistent[serverId]
+    }
     exports.save()
-    return config.clientData.playtime[serverId]
+    return serverId ? persistent[serverId] : persistent['total']
 }
