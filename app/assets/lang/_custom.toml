@@ -4,14 +4,14 @@
 title = "Velvet Launcher"
 
 [ejs.landing]
-mediaGitHubURL = "#"
+mediaGitHubURL = "https://github.com/puppet04/VelvetLauncher?tab=readme-ov-file"
 mediaXURL = "https://x.com/VelvetAbyssSMP"
 mediaInstagramURL = "https://www.instagram.com/velvetabysssmp/?utm_source=ig_web_button_share_sheet "
 mediaYouTubeURL = "https://youtube.com/@velvetabysssmp?si=jdnabOaRQa6WlUd9"
 mediaDiscordURL = "https://discord.gg/63P5psG3GN"
 
 [ejs.settings]
-sourceGithubLink = "#"
+sourceGithubLink = "https://github.com/puppet04/VelvetLauncher?tab=readme-ov-file"
 supportLink = "#"
 
 [ejs.welcome]
