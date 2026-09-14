@@ -238,6 +238,10 @@ function createWindow() {
     })
     remoteMain.enable(win.webContents)
 
+    win.webContents.on('console-message', (event, level, message, line, sourceId) => {
+        console.log(`[RENDERER ${level}] ${message} (${sourceId}:${line})`)
+    })
+
     const data = {
         bkid: Math.floor((Math.random() * fs.readdirSync(path.join(__dirname, 'app', 'assets', 'images', 'backgrounds')).length)),
         lang: (str, placeHolders) => LangLoader.queryEJS(str, placeHolders)
