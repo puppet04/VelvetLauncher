@@ -169,9 +169,9 @@ function formatPlaytime(seconds){
 }
 
 function updatePlaytimeDisplay(seconds){
-    const el = document.getElementById('playtime_count')
+    const el = document.getElementById('playtime_text')
     if(el){
-        el.innerHTML = formatPlaytime(seconds)
+        el.innerHTML = `⏱️ ${formatPlaytime(seconds)}`
     }
 }
 
