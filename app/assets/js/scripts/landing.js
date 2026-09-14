@@ -239,21 +239,22 @@ const refreshMojangStatuses = async function(){
 
 const refreshServerStatus = async (fade = false) => {
     loggerLanding.info('Refreshing Server Status')
-    const serv = (await DistroAPI.getDistribution()).getServerById(ConfigManager.getSelectedServer())
+    const distro = await DistroAPI.getDistribution()
+    const serv = distro ? (distro.getServerById(ConfigManager.getSelectedServer()) || distro.getMainServer() || distro.servers[0]) : null
 
     let pLabel = Lang.queryJS('landing.serverStatus.server')
     let pVal = Lang.queryJS('landing.serverStatus.offline')
 
-    try {
-
-        const servStat = await getServerStatus(47, serv.hostname, serv.port)
-        console.log(servStat)
-        pLabel = Lang.queryJS('landing.serverStatus.players')
-        pVal = servStat.players.online + '/' + servStat.players.max
-
-    } catch (err) {
-        loggerLanding.warn('Unable to refresh server status, assuming offline.')
-        loggerLanding.debug(err)
+    if(serv != null){
+        try {
+            const servStat = await getServerStatus(47, serv.hostname, serv.port)
+            console.log(servStat)
+            pLabel = Lang.queryJS('landing.serverStatus.players')
+            pVal = servStat.players.online + '/' + servStat.players.max
+        } catch (err) {
+            loggerLanding.warn('Unable to refresh server status, assuming offline.')
+            loggerLanding.debug(err)
+        }
     }
     if(fade){
         $('#server_status_wrapper').fadeOut(250, () => {
@@ -265,7 +266,6 @@ const refreshServerStatus = async (fade = false) => {
         document.getElementById('landingPlayerLabel').innerHTML = pLabel
         document.getElementById('player_count').innerHTML = pVal
     }
-    
 }
 
 refreshMojangStatuses()
