@@ -3983,7 +3983,9 @@ input:checked + .toggleSwitchSlider:before {
 #loadCenterImage {
     position: absolute;
     width: 277px;
-    height: auto;
+    height: 277px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 /* Rotating image for the spinner. */
