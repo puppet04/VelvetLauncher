@@ -271,8 +271,7 @@ const refreshServerStatus = async (fade = false) => {
 
     if(serv != null){
         try {
-            const servStat = await getServerStatus(47, serv.hostname, serv.port)
-            console.log(servStat)
+            const servStat = await getServerStatus(763, serv.hostname, serv.port)
             pLabel = Lang.queryJS('landing.serverStatus.players')
             pVal = servStat.players.online + '/' + servStat.players.max
         } catch (err) {
@@ -619,6 +618,11 @@ async function dlAsync(login = true) {
             }
             proc.stdout.removeListener('data', tempListener)
             proc.stderr.removeListener('data', gameErrorListener)
+            try {
+                remote.getCurrentWindow().hide()
+            } catch (e) {
+                loggerLaunchSuite.warn('Could not hide launcher window', e)
+            }
         }
         const start = Date.now()
 
@@ -665,6 +669,11 @@ async function dlAsync(login = true) {
             proc.stderr.on('data', gameErrorListener)
 
             proc.on('close', (code, signal) => {
+                try {
+                    remote.getCurrentWindow().show()
+                } catch (e) {
+                    loggerLaunchSuite.warn('Could not restore launcher window', e)
+                }
                 const elapsedSeconds = Math.round((Date.now() - gameLaunchTime) / 1000)
                 if(elapsedSeconds > 5 && serv != null){
                     const newTotal = ConfigManager.addPlaytime(serv.rawServer.id, elapsedSeconds)
