@@ -158,6 +158,23 @@ function updateSelectedAccount(authUser){
 }
 updateSelectedAccount(ConfigManager.getSelectedAccount())
 
+function formatPlaytime(seconds){
+    if(!seconds || seconds <= 0) return '0m'
+    const hours = Math.floor(seconds / 3600)
+    const minutes = Math.floor((seconds % 3600) / 60)
+    if(hours > 0){
+        return `${hours}h ${minutes}m`
+    }
+    return `${minutes}m`
+}
+
+function updatePlaytimeDisplay(seconds){
+    const el = document.getElementById('playtime_count')
+    if(el){
+        el.innerHTML = formatPlaytime(seconds)
+    }
+}
+
 // Bind selected server
 function updateSelectedServer(serv){
     if(getCurrentView() === VIEWS.settings){
@@ -166,6 +183,9 @@ function updateSelectedServer(serv){
     ConfigManager.setSelectedServer(serv != null ? serv.rawServer.id : null)
     ConfigManager.save()
     server_selection_button.innerHTML = '&#8226; ' + (serv != null ? serv.rawServer.name : Lang.queryJS('landing.noSelection'))
+    if(serv != null){
+        updatePlaytimeDisplay(ConfigManager.getPlaytime(serv.rawServer.id))
+    }
     if(getCurrentView() === VIEWS.settings){
         animateSettingsTabRefresh()
     }
@@ -634,10 +654,25 @@ async function dlAsync(login = true) {
         try {
             // Build Minecraft process.
             proc = pb.build()
+            const gameLaunchTime = Date.now()
 
             // Bind listeners to stdout.
             proc.stdout.on('data', tempListener)
             proc.stderr.on('data', gameErrorListener)
+
+            proc.on('close', (code, signal) => {
+                const elapsedSeconds = Math.round((Date.now() - gameLaunchTime) / 1000)
+                if(elapsedSeconds > 5 && serv != null){
+                    const newTotal = ConfigManager.addPlaytime(serv.rawServer.id, elapsedSeconds)
+                    updatePlaytimeDisplay(newTotal)
+                }
+                if(hasRPC){
+                    loggerLaunchSuite.info('Shutting down Discord Rich Presence..')
+                    DiscordWrapper.shutdownRPC()
+                    hasRPC = false
+                }
+                proc = null
+            })
 
             setLaunchDetails(Lang.queryJS('landing.dlAsync.doneEnjoyServer'))
 
@@ -645,12 +680,6 @@ async function dlAsync(login = true) {
             if(distro.rawDistribution.discord != null && serv.rawServer.discord != null){
                 DiscordWrapper.initRPC(distro.rawDistribution.discord, serv.rawServer.discord)
                 hasRPC = true
-                proc.on('close', (code, signal) => {
-                    loggerLaunchSuite.info('Shutting down Discord Rich Presence..')
-                    DiscordWrapper.shutdownRPC()
-                    hasRPC = false
-                    proc = null
-                })
             }
 
         } catch(err) {
