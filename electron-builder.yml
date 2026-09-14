@@ -6,6 +6,7 @@ copyright: 'Copyright © 2026 Drafonn'
 
 asar: true
 compression: 'maximum'
+afterPack: 'build/afterPack.js'
 
 files:
   - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,eslint.config.mjs}'
