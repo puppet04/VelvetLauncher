@@ -2,7 +2,7 @@ appId: 'VelvetLauncher'
 productName: 'Velvet Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2026 Drafonn'
+copyright: 'Copyright © 2026 Velvet'
 
 asar: true
 compression: 'maximum'
