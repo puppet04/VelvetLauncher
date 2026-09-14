@@ -21,14 +21,13 @@
             },
             "modules": [
                 {
-                    "id": "forge",
+                    "id": "net.minecraftforge:forge:1.20.1-47.4.10",
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
-                        "group": "net.minecraftforge",
-                        "artifact": "forge",
-                        "version": "1.20.1-47.4.10",
-                        "classifier": "universal"
+                        "size": 0,
+                        "MD5": "",
+                        "url": ""
                     }
                 },
                 {
@@ -38,7 +37,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Emotes.zip",
                         "size": 137308010,
-                        "MD5": "223ADF84576622AD06E6E291E3489321"
+                        "MD5": "223ADF84576622AD06E6E291E3489321",
+                        "path": "Emotes.zip"
                     },
                     "path": "Emotes.zip",
                     "extract": true
@@ -50,7 +50,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/AbsoluteVelvet-0.2.jar",
                         "MD5": "6880AB429AA812760EE89B26710B919E",
-                        "size": 14988
+                        "size": 14988,
+                        "path": "mods/AbsoluteVelvet-0.2.jar"
                     },
                     "path": "mods/AbsoluteVelvet-0.2.jar"
                 },
@@ -61,7 +62,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/alexscaves-2.0.2.jar",
                         "MD5": "6C8793EE5E1AA852FDB430A9CDACCDC5",
-                        "size": 74871657
+                        "size": 74871657,
+                        "path": "mods/alexscaves-2.0.2.jar"
                     },
                     "path": "mods/alexscaves-2.0.2.jar"
                 },
@@ -72,7 +74,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/alexsdelight-1.5.jar",
                         "MD5": "B969E136E1F9A70C42DD102ED8359B40",
-                        "size": 55398
+                        "size": 55398,
+                        "path": "mods/alexsdelight-1.5.jar"
                     },
                     "path": "mods/alexsdelight-1.5.jar"
                 },
@@ -83,7 +86,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/alexsmobs-1.22.9.jar",
                         "MD5": "504050D1F2E2C3019B6F53377CA354C6",
-                        "size": 26350793
+                        "size": 26350793,
+                        "path": "mods/alexsmobs-1.22.9.jar"
                     },
                     "path": "mods/alexsmobs-1.22.9.jar"
                 },
@@ -94,7 +98,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/alltheleaks-1.1.3%2B1.20.1-forge.jar",
                         "MD5": "C17661C8E7932AC18D3AF7B769341FF3",
-                        "size": 1274165
+                        "size": 1274165,
+                        "path": "mods/alltheleaks-1.1.3+1.20.1-forge.jar"
                     },
                     "path": "mods/alltheleaks-1.1.3+1.20.1-forge.jar"
                 },
@@ -105,7 +110,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/amendments-1.20-2.2.6.jar",
                         "MD5": "76580E095575D9AD8A699A25A3E46DB0",
-                        "size": 1315525
+                        "size": 1315525,
+                        "path": "mods/amendments-1.20-2.2.6.jar"
                     },
                     "path": "mods/amendments-1.20-2.2.6.jar"
                 },
@@ -116,7 +122,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/another_furniture-forge-1.20.1-3.0.4.jar",
                         "MD5": "CC1FC7AAAC4322D79446E3B5243CFE70",
-                        "size": 2463633
+                        "size": 2463633,
+                        "path": "mods/another_furniture-forge-1.20.1-3.0.4.jar"
                     },
                     "path": "mods/another_furniture-forge-1.20.1-3.0.4.jar"
                 },
@@ -127,7 +134,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Apotheosis-1.20.1-7.4.8.jar",
                         "MD5": "DB02304C99D20FF51D4C2427D33C9044",
-                        "size": 2803994
+                        "size": 2803994,
+                        "path": "mods/Apotheosis-1.20.1-7.4.8.jar"
                     },
                     "path": "mods/Apotheosis-1.20.1-7.4.8.jar"
                 },
@@ -138,7 +146,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ApothicAttributes-1.20.1-1.3.7.jar",
                         "MD5": "D4F8D1945416D5150CD67D27469B5CE9",
-                        "size": 227511
+                        "size": 227511,
+                        "path": "mods/ApothicAttributes-1.20.1-1.3.7.jar"
                     },
                     "path": "mods/ApothicAttributes-1.20.1-1.3.7.jar"
                 },
@@ -149,7 +158,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/appleskin-forge-mc1.20.1-2.5.1.jar",
                         "MD5": "DAE63CEA9C951DDA542A4005CEEF3953",
-                        "size": 47428
+                        "size": 47428,
+                        "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar"
                     },
                     "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar"
                 },
@@ -160,7 +170,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/architectury-9.2.14-forge.jar",
                         "MD5": "76B40D407B6BF0257DD1DAB6D3D395D5",
-                        "size": 580602
+                        "size": 580602,
+                        "path": "mods/architectury-9.2.14-forge.jar"
                     },
                     "path": "mods/architectury-9.2.14-forge.jar"
                 },
@@ -171,7 +182,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/armourersworkshop-forge-1.20.1-3.4.0-beta.3.jar",
                         "MD5": "D0A199F7CA4A8664EBD543397B0ADFD4",
-                        "size": 6527569
+                        "size": 6527569,
+                        "path": "mods/armourersworkshop-forge-1.20.1-3.4.0-beta.3.jar"
                     },
                     "path": "mods/armourersworkshop-forge-1.20.1-3.4.0-beta.3.jar"
                 },
@@ -182,7 +194,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/artifacts-forge-9.5.19.jar",
                         "MD5": "54A59BA2D659E97AAFF43264DD63E9C3",
-                        "size": 850974
+                        "size": 850974,
+                        "path": "mods/artifacts-forge-9.5.19.jar"
                     },
                     "path": "mods/artifacts-forge-9.5.19.jar"
                 },
@@ -193,7 +206,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/athena-forge-1.20.1-3.1.2.jar",
                         "MD5": "2086E326E8F0FF2F8D7D05C66C291484",
-                        "size": 91808
+                        "size": 91808,
+                        "path": "mods/athena-forge-1.20.1-3.1.2.jar"
                     },
                     "path": "mods/athena-forge-1.20.1-3.1.2.jar"
                 },
@@ -204,7 +218,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/baguettelib-1.20.1-Forge-2.0.5.jar",
                         "MD5": "504FE0AF52327238F3F36214C3904092",
-                        "size": 63106
+                        "size": 63106,
+                        "path": "mods/baguettelib-1.20.1-Forge-2.0.5.jar"
                     },
                     "path": "mods/baguettelib-1.20.1-Forge-2.0.5.jar"
                 },
@@ -215,7 +230,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/balm-forge-1.20.1-7.3.43.jar",
                         "MD5": "FFB13F58FF48A7DC2A3D1FFC13CA3573",
-                        "size": 561741
+                        "size": 561741,
+                        "path": "mods/balm-forge-1.20.1-7.3.43.jar"
                     },
                     "path": "mods/balm-forge-1.20.1-7.3.43.jar"
                 },
@@ -226,7 +242,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/beautify-2.0.2.jar",
                         "MD5": "C04D94ABEDFEC613A2F93FBBF394455E",
-                        "size": 838292
+                        "size": 838292,
+                        "path": "mods/beautify-2.0.2.jar"
                     },
                     "path": "mods/beautify-2.0.2.jar"
                 },
@@ -237,7 +254,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/bellsandwhistles-0.4.5-1.20.x-Create6.0%2B.jar",
                         "MD5": "05C50F0ABC8E5D389329E14B912C0603",
-                        "size": 199902
+                        "size": 199902,
+                        "path": "mods/bellsandwhistles-0.4.5-1.20.x-Create6.0+.jar"
                     },
                     "path": "mods/bellsandwhistles-0.4.5-1.20.x-Create6.0+.jar"
                 },
@@ -248,7 +266,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/betterarcheology-1.2.1-1.20.1.jar",
                         "MD5": "44D12515764CD4202481B73B82626AAE",
-                        "size": 982838
+                        "size": 982838,
+                        "path": "mods/betterarcheology-1.2.1-1.20.1.jar"
                     },
                     "path": "mods/betterarcheology-1.2.1-1.20.1.jar"
                 },
@@ -259,7 +278,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
                         "MD5": "886B3D33F1E7DCA2A937EC5C5DC19AF8",
-                        "size": 22381010
+                        "size": 22381010,
+                        "path": "mods/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar"
                     },
                     "path": "mods/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar"
                 },
@@ -270,7 +290,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Bookshelf-Forge-1.20.1-20.2.15.jar",
                         "MD5": "984CC53B314436F57E3BF72B8A1BA62B",
-                        "size": 343925
+                        "size": 343925,
+                        "path": "mods/Bookshelf-Forge-1.20.1-20.2.15.jar"
                     },
                     "path": "mods/Bookshelf-Forge-1.20.1-20.2.15.jar"
                 },
@@ -281,7 +302,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/born_in_chaos_%5BForge%5D1.20.1_1.7.5.jar",
                         "MD5": "3D89CD8DA1D470208E0E5456727AC242",
-                        "size": 11839865
+                        "size": 11839865,
+                        "path": "mods/born_in_chaos_[Forge]1.20.1_1.7.5.jar"
                     },
                     "path": "mods/born_in_chaos_[Forge]1.20.1_1.7.5.jar"
                 },
@@ -292,7 +314,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Botania-1.20.1-455-FORGE.jar",
                         "MD5": "50EA7B2064A94FBBF9D58CCC99E47E94",
-                        "size": 12217470
+                        "size": 12217470,
+                        "path": "mods/Botania-1.20.1-455-FORGE.jar"
                     },
                     "path": "mods/Botania-1.20.1-455-FORGE.jar"
                 },
@@ -303,7 +326,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/caelus-forge-3.2.0%2B1.20.1.jar",
                         "MD5": "E37854C44B1849B753AFC4A205F31B46",
-                        "size": 40125
+                        "size": 40125,
+                        "path": "mods/caelus-forge-3.2.0+1.20.1.jar"
                     },
                     "path": "mods/caelus-forge-3.2.0+1.20.1.jar"
                 },
@@ -314,7 +338,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/chipped-forge-1.20.1-3.0.7.jar",
                         "MD5": "C6C76E78805B357757BF47B04C7286E7",
-                        "size": 15060263
+                        "size": 15060263,
+                        "path": "mods/chipped-forge-1.20.1-3.0.7.jar"
                     },
                     "path": "mods/chipped-forge-1.20.1-3.0.7.jar"
                 },
@@ -325,7 +350,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Chunky-1.3.146.jar",
                         "MD5": "ED46120AC4F30EC8E03F6416E295577C",
-                        "size": 341451
+                        "size": 341451,
+                        "path": "mods/Chunky-1.3.146.jar"
                     },
                     "path": "mods/Chunky-1.3.146.jar"
                 },
@@ -336,7 +362,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/citadel-2.6.3-1.20.1.jar",
                         "MD5": "DA80C09B998D829B6D580E5BE76DCC7B",
-                        "size": 3185275
+                        "size": 3185275,
+                        "path": "mods/citadel-2.6.3-1.20.1.jar"
                     },
                     "path": "mods/citadel-2.6.3-1.20.1.jar"
                 },
@@ -347,7 +374,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cloth-config-11.1.136-forge.jar",
                         "MD5": "CA5DE5ACBCB4A30C010AA6953BD7EF53",
-                        "size": 1181413
+                        "size": 1181413,
+                        "path": "mods/cloth-config-11.1.136-forge.jar"
                     },
                     "path": "mods/cloth-config-11.1.136-forge.jar"
                 },
@@ -358,7 +386,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cluttered-%5BForge%5D-3.0.3-1.20.1.jar",
                         "MD5": "37F5585D706CDA153B34E4C523881FDA",
-                        "size": 5551679
+                        "size": 5551679,
+                        "path": "mods/cluttered-[Forge]-3.0.3-1.20.1.jar"
                     },
                     "path": "mods/cluttered-[Forge]-3.0.3-1.20.1.jar"
                 },
@@ -369,7 +398,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/comforts-forge-6.4.0%2B1.20.1.jar",
                         "MD5": "A88FCC168DE1A0F9B2AE4E7CBE8A8408",
-                        "size": 382083
+                        "size": 382083,
+                        "path": "mods/comforts-forge-6.4.0+1.20.1.jar"
                     },
                     "path": "mods/comforts-forge-6.4.0+1.20.1.jar"
                 },
@@ -380,7 +410,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Compat_AlexsMobs-Naturalist.jar",
                         "MD5": "CBB19D04301FDDDC802626967E8CE704",
-                        "size": 107423
+                        "size": 107423,
+                        "path": "mods/Compat_AlexsMobs-Naturalist.jar"
                     },
                     "path": "mods/Compat_AlexsMobs-Naturalist.jar"
                 },
@@ -391,7 +422,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/configured-forge-1.20.1-2.2.3.jar",
                         "MD5": "9380DC31C599C523A5682A4025FCEB92",
-                        "size": 418929
+                        "size": 418929,
+                        "path": "mods/configured-forge-1.20.1-2.2.3.jar"
                     },
                     "path": "mods/configured-forge-1.20.1-2.2.3.jar"
                 },
@@ -402,7 +434,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/connectivity-1.20.1-7.6.jar",
                         "MD5": "59797700FAA0A7B32E0DB84B333805A3",
-                        "size": 120598
+                        "size": 120598,
+                        "path": "mods/connectivity-1.20.1-7.6.jar"
                     },
                     "path": "mods/connectivity-1.20.1-7.6.jar"
                 },
@@ -413,7 +446,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/constructionwand-1.20.1-2.11.jar",
                         "MD5": "E17B0F6B4FA378D6750A9030A5ACA9E0",
-                        "size": 210312
+                        "size": 210312,
+                        "path": "mods/constructionwand-1.20.1-2.11.jar"
                     },
                     "path": "mods/constructionwand-1.20.1-2.11.jar"
                 },
@@ -424,7 +458,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Controlling-forge-1.20.1-12.0.2.jar",
                         "MD5": "952274BC9994BBA9733E8747558F73FA",
-                        "size": 115280
+                        "size": 115280,
+                        "path": "mods/Controlling-forge-1.20.1-12.0.2.jar"
                     },
                     "path": "mods/Controlling-forge-1.20.1-12.0.2.jar"
                 },
@@ -435,7 +470,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/corpse-forge-1.20.1-1.0.23.jar",
                         "MD5": "A486F676F5E47E5846E31CB66CB5C16D",
-                        "size": 245644
+                        "size": 245644,
+                        "path": "mods/corpse-forge-1.20.1-1.0.23.jar"
                     },
                     "path": "mods/corpse-forge-1.20.1-1.0.23.jar"
                 },
@@ -446,7 +482,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/corpsecurioscompat-1.20.1-Forge-4.0.1.jar",
                         "MD5": "8D99F45C935897FE1069C5E1F41C14B4",
-                        "size": 22535
+                        "size": 22535,
+                        "path": "mods/corpsecurioscompat-1.20.1-Forge-4.0.1.jar"
                     },
                     "path": "mods/corpsecurioscompat-1.20.1-Forge-4.0.1.jar"
                 },
@@ -457,7 +494,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cosmeticarmorreworked-1.20.1-v1a.jar",
                         "MD5": "2454075E9A25CBADC0FCE66502E3261D",
-                        "size": 88752
+                        "size": 88752,
+                        "path": "mods/cosmeticarmorreworked-1.20.1-v1a.jar"
                     },
                     "path": "mods/cosmeticarmorreworked-1.20.1-v1a.jar"
                 },
@@ -468,7 +506,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cosmeticcorpsecompat-1.20.1-Forge-4.0.1.jar",
                         "MD5": "8161A54D362091203F34163D694339E9",
-                        "size": 8067
+                        "size": 8067,
+                        "path": "mods/cosmeticcorpsecompat-1.20.1-Forge-4.0.1.jar"
                     },
                     "path": "mods/cosmeticcorpsecompat-1.20.1-Forge-4.0.1.jar"
                 },
@@ -479,7 +518,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/create-1.20.1-6.0.8.jar",
                         "MD5": "6EBC5C57638C1678359EAC65B924C310",
-                        "size": 19170905
+                        "size": 19170905,
+                        "path": "mods/create-1.20.1-6.0.8.jar"
                     },
                     "path": "mods/create-1.20.1-6.0.8.jar"
                 },
@@ -490,7 +530,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/create-stuff-additions1.20.1_v2.1.2.jar",
                         "MD5": "B40B30AD0E6D7F51FD90AFD5EBEBEDB8",
-                        "size": 1358197
+                        "size": 1358197,
+                        "path": "mods/create-stuff-additions1.20.1_v2.1.2.jar"
                     },
                     "path": "mods/create-stuff-additions1.20.1_v2.1.2.jar"
                 },
@@ -501,7 +542,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/createaddition-1.20.1-1.3.3.jar",
                         "MD5": "1C0D2275EAD3E4756D77AC5A86F135AB",
-                        "size": 1577313
+                        "size": 1577313,
+                        "path": "mods/createaddition-1.20.1-1.3.3.jar"
                     },
                     "path": "mods/createaddition-1.20.1-1.3.3.jar"
                 },
@@ -512,7 +554,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/createbetterfps-1.20.1-1.1.2.jar",
                         "MD5": "F6E19DCECF60A85EFE6C05372D331033",
-                        "size": 25214
+                        "size": 25214,
+                        "path": "mods/createbetterfps-1.20.1-1.1.2.jar"
                     },
                     "path": "mods/createbetterfps-1.20.1-1.1.2.jar"
                 },
@@ -523,7 +566,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/createchromaticreturn-1.5.2.jar",
                         "MD5": "7A952704E5694FBD17A5FC95A2DAFD0F",
-                        "size": 466721
+                        "size": 466721,
+                        "path": "mods/createchromaticreturn-1.5.2.jar"
                     },
                     "path": "mods/createchromaticreturn-1.5.2.jar"
                 },
@@ -534,7 +578,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/createdeco-2.0.3-1.20.1-forge.jar",
                         "MD5": "3E0976B862FD087493C7356F623F5CD7",
-                        "size": 3509013
+                        "size": 3509013,
+                        "path": "mods/createdeco-2.0.3-1.20.1-forge.jar"
                     },
                     "path": "mods/createdeco-2.0.3-1.20.1-forge.jar"
                 },
@@ -545,7 +590,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/create_creative-1.20.1-0.1.0.jar",
                         "MD5": "B4E5F79E67FEAE6ABDDBA9F77A4CC97B",
-                        "size": 24248
+                        "size": 24248,
+                        "path": "mods/create_creative-1.20.1-0.1.0.jar"
                     },
                     "path": "mods/create_creative-1.20.1-0.1.0.jar"
                 },
@@ -556,7 +602,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/create_sophback_compat-1.0.jar",
                         "MD5": "BBEA1FE1A3532A6F6243AF8F4D349C4E",
-                        "size": 679850
+                        "size": 679850,
+                        "path": "mods/create_sophback_compat-1.0.jar"
                     },
                     "path": "mods/create_sophback_compat-1.0.jar"
                 },
@@ -567,7 +614,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/CreativeCore_FORGE_v2.12.39_mc1.20.1.jar",
                         "MD5": "941E290ECD7CA54C2ED6A543B68D754B",
-                        "size": 1144128
+                        "size": 1144128,
+                        "path": "mods/CreativeCore_FORGE_v2.12.39_mc1.20.1.jar"
                     },
                     "path": "mods/CreativeCore_FORGE_v2.12.39_mc1.20.1.jar"
                 },
@@ -578,7 +626,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/creeperoverhaul-3.0.2-forge.jar",
                         "MD5": "A8FB93FFFBA5A25B8444F4A2D5DA2601",
-                        "size": 1456860
+                        "size": 1456860,
+                        "path": "mods/creeperoverhaul-3.0.2-forge.jar"
                     },
                     "path": "mods/creeperoverhaul-3.0.2-forge.jar"
                 },
@@ -589,7 +638,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cristellib-1.1.6-forge.jar",
                         "MD5": "B52E8B225A34ABAB9300049C85F6855A",
-                        "size": 431318
+                        "size": 431318,
+                        "path": "mods/cristellib-1.1.6-forge.jar"
                     },
                     "path": "mods/cristellib-1.1.6-forge.jar"
                 },
@@ -600,7 +650,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/crittersandcompanions-forge-1.20.1-2.7.1.jar",
                         "MD5": "0A2BBC54114D652365487744BADC6792",
-                        "size": 2115160
+                        "size": 2115160,
+                        "path": "mods/crittersandcompanions-forge-1.20.1-2.7.1.jar"
                     },
                     "path": "mods/crittersandcompanions-forge-1.20.1-2.7.1.jar"
                 },
@@ -611,7 +662,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Croptopia-1.20.1-FORGE-4.0.1.jar",
                         "MD5": "4F423E0D4114BD04C8651320A61B3A04",
-                        "size": 2155802
+                        "size": 2155802,
+                        "path": "mods/Croptopia-1.20.1-FORGE-4.0.1.jar"
                     },
                     "path": "mods/Croptopia-1.20.1-FORGE-4.0.1.jar"
                 },
@@ -622,7 +674,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cultofazazelforge-1.1.4.12.jar",
                         "MD5": "02A9095D5834905BACEA19FA98417175",
-                        "size": 10909359
+                        "size": 10909359,
+                        "path": "mods/cultofazazelforge-1.1.4.12.jar"
                     },
                     "path": "mods/cultofazazelforge-1.1.4.12.jar"
                 },
@@ -633,7 +686,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cupboard-1.20.1-4.1.jar",
                         "MD5": "D2C543B79F45E3CF9E0DFA2132E9BBFD",
-                        "size": 33114
+                        "size": 33114,
+                        "path": "mods/cupboard-1.20.1-4.1.jar"
                     },
                     "path": "mods/cupboard-1.20.1-4.1.jar"
                 },
@@ -644,7 +698,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/curios-forge-5.14.1%2B1.20.1.jar",
                         "MD5": "2FDCC97CBC66C4B2492B407C792E7159",
-                        "size": 398066
+                        "size": 398066,
+                        "path": "mods/curios-forge-5.14.1+1.20.1.jar"
                     },
                     "path": "mods/curios-forge-5.14.1+1.20.1.jar"
                 },
@@ -655,7 +710,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/CustomPlayerModels-1.20-0.6.27a.jar",
                         "MD5": "171D6394EE6C2FF1C9546FC1A83A20AA",
-                        "size": 2805930
+                        "size": 2805930,
+                        "path": "mods/CustomPlayerModels-1.20-0.6.27a.jar"
                     },
                     "path": "mods/CustomPlayerModels-1.20-0.6.27a.jar"
                 },
@@ -666,7 +722,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/CyclopsCore-1.20.1-1.22.3.jar",
                         "MD5": "8BB8D30F91B5D86AC0AFA0CEE85D0D88",
-                        "size": 922929
+                        "size": 922929,
+                        "path": "mods/CyclopsCore-1.20.1-1.22.3.jar"
                     },
                     "path": "mods/CyclopsCore-1.20.1-1.22.3.jar"
                 },
@@ -677,7 +734,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/decorative_blocks-forge-1.20.1-4.1.3.jar",
                         "MD5": "3CCC7E414C9DE806448D94EEF399CFD7",
-                        "size": 573928
+                        "size": 573928,
+                        "path": "mods/decorative_blocks-forge-1.20.1-4.1.3.jar"
                     },
                     "path": "mods/decorative_blocks-forge-1.20.1-4.1.3.jar"
                 },
@@ -688,7 +746,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/dummmmmmy-1.20-2.0.12-forge.jar",
                         "MD5": "CCE8B85852B9A3FFF8570A19EC3D9E90",
-                        "size": 839685
+                        "size": 839685,
+                        "path": "mods/dummmmmmy-1.20-2.0.12-forge.jar"
                     },
                     "path": "mods/dummmmmmy-1.20-2.0.12-forge.jar"
                 },
@@ -699,7 +758,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/DungeonsArise-1.20.x-2.1.58-release.jar",
                         "MD5": "6AC48D0CF2CE763824F96F6D26963219",
-                        "size": 8762342
+                        "size": 8762342,
+                        "path": "mods/DungeonsArise-1.20.x-2.1.58-release.jar"
                     },
                     "path": "mods/DungeonsArise-1.20.x-2.1.58-release.jar"
                 },
@@ -710,7 +770,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/dynamiclights-v1.9-mc1.17-1.21.5-mod.jar",
                         "MD5": "87F412FE381CAC3040B60A0746664C99",
-                        "size": 406858
+                        "size": 406858,
+                        "path": "mods/dynamiclights-v1.9-mc1.17-1.21.5-mod.jar"
                     },
                     "path": "mods/dynamiclights-v1.9-mc1.17-1.21.5-mod.jar"
                 },
@@ -721,7 +782,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/easy_npc-forge-1.20.1-7.12.1.jar",
                         "MD5": "7D6229F777658CF2D3D47883E2660267",
-                        "size": 2962180
+                        "size": 2962180,
+                        "path": "mods/easy_npc-forge-1.20.1-7.12.1.jar"
                     },
                     "path": "mods/easy_npc-forge-1.20.1-7.12.1.jar"
                 },
@@ -732,7 +794,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/easy_npc_config_ui-forge-1.20.1-7.12.1.jar",
                         "MD5": "711A20439820BC8EED1ACB7EFB87CF9B",
-                        "size": 1092567
+                        "size": 1092567,
+                        "path": "mods/easy_npc_config_ui-forge-1.20.1-7.12.1.jar"
                     },
                     "path": "mods/easy_npc_config_ui-forge-1.20.1-7.12.1.jar"
                 },
@@ -743,7 +806,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ecologics-forge-1.20.1-2.2.7.jar",
                         "MD5": "B54501763A2B31E768DC1C692B173DDD",
-                        "size": 1865435
+                        "size": 1865435,
+                        "path": "mods/ecologics-forge-1.20.1-2.2.7.jar"
                     },
                     "path": "mods/ecologics-forge-1.20.1-2.2.7.jar"
                 },
@@ -754,7 +818,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/elevatorid-1.20.1-1.9.1-forge.jar",
                         "MD5": "B4784B8AE695F179D0AEFAAA82018968",
-                        "size": 187868
+                        "size": 187868,
+                        "path": "mods/elevatorid-1.20.1-1.9.1-forge.jar"
                     },
                     "path": "mods/elevatorid-1.20.1-1.9.1-forge.jar"
                 },
@@ -765,7 +830,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/embeddium-0.3.31%2Bmc1.20.1.jar",
                         "MD5": "1DFB2EE49CE9AD5D484FF3EEA0D628B7",
-                        "size": 1320675
+                        "size": 1320675,
+                        "path": "mods/embeddium-0.3.31+mc1.20.1.jar"
                     },
                     "path": "mods/embeddium-0.3.31+mc1.20.1.jar"
                 },
@@ -776,7 +842,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
                         "MD5": "636C62379CD7C5201A70FD457808E331",
-                        "size": 680255
+                        "size": 680255,
+                        "path": "mods/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar"
                     },
                     "path": "mods/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar"
                 },
@@ -787,7 +854,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/endermanoverhaul-forge-1.20.1-1.0.4.jar",
                         "MD5": "992F4F6FAD129C6FF47B33B0365D485A",
-                        "size": 1208062
+                        "size": 1208062,
+                        "path": "mods/endermanoverhaul-forge-1.20.1-1.0.4.jar"
                     },
                     "path": "mods/endermanoverhaul-forge-1.20.1-1.0.4.jar"
                 },
@@ -798,7 +866,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ends_delight-2.6.1%2Bforge.1.20.1.jar",
                         "MD5": "F078440F68F6273419FDA69F21A8BD2C",
-                        "size": 264014
+                        "size": 264014,
+                        "path": "mods/ends_delight-2.6.1+forge.1.20.1.jar"
                     },
                     "path": "mods/ends_delight-2.6.1+forge.1.20.1.jar"
                 },
@@ -809,7 +878,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/entityculling-forge-1.10.5-mc1.20.1.jar",
                         "MD5": "F54A5BAA0A9613D13AD0E781D245338B",
-                        "size": 1590221
+                        "size": 1590221,
+                        "path": "mods/entityculling-forge-1.10.5-mc1.20.1.jar"
                     },
                     "path": "mods/entityculling-forge-1.10.5-mc1.20.1.jar"
                 },
@@ -820,7 +890,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/entity_model_features-3.3.5-1.20.1-forge.jar",
                         "MD5": "C91134FB0D936E972D082F167CE73601",
-                        "size": 814220
+                        "size": 814220,
+                        "path": "mods/entity_model_features-3.3.5-1.20.1-forge.jar"
                     },
                     "path": "mods/entity_model_features-3.3.5-1.20.1-forge.jar"
                 },
@@ -831,7 +902,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/entity_texture_features-7.2.1-1.20.1-forge.jar",
                         "MD5": "78C42EA5BDE4A46F9937785D8DF6D9E2",
-                        "size": 975706
+                        "size": 975706,
+                        "path": "mods/entity_texture_features-7.2.1-1.20.1-forge.jar"
                     },
                     "path": "mods/entity_texture_features-7.2.1-1.20.1-forge.jar"
                 },
@@ -842,7 +914,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/EpheroLib-1.20.1-FORGE-1.2.0.jar",
                         "MD5": "F8B4D202F3FC4FFAF1BB8EFD79F860BD",
-                        "size": 756864
+                        "size": 756864,
+                        "path": "mods/EpheroLib-1.20.1-FORGE-1.2.0.jar"
                     },
                     "path": "mods/EpheroLib-1.20.1-FORGE-1.2.0.jar"
                 },
@@ -853,7 +926,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/epic-knights-1.20.1-forge-10.11.jar",
                         "MD5": "3D52D9849BBFD1FA8F721995BC696C92",
-                        "size": 2913733
+                        "size": 2913733,
+                        "path": "mods/epic-knights-1.20.1-forge-10.11.jar"
                     },
                     "path": "mods/epic-knights-1.20.1-forge-10.11.jar"
                 },
@@ -864,7 +938,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/EuphoriaPatcher-1.10.1-r5.9.1-forge.jar",
                         "MD5": "07E4547A63F1A05C90591289BD6D7617",
-                        "size": 4516366
+                        "size": 4516366,
+                        "path": "mods/EuphoriaPatcher-1.10.1-r5.9.1-forge.jar"
                     },
                     "path": "mods/EuphoriaPatcher-1.10.1-r5.9.1-forge.jar"
                 },
@@ -875,7 +950,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/exposure-forge-1.20.1-1.9.21.jar",
                         "MD5": "B9884FF1D80AAAA3D51CB8CDD8C00CD2",
-                        "size": 2249297
+                        "size": 2249297,
+                        "path": "mods/exposure-forge-1.20.1-1.9.21.jar"
                     },
                     "path": "mods/exposure-forge-1.20.1-1.9.21.jar"
                 },
@@ -886,7 +962,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ExtremeSoundMuffler-3.51-forge-1.20.1.jar",
                         "MD5": "B7821E5ADBEEEA69B6877851F803E350",
-                        "size": 270331
+                        "size": 270331,
+                        "path": "mods/ExtremeSoundMuffler-3.51-forge-1.20.1.jar"
                     },
                     "path": "mods/ExtremeSoundMuffler-3.51-forge-1.20.1.jar"
                 },
@@ -897,7 +974,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/faewulf_lib-forge-1.20.1-1.4.0.jar",
                         "MD5": "95DEDF4CFEFAAD179A379DEC060A41EF",
-                        "size": 967412
+                        "size": 967412,
+                        "path": "mods/faewulf_lib-forge-1.20.1-1.4.0.jar"
                     },
                     "path": "mods/faewulf_lib-forge-1.20.1-1.4.0.jar"
                 },
@@ -908,7 +986,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fakename-1.20.1-1.3.1.jar",
                         "MD5": "CA8B98A1080DB511B15E52E97435E046",
-                        "size": 57569
+                        "size": 57569,
+                        "path": "mods/fakename-1.20.1-1.3.1.jar"
                     },
                     "path": "mods/fakename-1.20.1-1.3.1.jar"
                 },
@@ -919,7 +998,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fallingleaves-1.20.1-2.1.2.jar",
                         "MD5": "721D92A83D7518E8515DBD499EDA03CD",
-                        "size": 124212
+                        "size": 124212,
+                        "path": "mods/fallingleaves-1.20.1-2.1.2.jar"
                     },
                     "path": "mods/fallingleaves-1.20.1-2.1.2.jar"
                 },
@@ -930,7 +1010,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fantasyfurniture-1.20.1-9.0.0.jar",
                         "MD5": "0712007756C04D20100121C31510D346",
-                        "size": 3202951
+                        "size": 3202951,
+                        "path": "mods/fantasyfurniture-1.20.1-9.0.0.jar"
                     },
                     "path": "mods/fantasyfurniture-1.20.1-9.0.0.jar"
                 },
@@ -941,7 +1022,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fantasy_armor-forge-1.2.4-1.20.1.jar",
                         "MD5": "BF31F4F10B0560AA8D3C85EB0A595ECA",
-                        "size": 544856
+                        "size": 544856,
+                        "path": "mods/fantasy_armor-forge-1.2.4-1.20.1.jar"
                     },
                     "path": "mods/fantasy_armor-forge-1.2.4-1.20.1.jar"
                 },
@@ -952,7 +1034,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/FarmersDelight-1.20.1-1.3.4.jar",
                         "MD5": "A61302A31849AD9C37C6AC6E59268B75",
-                        "size": 3311051
+                        "size": 3311051,
+                        "path": "mods/FarmersDelight-1.20.1-1.3.4.jar"
                     },
                     "path": "mods/FarmersDelight-1.20.1-1.3.4.jar"
                 },
@@ -963,7 +1046,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/FarmersStructures-1.0.4-1.20.jar",
                         "MD5": "B1C7CA164CCB5D38089F54FE3714A5B3",
-                        "size": 425995
+                        "size": 425995,
+                        "path": "mods/FarmersStructures-1.0.4-1.20.jar"
                     },
                     "path": "mods/FarmersStructures-1.0.4-1.20.jar"
                 },
@@ -974,7 +1058,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fast-ip-ping-v1.0.11-mc1.20.4-forge.jar",
                         "MD5": "252B997EFF7A4E1E5BA39C56E589F3AE",
-                        "size": 10408
+                        "size": 10408,
+                        "path": "mods/fast-ip-ping-v1.0.11-mc1.20.4-forge.jar"
                     },
                     "path": "mods/fast-ip-ping-v1.0.11-mc1.20.4-forge.jar"
                 },
@@ -985,7 +1070,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fastasyncworldsave-1.20.1-2.6.jar",
                         "MD5": "6C24D9C3CC17E4E5052C21C2B2D188AD",
-                        "size": 14812
+                        "size": 14812,
+                        "path": "mods/fastasyncworldsave-1.20.1-2.6.jar"
                     },
                     "path": "mods/fastasyncworldsave-1.20.1-2.6.jar"
                 },
@@ -996,7 +1082,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fastboot-1.20.x-1.2.jar",
                         "MD5": "9489DF8D4E141724D79E503D85B3D51F",
-                        "size": 24477
+                        "size": 24477,
+                        "path": "mods/fastboot-1.20.x-1.2.jar"
                     },
                     "path": "mods/fastboot-1.20.x-1.2.jar"
                 },
@@ -1007,7 +1094,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/FastFurnace-1.20.1-8.0.2.jar",
                         "MD5": "48B8D2DF29EA216A625928E29A6434DA",
-                        "size": 6170
+                        "size": 6170,
+                        "path": "mods/FastFurnace-1.20.1-8.0.2.jar"
                     },
                     "path": "mods/FastFurnace-1.20.1-8.0.2.jar"
                 },
@@ -1018,7 +1106,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fastsounds-0.5.jar",
                         "MD5": "C4315758E15FECD83A297D3F8B4EF291",
-                        "size": 17404
+                        "size": 17404,
+                        "path": "mods/fastsounds-0.5.jar"
                     },
                     "path": "mods/fastsounds-0.5.jar"
                 },
@@ -1029,7 +1118,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/FastSuite-1.20.1-5.1.2.jar",
                         "MD5": "EFCA8FF65BBF93E3A0F776998EE181E9",
-                        "size": 26600
+                        "size": 26600,
+                        "path": "mods/FastSuite-1.20.1-5.1.2.jar"
                     },
                     "path": "mods/FastSuite-1.20.1-5.1.2.jar"
                 },
@@ -1040,7 +1130,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fastvancements-1.3.jar",
                         "MD5": "150B1ED4BCF52A830DC3CFF28F46A416",
-                        "size": 89644
+                        "size": 89644,
+                        "path": "mods/fastvancements-1.3.jar"
                     },
                     "path": "mods/fastvancements-1.3.jar"
                 },
@@ -1051,7 +1142,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/FastWorkbench-1.20.1-8.0.4.jar",
                         "MD5": "2B55C4786CC726B0757689AF28B97E7E",
-                        "size": 28188
+                        "size": 28188,
+                        "path": "mods/FastWorkbench-1.20.1-8.0.4.jar"
                     },
                     "path": "mods/FastWorkbench-1.20.1-8.0.4.jar"
                 },
@@ -1062,7 +1154,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ferritecore-6.0.1-forge.jar",
                         "MD5": "F52F538207A4829D7060550092CE2383",
-                        "size": 123034
+                        "size": 123034,
+                        "path": "mods/ferritecore-6.0.1-forge.jar"
                     },
                     "path": "mods/ferritecore-6.0.1-forge.jar"
                 },
@@ -1073,7 +1166,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/figura-0.1.6%2B1.20.1-forge-mc.jar",
                         "MD5": "576EDDAE18F18864CB3D7806C077AD19",
-                        "size": 2401921
+                        "size": 2401921,
+                        "path": "mods/figura-0.1.6+1.20.1-forge-mc.jar"
                     },
                     "path": "mods/figura-0.1.6+1.20.1-forge-mc.jar"
                 },
@@ -1084,7 +1178,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fism%2B1.20.1-forge-1.0.6.jar",
                         "MD5": "1F7FB8FEF51DA7BB41ED3C069CA1644C",
-                        "size": 23270
+                        "size": 23270,
+                        "path": "mods/fism+1.20.1-forge-1.0.6.jar"
                     },
                     "path": "mods/fism+1.20.1-forge-1.0.6.jar"
                 },
@@ -1095,7 +1190,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/forbidden_tiers-1.20.1-1.0.1.jar",
                         "MD5": "0B62622882502E437148F3E50696A8B9",
-                        "size": 228923
+                        "size": 228923,
+                        "path": "mods/forbidden_tiers-1.20.1-1.0.1.jar"
                     },
                     "path": "mods/forbidden_tiers-1.20.1-1.0.1.jar"
                 },
@@ -1106,7 +1202,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/FramedBlocks-9.4.3.jar",
                         "MD5": "9AFEFC077F00C192B0F953C2987C5A66",
-                        "size": 4251314
+                        "size": 4251314,
+                        "path": "mods/FramedBlocks-9.4.3.jar"
                     },
                     "path": "mods/FramedBlocks-9.4.3.jar"
                 },
@@ -1117,7 +1214,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/framework-forge-1.20.1-0.8.0.jar",
                         "MD5": "6D9A54CD004B15028673B309243E07A2",
-                        "size": 383868
+                        "size": 383868,
+                        "path": "mods/framework-forge-1.20.1-0.8.0.jar"
                     },
                     "path": "mods/framework-forge-1.20.1-0.8.0.jar"
                 },
@@ -1128,7 +1226,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ftb-essentials-forge-2001.2.4.jar",
                         "MD5": "C46C0AF33A0452001E8628075B341EB2",
-                        "size": 157732
+                        "size": 157732,
+                        "path": "mods/ftb-essentials-forge-2001.2.4.jar"
                     },
                     "path": "mods/ftb-essentials-forge-2001.2.4.jar"
                 },
@@ -1139,7 +1238,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ftb-library-forge-2001.2.13.jar",
                         "MD5": "9DE2C76938392445E735A98B352DA9D4",
-                        "size": 780558
+                        "size": 780558,
+                        "path": "mods/ftb-library-forge-2001.2.13.jar"
                     },
                     "path": "mods/ftb-library-forge-2001.2.13.jar"
                 },
@@ -1150,7 +1250,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ftb-teams-forge-2001.3.2.jar",
                         "MD5": "1C547D6F1B22F461F84C5FB79067B0EC",
-                        "size": 252579
+                        "size": 252579,
+                        "path": "mods/ftb-teams-forge-2001.3.2.jar"
                     },
                     "path": "mods/ftb-teams-forge-2001.3.2.jar"
                 },
@@ -1161,7 +1262,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ftb-ultimine-forge-2001.1.8.jar",
                         "MD5": "A96E4705C8CE3BCAC03608153ECCEB05",
-                        "size": 129653
+                        "size": 129653,
+                        "path": "mods/ftb-ultimine-forge-2001.1.8.jar"
                     },
                     "path": "mods/ftb-ultimine-forge-2001.1.8.jar"
                 },
@@ -1172,7 +1274,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fzzy_config-0.7.6%2B1.20.1%2Bforge.jar",
                         "MD5": "F48F8112F6E2D161C655B750F6BFD0C8",
-                        "size": 2374667
+                        "size": 2374667,
+                        "path": "mods/fzzy_config-0.7.6+1.20.1+forge.jar"
                     },
                     "path": "mods/fzzy_config-0.7.6+1.20.1+forge.jar"
                 },
@@ -1183,7 +1286,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/GatewaysToEternity-1.20.1-4.2.6.jar",
                         "MD5": "73194B88F68995AB0AB203F879B8E645",
-                        "size": 632950
+                        "size": 632950,
+                        "path": "mods/GatewaysToEternity-1.20.1-4.2.6.jar"
                     },
                     "path": "mods/GatewaysToEternity-1.20.1-4.2.6.jar"
                 },
@@ -1194,7 +1298,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/geckolib-forge-1.20.1-4.8.4.jar",
                         "MD5": "83C73BCBF5778235569025ED968DC3EC",
-                        "size": 1038209
+                        "size": 1038209,
+                        "path": "mods/geckolib-forge-1.20.1-4.8.4.jar"
                     },
                     "path": "mods/geckolib-forge-1.20.1-4.8.4.jar"
                 },
@@ -1205,7 +1310,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/GlitchCore-forge-1.20.1-0.0.1.1.jar",
                         "MD5": "6D24B09DB12ACDAB40437A1929259352",
-                        "size": 87550
+                        "size": 87550,
+                        "path": "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar"
                     },
                     "path": "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar"
                 },
@@ -1216,7 +1322,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/goblintraders-forge-1.20.1-1.11.5.jar",
                         "MD5": "2D7E09AA226D32806C63ECD5BEA64D32",
-                        "size": 328727
+                        "size": 328727,
+                        "path": "mods/goblintraders-forge-1.20.1-1.11.5.jar"
                     },
                     "path": "mods/goblintraders-forge-1.20.1-1.11.5.jar"
                 },
@@ -1227,7 +1334,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/guideme-20.1.15.jar",
                         "MD5": "0D892C2B4AF52459AC6A639040374916",
-                        "size": 9414827
+                        "size": 9414827,
+                        "path": "mods/guideme-20.1.15.jar"
                     },
                     "path": "mods/guideme-20.1.15.jar"
                 },
@@ -1238,7 +1346,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/handcrafted-forge-1.20.1-3.0.6.jar",
                         "MD5": "A5291F94FC830A80D2CAF7D2AB7CD4FD",
-                        "size": 7111059
+                        "size": 7111059,
+                        "path": "mods/handcrafted-forge-1.20.1-3.0.6.jar"
                     },
                     "path": "mods/handcrafted-forge-1.20.1-3.0.6.jar"
                 },
@@ -1249,7 +1358,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/hexerei-0.4.2.3.jar",
                         "MD5": "4AC6C0D223902E7A0CB3778E707FD05F",
-                        "size": 11374032
+                        "size": 11374032,
+                        "path": "mods/hexerei-0.4.2.3.jar"
                     },
                     "path": "mods/hexerei-0.4.2.3.jar"
                 },
@@ -1260,7 +1370,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Highlighter-1.20.1-forge-1.1.9.jar",
                         "MD5": "650EEC32FDB7C58C30C4D9AA911073D5",
-                        "size": 29438
+                        "size": 29438,
+                        "path": "mods/Highlighter-1.20.1-forge-1.1.9.jar"
                     },
                     "path": "mods/Highlighter-1.20.1-forge-1.1.9.jar"
                 },
@@ -1271,7 +1382,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Iceberg-1.20.1-forge-1.1.25.jar",
                         "MD5": "CDA8AF806D0DE012F5C7012EA51C155F",
-                        "size": 134551
+                        "size": 134551,
+                        "path": "mods/Iceberg-1.20.1-forge-1.1.25.jar"
                     },
                     "path": "mods/Iceberg-1.20.1-forge-1.1.25.jar"
                 },
@@ -1282,7 +1394,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ImmediatelyFast-Forge-1.5.5%2B1.20.4.jar",
                         "MD5": "4D776686D7DA62146099484B8C9E14AF",
-                        "size": 532063
+                        "size": 532063,
+                        "path": "mods/ImmediatelyFast-Forge-1.5.5+1.20.4.jar"
                     },
                     "path": "mods/ImmediatelyFast-Forge-1.5.5+1.20.4.jar"
                 },
@@ -1293,7 +1406,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/immersive_aircraft-1.5.0%2B1.20.1-forge.jar",
                         "MD5": "2ED94544BF4EA568F4940CCDC74985D3",
-                        "size": 2441036
+                        "size": 2441036,
+                        "path": "mods/immersive_aircraft-1.5.0+1.20.1-forge.jar"
                     },
                     "path": "mods/immersive_aircraft-1.5.0+1.20.1-forge.jar"
                 },
@@ -1304,7 +1418,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/irons_lib-1.20.1-2.1.0.jar",
                         "MD5": "5C73106C1323BF7FD01D5DA09869444F",
-                        "size": 428969
+                        "size": 428969,
+                        "path": "mods/irons_lib-1.20.1-2.1.0.jar"
                     },
                     "path": "mods/irons_lib-1.20.1-2.1.0.jar"
                 },
@@ -1315,7 +1430,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/irons_restrictions-1.20.1-1.4.0.jar",
                         "MD5": "D3E5364D96BB58196DE304EB8E62DDFC",
-                        "size": 874344
+                        "size": 874344,
+                        "path": "mods/irons_restrictions-1.20.1-1.4.0.jar"
                     },
                     "path": "mods/irons_restrictions-1.20.1-1.4.0.jar"
                 },
@@ -1326,7 +1442,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/irons_spellbooks-1.20.1-3.16.3.jar",
                         "MD5": "80430DFBFAB4AF59E45FFB9D4D601762",
-                        "size": 15570397
+                        "size": 15570397,
+                        "path": "mods/irons_spellbooks-1.20.1-3.16.3.jar"
                     },
                     "path": "mods/irons_spellbooks-1.20.1-3.16.3.jar"
                 },
@@ -1337,7 +1454,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/irons_spells_js-1.20.1-6.5-3.14-r2-release.jar",
                         "MD5": "79859FA4693B7D804CBD8C00610FBD99",
-                        "size": 343899
+                        "size": 343899,
+                        "path": "mods/irons_spells_js-1.20.1-6.5-3.14-r2-release.jar"
                     },
                     "path": "mods/irons_spells_js-1.20.1-6.5-3.14-r2-release.jar"
                 },
@@ -1348,7 +1466,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Jade-1.20.1-Forge-11.13.3.jar",
                         "MD5": "A53AADE6B5915EBE8357ABB68CF1F778",
-                        "size": 553487
+                        "size": 553487,
+                        "path": "mods/Jade-1.20.1-Forge-11.13.3.jar"
                     },
                     "path": "mods/Jade-1.20.1-Forge-11.13.3.jar"
                 },
@@ -1359,7 +1478,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/jamlib-forge-1.3.6%2B1.20.1-patch.1.jar",
                         "MD5": "3C90551EEB21E75201B3625DD7964448",
-                        "size": 191607
+                        "size": 191607,
+                        "path": "mods/jamlib-forge-1.3.6+1.20.1-patch.1.jar"
                     },
                     "path": "mods/jamlib-forge-1.3.6+1.20.1-patch.1.jar"
                 },
@@ -1370,7 +1490,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/jei-1.20.1-forge-15.59.0.210.jar",
                         "MD5": "BDFE2C22F2EBB0B63536B521B5648492",
-                        "size": 1825651
+                        "size": 1825651,
+                        "path": "mods/jei-1.20.1-forge-15.59.0.210.jar"
                     },
                     "path": "mods/jei-1.20.1-forge-15.59.0.210.jar"
                 },
@@ -1381,7 +1502,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/journeymap-forge-1.20.1-6.0.5.jar",
                         "MD5": "BD8A388E84E0F5462BB3541951812F9C",
-                        "size": 4331916
+                        "size": 4331916,
+                        "path": "mods/journeymap-forge-1.20.1-6.0.5.jar"
                     },
                     "path": "mods/journeymap-forge-1.20.1-6.0.5.jar"
                 },
@@ -1392,7 +1514,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/justzoom_forge_2.1.1_MC_1.20.1.jar",
                         "MD5": "758FE904B5A22CE7B2DF824C1A064858",
-                        "size": 204574
+                        "size": 204574,
+                        "path": "mods/justzoom_forge_2.1.1_MC_1.20.1.jar"
                     },
                     "path": "mods/justzoom_forge_2.1.1_MC_1.20.1.jar"
                 },
@@ -1403,7 +1526,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
                         "MD5": "D69107C593E361E1B7B96733250BD098",
-                        "size": 625185
+                        "size": 625185,
+                        "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
                     },
                     "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
                 },
@@ -1414,7 +1538,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/kotlinforforge-4.12.0-all.jar",
                         "MD5": "D6A40DEDE74EDBE646B34A1BAFD53B4D",
-                        "size": 7442998
+                        "size": 7442998,
+                        "path": "mods/kotlinforforge-4.12.0-all.jar"
                     },
                     "path": "mods/kotlinforforge-4.12.0-all.jar"
                 },
@@ -1425,7 +1550,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/KotlinLangForge-kff-compat-2.13.0-k2.4.20-2.0%2Bforge.jar",
                         "MD5": "9535996C581C5AC677198B7F6469B715",
-                        "size": 8430183
+                        "size": 8430183,
+                        "path": "mods/KotlinLangForge-kff-compat-2.13.0-k2.4.20-2.0+forge.jar"
                     },
                     "path": "mods/KotlinLangForge-kff-compat-2.13.0-k2.4.20-2.0+forge.jar"
                 },
@@ -1436,7 +1562,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/kubejs-create-forge-2001.3.0-build.8.jar",
                         "MD5": "C76F71BA6D16E6FE50E76B1862B58DFF",
-                        "size": 30960
+                        "size": 30960,
+                        "path": "mods/kubejs-create-forge-2001.3.0-build.8.jar"
                     },
                     "path": "mods/kubejs-create-forge-2001.3.0-build.8.jar"
                 },
@@ -1447,7 +1574,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/kubejs-forge-2001.6.5-build.26.jar",
                         "MD5": "64EE6615F19FB9B2B11FEE8B7385EAAF",
-                        "size": 1658792
+                        "size": 1658792,
+                        "path": "mods/kubejs-forge-2001.6.5-build.26.jar"
                     },
                     "path": "mods/kubejs-forge-2001.6.5-build.26.jar"
                 },
@@ -1458,7 +1586,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/letsdo-API-forge-1.2.15-forge.jar",
                         "MD5": "82D392DD5EF6064D8988592A35B3B403",
-                        "size": 1440591
+                        "size": 1440591,
+                        "path": "mods/letsdo-API-forge-1.2.15-forge.jar"
                     },
                     "path": "mods/letsdo-API-forge-1.2.15-forge.jar"
                 },
@@ -1469,7 +1598,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/letsdo-bakery-forge-2.0.6.jar",
                         "MD5": "609043B4852FE5F9965C396D3DF71FBD",
-                        "size": 1222186
+                        "size": 1222186,
+                        "path": "mods/letsdo-bakery-forge-2.0.6.jar"
                     },
                     "path": "mods/letsdo-bakery-forge-2.0.6.jar"
                 },
@@ -1480,7 +1610,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/letsdo-bloomingnature-forge-1.0.12.jar",
                         "MD5": "F4ECD7E5EAC2D8A34741FF13534CAF43",
-                        "size": 3094193
+                        "size": 3094193,
+                        "path": "mods/letsdo-bloomingnature-forge-1.0.12.jar"
                     },
                     "path": "mods/letsdo-bloomingnature-forge-1.0.12.jar"
                 },
@@ -1491,7 +1622,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/letsdo-candlelight-forge-2.0.5.jar",
                         "MD5": "7F929519324317860239D5550044E23D",
-                        "size": 2507744
+                        "size": 2507744,
+                        "path": "mods/letsdo-candlelight-forge-2.0.5.jar"
                     },
                     "path": "mods/letsdo-candlelight-forge-2.0.5.jar"
                 },
@@ -1502,7 +1634,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/letsdo-farm_and_charm-forge-1.0.14.jar",
                         "MD5": "6278FB984DA2CA60498FD4C78675524A",
-                        "size": 2328624
+                        "size": 2328624,
+                        "path": "mods/letsdo-farm_and_charm-forge-1.0.14.jar"
                     },
                     "path": "mods/letsdo-farm_and_charm-forge-1.0.14.jar"
                 },
@@ -1513,7 +1646,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/letsdo-herbalbrews-forge-1.0.12.jar",
                         "MD5": "8260ACE33A59F8C85B86945510B07471",
-                        "size": 735868
+                        "size": 735868,
+                        "path": "mods/letsdo-herbalbrews-forge-1.0.12.jar"
                     },
                     "path": "mods/letsdo-herbalbrews-forge-1.0.12.jar"
                 },
@@ -1524,7 +1658,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/letsdo-vinery-forge-1.4.41.jar",
                         "MD5": "BF692E0100772CFA90B9878A38C1F28A",
-                        "size": 2041283
+                        "size": 2041283,
+                        "path": "mods/letsdo-vinery-forge-1.4.41.jar"
                     },
                     "path": "mods/letsdo-vinery-forge-1.4.41.jar"
                 },
@@ -1535,7 +1670,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/letsdo-wildernature-forge-1.0.6.jar",
                         "MD5": "FD08892B42440837734423D70592ECDD",
-                        "size": 2102995
+                        "size": 2102995,
+                        "path": "mods/letsdo-wildernature-forge-1.0.6.jar"
                     },
                     "path": "mods/letsdo-wildernature-forge-1.0.6.jar"
                 },
@@ -1546,7 +1682,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/lionfishapi-3.0.jar",
                         "MD5": "76AF08DD2F58D5557D13162D855F4CC9",
-                        "size": 101931
+                        "size": 101931,
+                        "path": "mods/lionfishapi-3.0.jar"
                     },
                     "path": "mods/lionfishapi-3.0.jar"
                 },
@@ -1557,7 +1694,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/lithostitched-forge-1.20.1-1.4.11.jar",
                         "MD5": "3C596BBC1B5F769F22BE751E9C21A6C8",
-                        "size": 476347
+                        "size": 476347,
+                        "path": "mods/lithostitched-forge-1.20.1-1.4.11.jar"
                     },
                     "path": "mods/lithostitched-forge-1.20.1-1.4.11.jar"
                 },
@@ -1568,7 +1706,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/lodestone-1.20.1-1.6.4.1.jar",
                         "MD5": "2816FA972CA3A21E6E38783F979955BE",
-                        "size": 670934
+                        "size": 670934,
+                        "path": "mods/lodestone-1.20.1-1.6.4.1.jar"
                     },
                     "path": "mods/lodestone-1.20.1-1.6.4.1.jar"
                 },
@@ -1579,7 +1718,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/lootr-forge-1.20-0.7.35.94.jar",
                         "MD5": "56DD6966DE4BA641CF00EF5B9CE8D2D7",
-                        "size": 463485
+                        "size": 463485,
+                        "path": "mods/lootr-forge-1.20-0.7.35.94.jar"
                     },
                     "path": "mods/lootr-forge-1.20-0.7.35.94.jar"
                 },
@@ -1590,7 +1730,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/L_Enders_Cataclysm-3.31.jar",
                         "MD5": "A296C93419F679F0DA7100DA6E6E35AF",
-                        "size": 73916104
+                        "size": 73916104,
+                        "path": "mods/L_Enders_Cataclysm-3.31.jar"
                     },
                     "path": "mods/L_Enders_Cataclysm-3.31.jar"
                 },
@@ -1601,7 +1742,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Mantle-1.20.1-1.11.117.jar",
                         "MD5": "70ABA807E29AEA55B57FF93656E4C28A",
-                        "size": 1652715
+                        "size": 1652715,
+                        "path": "mods/Mantle-1.20.1-1.11.117.jar"
                     },
                     "path": "mods/Mantle-1.20.1-1.11.117.jar"
                 },
@@ -1612,7 +1754,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mcw-bridges-3.1.2-mc1.20.1forge.jar",
                         "MD5": "78AF63FCE71F5739ED3595012880D502",
-                        "size": 693579
+                        "size": 693579,
+                        "path": "mods/mcw-bridges-3.1.2-mc1.20.1forge.jar"
                     },
                     "path": "mods/mcw-bridges-3.1.2-mc1.20.1forge.jar"
                 },
@@ -1623,7 +1766,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mcw-doors-1.1.5-mc1.20.1forge.jar",
                         "MD5": "6A8504F9F2A9DD1EBBF0CAC848AD2A25",
-                        "size": 1246753
+                        "size": 1246753,
+                        "path": "mods/mcw-doors-1.1.5-mc1.20.1forge.jar"
                     },
                     "path": "mods/mcw-doors-1.1.5-mc1.20.1forge.jar"
                 },
@@ -1634,7 +1778,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mcw-lights-1.1.5-mc1.20.1forge.jar",
                         "MD5": "4D8AEDCE71E2963976D710AC1798B82B",
-                        "size": 547779
+                        "size": 547779,
+                        "path": "mods/mcw-lights-1.1.5-mc1.20.1forge.jar"
                     },
                     "path": "mods/mcw-lights-1.1.5-mc1.20.1forge.jar"
                 },
@@ -1645,7 +1790,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
                         "MD5": "33F30E1AD2474FE8836E85271799ECB7",
-                        "size": 708634
+                        "size": 708634,
+                        "path": "mods/mcw-mcwfences-1.2.1-mc1.20.1forge.jar"
                     },
                     "path": "mods/mcw-mcwfences-1.2.1-mc1.20.1forge.jar"
                 },
@@ -1656,7 +1802,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mcw-mcwpaths-1.1.1-mc1.20.1forge.jar",
                         "MD5": "81897B45AC45C6054121482879C7A882",
-                        "size": 812573
+                        "size": 812573,
+                        "path": "mods/mcw-mcwpaths-1.1.1-mc1.20.1forge.jar"
                     },
                     "path": "mods/mcw-mcwpaths-1.1.1-mc1.20.1forge.jar"
                 },
@@ -1667,7 +1814,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
                         "MD5": "04B5E1A31C4B76B9FDBF8E111EF9AE57",
-                        "size": 1320692
+                        "size": 1320692,
+                        "path": "mods/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar"
                     },
                     "path": "mods/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar"
                 },
@@ -1678,7 +1826,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mcw-trapdoors-1.1.5-mc1.20.1forge.jar",
                         "MD5": "59E11A2BE482C75AA13BCFAACE597594",
-                        "size": 604510
+                        "size": 604510,
+                        "path": "mods/mcw-trapdoors-1.1.5-mc1.20.1forge.jar"
                     },
                     "path": "mods/mcw-trapdoors-1.1.5-mc1.20.1forge.jar"
                 },
@@ -1689,7 +1838,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
                         "MD5": "6B528D368F7FCBF737DF28F2457CDEC6",
-                        "size": 37178
+                        "size": 37178,
+                        "path": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
                     },
                     "path": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
                 },
@@ -1700,7 +1850,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/memoryleakfix-forge-1.17%2B-1.1.5.jar",
                         "MD5": "5DD9149414CA375CEAB146242C6E84AB",
-                        "size": 227925
+                        "size": 227925,
+                        "path": "mods/memoryleakfix-forge-1.17+-1.1.5.jar"
                     },
                     "path": "mods/memoryleakfix-forge-1.17+-1.1.5.jar"
                 },
@@ -1711,7 +1862,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/midnightlib-forge-1.9.2%2B1.20.1.jar",
                         "MD5": "E4903BAB4C3CF86D64CADB21CD4F279E",
-                        "size": 61987
+                        "size": 61987,
+                        "path": "mods/midnightlib-forge-1.9.2+1.20.1.jar"
                     },
                     "path": "mods/midnightlib-forge-1.9.2+1.20.1.jar"
                 },
@@ -1722,7 +1874,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/modernfix-forge-5.27.83%2Bmc1.20.1.jar",
                         "MD5": "4222BB91833300504E3C0773AAE1D999",
-                        "size": 1003230
+                        "size": 1003230,
+                        "path": "mods/modernfix-forge-5.27.83+mc1.20.1.jar"
                     },
                     "path": "mods/modernfix-forge-5.27.83+mc1.20.1.jar"
                 },
@@ -1733,7 +1886,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ModernNetworking-forge-2.0.1%2B1.19.2.jar",
                         "MD5": "81185B47D218C20D07A2DD9F095BB1A4",
-                        "size": 368631
+                        "size": 368631,
+                        "path": "mods/ModernNetworking-forge-2.0.1+1.19.2.jar"
                     },
                     "path": "mods/ModernNetworking-forge-2.0.1+1.19.2.jar"
                 },
@@ -1744,7 +1898,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/modonomicon-1.20.1-forge-1.79.3.jar",
                         "MD5": "2EE00A17F4044EA8AD26216F9E9393C2",
-                        "size": 2239688
+                        "size": 2239688,
+                        "path": "mods/modonomicon-1.20.1-forge-1.79.3.jar"
                     },
                     "path": "mods/modonomicon-1.20.1-forge-1.79.3.jar"
                 },
@@ -1755,7 +1910,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/moonlight-1.20-2.16.35-forge.jar",
                         "MD5": "E679BAD3FE734D0EF14104487FFADDB3",
-                        "size": 1425229
+                        "size": 1425229,
+                        "path": "mods/moonlight-1.20-2.16.35-forge.jar"
                     },
                     "path": "mods/moonlight-1.20-2.16.35-forge.jar"
                 },
@@ -1766,7 +1922,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
                         "MD5": "CE4B5BBB9EF6A7905C458AB599EF4CB2",
-                        "size": 76237
+                        "size": 76237,
+                        "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar"
                     },
                     "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar"
                 },
@@ -1777,7 +1934,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/naturalist-5.0pre5%2Bforge-1.20.1.jar",
                         "MD5": "282A1F44A0C4A8F7082921EEF6ED3A9D",
-                        "size": 3807415
+                        "size": 3807415,
+                        "path": "mods/naturalist-5.0pre5+forge-1.20.1.jar"
                     },
                     "path": "mods/naturalist-5.0pre5+forge-1.20.1.jar"
                 },
@@ -1788,7 +1946,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/NaturesCompass-1.20.1-1.12.0-forge.jar",
                         "MD5": "CD6C3480C519BC6D5F7532BC5C21820B",
-                        "size": 227495
+                        "size": 227495,
+                        "path": "mods/NaturesCompass-1.20.1-1.12.0-forge.jar"
                     },
                     "path": "mods/NaturesCompass-1.20.1-1.12.0-forge.jar"
                 },
@@ -1799,7 +1958,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/natures_spirit-2.2.5-1.20.1.jar",
                         "MD5": "8C05AF4200BB2C5EEDFCDCE7F66FC352",
-                        "size": 18964334
+                        "size": 18964334,
+                        "path": "mods/natures_spirit-2.2.5-1.20.1.jar"
                     },
                     "path": "mods/natures_spirit-2.2.5-1.20.1.jar"
                 },
@@ -1810,7 +1970,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Necronomicon-Forge-1.6.0%2B1.20.1.jar",
                         "MD5": "A1F1433EA551925436E6B170AC2FF619",
-                        "size": 33251
+                        "size": 33251,
+                        "path": "mods/Necronomicon-Forge-1.6.0+1.20.1.jar"
                     },
                     "path": "mods/Necronomicon-Forge-1.6.0+1.20.1.jar"
                 },
@@ -1821,7 +1982,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/notenoughcrashes-4.4.9%2B1.20.1-forge.jar",
                         "MD5": "59F7BD924454A832B87998999D58EEA7",
-                        "size": 134885
+                        "size": 134885,
+                        "path": "mods/notenoughcrashes-4.4.9+1.20.1-forge.jar"
                     },
                     "path": "mods/notenoughcrashes-4.4.9+1.20.1-forge.jar"
                 },
@@ -1832,7 +1994,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/observable-4.4.2.jar",
                         "MD5": "2CFD5A688BFB9574B914E07444071F03",
-                        "size": 470536
+                        "size": 470536,
+                        "path": "mods/observable-4.4.2.jar"
                     },
                     "path": "mods/observable-4.4.2.jar"
                 },
@@ -1843,7 +2006,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/occultism-1.20.1-1.158.0.jar",
                         "MD5": "52020FEA2D47C78BA3D7FB3BB93BAFAD",
-                        "size": 3960907
+                        "size": 3960907,
+                        "path": "mods/occultism-1.20.1-1.158.0.jar"
                     },
                     "path": "mods/occultism-1.20.1-1.158.0.jar"
                 },
@@ -1854,7 +2018,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/OctoLib-FORGE-0.5.0.1%2B1.20.1.jar",
                         "MD5": "6B2FD012966B13A96CE4F68AE42EAB8C",
-                        "size": 424035
+                        "size": 424035,
+                        "path": "mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar"
                     },
                     "path": "mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar"
                 },
@@ -1865,7 +2030,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/oculus-mc1.20.1-1.8.0.jar",
                         "MD5": "1DD891634AC21591B5A692471F112572",
-                        "size": 2851119
+                        "size": 2851119,
+                        "path": "mods/oculus-mc1.20.1-1.8.0.jar"
                     },
                     "path": "mods/oculus-mc1.20.1-1.8.0.jar"
                 },
@@ -1876,7 +2042,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/OverflowingBars-v8.0.1-1.20.1-Forge.jar",
                         "MD5": "6152710C2DDBD371B91EB7C44AEE6167",
-                        "size": 73689
+                        "size": 73689,
+                        "path": "mods/OverflowingBars-v8.0.1-1.20.1-Forge.jar"
                     },
                     "path": "mods/OverflowingBars-v8.0.1-1.20.1-Forge.jar"
                 },
@@ -1887,7 +2054,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/particlerain-4.0.0-beta.11%2B1.20.1-forge.jar",
                         "MD5": "7DC890343CA9B5947BE786C28BC86EF5",
-                        "size": 1252832
+                        "size": 1252832,
+                        "path": "mods/particlerain-4.0.0-beta.11+1.20.1-forge.jar"
                     },
                     "path": "mods/particlerain-4.0.0-beta.11+1.20.1-forge.jar"
                 },
@@ -1898,7 +2066,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Patchouli-1.20.1-85-FORGE.jar",
                         "MD5": "78BD223D069FA9491E940D99A8F426B3",
-                        "size": 642732
+                        "size": 642732,
+                        "path": "mods/Patchouli-1.20.1-85-FORGE.jar"
                     },
                     "path": "mods/Patchouli-1.20.1-85-FORGE.jar"
                 },
@@ -1909,7 +2078,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Pehkui-3.8.2%2B1.20.1-forge.jar",
                         "MD5": "95BDD5558D34044F54AAB0CE292E679B",
-                        "size": 671605
+                        "size": 671605,
+                        "path": "mods/Pehkui-3.8.2+1.20.1-forge.jar"
                     },
                     "path": "mods/Pehkui-3.8.2+1.20.1-forge.jar"
                 },
@@ -1920,7 +2090,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/photon-forge-1.20.1-1.1.17.jar",
                         "MD5": "8FBD45E6F37851CF8D678D44A7806890",
-                        "size": 5078005
+                        "size": 5078005,
+                        "path": "mods/photon-forge-1.20.1-1.1.17.jar"
                     },
                     "path": "mods/photon-forge-1.20.1-1.1.17.jar"
                 },
@@ -1931,7 +2102,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/piggyback-forge-1.20.1-1.1.1.jar",
                         "MD5": "AD22FF03A546F6DFA4CA3AC1BB88DB5C",
-                        "size": 974507
+                        "size": 974507,
+                        "path": "mods/piggyback-forge-1.20.1-1.1.1.jar"
                     },
                     "path": "mods/piggyback-forge-1.20.1-1.1.1.jar"
                 },
@@ -1942,7 +2114,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Placebo-1.20.1-8.6.3.jar",
                         "MD5": "13133AB9989E8474931CD7A86BD19CC5",
-                        "size": 282474
+                        "size": 282474,
+                        "path": "mods/Placebo-1.20.1-8.6.3.jar"
                     },
                     "path": "mods/Placebo-1.20.1-8.6.3.jar"
                 },
@@ -1953,7 +2126,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Platform-forge-1.20.1-1.3.4.jar",
                         "MD5": "DF08AB6AA4081252C22D3869142748DC",
-                        "size": 512461
+                        "size": 512461,
+                        "path": "mods/Platform-forge-1.20.1-1.3.4.jar"
                     },
                     "path": "mods/Platform-forge-1.20.1-1.3.4.jar"
                 },
@@ -1964,7 +2138,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
                         "MD5": "46F8554181D4D240075EA4919D01FD01",
-                        "size": 181437
+                        "size": 181437,
+                        "path": "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar"
                     },
                     "path": "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar"
                 },
@@ -1975,7 +2150,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
                         "MD5": "E07FC42680A0163C99C21CFA9AFB9816",
-                        "size": 5298162
+                        "size": 5298162,
+                        "path": "mods/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar"
                     },
                     "path": "mods/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar"
                 },
@@ -1986,7 +2162,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/polymorph-forge-0.49.11%2B1.20.1.jar",
                         "MD5": "1920AE2F01CF42EAE705AB5530671D7D",
-                        "size": 301935
+                        "size": 301935,
+                        "path": "mods/polymorph-forge-0.49.11+1.20.1.jar"
                     },
                     "path": "mods/polymorph-forge-0.49.11+1.20.1.jar"
                 },
@@ -1997,7 +2174,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/preloading-tricks-3.7.3.jar",
                         "MD5": "2A044CAEFEC3688F598F8E9AA903C259",
-                        "size": 1759406
+                        "size": 1759406,
+                        "path": "mods/preloading-tricks-3.7.3.jar"
                     },
                     "path": "mods/preloading-tricks-3.7.3.jar"
                 },
@@ -2008,7 +2186,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
                         "MD5": "19F23E3040EAADC7C30AE38F5A3DEC68",
-                        "size": 1342987
+                        "size": 1342987,
+                        "path": "mods/PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
                     },
                     "path": "mods/PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
                 },
@@ -2019,7 +2198,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Quark-4.0-462.jar",
                         "MD5": "6EEF0D0AC52DF0C239CB443ABC137F3D",
-                        "size": 14935230
+                        "size": 14935230,
+                        "path": "mods/Quark-4.0-462.jar"
                     },
                     "path": "mods/Quark-4.0-462.jar"
                 },
@@ -2030,7 +2210,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/raccompat-1.20.1-0.1.3.jar",
                         "MD5": "F638B42DF11BB68456774C25775102EE",
-                        "size": 119631
+                        "size": 119631,
+                        "path": "mods/raccompat-1.20.1-0.1.3.jar"
                     },
                     "path": "mods/raccompat-1.20.1-0.1.3.jar"
                 },
@@ -2041,7 +2222,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/radium-mc1.20.1-0.12.4%2Bgit.26c9d8e.jar",
                         "MD5": "3A46FB58E8FF12213E4DBC909F47A77D",
-                        "size": 713454
+                        "size": 713454,
+                        "path": "mods/radium-mc1.20.1-0.12.4+git.26c9d8e.jar"
                     },
                     "path": "mods/radium-mc1.20.1-0.12.4+git.26c9d8e.jar"
                 },
@@ -2052,7 +2234,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ramcompat-1.20.1-0.1.4.jar",
                         "MD5": "D54A4DDCEDB140BF3FD024CF28360B9E",
-                        "size": 43635
+                        "size": 43635,
+                        "path": "mods/ramcompat-1.20.1-0.1.4.jar"
                     },
                     "path": "mods/ramcompat-1.20.1-0.1.4.jar"
                 },
@@ -2063,7 +2246,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/RegionsUnexploredForge-0.5.6%2B1.20.1.jar",
                         "MD5": "82C3073F606044E7B56D432D324CA480",
-                        "size": 5726781
+                        "size": 5726781,
+                        "path": "mods/RegionsUnexploredForge-0.5.6+1.20.1.jar"
                     },
                     "path": "mods/RegionsUnexploredForge-0.5.6+1.20.1.jar"
                 },
@@ -2074,7 +2258,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/relics-1.20.1-0.8.0.13.jar",
                         "MD5": "8E8A8BEB1AC0776448DFBCEC179734A1",
-                        "size": 1521089
+                        "size": 1521089,
+                        "path": "mods/relics-1.20.1-0.8.0.13.jar"
                     },
                     "path": "mods/relics-1.20.1-0.8.0.13.jar"
                 },
@@ -2085,7 +2270,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/resourcefulconfig-forge-1.20.1-2.1.3.jar",
                         "MD5": "947463B04C043937CD24506842F737A3",
-                        "size": 136923
+                        "size": 136923,
+                        "path": "mods/resourcefulconfig-forge-1.20.1-2.1.3.jar"
                     },
                     "path": "mods/resourcefulconfig-forge-1.20.1-2.1.3.jar"
                 },
@@ -2096,7 +2282,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/resourcefullib-forge-1.20.1-2.1.29.jar",
                         "MD5": "A040C6CC86F653FDDF280FF3AF9068F0",
-                        "size": 432753
+                        "size": 432753,
+                        "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar"
                     },
                     "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar"
                 },
@@ -2107,7 +2294,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/rhino-forge-2001.2.3-build.10.jar",
                         "MD5": "59387620B0EF6BECBFF02C7C1636AD3E",
-                        "size": 1798244
+                        "size": 1798244,
+                        "path": "mods/rhino-forge-2001.2.3-build.10.jar"
                     },
                     "path": "mods/rhino-forge-2001.2.3-build.10.jar"
                 },
@@ -2118,7 +2306,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/rightclickharvest-forge-4.6.1%2B1.20.1.jar",
                         "MD5": "67A2061B0AFBC0B52DF53E65DD44F81D",
-                        "size": 288408
+                        "size": 288408,
+                        "path": "mods/rightclickharvest-forge-4.6.1+1.20.1.jar"
                     },
                     "path": "mods/rightclickharvest-forge-4.6.1+1.20.1.jar"
                 },
@@ -2129,7 +2318,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/rottencreatures-forge-1.20.1-1.1.0.jar",
                         "MD5": "B93A055C1819D1C24CF3BF4D4CA490E3",
-                        "size": 2595007
+                        "size": 2595007,
+                        "path": "mods/rottencreatures-forge-1.20.1-1.1.0.jar"
                     },
                     "path": "mods/rottencreatures-forge-1.20.1-1.1.0.jar"
                 },
@@ -2140,7 +2330,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/scholar-1.20.1-1.2.5.1-forge.jar",
                         "MD5": "8388850796A2578E3ED6DBE571963B2E",
-                        "size": 849896
+                        "size": 849896,
+                        "path": "mods/scholar-1.20.1-1.2.5.1-forge.jar"
                     },
                     "path": "mods/scholar-1.20.1-1.2.5.1-forge.jar"
                 },
@@ -2151,7 +2342,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Searchables-forge-1.20.1-1.0.3.jar",
                         "MD5": "9F5418E9C08C18A375EF42FADA4BCEF2",
-                        "size": 77732
+                        "size": 77732,
+                        "path": "mods/Searchables-forge-1.20.1-1.0.3.jar"
                     },
                     "path": "mods/Searchables-forge-1.20.1-1.0.3.jar"
                 },
@@ -2162,7 +2354,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/silent-gear-1.20.1-3.6.7.jar",
                         "MD5": "AD1C965E6EDE3E866D9B9911F0A843F1",
-                        "size": 2747490
+                        "size": 2747490,
+                        "path": "mods/silent-gear-1.20.1-3.6.7.jar"
                     },
                     "path": "mods/silent-gear-1.20.1-3.6.7.jar"
                 },
@@ -2173,7 +2366,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/silent-lib-1.20.1-8.0.0.jar",
                         "MD5": "E12DABD49A8F5155284950326909635F",
-                        "size": 225949
+                        "size": 225949,
+                        "path": "mods/silent-lib-1.20.1-8.0.0.jar"
                     },
                     "path": "mods/silent-lib-1.20.1-8.0.0.jar"
                 },
@@ -2184,7 +2378,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/simplehats-forge-1.20.1-0.3.2.jar",
                         "MD5": "5617686A811A3C1F6523166B7AF7F0A8",
-                        "size": 1413531
+                        "size": 1413531,
+                        "path": "mods/simplehats-forge-1.20.1-0.3.2.jar"
                     },
                     "path": "mods/simplehats-forge-1.20.1-0.3.2.jar"
                 },
@@ -2195,7 +2390,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
                         "MD5": "C2B4A539BFCC47B714C40D24268A0ECC",
-                        "size": 15765792
+                        "size": 15765792,
+                        "path": "mods/simplyswords-forge-neoforge-1.70.2-1.20.1.jar"
                     },
                     "path": "mods/simplyswords-forge-neoforge-1.70.2-1.20.1.jar"
                 },
@@ -2206,7 +2402,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/SimplyTooltips-forge-0.1.5-1.20.1.jar",
                         "MD5": "4221463739C9CF75400968DED0AEC4D4",
-                        "size": 5418741
+                        "size": 5418741,
+                        "path": "mods/SimplyTooltips-forge-0.1.5-1.20.1.jar"
                     },
                     "path": "mods/SimplyTooltips-forge-0.1.5-1.20.1.jar"
                 },
@@ -2217,7 +2414,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/SmartBrainLib-forge-1.20.1-1.15.jar",
                         "MD5": "D5A060CE11B8C13268B821DFE5A936E4",
-                        "size": 362338
+                        "size": 362338,
+                        "path": "mods/SmartBrainLib-forge-1.20.1-1.15.jar"
                     },
                     "path": "mods/SmartBrainLib-forge-1.20.1-1.15.jar"
                 },
@@ -2228,7 +2426,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
                         "MD5": "C8CD5AE14D99796FD92C95A353E96211",
-                        "size": 41044
+                        "size": 41044,
+                        "path": "mods/smoothboot(reloaded)-mc1.20.1-0.0.4.jar"
                     },
                     "path": "mods/smoothboot(reloaded)-mc1.20.1-0.0.4.jar"
                 },
@@ -2239,7 +2438,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
                         "MD5": "687C18CEFA558CA8101EF97914D9BA6B",
-                        "size": 511601
+                        "size": 511601,
+                        "path": "mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar"
                     },
                     "path": "mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar"
                 },
@@ -2250,7 +2450,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
                         "MD5": "75807590AE2648ECDEB855705868CE59",
-                        "size": 443978
+                        "size": 443978,
+                        "path": "mods/sodiumoptionsapi-forge-1.0.10-1.20.1.jar"
                     },
                     "path": "mods/sodiumoptionsapi-forge-1.0.10-1.20.1.jar"
                 },
@@ -2261,7 +2462,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
                         "MD5": "AF7ADDFE0567CD18AC11E6129A91F7BC",
-                        "size": 1223451
+                        "size": 1223451,
+                        "path": "mods/sophisticatedbackpacks-1.20.1-3.26.3.2157.jar"
                     },
                     "path": "mods/sophisticatedbackpacks-1.20.1-3.26.3.2157.jar"
                 },
@@ -2272,7 +2474,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/sophisticatedbackpackscreateintegration-1.20.1-0.1.10.167.jar",
                         "MD5": "09F29DC45D1583FDD1165DDD3FFC1B62",
-                        "size": 98079
+                        "size": 98079,
+                        "path": "mods/sophisticatedbackpackscreateintegration-1.20.1-0.1.10.167.jar"
                     },
                     "path": "mods/sophisticatedbackpackscreateintegration-1.20.1-0.1.10.167.jar"
                 },
@@ -2283,7 +2486,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/sophisticatedcore-1.20.1-1.5.1.2335.jar",
                         "MD5": "C7545991854E04E6568C5173810A2564",
-                        "size": 1734797
+                        "size": 1734797,
+                        "path": "mods/sophisticatedcore-1.20.1-1.5.1.2335.jar"
                     },
                     "path": "mods/sophisticatedcore-1.20.1-1.5.1.2335.jar"
                 },
@@ -2294,7 +2498,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/sophisticatedstorage-1.20.1-1.4.86.2131.jar",
                         "MD5": "0F7F4546D8C23019A1852B1494D16910",
-                        "size": 1867685
+                        "size": 1867685,
+                        "path": "mods/sophisticatedstorage-1.20.1-1.4.86.2131.jar"
                     },
                     "path": "mods/sophisticatedstorage-1.20.1-1.4.86.2131.jar"
                 },
@@ -2305,7 +2510,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/sophisticatedstoragecreateintegration-1.20.1-0.1.24.221.jar",
                         "MD5": "FB0B4478FAAAE5DD11466230F35842A1",
-                        "size": 129818
+                        "size": 129818,
+                        "path": "mods/sophisticatedstoragecreateintegration-1.20.1-0.1.24.221.jar"
                     },
                     "path": "mods/sophisticatedstoragecreateintegration-1.20.1-0.1.24.221.jar"
                 },
@@ -2316,7 +2522,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
                         "MD5": "D70031B5058FB81D2670A4039440B00F",
-                        "size": 206984
+                        "size": 206984,
+                        "path": "mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar"
                     },
                     "path": "mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar"
                 },
@@ -2327,7 +2534,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spark-1.10.53-forge.jar",
                         "MD5": "95DCD3B5400CC5EB5D0478A744E6EF98",
-                        "size": 3114590
+                        "size": 3114590,
+                        "path": "mods/spark-1.10.53-forge.jar"
                     },
                     "path": "mods/spark-1.10.53-forge.jar"
                 },
@@ -2338,7 +2546,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Steam_Rails-1.7.3%2Bforge-mc1.20.1.jar",
                         "MD5": "D7EA85C0106F481B8D2E30189E3565A8",
-                        "size": 17042037
+                        "size": 17042037,
+                        "path": "mods/Steam_Rails-1.7.3+forge-mc1.20.1.jar"
                     },
                     "path": "mods/Steam_Rails-1.7.3+forge-mc1.20.1.jar"
                 },
@@ -2349,7 +2558,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
                         "MD5": "CBECE61946D4E059E90806C19DD66082",
-                        "size": 206584
+                        "size": 206584,
+                        "path": "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar"
                     },
                     "path": "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar"
                 },
@@ -2360,7 +2570,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/supplementaries-1.20-3.1.43-forge.jar",
                         "MD5": "31E94BB39E718EDF97D49D8C67AC941A",
-                        "size": 13667742
+                        "size": 13667742,
+                        "path": "mods/supplementaries-1.20-3.1.43-forge.jar"
                     },
                     "path": "mods/supplementaries-1.20-3.1.43-forge.jar"
                 },
@@ -2371,7 +2582,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/TalkBalloons-forge-1.6.1%2B1.20.1.jar",
                         "MD5": "AA79F7B4E5E616398C87BAC0F079FFEF",
-                        "size": 1947694
+                        "size": 1947694,
+                        "path": "mods/TalkBalloons-forge-1.6.1+1.20.1.jar"
                     },
                     "path": "mods/TalkBalloons-forge-1.6.1+1.20.1.jar"
                 },
@@ -2382,7 +2594,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/TerraBlender-forge-1.20.1-3.0.1.10.jar",
                         "MD5": "9D8E305B95AE5A8F7B446D6346324267",
-                        "size": 107532
+                        "size": 107532,
+                        "path": "mods/TerraBlender-forge-1.20.1-3.0.1.10.jar"
                     },
                     "path": "mods/TerraBlender-forge-1.20.1-3.0.1.10.jar"
                 },
@@ -2393,7 +2606,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Terralith_1.20.x_v2.5.4.jar",
                         "MD5": "B143CFD648086C68D7F47A86B8994EE3",
-                        "size": 3156901
+                        "size": 3156901,
+                        "path": "mods/Terralith_1.20.x_v2.5.4.jar"
                     },
                     "path": "mods/Terralith_1.20.x_v2.5.4.jar"
                 },
@@ -2404,7 +2618,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar",
                         "MD5": "7A27B8747306BDEE0857B50E11A9850E",
-                        "size": 10298153
+                        "size": 10298153,
+                        "path": "mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar"
                     },
                     "path": "mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar"
                 },
@@ -2415,7 +2630,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/torchmaster-20.1.9.jar",
                         "MD5": "5CCFBDD3AD8436DF3B99967E746AC2CD",
-                        "size": 119348
+                        "size": 119348,
+                        "path": "mods/torchmaster-20.1.9.jar"
                     },
                     "path": "mods/torchmaster-20.1.9.jar"
                 },
@@ -2426,7 +2642,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Towns-and-Towers-1.12-Fabric%2BForge.jar",
                         "MD5": "237A2186D2482856F67C638C06489FB8",
-                        "size": 2864275
+                        "size": 2864275,
+                        "path": "mods/Towns-and-Towers-1.12-Fabric+Forge.jar"
                     },
                     "path": "mods/Towns-and-Towers-1.12-Fabric+Forge.jar"
                 },
@@ -2437,7 +2654,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/trashslot-forge-1.20.1-15.1.5.jar",
                         "MD5": "19290079D700B5E003FCB3DF780536F8",
-                        "size": 117983
+                        "size": 117983,
+                        "path": "mods/trashslot-forge-1.20.1-15.1.5.jar"
                     },
                     "path": "mods/trashslot-forge-1.20.1-15.1.5.jar"
                 },
@@ -2448,7 +2666,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/txnilib-forge-1.0.24-1.20.1.jar",
                         "MD5": "31823D0999FDA413AF6DC226481E404A",
-                        "size": 3743339
+                        "size": 3743339,
+                        "path": "mods/txnilib-forge-1.0.24-1.20.1.jar"
                     },
                     "path": "mods/txnilib-forge-1.0.24-1.20.1.jar"
                 },
@@ -2459,7 +2678,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/uniqueaccessories-1.3.3-forge-mc1.20.1.jar",
                         "MD5": "20F4E60ED29CC88A121CBF122666F3FD",
-                        "size": 521352
+                        "size": 521352,
+                        "path": "mods/uniqueaccessories-1.3.3-forge-mc1.20.1.jar"
                     },
                     "path": "mods/uniqueaccessories-1.3.3-forge-mc1.20.1.jar"
                 },
@@ -2470,7 +2690,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/velvet_rpg-0.15.jar",
                         "MD5": "A0C7EAC443CF9AC41818BB14C69C4DAD",
-                        "size": 37444
+                        "size": 37444,
+                        "path": "mods/velvet_rpg-0.15.jar"
                     },
                     "path": "mods/velvet_rpg-0.15.jar"
                 },
@@ -2481,7 +2702,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/vminus-3.1.2-forge-1.20.1.jar",
                         "MD5": "B0EB23EA818635F4BB09059D63691ED8",
-                        "size": 650305
+                        "size": 650305,
+                        "path": "mods/vminus-3.1.2-forge-1.20.1.jar"
                     },
                     "path": "mods/vminus-3.1.2-forge-1.20.1.jar"
                 },
@@ -2492,7 +2714,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/voicechat-forge-1.20.1-2.6.23.jar",
                         "MD5": "EC5B984B8FC77B719CCA26EA43B96BE7",
-                        "size": 4926469
+                        "size": 4926469,
+                        "path": "mods/voicechat-forge-1.20.1-2.6.23.jar"
                     },
                     "path": "mods/voicechat-forge-1.20.1-2.6.23.jar"
                 },
@@ -2503,7 +2726,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/waterframes-FORGE-mc1.20.1-v2.1.22.jar",
                         "MD5": "595A2467900ABCDF00B3059C56FC0D0F",
-                        "size": 255481
+                        "size": 255481,
+                        "path": "mods/waterframes-FORGE-mc1.20.1-v2.1.22.jar"
                     },
                     "path": "mods/waterframes-FORGE-mc1.20.1-v2.1.22.jar"
                 },
@@ -2514,7 +2738,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/watermedia-2.1.37.jar",
                         "MD5": "4A09AD3EA22AD258802605B8AA929BBD",
-                        "size": 37046674
+                        "size": 37046674,
+                        "path": "mods/watermedia-2.1.37.jar"
                     },
                     "path": "mods/watermedia-2.1.37.jar"
                 },
@@ -2525,7 +2750,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/watermedia_binaries-3.0.0-rc.4.jar",
                         "MD5": "707D4C1A22E3382B35FE751F1CC3AB2B",
-                        "size": 143710524
+                        "size": 143710524,
+                        "path": "mods/watermedia_binaries-3.0.0-rc.4.jar"
                     },
                     "path": "mods/watermedia_binaries-3.0.0-rc.4.jar"
                 },
@@ -2536,7 +2762,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/watermedia_youtube_plugin-2.1.2.jar",
                         "MD5": "5B0ED7502F1D3C0553E6D536D5A74D4A",
-                        "size": 3830072
+                        "size": 3830072,
+                        "path": "mods/watermedia_youtube_plugin-2.1.2.jar"
                     },
                     "path": "mods/watermedia_youtube_plugin-2.1.2.jar"
                 },
@@ -2547,7 +2774,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/watervision-FG-mc1.20.1-v0.1.0-alpha.jar",
                         "MD5": "C934BCBABEB242CE7DA79E3F16D1406C",
-                        "size": 82079
+                        "size": 82079,
+                        "path": "mods/watervision-FG-mc1.20.1-v0.1.0-alpha.jar"
                     },
                     "path": "mods/watervision-FG-mc1.20.1-v0.1.0-alpha.jar"
                 },
@@ -2558,7 +2786,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/waystones-forge-1.20.1-14.1.21.jar",
                         "MD5": "D61D808C97FFD5A48C8B58969219B557",
-                        "size": 536782
+                        "size": 536782,
+                        "path": "mods/waystones-forge-1.20.1-14.1.21.jar"
                     },
                     "path": "mods/waystones-forge-1.20.1-14.1.21.jar"
                 },
@@ -2569,7 +2798,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/worldedit-mod-7.2.15.jar",
                         "MD5": "BD0E7CFF7896348FAAB92E43300D0639",
-                        "size": 5825402
+                        "size": 5825402,
+                        "path": "mods/worldedit-mod-7.2.15.jar"
                     },
                     "path": "mods/worldedit-mod-7.2.15.jar"
                 },
@@ -2580,7 +2810,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/yet_another_config_lib_v3-3.6.6%2B1.20.1-forge.jar",
                         "MD5": "2437CB642E24726A83F864E345F24479",
-                        "size": 1105891
+                        "size": 1105891,
+                        "path": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar"
                     },
                     "path": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar"
                 },
@@ -2591,7 +2822,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/YouShallNotSpawn-forge-1.20.x-2.0.2.jar",
                         "MD5": "752CE190C3E96105781A6B6EF2A8533E",
-                        "size": 218712
+                        "size": 218712,
+                        "path": "mods/YouShallNotSpawn-forge-1.20.x-2.0.2.jar"
                     },
                     "path": "mods/YouShallNotSpawn-forge-1.20.x-2.0.2.jar"
                 },
@@ -2602,7 +2834,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/YungsApi-1.20-Forge-4.0.6.jar",
                         "MD5": "FE79F43DBA8EDBB8EDE99F4E358E5B0C",
-                        "size": 370524
+                        "size": 370524,
+                        "path": "mods/YungsApi-1.20-Forge-4.0.6.jar"
                     },
                     "path": "mods/YungsApi-1.20-Forge-4.0.6.jar"
                 },
@@ -2613,7 +2846,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
                         "MD5": "183E2C817E9094CE215C9E70C114825F",
-                        "size": 918012
+                        "size": 918012,
+                        "path": "mods/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar"
                     },
                     "path": "mods/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar"
                 },
@@ -2624,7 +2858,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
                         "MD5": "FE8D205C98CB02840D46646FB7CF5AB8",
-                        "size": 492998
+                        "size": 492998,
+                        "path": "mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar"
                     },
                     "path": "mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar"
                 },
@@ -2635,7 +2870,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
                         "MD5": "8F0011690923EFB6E2D59514181F0BC9",
-                        "size": 619255
+                        "size": 619255,
+                        "path": "mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar"
                     },
                     "path": "mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar"
                 },
@@ -2646,7 +2882,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
                         "MD5": "467336218D681221EF8D875B226EB1BC",
-                        "size": 1033262
+                        "size": 1033262,
+                        "path": "mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar"
                     },
                     "path": "mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar"
                 },
@@ -2657,7 +2894,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
                         "MD5": "8C00ED5D2BAB232040A1D4D0EF746AE6",
-                        "size": 473564
+                        "size": 473564,
+                        "path": "mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar"
                     },
                     "path": "mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar"
                 },
@@ -2668,7 +2906,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
                         "MD5": "CB6D73E271FDFB2E8698B7C6BD9DF0D9",
-                        "size": 179190
+                        "size": 179190,
+                        "path": "mods/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar"
                     },
                     "path": "mods/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar"
                 },
@@ -2679,7 +2918,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Zeta-1.0-31.jar",
                         "MD5": "98B72E20DACBDB4DA4BD187F56ED4012",
-                        "size": 1006518
+                        "size": 1006518,
+                        "path": "mods/Zeta-1.0-31.jar"
                     },
                     "path": "mods/Zeta-1.0-31.jar"
                 },
@@ -2690,7 +2930,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/zmedievalmusic-1.20.1-2.2.jar",
                         "MD5": "CB61E6A83F0FD9C873CA3398E4572736",
-                        "size": 304415885
+                        "size": 304415885,
+                        "path": "mods/zmedievalmusic-1.20.1-2.2.jar"
                     },
                     "path": "mods/zmedievalmusic-1.20.1-2.2.jar"
                 },
@@ -2701,7 +2942,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/%5B1.20.1%5D%20SecurityCraft%20v1.10.2.1.jar",
                         "MD5": "07C5B4516075755002D7AF62EB4F8FDD",
-                        "size": 4995865
+                        "size": 4995865,
+                        "path": "mods/[1.20.1] SecurityCraft v1.10.2.1.jar"
                     },
                     "path": "mods/[1.20.1] SecurityCraft v1.10.2.1.jar"
                 },
@@ -2712,7 +2954,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/%5Bforge%5Dctov-3.4.14.jar",
                         "MD5": "382D0881DB0828470C219DD5D0789132",
-                        "size": 6772753
+                        "size": 6772753,
+                        "path": "mods/[forge]ctov-3.4.14.jar"
                     },
                     "path": "mods/[forge]ctov-3.4.14.jar"
                 },
@@ -2723,7 +2966,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryReimagined_r5.8.1.zip",
                         "MD5": "8DBB914ED233D6E8183CE34EB26BEAAB",
-                        "size": 546925
+                        "size": 546925,
+                        "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip"
                     },
                     "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip"
                 },
@@ -2734,7 +2978,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryReimagined_r5.8.1.zip.txt",
                         "MD5": "C12C3332BC4A23F4EA69B533B025FD18",
-                        "size": 74
+                        "size": 74,
+                        "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
                     },
                     "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
                 },
@@ -2745,7 +2990,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryUnbound_r5.8.1.zip",
                         "MD5": "0A3553109DBE689A9F76D1AEDC8F50C6",
-                        "size": 546928
+                        "size": 546928,
+                        "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
                     },
                     "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
                 },
@@ -2756,7 +3002,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Cursed%20Fog%20-%20V1.0.8.zip",
                         "MD5": "CCF9A131238BFBD236D5EC3D81EA3DA6",
-                        "size": 67730
+                        "size": 67730,
+                        "path": "shaderpacks/Cursed Fog - V1.0.8.zip"
                     },
                     "path": "shaderpacks/Cursed Fog - V1.0.8.zip"
                 },
@@ -2767,7 +3014,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/_0EUPHORIA_PATCHES_ERROR_LOGS.txt",
                         "MD5": "DBEB313D8D9FCBAC2A4C06F4FAB601D8",
-                        "size": 2970
+                        "size": 2970,
+                        "path": "shaderpacks/_0EUPHORIA_PATCHES_ERROR_LOGS.txt"
                     },
                     "path": "shaderpacks/_0EUPHORIA_PATCHES_ERROR_LOGS.txt"
                 },
@@ -2778,7 +3026,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/CIA-AC-Compat-v1.1.0-1.20.1.zip",
                         "MD5": "BB7C1F195D88F03B8AF6754FB93C5AF8",
-                        "size": 240077
+                        "size": 240077,
+                        "path": "resourcepacks/CIA-AC-Compat-v1.1.0-1.20.1.zip"
                     },
                     "path": "resourcepacks/CIA-AC-Compat-v1.1.0-1.20.1.zip"
                 },
@@ -2789,7 +3038,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Create%20Immersive%20Aircrafts%20Resource%20Pack%201.21.1%20-%203.0.zip",
                         "MD5": "26214813D60836A101C5FD4813280020",
-                        "size": 190790
+                        "size": 190790,
+                        "path": "resourcepacks/Create Immersive Aircrafts Resource Pack 1.21.1 - 3.0.zip"
                     },
                     "path": "resourcepacks/Create Immersive Aircrafts Resource Pack 1.21.1 - 3.0.zip"
                 },
@@ -2800,7 +3050,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Create%20Tweaks%20Compats.zip",
                         "MD5": "CADD319F09173AD3B8E782A5A4220883",
-                        "size": 306314
+                        "size": 306314,
+                        "path": "resourcepacks/Create Tweaks Compats.zip"
                     },
                     "path": "resourcepacks/Create Tweaks Compats.zip"
                 },
@@ -2811,7 +3062,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/CreateSophBackpacks.zip",
                         "MD5": "D9F2564FAB19BB0AE5230AD9DC70ADB3",
-                        "size": 557473
+                        "size": 557473,
+                        "path": "resourcepacks/CreateSophBackpacks.zip"
                     },
                     "path": "resourcepacks/CreateSophBackpacks.zip"
                 },
@@ -2822,7 +3074,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/CreateSophStorage.zip",
                         "MD5": "2A7763A5F982B7CA6220E66B36CA490C",
-                        "size": 613558
+                        "size": 613558,
+                        "path": "resourcepacks/CreateSophStorage.zip"
                     },
                     "path": "resourcepacks/CreateSophStorage.zip"
                 },
@@ -2833,7 +3086,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Quark%20Programmer%20Art.zip",
                         "MD5": "372D5AB8040EA8FBF0265BF9163FF206",
-                        "size": 266434
+                        "size": 266434,
+                        "path": "resourcepacks/Quark Programmer Art.zip"
                     },
                     "path": "resourcepacks/Quark Programmer Art.zip"
                 },
@@ -2844,7 +3098,8 @@
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/SPEMOTES_TRANSLATIONS_v1.1.zip",
                         "MD5": "D42BC3F95A3008D89325954DCA355221",
-                        "size": 281890
+                        "size": 281890,
+                        "path": "resourcepacks/SPEMOTES_TRANSLATIONS_v1.1.zip"
                     },
                     "path": "resourcepacks/SPEMOTES_TRANSLATIONS_v1.1.zip"
                 }
