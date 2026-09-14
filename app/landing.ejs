@@ -11,7 +11,10 @@
         <div id="right">
             <div id="rightContainer">
                 <div id="user_content">
-                    <span id="user_text"><%- lang('landing.usernamePlaceholder') %></span>
+                    <div id="user_text_wrapper">
+                        <span id="user_text"><%- lang('landing.usernamePlaceholder') %></span>
+                        <span id="playtime_text">⏱️ 0m</span>
+                    </div>
                     <div id="avatarContainer">
                         <button id="avatarOverlay"><%- lang('landing.usernameEditButton') %></button>
                     </div>
@@ -127,11 +130,6 @@
                                 <!-- Non Essential Mojang services are populated here. -->
                             </div>
                         </div>
-                    </div>
-                    <div class="bot_divider"></div>
-                    <div id="playtime_wrapper">
-                        <span class="bot_label">JOGADO</span>
-                        <span id="playtime_count">0m</span>
                     </div>
                 </div>
             </div>
