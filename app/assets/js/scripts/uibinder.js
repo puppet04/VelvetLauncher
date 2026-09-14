@@ -3,9 +3,7 @@
  * Loaded after core UI functions are initialized in uicore.js.
  */
 // Requirements
-const path = require('path')
 const { Type } = require('helios-distribution-types')
-
 const AuthManager = require('./assets/js/authmanager')
 const ConfigManager = require('./assets/js/configmanager')
 const { DistroAPI } = require('./assets/js/distromanager')
