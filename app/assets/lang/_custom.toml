@@ -1,0 +1,29 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "Velvet Launcher"
+
+[ejs.landing]
+mediaGitHubURL = "#"
+mediaXURL = "https://x.com/VelvetAbyssSMP"
+mediaInstagramURL = "https://www.instagram.com/velvetabysssmp/?utm_source=ig_web_button_share_sheet "
+mediaYouTubeURL = "https://youtube.com/@velvetabysssmp?si=jdnabOaRQa6WlUd9"
+mediaDiscordURL = "https://discord.gg/63P5psG3GN"
+
+[ejs.settings]
+sourceGithubLink = "#"
+supportLink = "#"
+
+[ejs.welcome]
+welcomeHeader = "BEM-VINDO AO VELVETABYSS"
+welcomeDescription = """Convite Real
+
+Ao(a) nobre aventureiro(a),
+
+Pelas graças da Coroa e pela vontade dos antigos fundadores, a Cidadela de Aether abre suas portas para aqueles que possuem coragem, lealdade e sabedoria para ajudar a guiá-lo.
+
+O servidor de Velvet Abyss não é apenas um lugar, mas um lar que está em constante construção. E para que ele prospere, precisamos de jogadores, dedicados e dignos de confiança.
+
+Você está sendo convidado(a) a assumir um lugar entre os moradores do reino e explorar os misterios que a cercam.
+Que esta missão seja honrada, e que a luz guie seus passos."""
+welcomeDescCTA = "Você esta muito proximo de entrar em Velvet."
