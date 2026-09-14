@@ -2936,42 +2936,6 @@
                     "path": "mods/[forge]ctov-3.4.14.jar"
                 },
                 {
-                    "id": "ComplementaryReimagined_r5.8.1.zip",
-                    "name": "ComplementaryReimagined_r5.8.1.zip",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryReimagined_r5.8.1.zip",
-                        "MD5": "8DBB914ED233D6E8183CE34EB26BEAAB",
-                        "size": 546925,
-                        "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip"
-                    },
-                    "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip"
-                },
-                {
-                    "id": "ComplementaryReimagined_r5.8.1.zip.txt",
-                    "name": "ComplementaryReimagined_r5.8.1.zip.txt",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryReimagined_r5.8.1.zip.txt",
-                        "MD5": "C12C3332BC4A23F4EA69B533B025FD18",
-                        "size": 74,
-                        "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-                    },
-                    "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-                },
-                {
-                    "id": "ComplementaryUnbound_r5.8.1.zip",
-                    "name": "ComplementaryUnbound_r5.8.1.zip",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryUnbound_r5.8.1.zip",
-                        "MD5": "0A3553109DBE689A9F76D1AEDC8F50C6",
-                        "size": 546928,
-                        "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
-                    },
-                    "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
-                },
-                {
                     "id": "Cursed_Fog_-_V1.0.8.zip",
                     "name": "Cursed Fog - V1.0.8.zip",
                     "type": "File",
@@ -2982,18 +2946,6 @@
                         "path": "shaderpacks/Cursed Fog - V1.0.8.zip"
                     },
                     "path": "shaderpacks/Cursed Fog - V1.0.8.zip"
-                },
-                {
-                    "id": "_0EUPHORIA_PATCHES_ERROR_LOGS.txt",
-                    "name": "_0EUPHORIA_PATCHES_ERROR_LOGS.txt",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/_0EUPHORIA_PATCHES_ERROR_LOGS.txt",
-                        "MD5": "DBEB313D8D9FCBAC2A4C06F4FAB601D8",
-                        "size": 2970,
-                        "path": "shaderpacks/_0EUPHORIA_PATCHES_ERROR_LOGS.txt"
-                    },
-                    "path": "shaderpacks/_0EUPHORIA_PATCHES_ERROR_LOGS.txt"
                 },
                 {
                     "id": "CIA-AC-Compat-v1.1.0-1.20.1.zip",
@@ -3078,6 +3030,54 @@
                         "path": "resourcepacks/SPEMOTES_TRANSLATIONS_v1.1.zip"
                     },
                     "path": "resourcepacks/SPEMOTES_TRANSLATIONS_v1.1.zip"
+                },
+                {
+                    "id": "ComplementaryReimagined_r5.9.1.zip",
+                    "name": "ComplementaryReimagined_r5.9.1.zip",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryReimagined_r5.9.1.zip",
+                        "MD5": "5CD436E5BEBC013FA1781B3CD6A9AAD6",
+                        "size": 552945,
+                        "path": "shaderpacks/ComplementaryReimagined_r5.9.1.zip"
+                    },
+                    "path": "shaderpacks/ComplementaryReimagined_r5.9.1.zip"
+                },
+                {
+                    "id": "ComplementaryUnbound_r5.9.1.zip",
+                    "name": "ComplementaryUnbound_r5.9.1.zip",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryUnbound_r5.9.1.zip",
+                        "MD5": "AF14F654AE0F496D0AAA2DEAC0FAFF65",
+                        "size": 552949,
+                        "path": "shaderpacks/ComplementaryUnbound_r5.9.1.zip"
+                    },
+                    "path": "shaderpacks/ComplementaryUnbound_r5.9.1.zip"
+                },
+                {
+                    "id": "ComplementaryReimagined_r5.9.1___EuphoriaPatches_1.10.1.txt",
+                    "name": "ComplementaryReimagined_r5.9.1 + EuphoriaPatches_1.10.1.txt",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryReimagined_r5.9.1%20%2B%20EuphoriaPatches_1.10.1.txt",
+                        "MD5": "2B79A077254BA4671E18E65D1723C306",
+                        "size": 171,
+                        "path": "shaderpacks/ComplementaryReimagined_r5.9.1 + EuphoriaPatches_1.10.1.txt"
+                    },
+                    "path": "shaderpacks/ComplementaryReimagined_r5.9.1 + EuphoriaPatches_1.10.1.txt"
+                },
+                {
+                    "id": "ComplementaryUnbound_r5.9.1___EuphoriaPatches_1.10.1.txt",
+                    "name": "ComplementaryUnbound_r5.9.1 + EuphoriaPatches_1.10.1.txt",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryUnbound_r5.9.1%20%2B%20EuphoriaPatches_1.10.1.txt",
+                        "MD5": "2B79A077254BA4671E18E65D1723C306",
+                        "size": 171,
+                        "path": "shaderpacks/ComplementaryUnbound_r5.9.1 + EuphoriaPatches_1.10.1.txt"
+                    },
+                    "path": "shaderpacks/ComplementaryUnbound_r5.9.1 + EuphoriaPatches_1.10.1.txt"
                 }
             ]
         }
