@@ -7,7 +7,7 @@
             "id": "velvet",
             "name": "Velvet Server",
             "description": "Servidor oficial do VelvetLauncher",
-            "icon": "",
+            "icon": "https://raw.githubusercontent.com/puppet04/VelvetLauncher/main/app/assets/images/logo.png",
             "version": "1.0.0",
             "address": "velvet.enxada.host",
             "minecraftVersion": "1.20.1",
