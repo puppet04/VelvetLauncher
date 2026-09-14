@@ -65,7 +65,11 @@ async function showMainUI(data) {
     }
 
     await prepareSettings(true)
-    updateSelectedServer(data.getServerById(ConfigManager.getSelectedServer()))
+    let initialServer = data.getServerById(ConfigManager.getSelectedServer())
+    if(!initialServer){
+        initialServer = data.getMainServer() || data.servers[0]
+    }
+    updateSelectedServer(initialServer)
     refreshServerStatus()
     setTimeout(() => {
         document.getElementById('frameBar').style.backgroundColor = 'rgba(0, 0, 0, 0.5)'
@@ -133,7 +137,11 @@ function showFatalStartupError() {
  * @param {Object} data The distro index object.
  */
 function onDistroRefresh(data) {
-    updateSelectedServer(data.getServerById(ConfigManager.getSelectedServer()))
+    let serv = data.getServerById(ConfigManager.getSelectedServer())
+    if(!serv){
+        serv = data.getMainServer() || data.servers[0]
+    }
+    updateSelectedServer(serv)
     refreshServerStatus()
     initNews()
     syncModConfigurations(data)
