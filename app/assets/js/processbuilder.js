@@ -493,11 +493,14 @@ class ProcessBuilder {
 
         if(this.modManifest.arguments.jvm != null) {
             for(const argStr of this.modManifest.arguments.jvm) {
-                args.push(argStr
+                let formatted = argStr
                     .replaceAll('${library_directory}', this.libPath)
                     .replaceAll('${classpath_separator}', ProcessBuilder.getClasspathSeparator())
                     .replaceAll('${version_name}', this.modManifest.id)
-                )
+                if(formatted.startsWith('-DignoreList=')) {
+                    formatted += ',client,client-'
+                }
+                args.push(formatted)
             }
         }
 
@@ -782,6 +785,12 @@ class ProcessBuilder {
         cpArgs = cpArgs.concat(Object.values(finalLibs))
 
         this._processClassPathList(cpArgs)
+
+        if(mcVersionAtLeast('1.17', this.server.rawServer.minecraftVersion) && !this.usingFabricLoader) {
+            // For Forge 1.17+, client-srg is discovered dynamically by MinecraftLocator
+            // and must NOT be on the classpath to prevent duplicate 'client' and 'minecraft' modules
+            cpArgs = cpArgs.filter(jar => !jar.includes('client-1.20.1') && !jar.endsWith('-srg.jar'))
+        }
 
         return cpArgs
     }
