@@ -23,11 +23,11 @@
                 {
                     "id": "net.minecraftforge:forge:1.20.1-47.4.10",
                     "name": "Minecraft Forge",
-                    "type": "ForgeHosted",
+                    "type": "Forge",
                     "artifact": {
-                        "size": 2777708,
-                        "MD5": "f202df135ad32fef7e7c42e957c142af",
-                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
+                        "size": 6078070,
+                        "MD5": "406a49ed803ce46d4cba836c4caac9d5",
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar"
                     },
                     "subModules": [
                         {
