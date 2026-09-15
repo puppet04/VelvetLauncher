@@ -48,7 +48,7 @@
                     "name": "[1.20.1] SecurityCraft v1.10.2.1.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/%5B1.20.1%5D%20SecurityCraft%20v1.10.2.1.jar",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/1.20.1.SecurityCraft.v1.10.2.1.jar",
                         "MD5": "07C5B4516075755002D7AF62EB4F8FDD",
                         "size": 4995865,
                         "path": "mods/[1.20.1] SecurityCraft v1.10.2.1.jar"
@@ -60,7 +60,7 @@
                     "name": "[forge]ctov-3.4.14.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/%5Bforge%5Dctov-3.4.14.jar",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/forge.ctov-3.4.14.jar",
                         "MD5": "382D0881DB0828470C219DD5D0789132",
                         "size": 6772753,
                         "path": "mods/[forge]ctov-3.4.14.jar"
@@ -324,7 +324,7 @@
                     "name": "born_in_chaos_[Forge]1.20.1_1.7.5.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/born_in_chaos_%5BForge%5D1.20.1_1.7.5.jar",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/born_in_chaos_.Forge.1.20.1_1.7.5.jar",
                         "MD5": "3D89CD8DA1D470208E0E5456727AC242",
                         "size": 11839865,
                         "path": "mods/born_in_chaos_[Forge]1.20.1_1.7.5.jar"
@@ -408,7 +408,7 @@
                     "name": "cluttered-[Forge]-3.0.3-1.20.1.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cluttered-%5BForge%5D-3.0.3-1.20.1.jar",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cluttered-.Forge.-3.0.3-1.20.1.jar",
                         "MD5": "37F5585D706CDA153B34E4C523881FDA",
                         "size": 5551679,
                         "path": "mods/cluttered-[Forge]-3.0.3-1.20.1.jar"
@@ -2400,7 +2400,7 @@
                     "name": "smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/smoothboot.reloaded.-mc1.20.1-0.0.4.jar",
                         "MD5": "C8CD5AE14D99796FD92C95A353E96211",
                         "size": 41044,
                         "path": "mods/smoothboot(reloaded)-mc1.20.1-0.0.4.jar"
@@ -2592,7 +2592,7 @@
                     "name": "The_Graveyard_3.1_(FORGE)_for_1.20.1.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/The_Graveyard_3.1_.FORGE._for_1.20.1.jar",
                         "MD5": "7A27B8747306BDEE0857B50E11A9850E",
                         "size": 10298153,
                         "path": "mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar"
@@ -2916,7 +2916,7 @@
                     "name": "Create Immersive Aircrafts Resource Pack 1.21.1 - 3.0.zip",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Create%20Immersive%20Aircrafts%20Resource%20Pack%201.21.1%20-%203.0.zip",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Create.Immersive.Aircrafts.Resource.Pack.1.21.1.-.3.0.zip",
                         "MD5": "26214813D60836A101C5FD4813280020",
                         "size": 190790,
                         "path": "resourcepacks/Create Immersive Aircrafts Resource Pack 1.21.1 - 3.0.zip"
@@ -2928,7 +2928,7 @@
                     "name": "Create Tweaks Compats.zip",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Create%20Tweaks%20Compats.zip",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Create.Tweaks.Compats.zip",
                         "MD5": "CADD319F09173AD3B8E782A5A4220883",
                         "size": 306314,
                         "path": "resourcepacks/Create Tweaks Compats.zip"
@@ -2964,7 +2964,7 @@
                     "name": "Quark Programmer Art.zip",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Quark%20Programmer%20Art.zip",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Quark.Programmer.Art.zip",
                         "MD5": "372D5AB8040EA8FBF0265BF9163FF206",
                         "size": 266434,
                         "path": "resourcepacks/Quark Programmer Art.zip"
@@ -2988,7 +2988,7 @@
                     "name": "ComplementaryReimagined_r5.9.1 + EuphoriaPatches_1.10.1.txt",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryReimagined_r5.9.1%20%2B%20EuphoriaPatches_1.10.1.txt",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryReimagined_r5.9.1.%2B.EuphoriaPatches_1.10.1.txt",
                         "MD5": "2B79A077254BA4671E18E65D1723C306",
                         "size": 171,
                         "path": "shaderpacks/ComplementaryReimagined_r5.9.1 + EuphoriaPatches_1.10.1.txt"
@@ -3012,7 +3012,7 @@
                     "name": "ComplementaryUnbound_r5.9.1 + EuphoriaPatches_1.10.1.txt",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryUnbound_r5.9.1%20%2B%20EuphoriaPatches_1.10.1.txt",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryUnbound_r5.9.1.%2B.EuphoriaPatches_1.10.1.txt",
                         "MD5": "2B79A077254BA4671E18E65D1723C306",
                         "size": 171,
                         "path": "shaderpacks/ComplementaryUnbound_r5.9.1 + EuphoriaPatches_1.10.1.txt"
@@ -3036,7 +3036,7 @@
                     "name": "Cursed Fog - V1.0.8.zip",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Cursed%20Fog%20-%20V1.0.8.zip",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Cursed.Fog.-.V1.0.8.zip",
                         "MD5": "CCF9A131238BFBD236D5EC3D81EA3DA6",
                         "size": 67730,
                         "path": "shaderpacks/Cursed Fog - V1.0.8.zip"
