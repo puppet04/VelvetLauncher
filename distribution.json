@@ -1,5 +1,5 @@
 {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -398,6 +398,16 @@
                                 "size": 4999,
                                 "MD5": "13e469f44fc6fff975688c6b18f8e9a1",
                                 "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mclanguage-1.20.1-47.4.10.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:forge:1.20.1-47.4.10:universal",
+                            "name": "Minecraft Forge (forge-1.20.1-47.4.10-universal.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2777708,
+                                "MD5": "f202df135ad32fef7e7c42e957c142af",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/forge-1.20.1-47.4.10-universal.jar"
                             }
                         }
                     ]
