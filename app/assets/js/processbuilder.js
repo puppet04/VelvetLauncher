@@ -60,7 +60,7 @@ class ProcessBuilder {
                             const classifier = parts[3] || '';
                             const ext = '.jar';
                             
-                            const realArtifact = fakeArtifact.split('-')[0];
+                            const realArtifact = fakeArtifact.split('_')[0];
                             
                             const fakeDir = path.join(libPath, group.replace(/\./g, '/'), fakeArtifact, version);
                             const fakeFile = path.join(fakeDir, fakeArtifact + '-' + version + (classifier ? '-' + classifier : '') + ext);
