@@ -15,7 +15,7 @@ newsButton = "NOTICIAS"
 launchButton = "JOGAR"
 launchButtonPlaceholder = "&#8226; Nenhum Servidor Selecionado"
 launchDetails = "Por favor, aguarde.."
-newsNavigationStatus = "{currentPage} of {totalPages}"
+newsNavigationStatus = "{currentPage} de {totalPages}"
 newsErrorLoadSpan = "Procurando por Noticias.."
 newsErrorFailedSpan = "Falha ao carregar Noticias"
 newsErrorRetryButton = "Tente novamente"
@@ -99,13 +99,13 @@ javaExecSelButtonText = "Escolher Arquivo"
 javaExecDesc = "O Executavel do Java é Validado Antes do Carregamento do Jogo."
 javaPathDesc = "O Caminho deve terminar com <strong>{pathSuffix}</strong>."
 jvmOptsTitle = "Opções Adicionais de JVM"
-jvmOptsDesc = "Opções para serem fornecidas ao JVM em tempo de execução. <em>-Xms</em> and <em>-Xmx</em> should not be included."
+jvmOptsDesc = "Opções para serem fornecidas à JVM em tempo de execução. <em>-Xms</em> e <em>-Xmx</em> não devem ser incluídos."
 launcherTabHeaderText = "Configurações do Launcher"
 launcherTabHeaderDesc = "Opções relacionadas ao launcher."
 allowPrereleaseTitle = "Permitir atualizações pré-lançamento."
 allowPrereleaseDesc = "Pre Lançamentos Incluem Novos Recursos que Podem Não ter Sido Totalmente Testados ou Integrados.<br>Isso Sempre Será Verdadeiro Se Você Estiver Usando uma Versão Pré-lançamento."
 dataDirectoryTitle = "Diretório de Dados"
-selectDataDirectory = "Slecionar Diretorio de Dados"
+selectDataDirectory = "Selecionar Diretório de Dados"
 chooseFolder = "Escolher Pasta"
 dataDirectoryDesc = "Todos os Arquivos de Jogo e Instalações java Serão Guardados no Diretório de Dados.<br>Captura de Tela e Mundos são Guardados na Pasta de Instancia para a Configuração do Servidor Correspondente."
 aboutTabHeaderText = "Sobre"
@@ -143,7 +143,7 @@ microsoftLogoutTitle = "Logout com Microsoft"
 
 [js.login]
 login = "LOGIN"
-loggingIn = "LOGGING IN"
+loggingIn = "CONECTANDO..."
 success = "SUCESSO"
 tryAgain = "Tente Novamente"
 
@@ -153,10 +153,10 @@ requiredValue = "* Requerido"
 
 [js.login.error.unknown]
 title = "Um Erro Inesperado Ocorreu Durante o Login"
-desc = "Um Erro Desconheci Aconteceu. Olhe o Console para mais Detalhes."
+desc = "Um Erro Desconhecido Ocorreu. Olhe o Console para mais Detalhes."
 
 [js.landing.launch]
-pleaseWait = "Porfavor Aguarde.."
+pleaseWait = "Por favor Aguarde.."
 failureTitle = "Erro Durante a Inicialização"
 failureText = "Veja o Console (CTRL + Shift + i) para mais Detalhes."
 okay = "Okay"
@@ -241,7 +241,7 @@ selectedButton = "Conta Selecionada &#10004;"
 
 [js.settings.authAccountLogout]
 lastAccountWarningTitle = "Cuidado<br>Essa é sua Ultima Conta"
-lastAccountWarningMessage = "Para Usar o Launcer Você Precisa estar Conectado a pelo menos uma Conta . Você Precisara Logar Depois.<br><br>Você tem certeza que quer Deslogar?"
+lastAccountWarningMessage = "Para Usar o Launcher Você Precisa estar Conectado a pelo menos uma Conta. Você Precisará Logar Depois.<br><br>Você tem certeza que quer Deslogar?"
 confirmButton = "Tenho Certeza"
 cancelButton = "Cancelar"
 
@@ -256,7 +256,7 @@ logout = "Deslogar"
 removeButton = "Remover"
 deleteFailedTitle = "Falha ao Deletar<br>Drop-in Mod {fullName}"
 deleteFailedMessage = "Tenha Certeza que o Arquivo Não está em Uso e Tente Novamente."
-failedToggleTitle = "Falha em Toggle<br>Um ou Mais Drop-in Mods"
+failedToggleTitle = "Falha ao Alternar<br>Um ou Mais Drop-in Mods"
 okButton = "Okay"
 
 [js.settings.serverListing]
@@ -277,7 +277,7 @@ releaseNotesFailed = "Falha ao Carregar Notas de Versão."
 newReleaseTitle = "Novas Atualizações Disponiveis"
 newPreReleaseTitle = "Novas Atualizações de Pré-Versão Disponiveis"
 downloadingButton = "Baixando.."
-downloadButton = 'Baixando do GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Feche o Launcer e rode o .dmg para atualizar.</span>'
+downloadButton = 'Baixando do GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Feche o Launcher e rode o .dmg para atualizar.</span>'
 latestVersionTitle = "Você está rodando a versão mais recente"
 checkForUpdatesButton = "Procurar por Updates"
 checkingForUpdatesButton = "Procurando por Updates.."
@@ -289,7 +289,7 @@ okButton = "OK"
 
 [js.uibinder.startup]
 fatalErrorTitle = "Erro Fatal: Não foi possível carregar o índice de distribuição."
-fatalErrorMessage = "Não foi possível estabelecer uma conexão com nossos servidores para baixar o índice de distribuição. Nenhuma cópia local estava disponível para carregar. <br><br>The distribution index is an essential file which provides the latest server information. The launcher is unable to start without it. Ensure you are connected to the internet and relaunch the application."
+fatalErrorMessage = "Não foi possível estabelecer uma conexão com nossos servidores para baixar o índice de distribuição. Nenhuma cópia local estava disponível para carregar.<br><br>O índice de distribuição é um arquivo essencial que fornece as informações mais recentes do servidor. O launcher não pode iniciar sem ele. Verifique se você está conectado à internet e reinicie o aplicativo."
 closeButton = "Fechar"
 
 [js.uibinder.validateAccount]
