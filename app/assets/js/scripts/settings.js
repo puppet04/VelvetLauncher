@@ -1401,10 +1401,17 @@ const settingsAboutChangelogTitle  = settingsTabAbout.getElementsByClassName('se
 const settingsAboutChangelogText   = settingsTabAbout.getElementsByClassName('settingsChangelogText')[0]
 const settingsAboutChangelogButton = settingsTabAbout.getElementsByClassName('settingsChangelogButton')[0]
 
-// Bind the devtools toggle button.
-document.getElementById('settingsAboutDevToolsButton').onclick = (e) => {
-    let window = remote.getCurrentWindow()
-    window.toggleDevTools()
+// Bind the devtools toggle button (visible only in Dev mode).
+const devToolsBtn = document.getElementById('settingsAboutDevToolsButton')
+if (devToolsBtn) {
+    if (!isDev) {
+        devToolsBtn.style.display = 'none'
+    } else {
+        devToolsBtn.onclick = (e) => {
+            let window = remote.getCurrentWindow()
+            window.toggleDevTools()
+        }
+    }
 }
 
 /**
