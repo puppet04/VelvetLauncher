@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path');
 
 const targetFile = path.join(__dirname, '..', 'node_modules', 'helios-core', 'dist', 'mojang', 'net', 'ServerStatusAPI.js');
-
 if (fs.existsSync(targetFile)) {
     let content = fs.readFileSync(targetFile, 'utf8');
     if (content.includes('const maxTries = 5;')) {
@@ -13,5 +12,17 @@ if (fs.existsSync(targetFile)) {
         console.log('[Patch] Server ping maxTries already patched or not found.');
     }
 } else {
-    console.log('[Patch] Target file not found, skipping patch.');
+    console.log('[Patch] Target file not found, skipping ping patch.');
+}
+
+const dlEngineFile = path.join(__dirname, '..', 'node_modules', 'helios-core', 'dist', 'dl', 'DownloadEngine.js');
+if (fs.existsSync(dlEngineFile)) {
+    let content = fs.readFileSync(dlEngineFile, 'utf8');
+    if (content.includes('fastq.promise(wrap, 25)')) {
+        content = content.replace('fastq.promise(wrap, 25)', 'fastq.promise(wrap, 5)');
+        fs.writeFileSync(dlEngineFile, content, 'utf8');
+        console.log('[Patch] Reverted DownloadEngine concurrency to 5 to prevent download failures.');
+    } else {
+        console.log('[Patch] DownloadEngine concurrency already safe or not found.');
+    }
 }
