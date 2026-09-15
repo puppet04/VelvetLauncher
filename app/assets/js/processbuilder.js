@@ -95,6 +95,7 @@ class ProcessBuilder {
 
         fs.ensureDirSync(this.gameDir)
         this._ensureServersDat()
+        this._ensureDefaultConfigs()
         const tempNativePath = path.join(os.tmpdir(), ConfigManager.getTempNativeFolder(), crypto.pseudoRandomBytes(16).toString('hex'))
         process.throwDeprecation = true
         this.setupLiteLoader()
@@ -189,6 +190,107 @@ class ProcessBuilder {
             }
         } catch (e) {
             logger.warn('Could not ensure default servers.dat', e)
+        }
+    }
+
+    /**
+     * Ensure critical mod configs exist (like entity_texture_features.json) so they do not crash
+     * on fresh installs due to early initialization bugs.
+     */
+    _ensureDefaultConfigs(){
+        try {
+            const configDir = path.join(this.gameDir, 'config')
+            fs.ensureDirSync(configDir)
+            const etfPath = path.join(configDir, 'entity_texture_features.json')
+            if(!fs.existsSync(etfPath)){
+                const defaultEtf = {
+                    "optifine_limitRandomVariantGapsBy10": false,
+                    "optifine_allowWeirdSkipsInTrueRandom": true,
+                    "optifine_preventBaseTextureInOptifineDirectory": true,
+                    "illegalPathSupportMode": "None",
+                    "enableCustomTextures": true,
+                    "enableCustomBlockEntities": true,
+                    "textureUpdateFrequency_V2": "Fast",
+                    "enableEmissiveTextures": true,
+                    "enableEnchantedTextures": true,
+                    "enableEmissiveBlockEntities": true,
+                    "emissiveRenderMode": "DULL",
+                    "alwaysCheckVanillaEmissiveSuffix": true,
+                    "enableArmorAndTrims": true,
+                    "skinFeaturesEnabled": true,
+                    "skinTransparencyMode": "ETF_SKINS_ONLY",
+                    "skinTransparencyInExtraPixels": true,
+                    "skinFeaturesEnableTransparency": true,
+                    "skinFeaturesEnableFullTransparency": false,
+                    "tryETFTransparencyForAllSkins": false,
+                    "enableEnemyTeamPlayersSkinFeatures": true,
+                    "enableBlinking": true,
+                    "blinkFrequency": 150,
+                    "blinkLength": 1,
+                    "advanced_IncreaseCacheSizeModifier": 1.0,
+                    "debugLoggingMode": "None",
+                    "logTextureDataInitialization": false,
+                    "hideConfigButton": false,
+                    "stackDebugPrinting": false,
+                    "configButtonLoc": "BOTTOM_RIGHT",
+                    "disableVanillaDirectoryVariantTextures": false,
+                    "use3DSkinLayerPatch": true,
+                    "enableFullBodyWardenTextures": true,
+                    "entityEmissiveOverrides": {},
+                    "propertiesDisabled": [],
+                    "propertyInvertUpdatingOverrides": [],
+                    "entityRandomOverrides": {},
+                    "entityEmissiveBrightOverrides": {},
+                    "entityRenderLayerOverrides": {},
+                    "entityLightOverrides": {}
+                }
+                fs.writeFileSync(etfPath, JSON.stringify(defaultEtf, null, 2))
+                logger.info('Auto-generated default entity_texture_features.json to prevent early init crash')
+            }
+
+            const emfPath = path.join(configDir, 'entity_model_features.json')
+            if(!fs.existsSync(emfPath)){
+                const defaultEmf = {
+                    "allowedCEM": "ALL",
+                    "logModelCreationData": false,
+                    "debugOnRightClick": false,
+                    "renderModeChoice": "NORMAL",
+                    "vanillaModelHologramRenderMode_2": "OFF",
+                    "modelExportMode": "NONE",
+                    "automaticModelExporting": false,
+                    "attemptPhysicsModPatch_2": "CUSTOM",
+                    "modelUpdateFrequency": "Average",
+                    "entityRenderModeOverrides": {},
+                    "entityPhysicsModPatchOverrides": {},
+                    "entityVanillaHologramOverrides": {},
+                    "modelsNamesDisabled": [],
+                    "allowEBEModConfigModify": true,
+                    "animationLODDistance": 20,
+                    "retainDetailOnLowFps": true,
+                    "retainDetailOnLargerMobs": true,
+                    "animationFrameSkipDuringIrisShadowPass": true,
+                    "preventFirstPersonHandAnimating": false,
+                    "onlyClientPlayerModel": false,
+                    "doubleChestAnimFix": true,
+                    "enforceOptifineVariationRequiresDefaultModel": false,
+                    "enforceOptifineVariationRequiresDefaultModel_v2": false,
+                    "resetPlayerModelEachRender": true,
+                    "resetPlayerModelEachRender_v2": true,
+                    "onlyDebugRenderOnHover": false,
+                    "enforceOptifineSubFoldersVariantOnly": false,
+                    "enforceOptiFineAnimSyntaxLimits": true,
+                    "allowOptifineFallbackProperties": true,
+                    "enforceOptiFineFloorUVs": true,
+                    "showReloadErrorToast": true,
+                    "exportRotations": false,
+                    "asmMaths": true,
+                    "logASM": false
+                }
+                fs.writeFileSync(emfPath, JSON.stringify(defaultEmf, null, 2))
+                logger.info('Auto-generated default entity_model_features.json')
+            }
+        } catch (e) {
+            logger.warn('Could not ensure default configs', e)
         }
     }
 
