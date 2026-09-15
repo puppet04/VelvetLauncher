@@ -45,6 +45,16 @@ class ProcessBuilder {
      * Convienence method to run the functions typically used to build a process.
      */
     build(){
+        // Ensure forge universal jar exists
+        try {
+            const fsSync = require('fs-extra');
+            const forgeDir = path.join(this.commonDir, 'libraries', 'net', 'minecraftforge', 'forge', '1.20.1-47.4.10');
+            const pJar = path.join(forgeDir, 'forge-1.20.1-47.4.10.jar');
+            const uJar = path.join(forgeDir, 'forge-1.20.1-47.4.10-universal.jar');
+            if (fsSync.existsSync(pJar) && !fsSync.existsSync(uJar)) {
+                fsSync.copyFileSync(pJar, uJar);
+            }
+        } catch(e) {}
         // INJECTED: FIX DUPLICATES
         try {
             const fsSync = require('fs-extra');
