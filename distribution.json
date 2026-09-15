@@ -3332,6 +3332,18 @@
                         "path": "shaderpacks/Cursed Fog - V1.0.8.zip"
                     },
                     "path": "shaderpacks/Cursed Fog - V1.0.8.zip"
+                },
+                {
+                    "id": "irons_restrictions-1.20.1-1.4.0.jar",
+                    "name": "irons_restrictions-1.20.1-1.4.0.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/irons_restrictions-1.20.1-1.4.0.jar",
+                        "MD5": "d3e5364d96bb58196de304eb8e62ddfc",
+                        "size": 874344,
+                        "path": "mods/irons_restrictions-1.20.1-1.4.0.jar"
+                    },
+                    "path": "mods/irons_restrictions-1.20.1-1.4.0.jar"
                 }
             ]
         }
