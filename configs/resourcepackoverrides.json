@@ -1,0 +1,33 @@
+﻿{
+  "schema_version": 2,
+  "default_packs": [
+    "vanilla",
+    "mod_resources",
+    "file/SPEMOTES_TRANSLATIONS_v1.1.zip",
+    "file/CIA-AC-Compat-v1.1.0-1.20.1.zip",
+    "file/Create Immersive Aircrafts Resource Pack 1.21.1 - 3.0.zip",
+    "file/Create Tweaks Compats.zip",
+    "file/CreateSophBackpacks.zip",
+    "file/CreateSophStorage.zip"
+  ],
+  "pack_overrides": {
+    "file/CIA-AC-Compat-v1.1.0-1.20.1.zip": {
+      "force_compatible": true
+    },
+    "file/Create Immersive Aircrafts Resource Pack 1.21.1 - 3.0.zip": {
+      "force_compatible": true
+    },
+    "file/Create Tweaks Compats.zip": {
+      "force_compatible": true
+    },
+    "file/CreateSophBackpacks.zip": {
+      "force_compatible": true
+    },
+    "file/CreateSophStorage.zip": {
+      "force_compatible": true
+    },
+    "file/SPEMOTES_TRANSLATIONS_v1.1.zip": {
+      "force_compatible": true
+    }
+  }
+}
