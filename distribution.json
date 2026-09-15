@@ -23,11 +23,11 @@
                 {
                     "id": "net.minecraftforge:forge:1.20.1-47.4.10",
                     "name": "Minecraft Forge",
-                    "type": "Forge",
+                    "type": "ForgeHosted",
                     "artifact": {
-                        "size": 6078070,
-                        "MD5": "406a49ed803ce46d4cba836c4caac9d5",
-                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar"
+                        "size": 2777708,
+                        "MD5": "f202df135ad32fef7e7c42e957c142af",
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
                     },
                     "subModules": [
                         {
@@ -358,6 +358,386 @@
                                 "size": 4848366,
                                 "MD5": "5c4d8867f3152f9c397859436a06321c",
                                 "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/forge-1.20.1-47.4.10-client.jar"
+                            }
+                        },
+                        {
+                            "id": "com.github.jponge:lzma-java:1.3",
+                            "name": "Missing Library (lzma-java-1.3.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 51041,
+                                "MD5": "839a86cf1533e75121d574317de78692",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/lzma-java-1.3.jar"
+                            }
+                        },
+                        {
+                            "id": "com.google.code.findbugs:jsr305:3.0.2",
+                            "name": "Missing Library (jsr305-3.0.2.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 19936,
+                                "MD5": "dd83accb899363c32b07d7a1b2e4ce40",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/jsr305-3.0.2.jar"
+                            }
+                        },
+                        {
+                            "id": "com.google.code.gson:gson:2.10.1",
+                            "name": "Missing Library (gson-2.10.1.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 283367,
+                                "MD5": "df6097815738cb31fc56391553210843",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/gson-2.10.1.jar"
+                            }
+                        },
+                        {
+                            "id": "com.google.errorprone:error_prone_annotations:2.1.3",
+                            "name": "Missing Library (error_prone_annotations-2.1.3.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 13704,
+                                "MD5": "97504b36cf871722d81a4b9e114f2a16",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/error_prone_annotations-2.1.3.jar"
+                            }
+                        },
+                        {
+                            "id": "com.google.guava:guava:25.1-jre",
+                            "name": "Missing Library (guava-25.1-jre.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2734339,
+                                "MD5": "da3838847d109ac435f0d3ed4ae1c794",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/guava-25.1-jre.jar"
+                            }
+                        },
+                        {
+                            "id": "com.google.j2objc:j2objc-annotations:1.1",
+                            "name": "Missing Library (j2objc-annotations-1.1.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 8782,
+                                "MD5": "49ae3204bb0bb9b2ac77062641f4a6d7",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/j2objc-annotations-1.1.jar"
+                            }
+                        },
+                        {
+                            "id": "com.nothome:javaxdelta:2.0.1",
+                            "name": "Missing Library (javaxdelta-2.0.1.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 38995,
+                                "MD5": "02058f3edd701db5a5230a427b9e8979",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/javaxdelta-2.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "commons-io:commons-io:2.4",
+                            "name": "Missing Library (commons-io-2.4.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 185140,
+                                "MD5": "7f97854dc04c119d461fed14f5d8bb96",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/commons-io-2.4.jar"
+                            }
+                        },
+                        {
+                            "id": "de.siegmar:fastcsv:2.2.2",
+                            "name": "Missing Library (fastcsv-2.2.2.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 32060,
+                                "MD5": "2f854d51529441416dac789e84b3d607",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fastcsv-2.2.2.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraft:client:1.20.1-20230612.114412",
+                            "name": "Missing Library (client-1.20.1-20230612.114412-extra.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 10436626,
+                                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/client-1.20.1-20230612.114412-extra.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraft:client:1.20.1-20230612.114412",
+                            "name": "Missing Library (client-1.20.1-20230612.114412-slim.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 12592249,
+                                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/client-1.20.1-20230612.114412-slim.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraft:client:1.20.1-20230612.114412",
+                            "name": "Missing Library (client-1.20.1-20230612.114412-srg.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 18842082,
+                                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/client-1.20.1-20230612.114412-srg.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:binarypatcher:1.1.1",
+                            "name": "Missing Library (binarypatcher-1.1.1.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 21892,
+                                "MD5": "499620533414c0aa11c105615f3cf7f6",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/binarypatcher-1.1.1.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:fmlcore:1.20.1-47.4.10",
+                            "name": "Missing Library (fmlcore-1.20.1-47.4.10.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 118913,
+                                "MD5": "340eb6124a32dab3bfaea8f1b2f3dd02",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fmlcore-1.20.1-47.4.10.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:forge:1.20.1-47.4.10",
+                            "name": "Missing Library (forge-1.20.1-47.4.10-client.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 4848366,
+                                "MD5": "5c4d8867f3152f9c397859436a06321c",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/forge-1.20.1-47.4.10-client.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:forge:1.20.1-47.4.10",
+                            "name": "Missing Library (forge-1.20.1-47.4.10-universal.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2777708,
+                                "MD5": "f202df135ad32fef7e7c42e957c142af",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/forge-1.20.1-47.4.10-universal.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:ForgeAutoRenamingTool:0.1.22",
+                            "name": "Missing Library (ForgeAutoRenamingTool-0.1.22-all.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 509933,
+                                "MD5": "bb899ef4ba6e95b45c2e10eed4d126aa",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ForgeAutoRenamingTool-0.1.22-all.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:installertools:1.4.1",
+                            "name": "Missing Library (installertools-1.4.1.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 87401,
+                                "MD5": "6330672c5b8a9a955db6e0f5c0a94e95",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/installertools-1.4.1.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:jarsplitter:1.1.4",
+                            "name": "Missing Library (jarsplitter-1.1.4.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 7405,
+                                "MD5": "ecb9d6b0438948bef9bc0209aad4e917",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/jarsplitter-1.1.4.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.10",
+                            "name": "Missing Library (javafmllanguage-1.20.1-47.4.10.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 16854,
+                                "MD5": "1193446859d078e83d9fcc4d8a39f44d",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/javafmllanguage-1.20.1-47.4.10.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.10",
+                            "name": "Missing Library (lowcodelanguage-1.20.1-47.4.10.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 7398,
+                                "MD5": "39c68f8be018557068512f16cf3f97fa",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/lowcodelanguage-1.20.1-47.4.10.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:mclanguage:1.20.1-47.4.10",
+                            "name": "Missing Library (mclanguage-1.20.1-47.4.10.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 4999,
+                                "MD5": "13e469f44fc6fff975688c6b18f8e9a1",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mclanguage-1.20.1-47.4.10.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:mergetool:1.1.5",
+                            "name": "Missing Library (mergetool-1.1.5-api.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2572,
+                                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mergetool-1.1.5-api.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:srgutils:0.4.3",
+                            "name": "Missing Library (srgutils-0.4.3.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 69020,
+                                "MD5": "3b588ea9fd2bfaa3ab6a75779f16ad93",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/srgutils-0.4.3.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:srgutils:0.4.9",
+                            "name": "Missing Library (srgutils-0.4.9.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 69076,
+                                "MD5": "44a2e52169cd0d89f9c727839aeee639",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/srgutils-0.4.9.jar"
+                            }
+                        },
+                        {
+                            "id": "net.minecraftforge:srgutils:0.5.6",
+                            "name": "Missing Library (srgutils-0.5.6.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 72082,
+                                "MD5": "f2381e8d3cea98a4d541cbee8f0b3f64",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/srgutils-0.5.6.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+                            "name": "Missing Library (jopt-simple-5.0.4.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 78146,
+                                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/jopt-simple-5.0.4.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.jopt-simple:jopt-simple:6.0-alpha-3",
+                            "name": "Missing Library (jopt-simple-6.0-alpha-3.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 79368,
+                                "MD5": "8142d468077a93158112d42db5c170e5",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/jopt-simple-6.0-alpha-3.jar"
+                            }
+                        },
+                        {
+                            "id": "org.checkerframework:checker-qual:2.0.0",
+                            "name": "Missing Library (checker-qual-2.0.0.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 343222,
+                                "MD5": "94fe1af76c10006fbc5b988180b71bf0",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/checker-qual-2.0.0.jar"
+                            }
+                        },
+                        {
+                            "id": "org.codehaus.mojo:animal-sniffer-annotations:1.14",
+                            "name": "Missing Library (animal-sniffer-annotations-1.14.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 3482,
+                                "MD5": "9d42e46845c874f1710a9f6a741f6c14",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/animal-sniffer-annotations-1.14.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm:9.2",
+                            "name": "Missing Library (asm-9.2.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 122004,
+                                "MD5": "8f184dce9b1bedc675d4a3640d43ddf0",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/asm-9.2.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm:9.6",
+                            "name": "Missing Library (asm-9.6.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 123598,
+                                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/asm-9.6.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-analysis:9.2",
+                            "name": "Missing Library (asm-analysis-9.2.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 34257,
+                                "MD5": "e62aa59de96ae29c690c3521ea4b6359",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/asm-analysis-9.2.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-commons:9.2",
+                            "name": "Missing Library (asm-commons-9.2.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 72642,
+                                "MD5": "3eb09775e1076eb0a085a4592faebc2a",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/asm-commons-9.2.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-commons:9.6",
+                            "name": "Missing Library (asm-commons-9.6.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 72194,
+                                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/asm-commons-9.6.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-tree:9.2",
+                            "name": "Missing Library (asm-tree-9.2.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 52660,
+                                "MD5": "9c45524e94b19cc8b614b9e81ad544e2",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/asm-tree-9.2.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-tree:9.6",
+                            "name": "Missing Library (asm-tree-9.6.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 51935,
+                                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/asm-tree-9.6.jar"
+                            }
+                        },
+                        {
+                            "id": "trove:trove:1.0.2",
+                            "name": "Missing Library (trove-1.0.2.jar)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 361155,
+                                "MD5": "487d72e3da5947890376ddfc5e14442e",
+                                "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/trove-1.0.2.jar"
                             }
                         }
                     ]
