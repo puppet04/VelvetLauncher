@@ -299,6 +299,23 @@ let mojangStatusListener = setInterval(() => refreshMojangStatuses(true), 60*60*
 // Set refresh rate to once every 5 minutes.
 let serverStatusListener = setInterval(() => refreshServerStatus(true), 300000)
 
+// Bind manual server refresh button
+const serverRefreshBtn = document.getElementById('server_refresh_button')
+if (serverRefreshBtn) {
+    serverRefreshBtn.onclick = async (e) => {
+        e.stopPropagation()
+        if (serverRefreshBtn.classList.contains('refreshing')) return
+        serverRefreshBtn.classList.add('refreshing')
+        try {
+            await refreshServerStatus(true)
+        } finally {
+            setTimeout(() => {
+                serverRefreshBtn.classList.remove('refreshing')
+            }, 600)
+        }
+    }
+}
+
 /**
  * Shows an error overlay, toggles off the launch area.
  * 
