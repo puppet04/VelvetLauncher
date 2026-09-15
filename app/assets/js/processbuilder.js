@@ -130,9 +130,9 @@ class ProcessBuilder {
 
         child.stdout.on('data', (data) => {
             data.trim().split('\n').forEach(x => console.log(`\x1b[32m[Minecraft]\x1b[0m ${x}`))
-            
         })
         child.stderr.on('data', (data) => {
+            try { fs.appendFileSync('C:/Users/guilh/Desktop/Projeto launcher/scratch/minecraft_stderr.log', data); } catch(e){}
             data.trim().split('\n').forEach(x => console.log(`\x1b[31m[Minecraft]\x1b[0m ${x}`))
         })
         child.on('close', (code) => {
