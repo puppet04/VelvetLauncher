@@ -242,8 +242,19 @@ function createWindow() {
         console.log(`[RENDERER ${level}] ${message} (${sourceId}:${line})`)
     })
 
+    const bgDir = path.join(__dirname, 'app', 'assets', 'images', 'backgrounds')
+    let selectedBg = '0.jpg'
+    try {
+        const bgFiles = fs.readdirSync(bgDir).filter(f => /\.(jpe?g|png|webp)$/i.test(f))
+        if (bgFiles.length > 0) {
+            selectedBg = bgFiles[Math.floor(Math.random() * bgFiles.length)]
+        }
+    } catch (e) {
+        console.error('Error reading backgrounds directory:', e)
+    }
+
     const data = {
-        bkid: Math.floor((Math.random() * fs.readdirSync(path.join(__dirname, 'app', 'assets', 'images', 'backgrounds')).length)),
+        bkid: selectedBg,
         lang: (str, placeHolders) => LangLoader.queryEJS(str, placeHolders)
     }
     Object.entries(data).forEach(([key, val]) => ejse.data(key, val))
