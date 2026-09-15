@@ -25,9 +25,9 @@
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
-                        "size": 0,
-                        "MD5": "",
-                        "url": ""
+                        "size": 2777708,
+                        "MD5": "f202df135ad32fef7e7c42e957c142af",
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
                     }
                 },
                 {
