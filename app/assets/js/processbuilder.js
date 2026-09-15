@@ -119,6 +119,7 @@ class ProcessBuilder {
         fs.ensureDirSync(this.gameDir)
         this._ensureServersDat()
         this._ensureDefaultConfigs()
+        this._ensureEmotesExtracted()
         const tempNativePath = path.join(os.tmpdir(), ConfigManager.getTempNativeFolder(), crypto.pseudoRandomBytes(16).toString('hex'))
         process.throwDeprecation = true
         this.setupLiteLoader()
@@ -322,6 +323,29 @@ class ProcessBuilder {
             }
         } catch (e) {
             logger.warn('Could not ensure default configs', e)
+        }
+    }
+
+    /**
+     * Ensure Emotes.zip is extracted into the instance emotes/ directory.
+     */
+    _ensureEmotesExtracted(){
+        try {
+            const emotesZip = path.join(this.gameDir, 'Emotes.zip')
+            const emotesDir = path.join(this.gameDir, 'emotes')
+            if (fs.existsSync(emotesZip)) {
+                fs.ensureDirSync(emotesDir)
+                const fileCount = fs.readdirSync(emotesDir).length
+                if (fileCount === 0) {
+                    logger.info('Auto-extracting Emotes.zip into instance directory...')
+                    const AdmZip = require('adm-zip')
+                    const zip = new AdmZip(emotesZip)
+                    zip.extractAllTo(this.gameDir, true)
+                    logger.info('Emotes.zip extracted successfully!')
+                }
+            }
+        } catch (e) {
+            logger.warn('Could not extract Emotes.zip', e)
         }
     }
 
