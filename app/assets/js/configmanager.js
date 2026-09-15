@@ -542,7 +542,6 @@ function defaultJavaConfig17(ram) {
             '-XX:MaxGCPauseMillis=130',
             '-XX:G1HeapRegionSize=8M',
             '-XX:+ParallelRefProcEnabled',
-            '-XX:+AlwaysPreTouch',
             '-XX:+DisableExplicitGC',
             '-XX:+PerfDisableSharedMem'
         ],
