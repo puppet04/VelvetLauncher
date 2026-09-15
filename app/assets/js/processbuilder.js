@@ -46,6 +46,7 @@ class ProcessBuilder {
      */
     build(){
         fs.ensureDirSync(this.gameDir)
+        this._ensureServersDat()
         const tempNativePath = path.join(os.tmpdir(), ConfigManager.getTempNativeFolder(), crypto.pseudoRandomBytes(16).toString('hex'))
         process.throwDeprecation = true
         this.setupLiteLoader()
@@ -108,6 +109,39 @@ class ProcessBuilder {
         })
 
         return child
+    }
+
+    /**
+     * Ensure servers.dat exists in the instance directory with the server IP and name,
+     * so it is always present in the Multiplayer menu.
+     */
+    _ensureServersDat(){
+        try {
+            const serversDatPath = path.join(this.gameDir, 'servers.dat')
+            if(!fs.existsSync(serversDatPath) && this.server && this.server.hostname){
+                const sName = this.server.rawServer.name || 'Velvet Abyss RP'
+                const sIp = (this.server.port && this.server.port !== 25565) ? `${this.server.hostname}:${this.server.port}` : this.server.hostname
+                const nameBuf = Buffer.from(sName, 'utf8')
+                const ipBuf = Buffer.from(sIp, 'utf8')
+                const nbt = Buffer.concat([
+                    Buffer.from([0x0A, 0x00, 0x00]), // Root Compound
+                    Buffer.from([0x09, 0x00, 0x07, 0x73, 0x65, 0x72, 0x76, 0x65, 0x72, 0x73]), // TAG_List 'servers'
+                    Buffer.from([0x0A, 0x00, 0x00, 0x00, 0x01]), // Element type TAG_Compound (10), length 1
+                    Buffer.from([0x08, 0x00, 0x04, 0x6E, 0x61, 0x6D, 0x65]), // TAG_String 'name'
+                    Buffer.from([nameBuf.length >> 8, nameBuf.length & 0xFF]),
+                    nameBuf,
+                    Buffer.from([0x08, 0x00, 0x02, 0x69, 0x70]), // TAG_String 'ip'
+                    Buffer.from([ipBuf.length >> 8, ipBuf.length & 0xFF]),
+                    ipBuf,
+                    Buffer.from([0x00]), // End of server compound
+                    Buffer.from([0x00])  // End of root compound
+                ])
+                fs.writeFileSync(serversDatPath, nbt)
+                logger.info('Auto-generated servers.dat for multiplayer list')
+            }
+        } catch (e) {
+            logger.warn('Could not ensure default servers.dat', e)
+        }
     }
 
     /**
