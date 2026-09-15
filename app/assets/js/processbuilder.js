@@ -55,6 +55,29 @@ class ProcessBuilder {
                 fsSync.copyFileSync(pJar, uJar);
             }
         } catch(e) {}
+        // Ensure client-extra jar exists for Forge 1.17+ vanilla assets/lang
+        try {
+            const fsSync = require('fs-extra');
+            const clientDir = path.join(this.commonDir, 'libraries', 'net', 'minecraft', 'client', '1.20.1-20230612.114412');
+            const extraJar = path.join(clientDir, 'client-1.20.1-20230612.114412-extra.jar');
+            const vId = (this.vanillaManifest && this.vanillaManifest.id) || '1.20.1';
+            const vJar = path.join(this.commonDir, 'versions', vId, vId + '.jar');
+            if (!fsSync.existsSync(extraJar) && fsSync.existsSync(vJar)) {
+                fsSync.ensureDirSync(clientDir);
+                const AdmZip = require('adm-zip');
+                const srcZip = new AdmZip(vJar);
+                const dstZip = new AdmZip();
+                for (const entry of srcZip.getEntries()) {
+                    if (!entry.entryName.endsWith('.class') && !entry.entryName.startsWith('META-INF')) {
+                        dstZip.addFile(entry.entryName, entry.getData());
+                    }
+                }
+                dstZip.writeZip(extraJar);
+                logger.info('Auto-generated client-extra.jar with vanilla resources/assets');
+            }
+        } catch(e) {
+            logger.warn('Failed to ensure client-extra jar', e);
+        }
         // INJECTED: FIX DUPLICATES
         try {
             const fsSync = require('fs-extra');
@@ -246,6 +269,14 @@ class ProcessBuilder {
                 }
                 fs.writeFileSync(etfPath, JSON.stringify(defaultEtf, null, 2))
                 logger.info('Auto-generated default entity_texture_features.json to prevent early init crash')
+            }
+
+            const etfSubDir = path.join(configDir, 'etf')
+            fs.ensureDirSync(etfSubDir)
+            const etfSubPath = path.join(etfSubDir, 'entity_texture_features.json')
+            if(!fs.existsSync(etfSubPath)){
+                fs.copyFileSync(etfPath, etfSubPath)
+                logger.info('Auto-generated default config/etf/entity_texture_features.json')
             }
 
             const emfPath = path.join(configDir, 'entity_model_features.json')
@@ -867,6 +898,13 @@ class ProcessBuilder {
             // Must not be added to the classpath for Forge 1.17+.
             const version = this.vanillaManifest.id
             cpArgs.push(path.join(this.commonDir, 'versions', version, version + '.jar'))
+        } else {
+            // For Forge 1.17+, vanilla assets/lang are provided by client-extra.jar
+            const clientDir = path.join(this.commonDir, 'libraries', 'net', 'minecraft', 'client', '1.20.1-20230612.114412')
+            const extraJar = path.join(clientDir, 'client-1.20.1-20230612.114412-extra.jar')
+            if(fs.existsSync(extraJar)){
+                cpArgs.push(extraJar)
+            }
         }
         
 
@@ -890,8 +928,9 @@ class ProcessBuilder {
 
         if(mcVersionAtLeast('1.17', this.server.rawServer.minecraftVersion) && !this.usingFabricLoader) {
             // For Forge 1.17+, client-srg is discovered dynamically by MinecraftLocator
-            // and must NOT be on the classpath to prevent duplicate 'client' and 'minecraft' modules
-            cpArgs = cpArgs.filter(jar => !jar.includes('client-1.20.1') && !jar.endsWith('-srg.jar'))
+            // and must NOT be on the classpath to prevent duplicate 'client' and 'minecraft' modules.
+            // client-extra MUST remain on the classpath for vanilla assets/lang.
+            cpArgs = cpArgs.filter(jar => (!jar.includes('client-1.20.1') || jar.includes('-extra.jar')) && !jar.endsWith('-srg.jar'))
         }
 
         return cpArgs
