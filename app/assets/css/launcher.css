@@ -3276,20 +3276,22 @@ input:checked + .toggleSwitchSlider:before {
     position: absolute;
     visibility: hidden;
     opacity: 0;
-    width: 145px;
+    width: max-content;
+    min-width: 250px;
     min-height: 150px;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(4px);
     color: #fff;
-    border-radius: 4px;
-    padding: 5px 10px;
-    z-index: 1;
-    font-family: 'Avenir Medium';
+    border-radius: 6px;
+    padding: 8px 14px;
+    z-index: 1000;
+    font-family: 'Avenir Medium', sans-serif;
     font-size: 12px;
     transition: visibility 0s linear 0.25s, opacity 0.25s ease;
     bottom: calc(100% + 15px);
     transform: translateX(-50%);
     margin-left: 50%;
-    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8);
     cursor: default;
 }
 #mojangStatusTooltip:after {
@@ -3300,7 +3302,7 @@ input:checked + .toggleSwitchSlider:before {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: rgba(0, 0, 0, 0.75) transparent transparent transparent;
+    border-color: rgba(0, 0, 0, 0.85) transparent transparent transparent;
 }
 #mojangStatusWrapper:hover #mojangStatusTooltip {
     visibility: visible;
@@ -3312,7 +3314,7 @@ input:checked + .toggleSwitchSlider:before {
 #mojangStatusTooltipTitle {
     width: 100%;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     letter-spacing: 1px;
 }
 
@@ -3336,20 +3338,23 @@ input:checked + .toggleSwitchSlider:before {
     padding: 0px 3px;
     text-align: center;
     letter-spacing: 1px;
+    white-space: nowrap;
 }
 
 /* Wrapper container for mojang service information. */
 .mojangStatusContainer {
     display: flex;
+    align-items: center;
 }
 
 /* Displays the name of the mojang service. */
 .mojangStatusName {
     width: 100%;
     font-size: 10px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height: 12px;
-    padding: 6px 0px;
+    padding: 5px 0px;
+    white-space: nowrap;
 }
 
 /* Displays the status of the mojang service. */
@@ -3977,35 +3982,33 @@ input:checked + .toggleSwitchSlider:before {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 160px;
+    height: 160px;
 }
 
-/* Stationary image for the spinner. */
+/* Stationary image for the spinner (Option 3 - 160px with subtle glow pulse). */
 #loadCenterImage {
-    position: absolute;
-    width: 277px;
-    height: 277px;
+    position: relative;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: 0 0 25px rgba(255, 130, 170, 0.4);
+    animation: pulseLogo 2.5s ease-in-out infinite;
 }
 
-/* Rotating image for the spinner. */
+@keyframes pulseLogo {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 20px rgba(255, 130, 170, 0.3);
+    }
+    50% {
+        transform: scale(1.04);
+        box-shadow: 0 0 35px rgba(255, 130, 170, 0.6);
+    }
+}
+
+/* Rotating image for the spinner (hidden in Option 3). */
 #loadSpinnerImage {
-    width: 280px;
-    height: auto;
-    z-index: 400;
-}
-
-/* Rotating animation for the spinner. */
-@keyframes rotating {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-/* Class which is applied when the spinner image is spinning. */
-.rotating {
-    animation: rotating 10s linear infinite;
+    display: none;
 }
