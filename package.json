@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "productName": "VelvetLauncher",
   "description": "Modded Minecraft Launcher",
-  "author": "Velvet",
+  "author": "Drafonn (https://github.com/puppet04/)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/puppet04/VelvetLauncher/",
   "bugs": {
@@ -17,7 +17,8 @@
     "dist:win": "npm run dist -- -w",
     "dist:mac": "npm run dist -- -m",
     "dist:linux": "npm run dist -- -l",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "postinstall": "node scripts/patch-helios.js"
   },
   "engines": {
     "node": "22.x.x"
