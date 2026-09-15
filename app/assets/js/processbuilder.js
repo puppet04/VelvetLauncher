@@ -52,7 +52,9 @@ class ProcessBuilder {
             const processMods = (mods) => {
                 for (const mdl of mods) {
                     if (mdl.rawModule && mdl.rawModule.type === 'Library') {
-                        const parts = mdl.id.split(':');
+                        const mid = (mdl.rawModule && mdl.rawModule.id) || mdl.id;
+                        if (!mid) continue;
+                        const parts = mid.split(':');
                         if (parts.length >= 3 && parts[1].includes('_')) {
                             const group = parts[0];
                             const fakeArtifact = parts[1];
