@@ -45,6 +45,42 @@ class ProcessBuilder {
      * Convienence method to run the functions typically used to build a process.
      */
     build(){
+        // INJECTED: FIX DUPLICATES
+        try {
+            const fsSync = require('fs-extra');
+            const libPath = path.join(this.commonDir, 'libraries');
+            const processMods = (mods) => {
+                for (const mdl of mods) {
+                    if (mdl.rawModule && mdl.rawModule.type === 'Library') {
+                        const parts = mdl.id.split(':');
+                        if (parts.length >= 3 && parts[1].includes('_')) {
+                            const group = parts[0];
+                            const fakeArtifact = parts[1];
+                            const version = parts[2];
+                            const classifier = parts[3] || '';
+                            const ext = '.jar';
+                            
+                            const realArtifact = fakeArtifact.split('-')[0];
+                            
+                            const fakeDir = path.join(libPath, group.replace(/\./g, '/'), fakeArtifact, version);
+                            const fakeFile = path.join(fakeDir, fakeArtifact + '-' + version + (classifier ? '-' + classifier : '') + ext);
+                            
+                            const realDir = path.join(libPath, group.replace(/\./g, '/'), realArtifact, version);
+                            const realFile = path.join(realDir, realArtifact + '-' + version + (classifier ? '-' + classifier : '') + ext);
+                            
+                            if (fsSync.existsSync(fakeFile)) {
+                                fsSync.ensureDirSync(realDir);
+                                fsSync.copyFileSync(fakeFile, realFile);
+                            }
+                        }
+                    }
+                    if (mdl.subModules) processMods(mdl.subModules);
+                }
+            };
+            processMods(this.server.modules);
+        } catch(e) { console.error(e); }
+        // END INJECTED
+
         fs.ensureDirSync(this.gameDir)
         this._ensureServersDat()
         const tempNativePath = path.join(os.tmpdir(), ConfigManager.getTempNativeFolder(), crypto.pseudoRandomBytes(16).toString('hex'))
