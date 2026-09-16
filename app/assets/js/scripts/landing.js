@@ -204,20 +204,35 @@ server_selection_button.onclick = async e => {
 
 // Update Mojang Status Color
 const refreshMojangStatuses = async function(){
-    loggerLanding.info('Refreshing Mojang Statuses..')
+    loggerLanding.info('Refreshing Mojang Statuses (Custom Pings)..')
 
     let status = 'grey'
     let tooltipEssentialHTML = ''
     let tooltipNonEssentialHTML = ''
 
-    const response = await MojangRestAPI.status()
-    let statuses
-    if(response.responseStatus === RestResponseStatus.SUCCESS) {
-        statuses = response.data
-    } else {
-        loggerLanding.warn('Unable to refresh Mojang service status.')
-        statuses = MojangRestAPI.getDefaultStatuses()
-    }
+    const pingStatus = (url) => new Promise((resolve) => {
+        const https = require('https');
+        const req = https.request(url, { method: 'HEAD', timeout: 3500 }, (res) => {
+            resolve(res.statusCode < 500 ? 'green' : 'red');
+        });
+        req.on('error', () => resolve('red'));
+        req.on('timeout', () => { req.destroy(); resolve('red'); });
+        req.end();
+    });
+
+    const [sessionStatus, skinStatus, msAuthStatus] = await Promise.all([
+        pingStatus('https://sessionserver.mojang.com/'),
+        pingStatus('https://api.minecraftservices.com/'),
+        pingStatus('https://login.live.com/')
+    ]);
+
+    let statuses = [
+      { service: "mojang-multiplayer-session-service", status: sessionStatus, name: "Multiplayer Session Service", essential: true },
+      { service: "minecraft-skins", status: skinStatus, name: "Minecraft Skins", essential: false },
+      { service: "microsoft-o-auth-server", status: msAuthStatus, name: "Microsoft OAuth Server", essential: true },
+      { service: "xbox-live-auth-server", status: msAuthStatus, name: "Xbox Live Auth Server", essential: true },
+      { service: "microsoft-minecraft-api", status: skinStatus, name: "Minecraft API for Microsoft Accounts", essential: true }
+    ];
     
     greenCount = 0
     greyCount = 0
