@@ -50,3 +50,7 @@ linux:
 directories:
   buildResources: 'build'
   output: 'dist'
+publish:
+  provider: github
+  owner: puppet04
+  repo: VelvetLauncher
