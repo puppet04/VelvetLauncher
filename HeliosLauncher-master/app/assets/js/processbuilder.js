@@ -131,13 +131,55 @@ class ProcessBuilder {
         try {
             const instanceModsDir = path.join(this.gameDir, 'mods')
             if (fs.existsSync(instanceModsDir)) {
-                // Clean up removed troublesome mods from all clients
-                ['entity_texture_features-7.2.1-1.20.1-forge.jar', 'entity_model_features-3.3.5-1.20.1-forge.jar'].forEach(f => {
-                    const j = path.join(instanceModsDir, f)
-                    const d = j + '.disabled'
-                    if (fs.existsSync(j)) try { fs.removeSync(j) } catch(e){}
-                    if (fs.existsSync(d)) try { fs.removeSync(d) } catch(e){}
-                })
+                // Dynamic cleanup of removed distribution mods from all clients
+                const manifestPath = path.join(this.gameDir, 'installed_distribution_modules.json')
+                const currentOfficialFiles = new Set()
+                const collectOfficialFiles = (mdls) => {
+                    for (const mdl of mdls) {
+                        const raw = mdl.rawModule || {}
+                        const p = raw.artifact?.path || raw.path || raw.name
+                        if (p) currentOfficialFiles.add(path.basename(p))
+                        if (mdl.subModules && mdl.subModules.length > 0) collectOfficialFiles(mdl.subModules)
+                    }
+                }
+                collectOfficialFiles(this.server.modules)
+
+                if (fs.existsSync(manifestPath)) {
+                    try {
+                        const previousOfficialFiles = fs.readJsonSync(manifestPath) || []
+                        for (const prevFile of previousOfficialFiles) {
+                            if (!currentOfficialFiles.has(prevFile)) {
+                                const targetMod = path.join(instanceModsDir, prevFile)
+                                const targetDisabled = targetMod + '.disabled'
+                                if (fs.existsSync(targetMod)) {
+                                    fs.removeSync(targetMod)
+                                    logger.info(`Cleaned up removed mod from distribution: ${prevFile}`)
+                                }
+                                if (fs.existsSync(targetDisabled)) {
+                                    fs.removeSync(targetDisabled)
+                                    logger.info(`Cleaned up removed disabled mod from distribution: ${prevFile}`)
+                                }
+                            }
+                        }
+                    } catch(e) {
+                        logger.warn('Failed to parse previous installed modules manifest', e)
+                    }
+                } else {
+                    // First time migration: ensure legacy removed troublesome mods are cleaned up
+                    ['entity_texture_features-7.2.1-1.20.1-forge.jar', 'entity_model_features-3.3.5-1.20.1-forge.jar'].forEach(f => {
+                        const j = path.join(instanceModsDir, f)
+                        const d = j + '.disabled'
+                        if (fs.existsSync(j)) try { fs.removeSync(j) } catch(e){}
+                        if (fs.existsSync(d)) try { fs.removeSync(d) } catch(e){}
+                    })
+                }
+
+                try {
+                    fs.writeJsonSync(manifestPath, Array.from(currentOfficialFiles), { spaces: 2 })
+                } catch(e) {
+                    logger.warn('Failed to save installed modules manifest', e)
+                }
+
                 const modCfg = ConfigManager.getModConfiguration(this.server.rawServer.id).mods || {}
                 const syncModuleFileState = (mdls) => {
                     for (const mdl of mdls) {
