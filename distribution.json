@@ -773,11 +773,7 @@
             "size": 1181413,
             "path": "mods/cloth-config-11.1.136-forge.jar"
           },
-          "path": "mods/cloth-config-11.1.136-forge.jar",
-          "required": {
-            "value": false,
-            "def": true
-          }
+          "path": "mods/cloth-config-11.1.136-forge.jar"
         },
         {
           "id": "cluttered-_Forge_-3.0.3-1.20.1.jar",
@@ -1080,14 +1076,14 @@
           "path": "mods/cultofazazelforge-1.1.4.12.jar"
         },
         {
-          "id": "cupboard-1.20.1-4.1.jar",
-          "name": "cupboard-1.20.1-4.1.jar",
+          "id": "cupboard-1.20.1-4.2.jar",
+          "name": "cupboard-1.20.1-4.2.jar",
           "type": "File",
           "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cupboard-1.20.1-4.1.jar",
-            "MD5": "d2c543b79f45e3cf9e0dfa2132e9bbfd",
-            "size": 33114,
-            "path": "mods/cupboard-1.20.1-4.1.jar"
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cupboard-1.20.1-4.2.jar",
+            "MD5": "db25dfc4935b7f1bde62c69f13a7b70e2ecd9f2f",
+            "size": 33422,
+            "path": "mods/cupboard-1.20.1-4.2.jar"
           },
           "path": "mods/cupboard-1.20.1-4.1.jar"
         },
@@ -1272,9 +1268,9 @@
           "path": "mods/ends_delight-2.6.1+forge.1.20.1.jar"
         },
         {
-          "id": "entity_model_features:entity_model_features:3.3.5",
+          "id": "entity_model_features-3.3.5-1.20.1-forge.jar",
           "name": "entity_model_features-3.3.5-1.20.1-forge.jar",
-          "type": "ForgeMod",
+          "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/entity_model_features-3.3.5-1.20.1-forge.jar",
             "MD5": "c91134fb0d936e972d082f167ce73601",
@@ -1284,13 +1280,13 @@
           "path": "mods/entity_model_features-3.3.5-1.20.1-forge.jar",
           "required": {
             "value": false,
-            "def": true
+            "def": false
           }
         },
         {
-          "id": "entity_texture_features:entity_texture_features:7.2.1",
+          "id": "entity_texture_features-7.2.1-1.20.1-forge.jar",
           "name": "entity_texture_features-7.2.1-1.20.1-forge.jar",
-          "type": "ForgeMod",
+          "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/entity_texture_features-7.2.1-1.20.1-forge.jar",
             "MD5": "78c42ea5bde4a46f9937785d8df6d9e2",
@@ -1300,7 +1296,7 @@
           "path": "mods/entity_texture_features-7.2.1-1.20.1-forge.jar",
           "required": {
             "value": false,
-            "def": true
+            "def": false
           }
         },
         {
@@ -3428,7 +3424,7 @@
           "path": "config/entity_texture_features.json",
           "required": {
             "value": false,
-            "def": true
+            "def": false
           }
         },
         {
@@ -3444,7 +3440,7 @@
           "path": "config/entity_model_features.json",
           "required": {
             "value": false,
-            "def": true
+            "def": false
           }
         },
         {
@@ -3469,11 +3465,7 @@
             "size": 885,
             "path": "config/resourcepackoverrides.json"
           },
-          "path": "config/resourcepackoverrides.json",
-          "required": {
-            "value": false,
-            "def": true
-          }
+          "path": "config/resourcepackoverrides.json"
         },
         {
           "id": "bubblifymod-1.7.1.jar",
