@@ -1,5 +1,5 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.10",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -949,8 +949,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/create-stuff-additions1.20.1_v2.1.2.jar",
-            "MD5": "b40b30ad0e6d7f51fd90afd5ebebedb8",
-            "size": 1358197,
+            "MD5": "f99d3827d39a60ac084b1df11aa740d9",
+            "size": 1340983,
             "path": "mods/create-stuff-additions1.20.1_v2.1.2.jar"
           },
           "path": "mods/create-stuff-additions1.20.1_v2.1.2.jar"
