@@ -1270,7 +1270,7 @@
         {
           "id": "entity_model_features-3.3.5-1.20.1-forge.jar",
           "name": "entity_model_features-3.3.5-1.20.1-forge.jar",
-          "type": "File",
+          "type": "ForgeMod",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/entity_model_features-3.3.5-1.20.1-forge.jar",
             "MD5": "c91134fb0d936e972d082f167ce73601",
@@ -1280,13 +1280,13 @@
           "path": "mods/entity_model_features-3.3.5-1.20.1-forge.jar",
           "required": {
             "value": false,
-            "def": false
+            "def": true
           }
         },
         {
           "id": "entity_texture_features-7.2.1-1.20.1-forge.jar",
           "name": "entity_texture_features-7.2.1-1.20.1-forge.jar",
-          "type": "File",
+          "type": "ForgeMod",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/entity_texture_features-7.2.1-1.20.1-forge.jar",
             "MD5": "78c42ea5bde4a46f9937785d8df6d9e2",
@@ -1296,7 +1296,7 @@
           "path": "mods/entity_texture_features-7.2.1-1.20.1-forge.jar",
           "required": {
             "value": false,
-            "def": false
+            "def": true
           }
         },
         {
