@@ -1081,11 +1081,11 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cupboard-1.20.1-4.2.jar",
-            "MD5": "db25dfc4935b7f1bde62c69f13a7b70e2ecd9f2f",
+            "MD5": "c44e0bbce8481bdc54cd859669bc3930",
             "size": 33422,
             "path": "mods/cupboard-1.20.1-4.2.jar"
           },
-          "path": "mods/cupboard-1.20.1-4.1.jar"
+          "path": "mods/cupboard-1.20.1-4.2.jar"
         },
         {
           "id": "curios-forge-5.14.1_1.20.1.jar",
@@ -1268,7 +1268,7 @@
           "path": "mods/ends_delight-2.6.1+forge.1.20.1.jar"
         },
         {
-          "id": "entity_model_features-3.3.5-1.20.1-forge.jar",
+          "id": "entity_model_features:entity_model_features:3.3.5",
           "name": "entity_model_features-3.3.5-1.20.1-forge.jar",
           "type": "ForgeMod",
           "artifact": {
@@ -1284,7 +1284,7 @@
           }
         },
         {
-          "id": "entity_texture_features-7.2.1-1.20.1-forge.jar",
+          "id": "entity_texture_features:entity_texture_features:7.2.1",
           "name": "entity_texture_features-7.2.1-1.20.1-forge.jar",
           "type": "ForgeMod",
           "artifact": {
