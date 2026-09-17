@@ -773,7 +773,11 @@
             "size": 1181413,
             "path": "mods/cloth-config-11.1.136-forge.jar"
           },
-          "path": "mods/cloth-config-11.1.136-forge.jar"
+          "path": "mods/cloth-config-11.1.136-forge.jar",
+          "required": {
+            "value": false,
+            "def": true
+          }
         },
         {
           "id": "cluttered-_Forge_-3.0.3-1.20.1.jar",
@@ -1268,7 +1272,7 @@
           "path": "mods/ends_delight-2.6.1+forge.1.20.1.jar"
         },
         {
-          "id": "entity_model_features-3.3.5-1.20.1-forge.jar",
+          "id": "entity_model_features:entity_model_features:3.3.5",
           "name": "entity_model_features-3.3.5-1.20.1-forge.jar",
           "type": "ForgeMod",
           "artifact": {
@@ -1284,7 +1288,7 @@
           }
         },
         {
-          "id": "entity_texture_features-7.2.1-1.20.1-forge.jar",
+          "id": "entity_texture_features:entity_texture_features:7.2.1",
           "name": "entity_texture_features-7.2.1-1.20.1-forge.jar",
           "type": "ForgeMod",
           "artifact": {
@@ -3414,7 +3418,7 @@
         {
           "id": "entity_texture_features-config",
           "name": "entity_texture_features.json",
-          "type": "ForgeMod",
+          "type": "File",
           "artifact": {
             "url": "https://raw.githubusercontent.com/puppet04/VelvetLauncher/main/configs/entity_texture_features.json",
             "MD5": "4e6ad77b59844f52be1d49be34ff884f",
@@ -3430,7 +3434,7 @@
         {
           "id": "entity_model_features-config",
           "name": "entity_model_features.json",
-          "type": "ForgeMod",
+          "type": "File",
           "artifact": {
             "url": "https://raw.githubusercontent.com/puppet04/VelvetLauncher/main/configs/entity_model_features.json",
             "MD5": "4fda5fe12ed9a719914d946960e33103",
@@ -3465,7 +3469,11 @@
             "size": 885,
             "path": "config/resourcepackoverrides.json"
           },
-          "path": "config/resourcepackoverrides.json"
+          "path": "config/resourcepackoverrides.json",
+          "required": {
+            "value": false,
+            "def": true
+          }
         },
         {
           "id": "bubblifymod-1.7.1.jar",
