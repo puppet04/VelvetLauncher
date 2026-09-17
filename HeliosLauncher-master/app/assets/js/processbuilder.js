@@ -174,11 +174,16 @@ class ProcessBuilder {
                                     if (fs.existsSync(jarPath)) {
                                         fs.renameSync(jarPath, disabledPath)
                                         logger.info(`Disabled optional mod on disk: ${fileName}`)
+                                    } else if (!fs.existsSync(disabledPath) && fs.existsSync(mdl.getPath())) {
+                                        fs.copyFileSync(mdl.getPath(), disabledPath)
                                     }
                                 } else {
                                     if (fs.existsSync(disabledPath)) {
                                         fs.renameSync(disabledPath, jarPath)
                                         logger.info(`Enabled optional mod on disk: ${fileName}`)
+                                    } else if (!fs.existsSync(jarPath) && fs.existsSync(mdl.getPath())) {
+                                        fs.copyFileSync(mdl.getPath(), jarPath)
+                                        logger.info(`Copied optional mod from modstore to disk: ${fileName}`)
                                     }
                                 }
                             }
