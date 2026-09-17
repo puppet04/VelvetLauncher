@@ -1280,7 +1280,7 @@
           "path": "mods/entity_model_features-3.3.5-1.20.1-forge.jar",
           "required": {
             "value": false,
-            "def": false
+            "def": true
           }
         },
         {
@@ -1296,7 +1296,7 @@
           "path": "mods/entity_texture_features-7.2.1-1.20.1-forge.jar",
           "required": {
             "value": false,
-            "def": false
+            "def": true
           }
         },
         {
@@ -3424,7 +3424,7 @@
           "path": "config/entity_texture_features.json",
           "required": {
             "value": false,
-            "def": false
+            "def": true
           }
         },
         {
@@ -3440,7 +3440,7 @@
           "path": "config/entity_model_features.json",
           "required": {
             "value": false,
-            "def": false
+            "def": true
           }
         },
         {
