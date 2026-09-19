@@ -32,6 +32,7 @@ const {
 // Internal Requirements
 const DiscordWrapper          = require('./assets/js/discordwrapper')
 const ProcessBuilder          = require('./assets/js/processbuilder')
+const LangLoader              = require('./assets/js/langloader')
 
 // Launch Elements
 const launch_content          = document.getElementById('launch_content')
@@ -121,12 +122,15 @@ function setLaunchButtonUpdateState(state, data) {
             btn.innerHTML = 'REINICIAR E ATUALIZAR'
         }
     } else {
+        const wasUpdating = isLauncherUpdateDownloading || isLauncherUpdateReady
         isLauncherUpdateDownloading = false
         isLauncherUpdateReady = false
         if (btn) {
             btn.classList.remove('updating')
             btn.classList.remove('update-ready')
-            btn.innerHTML = Lang.queryJS('landing.launchButton')
+            if (wasUpdating || btn.innerHTML.trim() === 'undefined' || !btn.innerHTML.trim()) {
+                btn.innerHTML = (LangLoader && LangLoader.queryEJS ? LangLoader.queryEJS('landing.launchButton') : null) || 'JOGAR'
+            }
         }
     }
 }
