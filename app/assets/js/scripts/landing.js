@@ -91,17 +91,98 @@ function setDownloadPercentage(percent){
     setLaunchPercentage(percent)
 }
 
+let isLauncherUpdateDownloading = false
+let isLauncherUpdateReady = false
+let launcherUpdateDownloadProgress = 0
+
+function setLaunchButtonUpdateState(state, data) {
+    const btn = document.getElementById('launch_button')
+    if (state === 'downloading') {
+        isLauncherUpdateDownloading = true
+        isLauncherUpdateReady = false
+        if (data && data.percent != null) {
+            launcherUpdateDownloadProgress = Math.round(data.percent)
+        }
+        if (btn) {
+            btn.disabled = true
+            btn.classList.remove('update-ready')
+            btn.classList.add('updating')
+            btn.innerHTML = launcherUpdateDownloadProgress > 0 
+                ? `BAIXANDO (${launcherUpdateDownloadProgress}%)...` 
+                : 'BAIXANDO ATUALIZAÇÃO...'
+        }
+    } else if (state === 'ready') {
+        isLauncherUpdateDownloading = false
+        isLauncherUpdateReady = true
+        if (btn) {
+            btn.disabled = false
+            btn.classList.remove('updating')
+            btn.classList.add('update-ready')
+            btn.innerHTML = 'REINICIAR E ATUALIZAR'
+        }
+    } else {
+        isLauncherUpdateDownloading = false
+        isLauncherUpdateReady = false
+        if (btn) {
+            btn.classList.remove('updating')
+            btn.classList.remove('update-ready')
+            btn.innerHTML = Lang.queryJS('landing.launchButton')
+        }
+    }
+}
+window.setLaunchButtonUpdateState = setLaunchButtonUpdateState
+if (window.launcherUpdateStatus && window.launcherUpdateStatus.state) {
+    setLaunchButtonUpdateState(window.launcherUpdateStatus.state, window.launcherUpdateStatus.data)
+}
+
 /**
  * Enable or disable the launch button.
  * 
  * @param {boolean} val True to enable, false to disable.
  */
 function setLaunchEnabled(val){
-    document.getElementById('launch_button').disabled = !val
+    const btn = document.getElementById('launch_button')
+    if (isLauncherUpdateReady) {
+        if (btn) {
+            btn.disabled = false
+            btn.classList.remove('updating')
+            btn.classList.add('update-ready')
+            btn.innerHTML = 'REINICIAR E ATUALIZAR'
+        }
+        return
+    }
+    if (isLauncherUpdateDownloading) {
+        if (btn) {
+            btn.disabled = true
+            btn.classList.add('updating')
+            btn.innerHTML = launcherUpdateDownloadProgress > 0 
+                ? `BAIXANDO (${launcherUpdateDownloadProgress}%)...` 
+                : 'BAIXANDO ATUALIZAÇÃO...'
+        }
+        return
+    }
+    if (btn) {
+        btn.disabled = !val
+    }
 }
 
 // Bind launch button
 document.getElementById('launch_button').addEventListener('click', async e => {
+    if (isLauncherUpdateReady) {
+        const btn = document.getElementById('launch_button')
+        if (btn) {
+            btn.disabled = true
+            btn.innerHTML = 'REINICIANDO...'
+        }
+        loggerLanding.info('Iniciando atualizacao do launcher a partir do botao principal.')
+        ipcRenderer.send('autoUpdateAction', 'installUpdateNow')
+        return
+    }
+    if (isLauncherUpdateDownloading) {
+        loggerLanding.info('Tentativa de clique no botao enquanto a atualizacao esta sendo baixada.')
+        return
+    }
+
     loggerLanding.info('Launching game..')
     try {
         const server = (await DistroAPI.getDistribution()).getServerById(ConfigManager.getSelectedServer())
