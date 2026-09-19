@@ -1,5 +1,5 @@
 {
-  "version": "1.0.12",
+  "version": "1.0.13",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -438,18 +438,6 @@
             "path": "mods/[forge]ctov-3.4.14.jar"
           },
           "path": "mods/[forge]ctov-3.4.14.jar"
-        },
-        {
-          "id": "AbsoluteVelvet-0.2.jar",
-          "name": "AbsoluteVelvet-0.2.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/AbsoluteVelvet-0.2.jar",
-            "MD5": "6880ab429aa812760ee89b26710b919e",
-            "size": 14988,
-            "path": "mods/AbsoluteVelvet-0.2.jar"
-          },
-          "path": "mods/AbsoluteVelvet-0.2.jar"
         },
         {
           "id": "alexscaves-2.0.2.jar",
@@ -2989,8 +2977,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.0.jar",
-            "MD5": "2ef311f6e684086484ab25639eb5a3d9",
-            "size": 2556558,
+            "MD5": "33eeee731212b22d3ee7a026d1d81430",
+            "size": 5395530,
             "path": "mods/VelvetAbyss-1.20.1-1.0.0.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.0.0.jar"
