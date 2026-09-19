@@ -2490,6 +2490,7 @@ input:checked + .toggleSwitchSlider:before {
     height: 23%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     padding: 0 clamp(40px, 3.5vw, 65px);
     box-sizing: border-box;
@@ -2502,13 +2503,21 @@ input:checked + .toggleSwitchSlider:before {
     height: 100%;
     flex: 1 1 0;
     display: inline-flex;
+    align-items: center;
     justify-content: flex-start;
     min-width: 0;
+}
+#landingContainer > #lower > #left .bot_wrapper {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 #landingContainer > #lower > #left #content {
     position: relative;
     top: 25px;
     display: inline-flex;
+    align-items: center;
     line-height: 24px;
     white-space: nowrap;
 }
@@ -2519,14 +2528,24 @@ input:checked + .toggleSwitchSlider:before {
     height: 100%;
     flex: 0 0 auto;
     display: inline-flex;
+    align-items: center;
     justify-content: center;
     box-sizing: border-box;
+}
+#landingContainer > #lower > #center .bot_wrapper {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 #landingContainer > #lower > #center #content {
     position: relative;
     z-index: 500;
     transition: top 2s ease;
-    top: 10px;
+    top: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     white-space: nowrap;
 }
 #landingContainer > #lower > #right {
@@ -2536,8 +2555,22 @@ input:checked + .toggleSwitchSlider:before {
     height: 100%;
     flex: 1 1 0;
     display: inline-flex;
+    align-items: center;
     justify-content: flex-end;
     min-width: 0;
+}
+#landingContainer > #lower > #right .bot_wrapper {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#landingContainer > #lower > #right #launch_content {
+    position: relative;
+    top: 25px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
 }
 
 /*******************************************************************************
@@ -3489,6 +3522,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Main launch content container. */
 #landingContainer > #lower > #right .bot_wrapper {
+    height: 100%;
     display: inline-flex;
     justify-content: flex-end;
     align-items: center;
