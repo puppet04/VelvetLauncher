@@ -2482,6 +2482,7 @@ input:checked + .toggleSwitchSlider:before {
 #landingContainer > #lower {
     height: 23%;
     display: flex;
+    justify-content: space-between;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 #landingContainer > #lower > #left {
@@ -2489,40 +2490,48 @@ input:checked + .toggleSwitchSlider:before {
     transition: top 2s ease;
     top: 0px;
     height: 100%;
-    width: 33%;
+    flex: 1 1 0;
     display: inline-flex;
     justify-content: flex-start;
     padding-left: 35px;
     box-sizing: border-box;
+    min-width: 0;
 }
 #landingContainer > #lower > #left #content {
     position: relative;
     top: 25px;
     display: inline-flex;
     line-height: 24px;
+    white-space: nowrap;
 }
 #landingContainer > #lower > #center {
     position: relative;
     transition: top 2s ease;
     top: 0px;
     height: 100%;
-    width: 34%;
+    flex: 0 0 auto;
     display: inline-flex;
     justify-content: center;
+    box-sizing: border-box;
 }
 #landingContainer > #lower > #center #content {
     position: relative;
     z-index: 500;
     transition: top 2s ease;
     top: 10px;
+    white-space: nowrap;
 }
 #landingContainer > #lower > #right {
     position: relative;
     transition: top 2s ease;
     top: 0px;
     height: 100%;
-    width: 33%;
+    flex: 1 1 0;
     display: inline-flex;
+    justify-content: flex-end;
+    padding-right: 45px;
+    box-sizing: border-box;
+    min-width: 0;
 }
 
 /*******************************************************************************
@@ -2887,7 +2896,7 @@ input:checked + .toggleSwitchSlider:before {
     top: 0%;
     left: 0%;
     border-radius: 50%;
-    box-shadow: 0 0 15px #43c628;
+    box-shadow: 0 0 15px rgba(220, 35, 45, 0.85);
     animation: glow-grow 4s ease-out infinite;
     background: rgba(0, 0, 0, 0.15);
 }
@@ -3473,10 +3482,17 @@ input:checked + .toggleSwitchSlider:before {
 * * */
 
 /* Main launch content container. */
+#landingContainer > #lower > #right .bot_wrapper {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 #landingContainer > #lower > #right #launch_content {
     position: relative;
     top: 25px;
     display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
 }
 
 /* The launch button. */
@@ -3491,6 +3507,7 @@ input:checked + .toggleSwitchSlider:before {
     padding: 0px;
     transition: 0.25s ease;
     outline: none;
+    white-space: nowrap;
 }
 #launch_button:hover,
 #launch_button:focus {
@@ -3507,10 +3524,11 @@ input:checked + .toggleSwitchSlider:before {
 }
 #launch_button.updating {
     color: #ff9800 !important;
-    font-size: 16px !important;
+    font-size: 14px !important;
     cursor: wait !important;
     text-shadow: 0px 0px 12px rgba(255, 152, 0, 0.7) !important;
     letter-spacing: 1px !important;
+    white-space: nowrap !important;
 }
 
 @keyframes pulseUpdateBtn {
@@ -3526,11 +3544,12 @@ input:checked + .toggleSwitchSlider:before {
 
 #launch_button.update-ready {
     color: #ff4d4d !important;
-    font-size: 18px !important;
-    letter-spacing: 1.5px !important;
+    font-size: 15px !important;
+    letter-spacing: 1px !important;
     animation: pulseUpdateBtn 1.8s infinite ease-in-out !important;
     cursor: pointer !important;
     pointer-events: auto !important;
+    white-space: nowrap !important;
 }
 
 #launch_button.update-ready:hover,
