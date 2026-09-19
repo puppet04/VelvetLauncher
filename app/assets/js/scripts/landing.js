@@ -885,7 +885,7 @@ function slide_(up){
         lCLLeft.style.top = '0px'
         lCLCenter.style.top = '0px'
         lCLRight.style.top = '0px'
-        newsBtn.style.top = '10px'
+        newsBtn.style.top = '25px'
     }
 }
 
