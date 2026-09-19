@@ -2461,7 +2461,7 @@ input:checked + .toggleSwitchSlider:before {
     height: 77%;
     display: flex;
     justify-content: space-between;
-    padding: 0 max(35px, calc((100% - 1240px) / 2));
+    padding: 0 clamp(40px, 3.5vw, 65px);
     box-sizing: border-box;
     width: 100%;
 }
@@ -2491,7 +2491,7 @@ input:checked + .toggleSwitchSlider:before {
     display: flex;
     justify-content: space-between;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    padding: 0 max(35px, calc((100% - 1240px) / 2));
+    padding: 0 clamp(40px, 3.5vw, 65px);
     box-sizing: border-box;
     width: 100%;
 }
