@@ -35,6 +35,13 @@ remote.getCurrentWebContents().on('devtools-opened', () => {
 webFrame.setZoomLevel(0)
 webFrame.setVisualZoomLevelLimits(1, 1)
 
+function notifyUpdateStateToUI(state, data) {
+    window.launcherUpdateStatus = { state, data }
+    if (typeof window.setLaunchButtonUpdateState === 'function') {
+        window.setLaunchButtonUpdateState(state, data)
+    }
+}
+
 // Initialize auto updates in production environments.
 let updateCheckListener
 if(!isDev){
@@ -46,6 +53,7 @@ if(!isDev){
                 break
             case 'update-available':
                 loggerAutoUpdater.info('New update available', info.version)
+                notifyUpdateStateToUI('downloading', { percent: 0, version: info.version })
                 
                 if(process.platform === 'darwin'){
                     info.darwindownload = `https://github.com/puppet04/VelvetLauncher/releases/download/v${info.version}/Velvet-Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
@@ -54,8 +62,12 @@ if(!isDev){
                 
                 populateSettingsUpdateInformation(info)
                 break
+            case 'download-progress':
+                notifyUpdateStateToUI('downloading', info)
+                break
             case 'update-downloaded':
                 loggerAutoUpdater.info('Update ' + info.version + ' ready to be installed.')
+                notifyUpdateStateToUI('ready', info)
                 settingsUpdateButtonStatus(Lang.queryJS('uicore.autoUpdate.installNowButton'), false, () => {
                     if(!isDev){
                         ipcRenderer.send('autoUpdateAction', 'installUpdateNow')
@@ -65,6 +77,7 @@ if(!isDev){
                 break
             case 'update-not-available':
                 loggerAutoUpdater.info('No new update found.')
+                notifyUpdateStateToUI('none', null)
                 settingsUpdateButtonStatus(Lang.queryJS('uicore.autoUpdate.checkForUpdatesButton'))
                 break
             case 'ready':
