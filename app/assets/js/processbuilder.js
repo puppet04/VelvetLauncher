@@ -125,8 +125,79 @@ class ProcessBuilder {
         this.setupLiteLoader()
         logger.info('Using liteloader:', this.usingLiteLoader)
         this.usingFabricLoader = this.server.modules.some(mdl => mdl.rawModule.type === Type.Fabric)
-        logger.info('Using fabric loader:', this.usingFabricLoader)
         const modObj = this.resolveModConfiguration(ConfigManager.getModConfiguration(this.server.rawServer.id).mods, this.server.modules)
+        
+        // Sync optional mod files on disk (.jar <-> .jar.disabled) for modern Forge/Fabric instances
+        try {
+            const instanceModsDir = path.join(this.gameDir, 'mods')
+            if (fs.existsSync(instanceModsDir)) {
+                // Strict mod enforcement: Only mods explicitly listed in distribution.json are allowed in the mods folder
+                const currentOfficialFiles = new Set()
+                const collectOfficialFiles = (mdls) => {
+                    for (const mdl of mdls) {
+                        const raw = mdl.rawModule || {}
+                        const p = raw.artifact?.path || raw.path || raw.name
+                        if (p) currentOfficialFiles.add(path.basename(p).toLowerCase())
+                        if (mdl.subModules && mdl.subModules.length > 0) collectOfficialFiles(mdl.subModules)
+                    }
+                }
+                collectOfficialFiles(this.server.modules)
+
+                const diskFiles = fs.readdirSync(instanceModsDir)
+                for (const file of diskFiles) {
+                    const lower = file.toLowerCase()
+                    if (lower.endsWith('.jar') || lower.endsWith('.jar.disabled')) {
+                        const baseJar = lower.replace(/\.disabled$/, '')
+                        if (!currentOfficialFiles.has(baseJar)) {
+                            try {
+                                fs.removeSync(path.join(instanceModsDir, file))
+                                logger.info(`Deleted unauthorized/removed mod: ${file}`)
+                            } catch(e) {
+                                logger.warn(`Failed to delete ${file}:`, e)
+                            }
+                        }
+                    }
+                }
+
+                const modCfg = ConfigManager.getModConfiguration(this.server.rawServer.id).mods || {}
+                const syncModuleFileState = (mdls) => {
+                    for (const mdl of mdls) {
+                        if (!mdl.getRequired().value) {
+                            const isEnabled = ProcessBuilder.isModEnabled(modCfg[mdl.getVersionlessMavenIdentifier()], mdl.getRequired())
+                            const raw = mdl.rawModule || {}
+                            const artifactPath = raw.artifact?.path || raw.path || raw.name
+                            if (artifactPath) {
+                                const fileName = path.basename(artifactPath)
+                                const jarPath = path.join(instanceModsDir, fileName)
+                                const disabledPath = path.join(instanceModsDir, fileName + '.disabled')
+                                if (!isEnabled) {
+                                    if (fs.existsSync(jarPath)) {
+                                        fs.renameSync(jarPath, disabledPath)
+                                        logger.info(`Disabled optional mod on disk: ${fileName}`)
+                                    } else if (!fs.existsSync(disabledPath) && fs.existsSync(mdl.getPath())) {
+                                        fs.copyFileSync(mdl.getPath(), disabledPath)
+                                    }
+                                } else {
+                                    if (fs.existsSync(disabledPath)) {
+                                        fs.renameSync(disabledPath, jarPath)
+                                        logger.info(`Enabled optional mod on disk: ${fileName}`)
+                                    } else if (!fs.existsSync(jarPath) && fs.existsSync(mdl.getPath())) {
+                                        fs.copyFileSync(mdl.getPath(), jarPath)
+                                        logger.info(`Copied optional mod from modstore to disk: ${fileName}`)
+                                    }
+                                }
+                            }
+                        }
+                        if (mdl.subModules && mdl.subModules.length > 0) {
+                            syncModuleFileState(mdl.subModules)
+                        }
+                    }
+                }
+                syncModuleFileState(this.server.modules)
+            }
+        } catch(err) {
+            logger.warn('Error syncing optional mod file states:', err)
+        }
         
         // Mod list below 1.13
         // Fabric only supports 1.14+
