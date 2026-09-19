@@ -2461,14 +2461,15 @@ input:checked + .toggleSwitchSlider:before {
     height: 77%;
     display: flex;
     justify-content: space-between;
+    padding: 0 max(35px, calc((100% - 1240px) / 2));
+    box-sizing: border-box;
+    width: 100%;
 }
 #landingContainer > #upper > #left {
     display: inline-flex;
     flex: 1 1 0;
     height: 100%;
     justify-content: flex-start;
-    padding-left: clamp(35px, 3.8vw, 70px);
-    box-sizing: border-box;
     min-width: 0;
 }
 #landingContainer > #upper > #content {
@@ -2481,8 +2482,6 @@ input:checked + .toggleSwitchSlider:before {
     flex: 1 1 0;
     height: 100%;
     justify-content: flex-end;
-    padding-right: clamp(35px, 3.8vw, 70px);
-    box-sizing: border-box;
     min-width: 0;
 }
 
@@ -2492,6 +2491,9 @@ input:checked + .toggleSwitchSlider:before {
     display: flex;
     justify-content: space-between;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    padding: 0 max(35px, calc((100% - 1240px) / 2));
+    box-sizing: border-box;
+    width: 100%;
 }
 #landingContainer > #lower > #left {
     position: relative;
@@ -2501,8 +2503,6 @@ input:checked + .toggleSwitchSlider:before {
     flex: 1 1 0;
     display: inline-flex;
     justify-content: flex-start;
-    padding-left: clamp(35px, 3.8vw, 70px);
-    box-sizing: border-box;
     min-width: 0;
 }
 #landingContainer > #lower > #left #content {
@@ -2537,8 +2537,6 @@ input:checked + .toggleSwitchSlider:before {
     flex: 1 1 0;
     display: inline-flex;
     justify-content: flex-end;
-    padding-right: clamp(35px, 3.8vw, 70px);
-    box-sizing: border-box;
     min-width: 0;
 }
 
