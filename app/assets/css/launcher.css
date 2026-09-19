@@ -4033,18 +4033,18 @@ input:checked + .toggleSwitchSlider:before {
     height: 160px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 0 25px rgba(255, 130, 170, 0.4);
+    box-shadow: 0 0 25px rgba(180, 25, 35, 0.5);
     animation: pulseLogo 2.5s ease-in-out infinite;
 }
 
 @keyframes pulseLogo {
     0%, 100% {
         transform: scale(1);
-        box-shadow: 0 0 20px rgba(255, 130, 170, 0.3);
+        box-shadow: 0 0 20px rgba(180, 25, 35, 0.4);
     }
     50% {
         transform: scale(1.04);
-        box-shadow: 0 0 35px rgba(255, 130, 170, 0.6);
+        box-shadow: 0 0 35px rgba(210, 35, 45, 0.7);
     }
 }
 
