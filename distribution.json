@@ -1,5 +1,5 @@
 {
-  "version": "1.0.18",
+  "version": "1.0.19",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3560,18 +3560,6 @@
           "path": "mods/CullLessLeaves-Reforged-1.20.1-1.0.5.jar"
         },
         {
-          "id": "super_resolution-forge-1.20.1-0.9.1-alpha.2+opengl.jar.disabled",
-          "name": "super_resolution-forge-1.20.1-0.9.1-alpha.2+opengl.jar.disabled",
-          "type": "File",
-          "artifact": {
-            "size": 33519229,
-            "MD5": "67137f757164d3476ea8119ed49946fb",
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/super_resolution-forge-1.20.1-0.9.1-alpha.2%2Bopengl.jar.disabled",
-            "path": "mods/super_resolution-forge-1.20.1-0.9.1-alpha.2+opengl.jar.disabled"
-          },
-          "path": "mods/super_resolution-forge-1.20.1-0.9.1-alpha.2+opengl.jar.disabled"
-        },
-        {
           "id": "ComplementaryUnbound_r5.9.1 + EuphoriaPatches_1.10.1.zip",
           "name": "ComplementaryUnbound_r5.9.1 + EuphoriaPatches_1.10.1.zip",
           "type": "File",
@@ -3582,6 +3570,21 @@
             "path": "shaderpacks/ComplementaryUnbound_r5.9.1 + EuphoriaPatches_1.10.1.zip"
           },
           "path": "shaderpacks/ComplementaryUnbound_r5.9.1 + EuphoriaPatches_1.10.1.zip"
+        },
+        {
+          "id": "com.superresolution:super_resolution:0.9.1-alpha.2",
+          "name": "Super Resolution (FSR / DLSS)",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 33519229,
+            "MD5": "67137f757164d3476ea8119ed49946fb",
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/super_resolution-forge-1.20.1-0.9.1-alpha.2%2Bopengl.jar.disabled",
+            "path": "super_resolution-forge-1.20.1-0.9.1-alpha.2+opengl.jar"
+          }
         }
       ]
     }
