@@ -222,9 +222,60 @@ class ProcessBuilder {
 
         logger.info('Launch Arguments:', loggableArgs)
 
-        const child = child_process.spawn(ConfigManager.getJavaExecutable(this.server.rawServer.id), args, {
+        const javaExec = ConfigManager.getJavaExecutable(this.server.rawServer.id)
+
+        // Configurar preferência de GPU dedicada (Alto Desempenho) automaticamente
+        const spawnEnv = Object.assign({}, process.env)
+        if (process.platform === 'win32') {
+            try {
+                if (javaExec) {
+                    // Define no registro do Windows (DirectX UserGpuPreferences) GpuPreference=2 (Alto Desempenho / GPU Dedicada)
+                    // Caso o jogador só tenha GPU integrada, o Windows utiliza a integrada normalmente sem nenhum erro.
+                    child_process.spawnSync('reg.exe', [
+                        'add',
+                        'HKCU\\Software\\Microsoft\\DirectX\\UserGpuPreferences',
+                        '/v', javaExec,
+                        '/t', 'REG_SZ',
+                        '/d', 'GpuPreference=2;',
+                        '/f'
+                    ], { stdio: 'ignore' })
+
+                    // Também registra o executável irmão (java.exe / javaw.exe)
+                    const javaDir = path.dirname(javaExec)
+                    const baseName = path.basename(javaExec).toLowerCase()
+                    const altName = baseName === 'javaw.exe' ? 'java.exe' : 'javaw.exe'
+                    const altExec = path.join(javaDir, altName)
+                    if (fs.existsSync(altExec)) {
+                        child_process.spawnSync('reg.exe', [
+                            'add',
+                            'HKCU\\Software\\Microsoft\\DirectX\\UserGpuPreferences',
+                            '/v', altExec,
+                            '/t', 'REG_SZ',
+                            '/d', 'GpuPreference=2;',
+                            '/f'
+                        ], { stdio: 'ignore' })
+                    }
+                }
+            } catch (e) {
+                logger.warn('Não foi possível definir preferência de GPU no registro:', e)
+            }
+
+            // Flags / variáveis de ambiente para drivers NVIDIA e AMD priorizarem placa dedicada
+            spawnEnv.SHIM_MCCOMPAT = '0x800000001'
+            spawnEnv.GPU_MAX_ALLOC_PERCENT = '100'
+            spawnEnv.GPU_USE_SYNC_OBJECTS = '1'
+        } else if (process.platform === 'linux') {
+            // Linux PRIME offload
+            spawnEnv.DRI_PRIME = '1'
+            spawnEnv.__NV_PRIME_RENDER_OFFLOAD = '1'
+            spawnEnv.__GLX_VENDOR_LIBRARY_NAME = 'nvidia'
+            spawnEnv.__VK_LAYER_NV_optimus = 'NVIDIA_only'
+        }
+
+        const child = child_process.spawn(javaExec, args, {
             cwd: this.gameDir,
-            detached: ConfigManager.getLaunchDetached()
+            detached: ConfigManager.getLaunchDetached(),
+            env: spawnEnv
         })
 
         if(ConfigManager.getLaunchDetached()){
