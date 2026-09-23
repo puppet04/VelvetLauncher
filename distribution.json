@@ -1,5 +1,5 @@
 {
-  "version": "1.0.19",
+  "version": "1.0.20",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3312,8 +3312,8 @@
           "name": "ComplementaryUnbound_r5.9.1 + EuphoriaPatches_1.10.1.txt",
           "type": "File",
           "artifact": {
-            "size": 597,
-            "MD5": "f9693b1f8de56ec457a8eb3dbfec9457",
+            "size": 166,
+            "MD5": "6922965d258b3f42cdec6f89df9d9c96",
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ComplementaryUnbound_r5.9.1.%2B.EuphoriaPatches_1.10.1.txt",
             "path": "shaderpacks/ComplementaryUnbound_r5.9.1 + EuphoriaPatches_1.10.1.txt"
           },
