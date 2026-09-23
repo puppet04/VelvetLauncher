@@ -194,6 +194,7 @@ document.getElementById('launch_button').addEventListener('click', async e => {
         if(jExe == null){
             await asyncSystemScan(server.effectiveJavaOptions)
         } else {
+            ensureDedicatedGpuPreference(jExe)
 
             setLaunchDetails(Lang.queryJS('landing.launch.pleaseWait'))
             toggleLaunchArea(true)
@@ -433,6 +434,36 @@ function showLaunchFailure(title, desc){
     toggleLaunchArea(false)
 }
 
+function ensureDedicatedGpuPreference(javaExec) {
+    if (!javaExec || process.platform !== 'win32') return
+    try {
+        const cp = require('child_process')
+        const p = require('path')
+        const f = require('fs')
+        cp.spawnSync('reg.exe', [
+            'add',
+            'HKCU\\Software\\Microsoft\\DirectX\\UserGpuPreferences',
+            '/v', javaExec,
+            '/t', 'REG_SZ',
+            '/d', 'GpuPreference=2;',
+            '/f'
+        ], { stdio: 'ignore' })
+        const dir = p.dirname(javaExec)
+        const base = p.basename(javaExec).toLowerCase()
+        const alt = base === 'javaw.exe' ? p.join(dir, 'java.exe') : p.join(dir, 'javaw.exe')
+        if (f.existsSync(alt)) {
+            cp.spawnSync('reg.exe', [
+                'add',
+                'HKCU\\Software\\Microsoft\\DirectX\\UserGpuPreferences',
+                '/v', alt,
+                '/t', 'REG_SZ',
+                '/d', 'GpuPreference=2;',
+                '/f'
+            ], { stdio: 'ignore' })
+        }
+    } catch (e) {}
+}
+
 /* System (Java) Scan */
 
 /**
@@ -498,6 +529,7 @@ async function asyncSystemScan(effectiveJavaOptions, launchAfter = true){
         const javaExec = javaExecFromRoot(jvmDetails.path)
         ConfigManager.setJavaExecutable(ConfigManager.getSelectedServer(), javaExec)
         ConfigManager.save()
+        ensureDedicatedGpuPreference(javaExec)
 
         // We need to make sure that the updated value is on the settings UI.
         // Just incase the settings UI is already open.
@@ -567,6 +599,7 @@ async function downloadJava(effectiveJavaOptions, launchAfter = true) {
     // Extraction completed successfully.
     ConfigManager.setJavaExecutable(ConfigManager.getSelectedServer(), newJavaExec)
     ConfigManager.save()
+    ensureDedicatedGpuPreference(newJavaExec)
 
     clearInterval(extractListener)
     setLaunchDetails(Lang.queryJS('landing.downloadJava.javaInstalled'))
