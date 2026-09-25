@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "1.0.40",
+    "version":  "1.0.41",
     "rss":  "",
     "mainServer":  "velvet",
     "servers":  [
@@ -1765,8 +1765,8 @@
                                             "type":  "File",
                                             "artifact":  {
                                                              "url":  "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/irons_spellbooks-1.20.1-3.16.3.jar",
-                                                             "MD5":  "0adeb3773c1f00336a4eaa8affde0c6d",
-                                                             "size":  15495787,
+                                                             "MD5":  "05a870908965b4c0d4a2fc43f88be64b",
+                                                             "size":  15570401,
                                                              "path":  "mods/irons_spellbooks-1.20.1-3.16.3.jar"
                                                          },
                                             "path":  "mods/irons_spellbooks-1.20.1-3.16.3.jar"
@@ -2967,13 +2967,13 @@
                                             "type":  "File",
                                             "artifact":  {
                                                              "url":  "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.0.jar",
-                                                             "MD5":  "42ad6a240b77afe7388a316729d40aed",
-                                                             "size":  4587938,
+                                                             "MD5":  "9ea59ac6aacfaecf14429127f5a684ff",
+                                                             "size":  3508845,
                                                              "path":  "mods/VelvetAbyss-1.20.1-1.0.0.jar"
                                                          },
                                             "path":  "mods/VelvetAbyss-1.20.1-1.0.0.jar",
-                                            "size":  4587938,
-                                            "MD5":  "42ad6a240b77afe7388a316729d40aed"
+                                            "size":  3508845,
+                                            "MD5":  "9ea59ac6aacfaecf14429127f5a684ff"
                                         },
                                         {
                                             "id":  "vminus-3.1.2-forge-1.20.1.jar",
