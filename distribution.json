@@ -1,5 +1,5 @@
 {
-  "version": "1.0.29",
+  "version": "1.0.30",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -1897,13 +1897,13 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/L_Enders_Cataclysm-3.31.jar",
-            "MD5": "4ee4228d7690507cf1b15088e6f88368",
-            "size": 73932056,
+            "MD5": "87db8fe42b5ca87ce3161d66d1446e7f",
+            "size": 73916404,
             "path": "mods/L_Enders_Cataclysm-3.31.jar"
           },
           "path": "mods/L_Enders_Cataclysm-3.31.jar",
-          "MD5": "f7d83e949dcf7e1a0788e49e446aac5e",
-          "size": 73863936
+          "MD5": "87db8fe42b5ca87ce3161d66d1446e7f",
+          "size": 73916404
         },
         {
           "id": "letsdo-API-forge-1.2.15-forge.jar",
@@ -3714,13 +3714,13 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/traveloptics-6.3.0-1.20.1.jar",
-            "MD5": "2a7ae124ad03be18f034beff3412abd1",
-            "size": 27479159,
+            "MD5": "93f1cc6f73554ec0474769dd369e7ab2",
+            "size": 27478735,
             "path": "mods/traveloptics-6.3.0-1.20.1.jar"
           },
           "path": "mods/traveloptics-6.3.0-1.20.1.jar",
-          "MD5": "37bf0aa983bfba793b9c92140f606e25",
-          "size": 27433438
+          "MD5": "93f1cc6f73554ec0474769dd369e7ab2",
+          "size": 27478735
         },
         {
           "id": "vanity-forge-2.1.1.jar",
