@@ -1,5 +1,5 @@
 {
-  "version": "1.0.24",
+  "version": "1.0.25",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3724,8 +3724,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/traveloptics-6.3.0-1.20.1.jar",
-            "MD5": "e7182fb92a769068a6ea61dc5a487e5b",
-            "size": 27486118,
+            "MD5": "2ae2a788a84923812f310fe1c5db0af7",
+            "size": 27440224,
             "path": "mods/traveloptics-6.3.0-1.20.1.jar"
           },
           "path": "mods/traveloptics-6.3.0-1.20.1.jar"
