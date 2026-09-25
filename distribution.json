@@ -1,5 +1,5 @@
 {
-  "version": "1.0.26",
+  "version": "1.0.27",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3621,8 +3621,8 @@
             "path": "mods/cataclysm-to-magic-fix-1.1.0.jar"
           },
           "path": "mods/cataclysm-to-magic-fix-1.1.0.jar",
-          "MD5": "968ca7f5131f71b8b23d417ff9611725",
-          "size": 27621
+          "MD5": "36f83f7d3404fac463e1f41617dbf198",
+          "size": 8845
         },
         {
           "id": "legendarymonsters-2.2.3 MC 1.20.1.jar",
