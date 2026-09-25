@@ -1,5 +1,5 @@
 {
-  "version": "1.0.22",
+  "version": "1.0.23",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3712,8 +3712,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/somakespells-1.0.9-1.20.1-fix.jar",
-            "MD5": "a0e6a176cd74607427adb6ec6ec878a4",
-            "size": 2598080,
+            "MD5": "44765179742302552b5691e82e6401a4",
+            "size": 2565463,
             "path": "mods/somakespells-1.0.9-1.20.1-fix.jar"
           },
           "path": "mods/somakespells-1.0.9-1.20.1-fix.jar"
