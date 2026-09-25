@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "1.0.36",
+    "version":  "1.0.37",
     "rss":  "",
     "mainServer":  "velvet",
     "servers":  [
@@ -1765,8 +1765,8 @@
                                             "type":  "File",
                                             "artifact":  {
                                                              "url":  "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/irons_spellbooks-1.20.1-3.16.3.jar",
-                                                             "MD5":  "80430dfbfab4af59e45ffb9d4d601762",
-                                                             "size":  15570397,
+                                                             "MD5":  "a946c314a7d84234c33ceac554d786ce",
+                                                             "size":  15495796,
                                                              "path":  "mods/irons_spellbooks-1.20.1-3.16.3.jar"
                                                          },
                                             "path":  "mods/irons_spellbooks-1.20.1-3.16.3.jar"
