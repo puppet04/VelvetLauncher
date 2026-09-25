@@ -1,5 +1,5 @@
 {
-  "version": "1.0.23",
+  "version": "1.0.24",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3616,8 +3616,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cataclysm-to-magic-fix-1.1.0.jar",
-            "MD5": "a26849405edb4cdbe97b0c91f696fe62",
-            "size": 8975,
+            "MD5": "ace47f0db99dcf655e9fdbb01927e81a",
+            "size": 8841,
             "path": "mods/cataclysm-to-magic-fix-1.1.0.jar"
           },
           "path": "mods/cataclysm-to-magic-fix-1.1.0.jar"
