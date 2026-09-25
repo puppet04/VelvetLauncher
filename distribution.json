@@ -1,5 +1,5 @@
 {
-  "version": "1.0.21",
+  "version": "1.0.22",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -2965,8 +2965,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.0.jar",
-            "MD5": "be3483a7236067bf1dc8f2b87652005b",
-            "size": 2165080,
+            "MD5": "0b0e170f685193c40db3fbf3cdb28d49",
+            "size": 3391878,
             "path": "mods/VelvetAbyss-1.20.1-1.0.0.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.0.0.jar"
@@ -3585,6 +3585,162 @@
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/super_resolution-forge-1.20.1-0.9.1-alpha.2%2Bopengl.jar.disabled",
             "path": "super_resolution-forge-1.20.1-0.9.1-alpha.2+opengl.jar"
           }
+        },
+        {
+          "id": "fdlib-1.0.9-1.20.1.jar",
+          "name": "fdlib-1.0.9-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fdlib-1.0.9-1.20.1.jar",
+            "MD5": "11e46ddb07dd018b3001aee0ba330042",
+            "size": 1647611,
+            "path": "mods/fdlib-1.0.9-1.20.1.jar"
+          },
+          "path": "mods/fdlib-1.0.9-1.20.1.jar"
+        },
+        {
+          "id": "jei_malum-1.20.1-forge-1.0.jar",
+          "name": "jei_malum-1.20.1-forge-1.0.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/jei_malum-1.20.1-forge-1.0.jar",
+            "MD5": "118aa9570d1c55e5722349b7db5e01a5",
+            "size": 47439,
+            "path": "mods/jei_malum-1.20.1-forge-1.0.jar"
+          },
+          "path": "mods/jei_malum-1.20.1-forge-1.0.jar"
+        },
+        {
+          "id": "cataclysm-to-magic-fix-1.1.0.jar",
+          "name": "cataclysm-to-magic-fix-1.1.0.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cataclysm-to-magic-fix-1.1.0.jar",
+            "MD5": "a26849405edb4cdbe97b0c91f696fe62",
+            "size": 8975,
+            "path": "mods/cataclysm-to-magic-fix-1.1.0.jar"
+          },
+          "path": "mods/cataclysm-to-magic-fix-1.1.0.jar"
+        },
+        {
+          "id": "legendarymonsters-2.2.3 MC 1.20.1.jar",
+          "name": "legendarymonsters-2.2.3 MC 1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/legendarymonsters-2.2.3.MC.1.20.1.jar",
+            "MD5": "e6532c9dce0717a0dea786706123b131",
+            "size": 44954907,
+            "path": "mods/legendarymonsters-2.2.3 MC 1.20.1.jar"
+          },
+          "path": "mods/legendarymonsters-2.2.3 MC 1.20.1.jar"
+        },
+        {
+          "id": "iss_magicfromtheeast-1.20.1-1.1.3.jar",
+          "name": "iss_magicfromtheeast-1.20.1-1.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/iss_magicfromtheeast-1.20.1-1.1.3.jar",
+            "MD5": "da04b5a80115c62a5e2474f7d1d3558b",
+            "size": 1688810,
+            "path": "mods/iss_magicfromtheeast-1.20.1-1.1.3.jar"
+          },
+          "path": "mods/iss_magicfromtheeast-1.20.1-1.1.3.jar"
+        },
+        {
+          "id": "malum-1.20.1-1.6.7.jar",
+          "name": "malum-1.20.1-1.6.7.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/malum-1.20.1-1.6.7.jar",
+            "MD5": "c8377c88fd78e6d94ace7ad4c97ce7dd",
+            "size": 26296223,
+            "path": "mods/malum-1.20.1-1.6.7.jar"
+          },
+          "path": "mods/malum-1.20.1-1.6.7.jar"
+        },
+        {
+          "id": "vestis-1.0.1.jar",
+          "name": "vestis-1.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/vestis-1.0.1.jar",
+            "MD5": "5be4ffd6648a2ee26d59549f4d5f5700",
+            "size": 38924,
+            "path": "mods/vestis-1.0.1.jar"
+          },
+          "path": "mods/vestis-1.0.1.jar"
+        },
+        {
+          "id": "mezz_config-1.20.1-forge-0.6.3.jar",
+          "name": "mezz_config-1.20.1-forge-0.6.3.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mezz_config-1.20.1-forge-0.6.3.jar",
+            "MD5": "2d4295fe0c20179d3abd06ab60019593",
+            "size": 345949,
+            "path": "mods/mezz_config-1.20.1-forge-0.6.3.jar"
+          },
+          "path": "mods/mezz_config-1.20.1-forge-0.6.3.jar"
+        },
+        {
+          "id": "mowziesmobs-1.8.2.jar",
+          "name": "mowziesmobs-1.8.2.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mowziesmobs-1.8.2.jar",
+            "MD5": "d650da053314d7384a537db1f316d11f",
+            "size": 36033850,
+            "path": "mods/mowziesmobs-1.8.2.jar"
+          },
+          "path": "mods/mowziesmobs-1.8.2.jar"
+        },
+        {
+          "id": "fdbosses-3.1.0.3-1.20.1.jar",
+          "name": "fdbosses-3.1.0.3-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fdbosses-3.1.0.3-1.20.1.jar",
+            "MD5": "b82197ed0d16f30e6022b260ac1d86a5",
+            "size": 26329336,
+            "path": "mods/fdbosses-3.1.0.3-1.20.1.jar"
+          },
+          "path": "mods/fdbosses-3.1.0.3-1.20.1.jar"
+        },
+        {
+          "id": "somakespells-1.0.9-1.20.1-fix.jar",
+          "name": "somakespells-1.0.9-1.20.1-fix.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/somakespells-1.0.9-1.20.1-fix.jar",
+            "MD5": "a0e6a176cd74607427adb6ec6ec878a4",
+            "size": 2598080,
+            "path": "mods/somakespells-1.0.9-1.20.1-fix.jar"
+          },
+          "path": "mods/somakespells-1.0.9-1.20.1-fix.jar"
+        },
+        {
+          "id": "traveloptics-6.3.0-1.20.1.jar",
+          "name": "traveloptics-6.3.0-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/traveloptics-6.3.0-1.20.1.jar",
+            "MD5": "e7182fb92a769068a6ea61dc5a487e5b",
+            "size": 27486118,
+            "path": "mods/traveloptics-6.3.0-1.20.1.jar"
+          },
+          "path": "mods/traveloptics-6.3.0-1.20.1.jar"
+        },
+        {
+          "id": "vanity-forge-2.1.1.jar",
+          "name": "vanity-forge-2.1.1.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/vanity-forge-2.1.1.jar",
+            "MD5": "10db106dfad1bc653107aabfee3172d9",
+            "size": 844380,
+            "path": "mods/vanity-forge-2.1.1.jar"
+          },
+          "path": "mods/vanity-forge-2.1.1.jar"
         }
       ]
     }
