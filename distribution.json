@@ -1,5 +1,5 @@
 {
-  "version": "1.0.33",
+  "version": "1.0.34",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -2967,13 +2967,13 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.0.jar",
-            "MD5": "d16e5d624ffe1b239ac7763d9af579a8",
-            "size": 3507736,
+            "MD5": "99f8163ba0c0ae74e31fd26578c5e227",
+            "size": 3507707,
             "path": "mods/VelvetAbyss-1.20.1-1.0.0.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.0.0.jar",
-          "size": 3507736,
-          "MD5": "d16e5d624ffe1b239ac7763d9af579a8"
+          "size": 3507707,
+          "MD5": "99f8163ba0c0ae74e31fd26578c5e227"
         },
         {
           "id": "vminus-3.1.2-forge-1.20.1.jar",
