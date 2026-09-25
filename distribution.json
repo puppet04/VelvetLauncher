@@ -1,5 +1,5 @@
 {
-  "version": "1.0.28",
+  "version": "1.0.29",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -1897,8 +1897,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/L_Enders_Cataclysm-3.31.jar",
-            "MD5": "a296c93419f679f0da7100da6e6e35af",
-            "size": 73916104,
+            "MD5": "4ee4228d7690507cf1b15088e6f88368",
+            "size": 73932056,
             "path": "mods/L_Enders_Cataclysm-3.31.jar"
           },
           "path": "mods/L_Enders_Cataclysm-3.31.jar",
@@ -3613,20 +3613,6 @@
           "path": "mods/jei_malum-1.20.1-forge-1.0.jar"
         },
         {
-          "id": "cataclysm-to-magic-fix-1.1.0.jar",
-          "name": "cataclysm-to-magic-fix-1.1.0.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/cataclysm-to-magic-fix-1.1.0.jar",
-            "MD5": "ace47f0db99dcf655e9fdbb01927e81a",
-            "size": 8841,
-            "path": "mods/cataclysm-to-magic-fix-1.1.0.jar"
-          },
-          "path": "mods/cataclysm-to-magic-fix-1.1.0.jar",
-          "MD5": "36f83f7d3404fac463e1f41617dbf198",
-          "size": 8845
-        },
-        {
           "id": "legendarymonsters-2.2.3 MC 1.20.1.jar",
           "name": "legendarymonsters-2.2.3 MC 1.20.1.jar",
           "type": "File",
@@ -3728,8 +3714,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/traveloptics-6.3.0-1.20.1.jar",
-            "MD5": "2ae2a788a84923812f310fe1c5db0af7",
-            "size": 27440224,
+            "MD5": "2a7ae124ad03be18f034beff3412abd1",
+            "size": 27479159,
             "path": "mods/traveloptics-6.3.0-1.20.1.jar"
           },
           "path": "mods/traveloptics-6.3.0-1.20.1.jar",
