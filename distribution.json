@@ -1,5 +1,5 @@
 {
-  "version": "1.0.31",
+  "version": "1.0.32",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -1897,13 +1897,13 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/L_Enders_Cataclysm-3.31.jar",
-            "MD5": "87db8fe42b5ca87ce3161d66d1446e7f",
-            "size": 73916404,
+            "MD5": "ba2b9ea307c03772eefc03e3b009bd15",
+            "size": 73916396,
             "path": "mods/L_Enders_Cataclysm-3.31.jar"
           },
           "path": "mods/L_Enders_Cataclysm-3.31.jar",
-          "MD5": "87db8fe42b5ca87ce3161d66d1446e7f",
-          "size": 73916404
+          "MD5": "ba2b9ea307c03772eefc03e3b009bd15",
+          "size": 73916396
         },
         {
           "id": "letsdo-API-forge-1.2.15-forge.jar",
