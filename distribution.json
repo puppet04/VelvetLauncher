@@ -1,5 +1,5 @@
 {
-  "version": "1.0.27",
+  "version": "1.0.28",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -1901,7 +1901,9 @@
             "size": 73916104,
             "path": "mods/L_Enders_Cataclysm-3.31.jar"
           },
-          "path": "mods/L_Enders_Cataclysm-3.31.jar"
+          "path": "mods/L_Enders_Cataclysm-3.31.jar",
+          "MD5": "f7d83e949dcf7e1a0788e49e446aac5e",
+          "size": 73863936
         },
         {
           "id": "letsdo-API-forge-1.2.15-forge.jar",
@@ -3731,8 +3733,8 @@
             "path": "mods/traveloptics-6.3.0-1.20.1.jar"
           },
           "path": "mods/traveloptics-6.3.0-1.20.1.jar",
-          "MD5": "28f2f6887fa99c01498e6d80a6142257",
-          "size": 27452214
+          "MD5": "37bf0aa983bfba793b9c92140f606e25",
+          "size": 27433438
         },
         {
           "id": "vanity-forge-2.1.1.jar",
