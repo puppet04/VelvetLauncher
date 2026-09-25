@@ -1,5 +1,5 @@
 {
-  "version": "1.0.25",
+  "version": "1.0.26",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3620,7 +3620,9 @@
             "size": 8841,
             "path": "mods/cataclysm-to-magic-fix-1.1.0.jar"
           },
-          "path": "mods/cataclysm-to-magic-fix-1.1.0.jar"
+          "path": "mods/cataclysm-to-magic-fix-1.1.0.jar",
+          "MD5": "968ca7f5131f71b8b23d417ff9611725",
+          "size": 27621
         },
         {
           "id": "legendarymonsters-2.2.3 MC 1.20.1.jar",
@@ -3728,7 +3730,9 @@
             "size": 27440224,
             "path": "mods/traveloptics-6.3.0-1.20.1.jar"
           },
-          "path": "mods/traveloptics-6.3.0-1.20.1.jar"
+          "path": "mods/traveloptics-6.3.0-1.20.1.jar",
+          "MD5": "28f2f6887fa99c01498e6d80a6142257",
+          "size": 27452214
         },
         {
           "id": "vanity-forge-2.1.1.jar",
