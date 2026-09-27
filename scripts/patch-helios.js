@@ -41,3 +41,19 @@ if (fs.existsSync(dlEngineFile)) {
         fs.writeFileSync(dlEngineFile, content, 'utf8');
     }
 }
+
+const distroApiFile = path.join(__dirname, '..', 'node_modules', 'helios-core', 'dist', 'common', 'distribution', 'DistributionAPI.js');
+if (fs.existsSync(distroApiFile)) {
+    let content = fs.readFileSync(distroApiFile, 'utf8');
+    if (content.includes("const res = await got_1.default.get(this.remoteUrl, { responseType: 'json' });")) {
+        content = content.replace(
+            "const res = await got_1.default.get(this.remoteUrl, { responseType: 'json' });",
+            "const res = await got_1.default.get(this.remoteUrl);\n            const cleanBody = typeof res.body === 'string' ? res.body.replace(/^\\uFEFF/, '') : res.body;\n            res.body = JSON.parse(cleanBody);"
+        );
+        fs.writeFileSync(distroApiFile, content, 'utf8');
+        console.log('[Patch] Applied BOM-safe JSON parser patch to DistributionAPI.');
+    } else {
+        console.log('[Patch] DistributionAPI already patched or target pattern not found.');
+    }
+}
+
