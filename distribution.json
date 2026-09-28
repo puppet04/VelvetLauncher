@@ -1,5 +1,5 @@
 {
-    "version": "1.0.42",
+    "version": "1.0.43",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3377,8 +3377,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://raw.githubusercontent.com/puppet04/VelvetLauncher/main/configs/resourcepackoverrides.json",
-                        "MD5": "cc97155e09981092e1ce108d9499ed2b",
-                        "size": 885,
+                        "MD5": "264937e63dc9ee8221c564e1ad6d21cd",
+                        "size": 969,
                         "path": "config/resourcepackoverrides.json"
                     },
                     "path": "config/resourcepackoverrides.json"
