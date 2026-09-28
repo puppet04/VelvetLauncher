@@ -1,5 +1,5 @@
 {
-    "version": "1.0.44",
+    "version": "1.0.45",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3281,11 +3281,23 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/SPEMOTES_TRANSLATIONS_v1.1.zip",
-                        "MD5": "d42bc3f95a3008d89325954dca355221",
-                        "size": 281890,
+                        "MD5": "83cd6e3dee24534ac45065b8a47982bb",
+                        "size": 309173,
                         "path": "resourcepacks/SPEMOTES_TRANSLATIONS_v1.1.zip"
                     },
                     "path": "resourcepacks/SPEMOTES_TRANSLATIONS_v1.1.zip"
+                },
+                {
+                    "id": "emotecraft-config",
+                    "name": "emotecraft.json",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://raw.githubusercontent.com/puppet04/VelvetLauncher/main/configs/emotecraft.json",
+                        "MD5": "c66fa8e04627d179b5951f8db9191725",
+                        "size": 2730,
+                        "path": "config/emotecraft.json"
+                    },
+                    "path": "config/emotecraft.json"
                 },
                 {
                     "id": "ComplementaryReimagined_r5.9.1___EuphoriaPatches_1.10.1.txt",
