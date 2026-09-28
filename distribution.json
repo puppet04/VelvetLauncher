@@ -1,5 +1,5 @@
 {
-    "version": "1.0.45",
+    "version": "1.0.46",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3747,6 +3747,18 @@
                         "path": "mods/vanity-forge-2.1.1.jar"
                     },
                     "path": "mods/vanity-forge-2.1.1.jar"
+                },
+                {
+                    "id": "playingcards-2.0.1.jar",
+                    "name": "playingcards-2.0.1.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/playingcards-2.0.1.jar",
+                        "MD5": "e1623a327b8b5e24e9450c3a3e1a99cc",
+                        "size": 178633,
+                        "path": "mods/playingcards-2.0.1.jar"
+                    },
+                    "path": "mods/playingcards-2.0.1.jar"
                 }
             ]
         }
