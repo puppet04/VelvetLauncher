@@ -1,5 +1,5 @@
 {
-    "version": "1.0.47",
+    "version": "1.0.48",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3759,6 +3759,30 @@
                         "path": "mods/playingcards-2.0.1.jar"
                     },
                     "path": "mods/playingcards-2.0.1.jar"
+                },
+                {
+                    "id": "selective_vanish-1.20.1-5.0.0.jar",
+                    "name": "selective_vanish-1.20.1-5.0.0.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/selective_vanish-1.20.1-5.0.0.jar",
+                        "MD5": "bbda701db917b2ccf29f06f85f1b3fe8",
+                        "size": 385679,
+                        "path": "mods/selective_vanish-1.20.1-5.0.0.jar"
+                    },
+                    "path": "mods/selective_vanish-1.20.1-5.0.0.jar"
+                },
+                {
+                    "id": "raccooncore-1.20.1-forge-2.6.0.jar",
+                    "name": "raccooncore-1.20.1-forge-2.6.0.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/raccooncore-1.20.1-forge-2.6.0.jar",
+                        "MD5": "a307d15bea7d5c4ce9e6e993ad65cf47",
+                        "size": 224948,
+                        "path": "mods/raccooncore-1.20.1-forge-2.6.0.jar"
+                    },
+                    "path": "mods/raccooncore-1.20.1-forge-2.6.0.jar"
                 }
             ]
         }
