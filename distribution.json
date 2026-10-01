@@ -1,5 +1,5 @@
 {
-    "version": "1.0.48",
+    "version": "1.0.49",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3783,6 +3783,18 @@
                         "path": "mods/raccooncore-1.20.1-forge-2.6.0.jar"
                     },
                     "path": "mods/raccooncore-1.20.1-forge-2.6.0.jar"
+                },
+                {
+                    "id": "bettersearch-forge-1.20.1-1.5.0.jar",
+                    "name": "bettersearch-forge-1.20.1-1.5.0.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/bettersearch-forge-1.20.1-1.5.0.jar",
+                        "MD5": "9bdc518d5e0d31778b0c6862305ca017",
+                        "size": 519021,
+                        "path": "mods/bettersearch-forge-1.20.1-1.5.0.jar"
+                    },
+                    "path": "mods/bettersearch-forge-1.20.1-1.5.0.jar"
                 }
             ]
         }
