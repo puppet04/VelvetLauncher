@@ -1,5 +1,5 @@
 {
-    "version": "1.0.54",
+    "version": "1.0.55",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3815,7 +3815,8 @@
                         "MD5": "19de481a1d63cce26fec3e147b093821",
                         "size": 400461,
                         "path": "mods/serializer_debug-1.0.1.jar"
-                    }
+                    },
+                    "path": "mods/serializer_debug-1.0.1.jar"
                 }
             ]
         }
