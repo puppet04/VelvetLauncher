@@ -1,5 +1,5 @@
 {
-    "version": "1.0.55",
+    "version": "1.0.56",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -1146,30 +1146,6 @@
                         "path": "mods/DungeonsArise-1.20.x-2.1.58-release.jar"
                     },
                     "path": "mods/DungeonsArise-1.20.x-2.1.58-release.jar"
-                },
-                {
-                    "id": "easy_npc_config_ui-forge-1.20.1-7.12.1.jar",
-                    "name": "easy_npc_config_ui-forge-1.20.1-7.12.1.jar",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/easy_npc_config_ui-forge-1.20.1-7.12.1.jar",
-                        "MD5": "711a20439820bc8eed1acb7efb87cf9b",
-                        "size": 1092567,
-                        "path": "mods/easy_npc_config_ui-forge-1.20.1-7.12.1.jar"
-                    },
-                    "path": "mods/easy_npc_config_ui-forge-1.20.1-7.12.1.jar"
-                },
-                {
-                    "id": "easy_npc-forge-1.20.1-7.12.1.jar",
-                    "name": "easy_npc-forge-1.20.1-7.12.1.jar",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/easy_npc-forge-1.20.1-7.12.1.jar",
-                        "MD5": "7d6229f777658cf2d3d47883e2660267",
-                        "size": 2962180,
-                        "path": "mods/easy_npc-forge-1.20.1-7.12.1.jar"
-                    },
-                    "path": "mods/easy_npc-forge-1.20.1-7.12.1.jar"
                 },
                 {
                     "id": "ecologics-forge-1.20.1-2.2.7.jar",
@@ -3807,16 +3783,28 @@
                     "path": "mods/velvet_menu-1.20.1-1.0.0.jar"
                 },
                 {
-                    "id": "serializer_debug-1.0.1.jar",
-                    "name": "serializer_debug-1.0.1.jar",
+                    "id": "easy_npc-forge-1.20.1-7.14.0.jar",
+                    "name": "easy_npc-forge-1.20.1-7.14.0.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/serializer_debug-1.0.1.jar",
-                        "MD5": "19de481a1d63cce26fec3e147b093821",
-                        "size": 400461,
-                        "path": "mods/serializer_debug-1.0.1.jar"
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/easy_npc-forge-1.20.1-7.14.0.jar",
+                        "MD5": "e731ca3572d215ccdb451b280c6ee8c9",
+                        "size": 2975569,
+                        "path": "mods/easy_npc-forge-1.20.1-7.14.0.jar"
                     },
-                    "path": "mods/serializer_debug-1.0.1.jar"
+                    "path": "mods/easy_npc-forge-1.20.1-7.14.0.jar"
+                },
+                {
+                    "id": "easy_npc_config_ui-forge-1.20.1-7.14.0.jar",
+                    "name": "easy_npc_config_ui-forge-1.20.1-7.14.0.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/easy_npc_config_ui-forge-1.20.1-7.14.0.jar",
+                        "MD5": "df9818f798d37d28bae831c0a720b4d7",
+                        "size": 1140305,
+                        "path": "mods/easy_npc_config_ui-forge-1.20.1-7.14.0.jar"
+                    },
+                    "path": "mods/easy_npc_config_ui-forge-1.20.1-7.14.0.jar"
                 }
             ]
         }
