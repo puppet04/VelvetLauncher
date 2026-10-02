@@ -1,5 +1,5 @@
 {
-    "version": "1.0.50",
+    "version": "1.0.51",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3267,8 +3267,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/SPEMOTES_TRANSLATIONS_v1.1.zip",
-                        "MD5": "83cd6e3dee24534ac45065b8a47982bb",
-                        "size": 309173,
+                        "MD5": "e6064673301ec912b98f7950c6f6f728",
+                        "size": 835485,
                         "path": "resourcepacks/SPEMOTES_TRANSLATIONS_v1.1.zip"
                     },
                     "path": "resourcepacks/SPEMOTES_TRANSLATIONS_v1.1.zip"
@@ -3375,8 +3375,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://raw.githubusercontent.com/puppet04/VelvetLauncher/main/configs/resourcepackoverrides.json",
-                        "MD5": "0786466385e7b158e75a7822cfcf3630",
-                        "size": 1239,
+                        "MD5": "b550db8ac73aabdccef9690dba1050be",
+                        "size": 882,
                         "path": "config/resourcepackoverrides.json"
                     },
                     "path": "config/resourcepackoverrides.json"
