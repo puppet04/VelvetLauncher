@@ -1,5 +1,5 @@
 {
-    "version": "1.0.51",
+    "version": "1.0.52",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3267,8 +3267,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/SPEMOTES_TRANSLATIONS_v1.1.zip",
-                        "MD5": "e6064673301ec912b98f7950c6f6f728",
-                        "size": 835485,
+                        "MD5": "48a1ee177536d2739e68853f5a11a531",
+                        "size": 840825,
                         "path": "resourcepacks/SPEMOTES_TRANSLATIONS_v1.1.zip"
                     },
                     "path": "resourcepacks/SPEMOTES_TRANSLATIONS_v1.1.zip"
