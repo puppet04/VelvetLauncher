@@ -1,5 +1,5 @@
 {
-    "version": "1.0.56",
+    "version": "1.0.57",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3711,18 +3711,6 @@
                     "path": "mods/vanity-forge-2.1.1.jar"
                 },
                 {
-                    "id": "playingcards-2.0.1.jar",
-                    "name": "playingcards-2.0.1.jar",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/playingcards-2.0.1.jar",
-                        "MD5": "e1623a327b8b5e24e9450c3a3e1a99cc",
-                        "size": 178633,
-                        "path": "mods/playingcards-2.0.1.jar"
-                    },
-                    "path": "mods/playingcards-2.0.1.jar"
-                },
-                {
                     "id": "selective_vanish-1.20.1-5.0.0.jar",
                     "name": "selective_vanish-1.20.1-5.0.0.jar",
                     "type": "File",
@@ -3805,6 +3793,18 @@
                         "path": "mods/easy_npc_config_ui-forge-1.20.1-7.14.0.jar"
                     },
                     "path": "mods/easy_npc_config_ui-forge-1.20.1-7.14.0.jar"
+                },
+                {
+                    "id": "serializer_debug-1.0.1.jar",
+                    "name": "serializer_debug-1.0.1.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/serializer_debug-1.0.1.jar",
+                        "MD5": "19de481a1d63cce26fec3e147b093821",
+                        "size": 400461,
+                        "path": "mods/serializer_debug-1.0.1.jar"
+                    },
+                    "path": "mods/serializer_debug-1.0.1.jar"
                 }
             ]
         }
