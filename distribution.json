@@ -1,5 +1,5 @@
 {
-    "version": "1.0.49",
+    "version": "1.0.50",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -2962,20 +2962,6 @@
                     "path": "mods/uniqueaccessories-1.3.3-forge-mc1.20.1.jar"
                 },
                 {
-                    "id": "VelvetAbyss-1.20.1-1.0.0.jar",
-                    "name": "VelvetAbyss-1.20.1-1.0.0.jar",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.0.jar",
-                        "MD5": "9ea59ac6aacfaecf14429127f5a684ff",
-                        "size": 3508845,
-                        "path": "mods/VelvetAbyss-1.20.1-1.0.0.jar"
-                    },
-                    "path": "mods/VelvetAbyss-1.20.1-1.0.0.jar",
-                    "size": 3508845,
-                    "MD5": "9ea59ac6aacfaecf14429127f5a684ff"
-                },
-                {
                     "id": "vminus-3.1.2-forge-1.20.1.jar",
                     "name": "vminus-3.1.2-forge-1.20.1.jar",
                     "type": "File",
@@ -3795,6 +3781,30 @@
                         "path": "mods/bettersearch-forge-1.20.1-1.5.0.jar"
                     },
                     "path": "mods/bettersearch-forge-1.20.1-1.5.0.jar"
+                },
+                {
+                    "id": "VelvetAbyss-1.20.1-1.5.0.jar",
+                    "name": "VelvetAbyss-1.20.1-1.5.0.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.5.0.jar",
+                        "MD5": "8bc90b12135c2d3767733f810637726a",
+                        "size": 3631595,
+                        "path": "mods/VelvetAbyss-1.20.1-1.5.0.jar"
+                    },
+                    "path": "mods/VelvetAbyss-1.20.1-1.5.0.jar"
+                },
+                {
+                    "id": "velvet_menu-1.20.1-1.0.0.jar",
+                    "name": "velvet_menu-1.20.1-1.0.0.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/velvet_menu-1.20.1-1.0.0.jar",
+                        "MD5": "5643b2761448b22e7218f30b8f97b74f",
+                        "size": 20017365,
+                        "path": "mods/velvet_menu-1.20.1-1.0.0.jar"
+                    },
+                    "path": "mods/velvet_menu-1.20.1-1.0.0.jar"
                 }
             ]
         }
