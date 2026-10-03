@@ -1,5 +1,5 @@
 {
-    "version": "1.0.65",
+    "version": "1.0.66",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3805,6 +3805,18 @@
                         "path": "mods/Spoiled-forge-1.20.1-2.2.2.jar"
                     },
                     "path": "mods/Spoiled-forge-1.20.1-2.2.2.jar"
+                },
+                {
+                    "id": "legendarysurvivaloverhaul-1.20.1-2.4.7.jar",
+                    "name": "legendarysurvivaloverhaul-1.20.1-2.4.7.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/legendarysurvivaloverhaul-1.20.1-2.4.7.jar",
+                        "MD5": "6e9c48ddfb897f79e1d2c558cdd31b3e",
+                        "size": 3751172,
+                        "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7.jar"
+                    },
+                    "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7.jar"
                 }
             ]
         }
