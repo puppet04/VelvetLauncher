@@ -1,5 +1,5 @@
 {
-    "version": "1.0.68",
+    "version": "1.0.69",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3752,8 +3752,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/velvet_menu-1.20.1-1.0.0.jar",
-                        "MD5": "5643b2761448b22e7218f30b8f97b74f",
-                        "size": 20017365,
+                        "MD5": "64db49ce72c5fc63ce6feb5e49545e53",
+                        "size": 20017432,
                         "path": "mods/velvet_menu-1.20.1-1.0.0.jar"
                     },
                     "path": "mods/velvet_menu-1.20.1-1.0.0.jar"
