@@ -1,5 +1,5 @@
 {
-  "version": "1.0.60",
+  "version": "1.0.61",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3793,6 +3793,18 @@
             "path": "mods/easy_npc_config_ui-forge-1.20.1-7.14.0.jar"
           },
           "path": "mods/easy_npc_config_ui-forge-1.20.1-7.14.0.jar"
+        },
+        {
+          "id": "simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
+          "name": "simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
+            "MD5": "b3f7f2922c3599ebf908e491d34de86d",
+            "size": 7302,
+            "path": "mods/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar"
+          },
+          "path": "mods/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar"
         }
       ]
     }
