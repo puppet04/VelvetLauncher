@@ -1,5 +1,5 @@
 {
-    "version": "1.0.66",
+    "version": "1.0.67",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3817,6 +3817,30 @@
                         "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7.jar"
                     },
                     "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7.jar"
+                },
+                {
+                    "id": "legendarysurvivaloverhaul-client.toml",
+                    "name": "legendarysurvivaloverhaul-client.toml",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/legendarysurvivaloverhaul-client.toml",
+                        "MD5": "14eae378f0f3df7f86fd83e9da77c7d5",
+                        "size": 1586,
+                        "path": "config/legendarysurvivaloverhaul-client.toml"
+                    },
+                    "path": "config/legendarysurvivaloverhaul-client.toml"
+                },
+                {
+                    "id": "legendarysurvivaloverhaul-common.toml",
+                    "name": "legendarysurvivaloverhaul-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/legendarysurvivaloverhaul-common.toml",
+                        "MD5": "1ba54e16c79e360667b0bb2f2d94cdcd",
+                        "size": 1973,
+                        "path": "config/legendarysurvivaloverhaul-common.toml"
+                    },
+                    "path": "config/legendarysurvivaloverhaul-common.toml"
                 }
             ]
         }
