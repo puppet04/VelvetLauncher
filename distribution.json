@@ -1,5 +1,5 @@
 {
-    "version": "1.0.67",
+    "version": "1.0.68",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3807,18 +3807,6 @@
                     "path": "mods/Spoiled-forge-1.20.1-2.2.2.jar"
                 },
                 {
-                    "id": "legendarysurvivaloverhaul-1.20.1-2.4.7.jar",
-                    "name": "legendarysurvivaloverhaul-1.20.1-2.4.7.jar",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/legendarysurvivaloverhaul-1.20.1-2.4.7.jar",
-                        "MD5": "6e9c48ddfb897f79e1d2c558cdd31b3e",
-                        "size": 3751172,
-                        "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7.jar"
-                    },
-                    "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7.jar"
-                },
-                {
                     "id": "legendarysurvivaloverhaul-client.toml",
                     "name": "legendarysurvivaloverhaul-client.toml",
                     "type": "File",
@@ -3841,6 +3829,30 @@
                         "path": "config/legendarysurvivaloverhaul-common.toml"
                     },
                     "path": "config/legendarysurvivaloverhaul-common.toml"
+                },
+                {
+                    "id": "legendarysurvivaloverhaul-1.20.1-2.4.7JK.jar",
+                    "name": "legendarysurvivaloverhaul-1.20.1-2.4.7JK.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/legendarysurvivaloverhaul-1.20.1-2.4.7JK.jar",
+                        "MD5": "8dd7198bc3429ee05d5a251d04aeab57",
+                        "size": 3691859,
+                        "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7JK.jar"
+                    },
+                    "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7JK.jar"
+                },
+                {
+                    "id": "ocultar_temperatura_lso.js",
+                    "name": "ocultar_temperatura_lso.js",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ocultar_temperatura_lso.js",
+                        "MD5": "017da2db898ff5173a61451eeaedf4f3",
+                        "size": 2394,
+                        "path": "kubejs/client_scripts/ocultar_temperatura_lso.js"
+                    },
+                    "path": "kubejs/client_scripts/ocultar_temperatura_lso.js"
                 }
             ]
         }
