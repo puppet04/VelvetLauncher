@@ -1,5 +1,5 @@
 {
-  "version": "1.0.59",
+  "version": "1.0.60",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3243,8 +3243,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/SPEMOTES_TRANSLATIONS_v1.1.zip",
-            "MD5": "9865226d9facf9ed8eb21f68dc8378d5",
-            "size": 835485,
+            "MD5": "581932a8b3abe0156aff528d6bb26709",
+            "size": 334137,
             "path": "resourcepacks/SPEMOTES_TRANSLATIONS_v1.1.zip"
           },
           "path": "resourcepacks/SPEMOTES_TRANSLATIONS_v1.1.zip"
@@ -3351,8 +3351,8 @@
           "type": "File",
           "artifact": {
             "url": "https://raw.githubusercontent.com/puppet04/VelvetLauncher/main/configs/resourcepackoverrides.json",
-            "MD5": "b550db8ac73aabdccef9690dba1050be",
-            "size": 882,
+            "MD5": "ca8de186b6f91fad1d48b5fae94018e4",
+            "size": 906,
             "path": "config/resourcepackoverrides.json"
           },
           "path": "config/resourcepackoverrides.json"
@@ -3752,8 +3752,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.5.1.jar",
-            "MD5": "b920a4da50fc33ad69966ce62ad7c84f",
-            "size": 5064345,
+            "MD5": "c49ca194c315eb5225a0da125e3189f4",
+            "size": 6593805,
             "path": "mods/VelvetAbyss-1.20.1-1.5.1.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.5.1.jar"
