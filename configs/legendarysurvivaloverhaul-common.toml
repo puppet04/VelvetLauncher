@@ -1,0 +1,54 @@
+# Configuration file for Legendary Survival Overhaul
+# Alterado para o Velvet Abyss: Sistema de temperatura (frio e calor) 100% desativado.
+
+[core]
+	# Whether the temperature system is enabled.
+	"Temperature Enabled" = false
+	# Whether the thirst system is enabled.
+	"Thirst Enabled" = true
+	# Whether the overhaul health system is enabled.
+	"Health Overhaul Enabled" = true
+	# Whether body members receive localized damages.
+	"Localized Body Damage Enabled" = true
+	# How the mod represents a challenge for the player.
+	# Accepted values: PEACEFUL, EASY, NORMAL, HARD
+	"Temperature Difficulty Mode" = "NORMAL"
+	# Compass Info Mode
+	"Compass Info Mode" = "NONE"
+	# Natural Regeneration Enabled
+	"Natural Regeneration Enabled" = true
+	# Vanilla Freeze Enabled
+	"Vanilla Freeze Enabled" = false
+
+[temperature]
+	# If enabled, players will take damage from the effects of high temperature.
+	"Dangerous Heat Temperature Effects" = false
+	# If enabled, players will take damage from the effects of low temperature.
+	"Dangerous Cold Temperature Effects" = false
+	# Biome Temperature Multiplier
+	"Biome Temperature Multiplier" = 0.0
+
+	[temperature.temperature-immunity]
+		"Temperature Immunity On Death Enabled" = false
+		"Temperature Immunity On First Spawn Enabled" = false
+
+	[temperature.secondary_effects]
+		# If the player is too hot, hydration will deplete faster.
+		"Heat Temperature Secondary Effects" = false
+		# If the player is too cold, hunger will deplete faster.
+		"Cold Temperature Secondary Effects" = false
+
+	[temperature.wetness]
+		# Enable the wetness mechanic.
+		"Wetness Enabled" = false
+
+	[temperature.biomes]
+		# Whether biomes will have an effect on a player's temperature.
+		"Biomes affect Temperature" = false
+
+	[temperature.integration]
+		[temperature.integration.serene-seasons]
+			"Serene Seasons Enabled" = false
+
+		[temperature.integration.ecliptic-seasons]
+			"Ecliptic Seasons Enabled" = false
