@@ -27,7 +27,8 @@
       "force_compatible": true
     },
     "file/SPEMOTES_TRANSLATIONS_v1.1.zip": {
-      "force_compatible": true
+      "force_compatible": true,
+      "required": true
     }
   }
 }
