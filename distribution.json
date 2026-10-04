@@ -1,5 +1,5 @@
 {
-    "version": "1.0.76",
+    "version": "1.0.77",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -9,7 +9,7 @@
             "description": "Servidor oficial do VelvetLauncher",
             "icon": "https://raw.githubusercontent.com/puppet04/VelvetLauncher/main/app/assets/images/logo.png",
             "version": "1.0.0",
-            "address": "velvetin.enxada.host",
+            "address": "enx-cirion-4.enx.host:10032",
             "minecraftVersion": "1.20.1",
             "mainServer": true,
             "autoconnect": true,
