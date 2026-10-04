@@ -33,7 +33,6 @@ const {
 const DiscordWrapper          = require('./assets/js/discordwrapper')
 const ProcessBuilder          = require('./assets/js/processbuilder')
 const LangLoader              = require('./assets/js/langloader')
-const AuthManager             = require('./assets/js/authmanager')
 
 // Launch Elements
 const launch_content          = document.getElementById('launch_content')
