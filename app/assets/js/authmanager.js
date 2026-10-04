@@ -354,22 +354,30 @@ async function validateSelectedMojangAccount(){
  */
 async function validateSelectedMicrosoftAccount(){
     const current = ConfigManager.getSelectedAccount()
+    if (!current) {
+        return false
+    }
+
     const now = new Date().getTime()
+    const safetyBuffer = 60 * 60 * 1000 // 1 hora de margem para evitar expiração durante o carregamento do jogo
     const mcExpiresAt = current.expiresAt
-    const mcExpired = now >= mcExpiresAt
+    const mcExpired = (now + safetyBuffer) >= mcExpiresAt
 
     if(!mcExpired) {
         return true
     }
 
+    log.info('MC token expirado ou perto de expirar. Renovando...')
+
     // MC token expired. Check MS token.
 
-    const msExpiresAt = current.microsoft.expires_at
-    const msExpired = now >= msExpiresAt
+    const msExpiresAt = (current.microsoft && current.microsoft.expires_at) ? current.microsoft.expires_at : 0
+    const msExpired = (now + safetyBuffer) >= msExpiresAt
 
     if(msExpired) {
         // MS expired, do full refresh.
         try {
+            log.info('Microsoft token expirado. Executando renovação completa via refresh_token...')
             const res = await fullMicrosoftAuthFlow(current.microsoft.refresh_token, AUTH_MODE.MS_REFRESH)
 
             ConfigManager.updateMicrosoftAuthAccount(
@@ -381,13 +389,16 @@ async function validateSelectedMicrosoftAccount(){
                 calculateExpiryDate(now, res.mcToken.expires_in)
             )
             ConfigManager.save()
+            log.info('Conta Microsoft renovada com sucesso.')
             return true
         } catch(_err) {
+            log.error('Falha na renovação completa via refresh_token:', _err)
             return false
         }
     } else {
         // Only MC expired, use existing MS token.
         try {
+            log.info('Renovando token do Minecraft utilizando token MS existente...')
             const res = await fullMicrosoftAuthFlow(current.microsoft.access_token, AUTH_MODE.MC_REFRESH)
 
             ConfigManager.updateMicrosoftAuthAccount(
@@ -399,10 +410,29 @@ async function validateSelectedMicrosoftAccount(){
                 calculateExpiryDate(now, res.mcToken.expires_in)
             )
             ConfigManager.save()
+            log.info('Token do Minecraft renovado com sucesso.')
             return true
         }
         catch(_err) {
-            return false
+            log.warn('Tentativa com token MS existente falhou, tentando renovação completa via refresh_token...', _err)
+            try {
+                const res = await fullMicrosoftAuthFlow(current.microsoft.refresh_token, AUTH_MODE.MS_REFRESH)
+
+                ConfigManager.updateMicrosoftAuthAccount(
+                    current.uuid,
+                    res.mcToken.access_token,
+                    res.accessToken.access_token,
+                    res.accessToken.refresh_token,
+                    calculateExpiryDate(now, res.accessToken.expires_in),
+                    calculateExpiryDate(now, res.mcToken.expires_in)
+                )
+                ConfigManager.save()
+                log.info('Conta Microsoft renovada com sucesso no fallback.')
+                return true
+            } catch(fallbackErr) {
+                log.error('Falha no fallback de renovação completa:', fallbackErr)
+                return false
+            }
         }
     }
 }
@@ -415,6 +445,9 @@ async function validateSelectedMicrosoftAccount(){
  */
 exports.validateSelected = async function(){
     const current = ConfigManager.getSelectedAccount()
+    if(!current) {
+        return false
+    }
 
     if(current.type === 'microsoft') {
         return await validateSelectedMicrosoftAccount()
