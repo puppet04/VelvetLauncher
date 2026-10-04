@@ -33,6 +33,7 @@ const {
 const DiscordWrapper          = require('./assets/js/discordwrapper')
 const ProcessBuilder          = require('./assets/js/processbuilder')
 const LangLoader              = require('./assets/js/langloader')
+const AuthManager             = require('./assets/js/authmanager')
 
 // Launch Elements
 const launch_content          = document.getElementById('launch_content')
@@ -190,6 +191,26 @@ document.getElementById('launch_button').addEventListener('click', async e => {
     loggerLanding.info('Launching game..')
     try {
         const server = (await DistroAPI.getDistribution()).getServerById(ConfigManager.getSelectedServer())
+
+        // Validar e renovar a sessão/token da conta com margem de segurança antes de abrir o jogo
+        const currentAcc = ConfigManager.getSelectedAccount()
+        if (!currentAcc) {
+            showLaunchFailure('Nenhuma Conta Selecionada', 'Por favor, selecione ou conecte uma conta antes de iniciar o jogo.')
+            return
+        }
+
+        setLaunchDetails('Validando sessão da conta...')
+        toggleLaunchArea(true)
+        setLaunchPercentage(0, 100)
+
+        const authValid = await AuthManager.validateSelected()
+        if (!authValid) {
+            showLaunchFailure('Sessão Expirada', 'Não foi possível validar sua conta de jogo. Por favor, refaça o login nas configurações.')
+            return
+        }
+
+        updateSelectedAccount(ConfigManager.getSelectedAccount())
+
         const jExe = ConfigManager.getJavaExecutable(ConfigManager.getSelectedServer())
         if(jExe == null){
             await asyncSystemScan(server.effectiveJavaOptions)
@@ -197,7 +218,6 @@ document.getElementById('launch_button').addEventListener('click', async e => {
             ensureDedicatedGpuPreference(jExe)
 
             setLaunchDetails(Lang.queryJS('landing.launch.pleaseWait'))
-            toggleLaunchArea(true)
             setLaunchPercentage(0, 100)
 
             const details = await validateSelectedJvm(ensureJavaDirIsRoot(jExe), server.effectiveJavaOptions.supported)
@@ -752,6 +772,11 @@ async function dlAsync(login = true) {
     const versionData = await mojangIndexProcessor.getVersionJson()
 
     if(login) {
+        const authValid = await AuthManager.validateSelected()
+        if (!authValid) {
+            showLaunchFailure('Sessão Expirada', 'Não foi possível validar sua conta de jogo. Por favor, refaça o login nas configurações.')
+            return
+        }
         const authUser = ConfigManager.getSelectedAccount()
         loggerLaunchSuite.info(`Sending selected account (${authUser.displayName}) to ProcessBuilder.`)
         let pb = new ProcessBuilder(serv, versionData, modLoaderData, authUser, remote.app.getVersion())
