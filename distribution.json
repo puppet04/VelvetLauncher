@@ -1,5 +1,5 @@
 {
-    "version": "1.0.81",
+    "version": "1.0.82",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3735,16 +3735,16 @@
                     "path": "mods/bettersearch-forge-1.20.1-1.5.0.jar"
                 },
                 {
-                    "id": "VelvetAbyss-1.20.1-1.0.1.jar",
-                    "name": "VelvetAbyss-1.20.1-1.0.1.jar",
+                    "id": "VelvetAbyss-1.20.1-1.0.2.jar",
+                    "name": "VelvetAbyss-1.20.1-1.0.2.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.1.jar",
-                        "MD5": "7c2842f8beb179ce8e9b2afce876a681",
-                        "size": 5157167,
-                        "path": "mods/VelvetAbyss-1.20.1-1.0.1.jar"
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.2.jar",
+                        "MD5": "1d5fe9ed8d6e7386489e6019a56f11d1",
+                        "size": 5161718,
+                        "path": "mods/VelvetAbyss-1.20.1-1.0.2.jar"
                     },
-                    "path": "mods/VelvetAbyss-1.20.1-1.0.1.jar"
+                    "path": "mods/VelvetAbyss-1.20.1-1.0.2.jar"
                 },
                 {
                     "id": "velvet_menu-1.20.1-1.0.0.jar",
