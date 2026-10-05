@@ -1,5 +1,5 @@
 {
-    "version": "1.0.79",
+    "version": "1.0.80",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3865,6 +3865,18 @@
                         "path": "mods/persistent_effects-1.0.0_neoforge.jar"
                     },
                     "path": "mods/persistent_effects-1.0.0_neoforge.jar"
+                },
+                {
+                    "id": "arcos_imbuiveis.js",
+                    "name": "arcos_imbuiveis.js",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/arcos_imbuiveis.js",
+                        "MD5": "bec10535f22075a9242f6d5bf17536f9",
+                        "size": 1452,
+                        "path": "kubejs/server_scripts/arcos_imbuiveis.js"
+                    },
+                    "path": "kubejs/server_scripts/arcos_imbuiveis.js"
                 }
             ]
         }
