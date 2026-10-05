@@ -1,5 +1,5 @@
 {
-    "version": "1.0.82",
+    "version": "1.0.83",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3889,6 +3889,30 @@
                         "path": "mods/flan-1.20.1-1.11.16-forge.jar"
                     },
                     "path": "mods/flan-1.20.1-1.11.16-forge.jar"
+                },
+                {
+                    "id": "lithium.properties",
+                    "name": "lithium.properties",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/lithium.properties",
+                        "MD5": "53715454111f3dd6eee19a12073e3c38",
+                        "size": 204,
+                        "path": "config/lithium.properties"
+                    },
+                    "path": "config/lithium.properties"
+                },
+                {
+                    "id": "radium.properties",
+                    "name": "radium.properties",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/radium.properties",
+                        "MD5": "53715454111f3dd6eee19a12073e3c38",
+                        "size": 204,
+                        "path": "config/radium.properties"
+                    },
+                    "path": "config/radium.properties"
                 }
             ]
         }
