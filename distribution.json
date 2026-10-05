@@ -1,5 +1,5 @@
 {
-    "version": "1.0.78",
+    "version": "1.0.79",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3853,6 +3853,18 @@
                         "path": "kubejs/client_scripts/ocultar_temperatura_lso.js"
                     },
                     "path": "kubejs/client_scripts/ocultar_temperatura_lso.js"
+                },
+                {
+                    "id": "persistent_effects-1.0.0_neoforge.jar",
+                    "name": "persistent_effects-1.0.0_neoforge.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/persistent_effects-1.0.0_neoforge.jar",
+                        "MD5": "8979ed4d9db907af836fc9214c2e082f",
+                        "size": 26220,
+                        "path": "mods/persistent_effects-1.0.0_neoforge.jar"
+                    },
+                    "path": "mods/persistent_effects-1.0.0_neoforge.jar"
                 }
             ]
         }
