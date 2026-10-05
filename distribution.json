@@ -1,5 +1,5 @@
 {
-    "version": "1.0.80",
+    "version": "1.0.81",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3877,6 +3877,18 @@
                         "path": "kubejs/server_scripts/arcos_imbuiveis.js"
                     },
                     "path": "kubejs/server_scripts/arcos_imbuiveis.js"
+                },
+                {
+                    "id": "flan-1.20.1-1.11.16-forge.jar",
+                    "name": "flan-1.20.1-1.11.16-forge.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/flan-1.20.1-1.11.16-forge.jar",
+                        "MD5": "cd07d24459d31323bcca16eac14a4b71",
+                        "size": 894692,
+                        "path": "mods/flan-1.20.1-1.11.16-forge.jar"
+                    },
+                    "path": "mods/flan-1.20.1-1.11.16-forge.jar"
                 }
             ]
         }
