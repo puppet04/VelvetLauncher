@@ -454,32 +454,78 @@ function showLaunchFailure(title, desc){
 }
 
 function ensureDedicatedGpuPreference(javaExec) {
-    if (!javaExec || process.platform !== 'win32') return
+    if (process.platform !== 'win32') return
     try {
         const cp = require('child_process')
         const p = require('path')
         const f = require('fs')
-        cp.spawnSync('reg.exe', [
-            'add',
-            'HKCU\\Software\\Microsoft\\DirectX\\UserGpuPreferences',
-            '/v', javaExec,
-            '/t', 'REG_SZ',
-            '/d', 'GpuPreference=2;',
-            '/f'
-        ], { stdio: 'ignore' })
-        const dir = p.dirname(javaExec)
-        const base = p.basename(javaExec).toLowerCase()
-        const alt = base === 'javaw.exe' ? p.join(dir, 'java.exe') : p.join(dir, 'javaw.exe')
-        if (f.existsSync(alt)) {
-            cp.spawnSync('reg.exe', [
-                'add',
-                'HKCU\\Software\\Microsoft\\DirectX\\UserGpuPreferences',
-                '/v', alt,
-                '/t', 'REG_SZ',
-                '/d', 'GpuPreference=2;',
-                '/f'
-            ], { stdio: 'ignore' })
+
+        const targets = new Set()
+
+        const addTarget = (targetPath) => {
+            if (!targetPath || typeof targetPath !== 'string') return
+            try {
+                const normalized = p.resolve(targetPath).replace(/\//g, '\\')
+                if (f.existsSync(normalized)) {
+                    targets.add(normalized)
+                    const dir = p.dirname(normalized)
+                    const base = p.basename(normalized).toLowerCase()
+                    const alt = base === 'javaw.exe' ? p.join(dir, 'java.exe') : p.join(dir, 'javaw.exe')
+                    if (f.existsSync(alt)) {
+                        targets.add(alt.replace(/\//g, '\\'))
+                    }
+                }
+            } catch (_) {}
         }
+
+        if (javaExec) {
+            addTarget(javaExec)
+        }
+
+        // Também varre os runtimes instalados pelo launcher em .velvet/runtime
+        try {
+            const runtimeDir = p.join(ConfigManager.getDataDirectory(), 'runtime')
+            if (f.existsSync(runtimeDir)) {
+                const findJavas = (dir) => {
+                    const entries = f.readdirSync(dir, { withFileTypes: true })
+                    for (const ent of entries) {
+                        const full = p.join(dir, ent.name)
+                        if (ent.isDirectory()) {
+                            findJavas(full)
+                        } else if (ent.isFile() && (ent.name.toLowerCase() === 'javaw.exe' || ent.name.toLowerCase() === 'java.exe')) {
+                            targets.add(full.replace(/\//g, '\\'))
+                        }
+                    }
+                }
+                findJavas(runtimeDir)
+            }
+        } catch (_) {}
+
+        if (targets.size === 0) return
+
+        // 1. Aplicar via PowerShell UTF-16LE / .NET (imune a problemas de acentuação/caracteres especiais no Windows)
+        try {
+            let psCommands = ''
+            for (const t of targets) {
+                psCommands += `[Microsoft.Win32.Registry]::SetValue('HKEY_CURRENT_USER\\Software\\Microsoft\\DirectX\\UserGpuPreferences', '${t.replace(/'/g, "''")}', 'GpuPreference=2;');`
+            }
+            const b64 = Buffer.from(psCommands, 'utf16le').toString('base64')
+            cp.spawnSync('powershell.exe', ['-NoProfile', '-NonInteractive', '-EncodedCommand', b64], { stdio: 'ignore' })
+        } catch (_) {}
+
+        // 2. Fallback com reg.exe
+        try {
+            for (const t of targets) {
+                cp.spawnSync('reg.exe', [
+                    'add',
+                    'HKCU\\Software\\Microsoft\\DirectX\\UserGpuPreferences',
+                    '/v', t,
+                    '/t', 'REG_SZ',
+                    '/d', 'GpuPreference=2;',
+                    '/f'
+                ], { stdio: 'ignore' })
+            }
+        } catch (_) {}
     } catch (e) {}
 }
 
