@@ -1,5 +1,5 @@
 {
-    "version": "1.0.91",
+    "version": "1.0.92",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3807,18 +3807,6 @@
                     "path": "config/legendarysurvivaloverhaul-client.toml"
                 },
                 {
-                    "id": "legendarysurvivaloverhaul-common.toml",
-                    "name": "legendarysurvivaloverhaul-common.toml",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/legendarysurvivaloverhaul-common.toml",
-                        "MD5": "1ba54e16c79e360667b0bb2f2d94cdcd",
-                        "size": 1973,
-                        "path": "config/legendarysurvivaloverhaul-common.toml"
-                    },
-                    "path": "config/legendarysurvivaloverhaul-common.toml"
-                },
-                {
                     "id": "legendarysurvivaloverhaul-1.20.1-2.4.7JK.jar",
                     "name": "legendarysurvivaloverhaul-1.20.1-2.4.7JK.jar",
                     "type": "File",
@@ -3913,6 +3901,18 @@
                         "path": "kubejs/server_scripts/correcao_receitas.js"
                     },
                     "path": "kubejs/server_scripts/correcao_receitas.js"
+                },
+                {
+                    "id": "legendarysurvivaloverhaul-common.toml",
+                    "name": "legendarysurvivaloverhaul-common.toml",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/legendarysurvivaloverhaul-common.toml",
+                        "MD5": "c9f3ba0ad5c2980538fd31a51015476d",
+                        "size": 2266,
+                        "path": "config/legendarysurvivaloverhaul-common.toml"
+                    },
+                    "path": "config/legendarysurvivaloverhaul-common.toml"
                 }
             ]
         }
