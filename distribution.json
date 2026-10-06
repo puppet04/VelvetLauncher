@@ -1,5 +1,5 @@
 {
-    "version": "1.0.88",
+    "version": "1.0.89",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3908,8 +3908,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-                        "MD5": "c958e80727b17fadba25c08345f91eeb",
-                        "size": 8377,
+                        "MD5": "73350ddf55daed4ac1cf17fd2eabc743",
+                        "size": 11314,
                         "path": "kubejs/server_scripts/correcao_receitas.js"
                     },
                     "path": "kubejs/server_scripts/correcao_receitas.js"
