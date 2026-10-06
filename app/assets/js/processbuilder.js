@@ -228,33 +228,71 @@ class ProcessBuilder {
         const spawnEnv = Object.assign({}, process.env)
         if (process.platform === 'win32') {
             try {
-                if (javaExec) {
-                    // Define no registro do Windows (DirectX UserGpuPreferences) GpuPreference=2 (Alto Desempenho / GPU Dedicada)
-                    // Caso o jogador só tenha GPU integrada, o Windows utiliza a integrada normalmente sem nenhum erro.
-                    child_process.spawnSync('reg.exe', [
-                        'add',
-                        'HKCU\\Software\\Microsoft\\DirectX\\UserGpuPreferences',
-                        '/v', javaExec,
-                        '/t', 'REG_SZ',
-                        '/d', 'GpuPreference=2;',
-                        '/f'
-                    ], { stdio: 'ignore' })
+                const targets = new Set()
 
-                    // Também registra o executável irmão (java.exe / javaw.exe)
-                    const javaDir = path.dirname(javaExec)
-                    const baseName = path.basename(javaExec).toLowerCase()
-                    const altName = baseName === 'javaw.exe' ? 'java.exe' : 'javaw.exe'
-                    const altExec = path.join(javaDir, altName)
-                    if (fs.existsSync(altExec)) {
-                        child_process.spawnSync('reg.exe', [
-                            'add',
-                            'HKCU\\Software\\Microsoft\\DirectX\\UserGpuPreferences',
-                            '/v', altExec,
-                            '/t', 'REG_SZ',
-                            '/d', 'GpuPreference=2;',
-                            '/f'
-                        ], { stdio: 'ignore' })
+                const addTarget = (targetPath) => {
+                    if (!targetPath || typeof targetPath !== 'string') return
+                    try {
+                        const normalized = path.resolve(targetPath).replace(/\//g, '\\')
+                        if (fs.existsSync(normalized)) {
+                            targets.add(normalized)
+                            const dir = path.dirname(normalized)
+                            const base = path.basename(normalized).toLowerCase()
+                            const alt = base === 'javaw.exe' ? path.join(dir, 'java.exe') : path.join(dir, 'javaw.exe')
+                            if (fs.existsSync(alt)) {
+                                targets.add(alt.replace(/\//g, '\\'))
+                            }
+                        }
+                    } catch (_) {}
+                }
+
+                if (javaExec) {
+                    addTarget(javaExec)
+                }
+
+                // Também varre os runtimes instalados pelo launcher em .velvet/runtime
+                try {
+                    const runtimeDir = path.join(ConfigManager.getDataDirectory(), 'runtime')
+                    if (fs.existsSync(runtimeDir)) {
+                        const findJavas = (dir) => {
+                            const entries = fs.readdirSync(dir, { withFileTypes: true })
+                            for (const ent of entries) {
+                                const full = path.join(dir, ent.name)
+                                if (ent.isDirectory()) {
+                                    findJavas(full)
+                                } else if (ent.isFile() && (ent.name.toLowerCase() === 'javaw.exe' || ent.name.toLowerCase() === 'java.exe')) {
+                                    targets.add(full.replace(/\//g, '\\'))
+                                }
+                            }
+                        }
+                        findJavas(runtimeDir)
                     }
+                } catch (_) {}
+
+                if (targets.size > 0) {
+                    // 1. Aplicar via PowerShell UTF-16LE / .NET (imune a problemas de acentuação/caracteres especiais no Windows)
+                    try {
+                        let psCommands = ''
+                        for (const t of targets) {
+                            psCommands += `[Microsoft.Win32.Registry]::SetValue('HKEY_CURRENT_USER\\Software\\Microsoft\\DirectX\\UserGpuPreferences', '${t.replace(/'/g, "''")}', 'GpuPreference=2;');`
+                        }
+                        const b64 = Buffer.from(psCommands, 'utf16le').toString('base64')
+                        child_process.spawnSync('powershell.exe', ['-NoProfile', '-NonInteractive', '-EncodedCommand', b64], { stdio: 'ignore' })
+                    } catch (_) {}
+
+                    // 2. Fallback com reg.exe
+                    try {
+                        for (const t of targets) {
+                            child_process.spawnSync('reg.exe', [
+                                'add',
+                                'HKCU\\Software\\Microsoft\\DirectX\\UserGpuPreferences',
+                                '/v', t,
+                                '/t', 'REG_SZ',
+                                '/d', 'GpuPreference=2;',
+                                '/f'
+                            ], { stdio: 'ignore' })
+                        }
+                    } catch (_) {}
                 }
             } catch (e) {
                 logger.warn('Não foi possível definir preferência de GPU no registro:', e)
@@ -264,6 +302,14 @@ class ProcessBuilder {
             spawnEnv.SHIM_MCCOMPAT = '0x800000001'
             spawnEnv.GPU_MAX_ALLOC_PERCENT = '100'
             spawnEnv.GPU_USE_SYNC_OBJECTS = '1'
+            spawnEnv.GPU_NUM_COMPUTE_RINGS = '1'
+            spawnEnv.GPU_MAX_HEAP_SIZE = '100'
+            spawnEnv.GPU_SINGLE_ALLOC_PERCENT = '100'
+            spawnEnv.__GL_THREADED_OPTIMIZATIONS = '1'
+            spawnEnv.DRI_PRIME = '1'
+            spawnEnv.__NV_PRIME_RENDER_OFFLOAD = '1'
+            spawnEnv.__GLX_VENDOR_LIBRARY_NAME = 'nvidia'
+            spawnEnv.__VK_LAYER_NV_optimus = 'NVIDIA_only'
         } else if (process.platform === 'linux') {
             // Linux PRIME offload
             spawnEnv.DRI_PRIME = '1'
