@@ -1,5 +1,5 @@
 {
-    "version": "1.0.95",
+    "version": "1.0.96",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3913,6 +3913,18 @@
                         "path": "kubejs/server_scripts/correcao_receitas.js"
                     },
                     "path": "kubejs/server_scripts/correcao_receitas.js"
+                },
+                {
+                    "id": "camera-forge-1.20.1-1.0.20.jar",
+                    "name": "camera-forge-1.20.1-1.0.20.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/camera-forge-1.20.1-1.0.20.jar",
+                        "MD5": "2974de2c633178ea632406ab5bede5bd",
+                        "size": 299727,
+                        "path": "mods/camera-forge-1.20.1-1.0.20.jar"
+                    },
+                    "path": "mods/camera-forge-1.20.1-1.0.20.jar"
                 }
             ]
         }
