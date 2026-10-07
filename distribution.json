@@ -1,5 +1,5 @@
 {
-    "version": "1.0.97",
+    "version": "1.0.98",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -2379,8 +2379,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/piggyback-forge-1.20.1-1.1.1.jar",
-                        "MD5": "0f1615e5256de8bd705a7a053b1e8b63",
-                        "size": 974474,
+                        "MD5": "602302a3629eb7f59fd49b256f131955",
+                        "size": 974413,
                         "path": "mods/piggyback-forge-1.20.1-1.1.1.jar"
                     },
                     "path": "mods/piggyback-forge-1.20.1-1.1.1.jar"
