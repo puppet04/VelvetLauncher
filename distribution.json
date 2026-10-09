@@ -1,5 +1,5 @@
 {
-  "version": "1.0.100",
+  "version": "1.0.101",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3723,16 +3723,16 @@
           "path": "mods/bettersearch-forge-1.20.1-1.5.0.jar"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.0.2.jar",
-          "name": "VelvetAbyss-1.20.1-1.0.2.jar",
+          "id": "VelvetAbyss-1.20.1-1.0.3.jar",
+          "name": "VelvetAbyss-1.20.1-1.0.3.jar",
           "type": "File",
           "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.2.jar",
-            "MD5": "3cd1bdc3b2708e3e68b59972d2c5cbd7",
-            "size": 5164885,
-            "path": "mods/VelvetAbyss-1.20.1-1.0.2.jar"
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.3.jar",
+            "MD5": "4f5b5dca46bd349bf04842d385c03134",
+            "size": 5172586,
+            "path": "mods/VelvetAbyss-1.20.1-1.0.3.jar"
           },
-          "path": "mods/VelvetAbyss-1.20.1-1.0.2.jar"
+          "path": "mods/VelvetAbyss-1.20.1-1.0.3.jar"
         },
         {
           "id": "velvet_menu-1.20.1-1.0.0.jar",
@@ -3925,6 +3925,18 @@
             "path": "mods/camera-forge-1.20.1-1.0.20.jar"
           },
           "path": "mods/camera-forge-1.20.1-1.0.20.jar"
+        },
+        {
+          "id": "ArmorDamageLimit-1.20.1-1.0.0.jar",
+          "name": "ArmorDamageLimit-1.20.1-1.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ArmorDamageLimit-1.20.1-1.0.0.jar",
+            "MD5": "6d6281cc6238ada7766470051c533598",
+            "size": 6938,
+            "path": "mods/ArmorDamageLimit-1.20.1-1.0.0.jar"
+          },
+          "path": "mods/ArmorDamageLimit-1.20.1-1.0.0.jar"
         }
       ]
     },
@@ -7624,16 +7636,16 @@
           "path": "mods/bettersearch-forge-1.20.1-1.5.0.jar"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.0.2.jar",
-          "name": "VelvetAbyss-1.20.1-1.0.2.jar",
+          "id": "VelvetAbyss-1.20.1-1.0.3.jar",
+          "name": "VelvetAbyss-1.20.1-1.0.3.jar",
           "type": "File",
           "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.2.jar",
-            "MD5": "3cd1bdc3b2708e3e68b59972d2c5cbd7",
-            "size": 5164885,
-            "path": "mods/VelvetAbyss-1.20.1-1.0.2.jar"
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.3.jar",
+            "MD5": "4f5b5dca46bd349bf04842d385c03134",
+            "size": 5172586,
+            "path": "mods/VelvetAbyss-1.20.1-1.0.3.jar"
           },
-          "path": "mods/VelvetAbyss-1.20.1-1.0.2.jar"
+          "path": "mods/VelvetAbyss-1.20.1-1.0.3.jar"
         },
         {
           "id": "velvet_menu-1.20.1-1.0.0.jar",
@@ -7826,6 +7838,18 @@
             "path": "mods/camera-forge-1.20.1-1.0.20.jar"
           },
           "path": "mods/camera-forge-1.20.1-1.0.20.jar"
+        },
+        {
+          "id": "ArmorDamageLimit-1.20.1-1.0.0.jar",
+          "name": "ArmorDamageLimit-1.20.1-1.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ArmorDamageLimit-1.20.1-1.0.0.jar",
+            "MD5": "6d6281cc6238ada7766470051c533598",
+            "size": 6938,
+            "path": "mods/ArmorDamageLimit-1.20.1-1.0.0.jar"
+          },
+          "path": "mods/ArmorDamageLimit-1.20.1-1.0.0.jar"
         }
       ]
     }
