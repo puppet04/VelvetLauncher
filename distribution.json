@@ -1,5 +1,5 @@
 {
-  "version": "1.0.101",
+  "version": "1.0.102",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -2619,8 +2619,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/silent-gear-1.20.1-3.6.7.jar",
-            "MD5": "ad1c965e6ede3e866d9b9911f0a843f1",
-            "size": 2747490,
+            "MD5": "971bcf9d10cc416dea55005fb2952710",
+            "size": 2687567,
             "path": "mods/silent-gear-1.20.1-3.6.7.jar"
           },
           "path": "mods/silent-gear-1.20.1-3.6.7.jar"
@@ -6532,8 +6532,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/silent-gear-1.20.1-3.6.7.jar",
-            "MD5": "ad1c965e6ede3e866d9b9911f0a843f1",
-            "size": 2747490,
+            "MD5": "971bcf9d10cc416dea55005fb2952710",
+            "size": 2687567,
             "path": "mods/silent-gear-1.20.1-3.6.7.jar"
           },
           "path": "mods/silent-gear-1.20.1-3.6.7.jar"
