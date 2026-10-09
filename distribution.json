@@ -1,5 +1,5 @@
 {
-  "version": "1.0.102",
+  "version": "1.0.103",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3937,6 +3937,30 @@
             "path": "mods/ArmorDamageLimit-1.20.1-1.0.0.jar"
           },
           "path": "mods/ArmorDamageLimit-1.20.1-1.0.0.jar"
+        },
+        {
+          "id": "AI-Improvements-1.20-0.5.2.jar",
+          "name": "AI-Improvements-1.20-0.5.2.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/AI-Improvements-1.20-0.5.2.jar",
+            "MD5": "9a6776ce2deab597d198e8755daa56ff",
+            "size": 29553,
+            "path": "mods/AI-Improvements-1.20-0.5.2.jar"
+          },
+          "path": "mods/AI-Improvements-1.20-0.5.2.jar"
+        },
+        {
+          "id": "ClearLagPlus-1.0.2.jar",
+          "name": "ClearLagPlus-1.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ClearLagPlus-1.0.2.jar",
+            "MD5": "fdd5d4625d599b10d4e0ec0a61ebfa31",
+            "size": 23866,
+            "path": "mods/ClearLagPlus-1.0.2.jar"
+          },
+          "path": "mods/ClearLagPlus-1.0.2.jar"
         }
       ]
     },
@@ -7850,6 +7874,30 @@
             "path": "mods/ArmorDamageLimit-1.20.1-1.0.0.jar"
           },
           "path": "mods/ArmorDamageLimit-1.20.1-1.0.0.jar"
+        },
+        {
+          "id": "AI-Improvements-1.20-0.5.2.jar",
+          "name": "AI-Improvements-1.20-0.5.2.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/AI-Improvements-1.20-0.5.2.jar",
+            "MD5": "9a6776ce2deab597d198e8755daa56ff",
+            "size": 29553,
+            "path": "mods/AI-Improvements-1.20-0.5.2.jar"
+          },
+          "path": "mods/AI-Improvements-1.20-0.5.2.jar"
+        },
+        {
+          "id": "ClearLagPlus-1.0.2.jar",
+          "name": "ClearLagPlus-1.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ClearLagPlus-1.0.2.jar",
+            "MD5": "fdd5d4625d599b10d4e0ec0a61ebfa31",
+            "size": 23866,
+            "path": "mods/ClearLagPlus-1.0.2.jar"
+          },
+          "path": "mods/ClearLagPlus-1.0.2.jar"
         }
       ]
     }
