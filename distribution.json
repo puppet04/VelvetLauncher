@@ -1,5 +1,5 @@
 {
-    "version": "1.0.105",
+    "version": "1.0.106",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3723,18 +3723,6 @@
                     "path": "mods/bettersearch-forge-1.20.1-1.5.0.jar"
                 },
                 {
-                    "id": "VelvetAbyss-1.20.1-1.0.3.jar",
-                    "name": "VelvetAbyss-1.20.1-1.0.3.jar",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.3.jar",
-                        "MD5": "4f5b5dca46bd349bf04842d385c03134",
-                        "size": 5172586,
-                        "path": "mods/VelvetAbyss-1.20.1-1.0.3.jar"
-                    },
-                    "path": "mods/VelvetAbyss-1.20.1-1.0.3.jar"
-                },
-                {
                     "id": "velvet_menu-1.20.1-1.0.0.jar",
                     "name": "velvet_menu-1.20.1-1.0.0.jar",
                     "type": "File",
@@ -3949,6 +3937,30 @@
                         "path": "mods/AI-Improvements-1.20-0.5.2.jar"
                     },
                     "path": "mods/AI-Improvements-1.20-0.5.2.jar"
+                },
+                {
+                    "id": "VelvetAbyss-1.20.1-1.0.4.jar",
+                    "name": "VelvetAbyss-1.20.1-1.0.4.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.4.jar",
+                        "MD5": "4e48481b29dff43136cdd2b96a814203",
+                        "size": 5213985,
+                        "path": "mods/VelvetAbyss-1.20.1-1.0.4.jar"
+                    },
+                    "path": "mods/VelvetAbyss-1.20.1-1.0.4.jar"
+                },
+                {
+                    "id": "immersive_melodies-0.8.0+1.20.1-forge.jar",
+                    "name": "immersive_melodies-0.8.0+1.20.1-forge.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/immersive_melodies-0.8.0+1.20.1-forge.jar",
+                        "MD5": "5f2d914524e0593128bf03982b88d170",
+                        "size": 5563706,
+                        "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
+                    },
+                    "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
                 }
             ]
         },
@@ -7648,18 +7660,6 @@
                     "path": "mods/bettersearch-forge-1.20.1-1.5.0.jar"
                 },
                 {
-                    "id": "VelvetAbyss-1.20.1-1.0.3.jar",
-                    "name": "VelvetAbyss-1.20.1-1.0.3.jar",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.3.jar",
-                        "MD5": "4f5b5dca46bd349bf04842d385c03134",
-                        "size": 5172586,
-                        "path": "mods/VelvetAbyss-1.20.1-1.0.3.jar"
-                    },
-                    "path": "mods/VelvetAbyss-1.20.1-1.0.3.jar"
-                },
-                {
                     "id": "velvet_menu-1.20.1-1.0.0.jar",
                     "name": "velvet_menu-1.20.1-1.0.0.jar",
                     "type": "File",
@@ -7874,6 +7874,30 @@
                         "path": "mods/AI-Improvements-1.20-0.5.2.jar"
                     },
                     "path": "mods/AI-Improvements-1.20-0.5.2.jar"
+                },
+                {
+                    "id": "VelvetAbyss-1.20.1-1.0.4.jar",
+                    "name": "VelvetAbyss-1.20.1-1.0.4.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.4.jar",
+                        "MD5": "4e48481b29dff43136cdd2b96a814203",
+                        "size": 5213985,
+                        "path": "mods/VelvetAbyss-1.20.1-1.0.4.jar"
+                    },
+                    "path": "mods/VelvetAbyss-1.20.1-1.0.4.jar"
+                },
+                {
+                    "id": "immersive_melodies-0.8.0+1.20.1-forge.jar",
+                    "name": "immersive_melodies-0.8.0+1.20.1-forge.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/immersive_melodies-0.8.0+1.20.1-forge.jar",
+                        "MD5": "5f2d914524e0593128bf03982b88d170",
+                        "size": 5563706,
+                        "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
+                    },
+                    "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
                 }
             ]
         }
