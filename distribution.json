@@ -1,5 +1,5 @@
 {
-    "version": "1.0.107",
+    "version": "1.0.108",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3944,8 +3944,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.4.jar",
-                        "MD5": "4e48481b29dff43136cdd2b96a814203",
-                        "size": 5213985,
+                        "MD5": "5713e48de57cbba4be5ffa2dab6dd711",
+                        "size": 5214691,
                         "path": "mods/VelvetAbyss-1.20.1-1.0.4.jar"
                     },
                     "path": "mods/VelvetAbyss-1.20.1-1.0.4.jar"
@@ -7881,8 +7881,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.4.jar",
-                        "MD5": "4e48481b29dff43136cdd2b96a814203",
-                        "size": 5213985,
+                        "MD5": "5713e48de57cbba4be5ffa2dab6dd711",
+                        "size": 5214691,
                         "path": "mods/VelvetAbyss-1.20.1-1.0.4.jar"
                     },
                     "path": "mods/VelvetAbyss-1.20.1-1.0.4.jar"
