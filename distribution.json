@@ -1,5 +1,5 @@
 {
-    "version": "1.0.109",
+    "version": "1.0.110",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3951,16 +3951,16 @@
                     "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
                 },
                 {
-                    "id": "VelvetAbyss-1.20.1-1.0.5.jar",
-                    "name": "VelvetAbyss-1.20.1-1.0.5.jar",
+                    "id": "VelvetAbyss-1.20.1-1.0.6.jar",
+                    "name": "VelvetAbyss-1.20.1-1.0.6.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.5.jar",
-                        "MD5": "bb4e87132493aee9dc3d9b427fdf004e",
-                        "size": 5218842,
-                        "path": "mods/VelvetAbyss-1.20.1-1.0.5.jar"
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.6.jar",
+                        "MD5": "51e5856814d6cfb8850e517606b15424",
+                        "size": 5253939,
+                        "path": "mods/VelvetAbyss-1.20.1-1.0.6.jar"
                     },
-                    "path": "mods/VelvetAbyss-1.20.1-1.0.5.jar"
+                    "path": "mods/VelvetAbyss-1.20.1-1.0.6.jar"
                 }
             ]
         },
@@ -7888,16 +7888,16 @@
                     "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
                 },
                 {
-                    "id": "VelvetAbyss-1.20.1-1.0.5.jar",
-                    "name": "VelvetAbyss-1.20.1-1.0.5.jar",
+                    "id": "VelvetAbyss-1.20.1-1.0.6.jar",
+                    "name": "VelvetAbyss-1.20.1-1.0.6.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.5.jar",
-                        "MD5": "bb4e87132493aee9dc3d9b427fdf004e",
-                        "size": 5218842,
-                        "path": "mods/VelvetAbyss-1.20.1-1.0.5.jar"
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.6.jar",
+                        "MD5": "51e5856814d6cfb8850e517606b15424",
+                        "size": 5253939,
+                        "path": "mods/VelvetAbyss-1.20.1-1.0.6.jar"
                     },
-                    "path": "mods/VelvetAbyss-1.20.1-1.0.5.jar"
+                    "path": "mods/VelvetAbyss-1.20.1-1.0.6.jar"
                 }
             ]
         }
