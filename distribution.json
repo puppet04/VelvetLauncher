@@ -1,5 +1,5 @@
 {
-    "version": "1.0.111",
+    "version": "1.0.112",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3800,8 +3800,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/legendarysurvivaloverhaul-1.20.1-2.4.7JK.jar",
-                        "MD5": "dbf78169bdc707231d1b094b6e1cf747",
-                        "size": 3735422,
+                        "MD5": "1cd5150854650ab4836c7086d2e63790",
+                        "size": 3741160,
                         "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7JK.jar"
                     },
                     "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7JK.jar"
@@ -7737,8 +7737,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/legendarysurvivaloverhaul-1.20.1-2.4.7JK.jar",
-                        "MD5": "dbf78169bdc707231d1b094b6e1cf747",
-                        "size": 3735422,
+                        "MD5": "1cd5150854650ab4836c7086d2e63790",
+                        "size": 3741160,
                         "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7JK.jar"
                     },
                     "path": "mods/legendarysurvivaloverhaul-1.20.1-2.4.7JK.jar"
