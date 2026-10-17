@@ -1,5 +1,5 @@
 {
-    "version": "1.0.112",
+    "version": "1.0.113",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -1453,8 +1453,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fastvancements-1.3.jar",
-                        "MD5": "150b1ed4bcf52a830dc3cff28f46a416",
-                        "size": 89644,
+                        "MD5": "109362ae3b2e1caa873aecc758b4ec52",
+                        "size": 88942,
                         "path": "mods/fastvancements-1.3.jar"
                     },
                     "path": "mods/fastvancements-1.3.jar"
@@ -3387,8 +3387,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/curio_trinkets_bridge-1.0.0-beta.jar",
-                        "MD5": "0c39cae39d872f2c06f013b0156e15b6",
-                        "size": 94771,
+                        "MD5": "dd9e575d20dcc307c22b0e45a59ac2c9",
+                        "size": 95548,
                         "path": "mods/curio_trinkets_bridge-1.0.0-beta.jar"
                     },
                     "path": "mods/curio_trinkets_bridge-1.0.0-beta.jar"
@@ -3411,8 +3411,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/revelationary-1.3.9%2B1.20.1.jar",
-                        "MD5": "9f08380a99ad6a22d54169d414a8d9ce",
-                        "size": 156196,
+                        "MD5": "6fab06a7bb31fce8747b5b9d135a12b9",
+                        "size": 157032,
                         "path": "mods/revelationary-1.3.9+1.20.1.jar"
                     },
                     "path": "mods/revelationary-1.3.9+1.20.1.jar"
@@ -3423,8 +3423,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spectrum-1.8.13.jar",
-                        "MD5": "dfbe7773e2e6600861f604e6829409ee",
-                        "size": 87426877,
+                        "MD5": "fc075c019d4d4f83ba445dfae7f5de88",
+                        "size": 87722219,
                         "path": "mods/spectrum-1.8.13.jar"
                     },
                     "path": "mods/spectrum-1.8.13.jar"
@@ -3951,16 +3951,16 @@
                     "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
                 },
                 {
-                    "id": "VelvetAbyss-1.20.1-1.0.7.jar",
-                    "name": "VelvetAbyss-1.20.1-1.0.7.jar",
+                    "id": "VelvetAbyss-1.20.1-1.0.10.jar",
+                    "name": "VelvetAbyss-1.20.1-1.0.10.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.7.jar",
-                        "MD5": "a11aa1c8d73540642d5de9256aada3f9",
-                        "size": 5247160,
-                        "path": "mods/VelvetAbyss-1.20.1-1.0.7.jar"
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.10.jar",
+                        "MD5": "4a9b4a1ee5b028221b9f9973c030f811",
+                        "size": 5294483,
+                        "path": "mods/VelvetAbyss-1.20.1-1.0.10.jar"
                     },
-                    "path": "mods/VelvetAbyss-1.20.1-1.0.7.jar"
+                    "path": "mods/VelvetAbyss-1.20.1-1.0.10.jar"
                 }
             ]
         },
@@ -5402,8 +5402,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/fastvancements-1.3.jar",
-                        "MD5": "150b1ed4bcf52a830dc3cff28f46a416",
-                        "size": 89644,
+                        "MD5": "109362ae3b2e1caa873aecc758b4ec52",
+                        "size": 88942,
                         "path": "mods/fastvancements-1.3.jar"
                     },
                     "path": "mods/fastvancements-1.3.jar"
@@ -7324,8 +7324,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/curio_trinkets_bridge-1.0.0-beta.jar",
-                        "MD5": "0c39cae39d872f2c06f013b0156e15b6",
-                        "size": 94771,
+                        "MD5": "dd9e575d20dcc307c22b0e45a59ac2c9",
+                        "size": 95548,
                         "path": "mods/curio_trinkets_bridge-1.0.0-beta.jar"
                     },
                     "path": "mods/curio_trinkets_bridge-1.0.0-beta.jar"
@@ -7348,8 +7348,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/revelationary-1.3.9%2B1.20.1.jar",
-                        "MD5": "9f08380a99ad6a22d54169d414a8d9ce",
-                        "size": 156196,
+                        "MD5": "6fab06a7bb31fce8747b5b9d135a12b9",
+                        "size": 157032,
                         "path": "mods/revelationary-1.3.9+1.20.1.jar"
                     },
                     "path": "mods/revelationary-1.3.9+1.20.1.jar"
@@ -7360,8 +7360,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spectrum-1.8.13.jar",
-                        "MD5": "dfbe7773e2e6600861f604e6829409ee",
-                        "size": 87426877,
+                        "MD5": "fc075c019d4d4f83ba445dfae7f5de88",
+                        "size": 87722219,
                         "path": "mods/spectrum-1.8.13.jar"
                     },
                     "path": "mods/spectrum-1.8.13.jar"
@@ -7888,16 +7888,16 @@
                     "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
                 },
                 {
-                    "id": "VelvetAbyss-1.20.1-1.0.7.jar",
-                    "name": "VelvetAbyss-1.20.1-1.0.7.jar",
+                    "id": "VelvetAbyss-1.20.1-1.0.10.jar",
+                    "name": "VelvetAbyss-1.20.1-1.0.10.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.7.jar",
-                        "MD5": "a11aa1c8d73540642d5de9256aada3f9",
-                        "size": 5247160,
-                        "path": "mods/VelvetAbyss-1.20.1-1.0.7.jar"
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.10.jar",
+                        "MD5": "4a9b4a1ee5b028221b9f9973c030f811",
+                        "size": 5294483,
+                        "path": "mods/VelvetAbyss-1.20.1-1.0.10.jar"
                     },
-                    "path": "mods/VelvetAbyss-1.20.1-1.0.7.jar"
+                    "path": "mods/VelvetAbyss-1.20.1-1.0.10.jar"
                 }
             ]
         }
