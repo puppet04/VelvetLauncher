@@ -1,5 +1,5 @@
 {
-  "version": "1.0.116",
+  "version": "1.0.117",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3027,8 +3027,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/worldedit-mod-7.2.15.jar",
-            "MD5": "bd0e7cff7896348faab92e43300d0639",
-            "size": 5825402,
+            "MD5": "19d15f0c8abce4c70992c5021dac26df",
+            "size": 5825198,
             "path": "mods/worldedit-mod-7.2.15.jar"
           },
           "path": "mods/worldedit-mod-7.2.15.jar"
