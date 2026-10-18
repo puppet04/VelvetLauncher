@@ -1,5 +1,5 @@
 {
-  "version": "1.0.118",
+  "version": "1.0.119",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3951,16 +3951,16 @@
           "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.0.11.jar",
-          "name": "VelvetAbyss-1.20.1-1.0.11.jar",
+          "id": "VelvetAbyss-1.20.1-1.0.12.jar",
+          "name": "VelvetAbyss-1.20.1-1.0.12.jar",
           "type": "File",
           "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.11.jar",
-            "MD5": "c4544432464f4c3657b0428a222cf031",
-            "size": 5330066,
-            "path": "mods/VelvetAbyss-1.20.1-1.0.11.jar"
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.12.jar",
+            "MD5": "0afd4f9546fa5085c7bc64351743b4fc",
+            "size": 5400582,
+            "path": "mods/VelvetAbyss-1.20.1-1.0.12.jar"
           },
-          "path": "mods/VelvetAbyss-1.20.1-1.0.11.jar"
+          "path": "mods/VelvetAbyss-1.20.1-1.0.12.jar"
         },
         {
           "id": "create_connected-1.2.3-mc1.20.1-all.jar",
