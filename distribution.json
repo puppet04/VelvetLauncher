@@ -1,5 +1,5 @@
 {
-    "version": "1.0.114",
+    "version": "1.0.115",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3423,8 +3423,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spectrum-1.8.13.jar",
-                        "MD5": "a3f40142e5ea2538d7360245c5cca122",
-                        "size": 87724197,
+                        "MD5": "4bd70a111aea83bed4341f789347774d",
+                        "size": 87428184,
                         "path": "mods/spectrum-1.8.13.jar"
                     },
                     "path": "mods/spectrum-1.8.13.jar"
@@ -3860,8 +3860,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/lithium.properties",
-                        "MD5": "53715454111f3dd6eee19a12073e3c38",
-                        "size": 204,
+                        "MD5": "826540e80dc7aa6f25265918e7c4f2d8",
+                        "size": 342,
                         "path": "config/lithium.properties"
                     },
                     "path": "config/lithium.properties"
@@ -3872,8 +3872,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/radium.properties",
-                        "MD5": "53715454111f3dd6eee19a12073e3c38",
-                        "size": 204,
+                        "MD5": "826540e80dc7aa6f25265918e7c4f2d8",
+                        "size": 342,
                         "path": "config/radium.properties"
                     },
                     "path": "config/radium.properties"
@@ -3961,6 +3961,30 @@
                         "path": "mods/VelvetAbyss-1.20.1-1.0.10.jar"
                     },
                     "path": "mods/VelvetAbyss-1.20.1-1.0.10.jar"
+                },
+                {
+                    "id": "create_connected-1.2.3-mc1.20.1-all.jar",
+                    "name": "create_connected-1.2.3-mc1.20.1-all.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/create_connected-1.2.3-mc1.20.1-all.jar",
+                        "MD5": "2f0ef6fcdf142102c0f2963361a94624",
+                        "size": 6791072,
+                        "path": "mods/create_connected-1.2.3-mc1.20.1-all.jar"
+                    },
+                    "path": "mods/create_connected-1.2.3-mc1.20.1-all.jar"
+                },
+                {
+                    "id": "copycats-3.0.10+mc.1.20.1-forge.jar",
+                    "name": "copycats-3.0.10+mc.1.20.1-forge.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/copycats-3.0.10%2Bmc.1.20.1-forge.jar",
+                        "MD5": "a01e55fd62e02a141083f45865e72cfc",
+                        "size": 2003713,
+                        "path": "mods/copycats-3.0.10+mc.1.20.1-forge.jar"
+                    },
+                    "path": "mods/copycats-3.0.10+mc.1.20.1-forge.jar"
                 }
             ]
         },
@@ -7360,8 +7384,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spectrum-1.8.13.jar",
-                        "MD5": "a3f40142e5ea2538d7360245c5cca122",
-                        "size": 87724197,
+                        "MD5": "4bd70a111aea83bed4341f789347774d",
+                        "size": 87428184,
                         "path": "mods/spectrum-1.8.13.jar"
                     },
                     "path": "mods/spectrum-1.8.13.jar"
@@ -7797,8 +7821,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/lithium.properties",
-                        "MD5": "53715454111f3dd6eee19a12073e3c38",
-                        "size": 204,
+                        "MD5": "826540e80dc7aa6f25265918e7c4f2d8",
+                        "size": 342,
                         "path": "config/lithium.properties"
                     },
                     "path": "config/lithium.properties"
@@ -7809,8 +7833,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/radium.properties",
-                        "MD5": "53715454111f3dd6eee19a12073e3c38",
-                        "size": 204,
+                        "MD5": "826540e80dc7aa6f25265918e7c4f2d8",
+                        "size": 342,
                         "path": "config/radium.properties"
                     },
                     "path": "config/radium.properties"
@@ -7898,6 +7922,30 @@
                         "path": "mods/VelvetAbyss-1.20.1-1.0.10.jar"
                     },
                     "path": "mods/VelvetAbyss-1.20.1-1.0.10.jar"
+                },
+                {
+                    "id": "create_connected-1.2.3-mc1.20.1-all.jar",
+                    "name": "create_connected-1.2.3-mc1.20.1-all.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/create_connected-1.2.3-mc1.20.1-all.jar",
+                        "MD5": "2f0ef6fcdf142102c0f2963361a94624",
+                        "size": 6791072,
+                        "path": "mods/create_connected-1.2.3-mc1.20.1-all.jar"
+                    },
+                    "path": "mods/create_connected-1.2.3-mc1.20.1-all.jar"
+                },
+                {
+                    "id": "copycats-3.0.10+mc.1.20.1-forge.jar",
+                    "name": "copycats-3.0.10+mc.1.20.1-forge.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/copycats-3.0.10%2Bmc.1.20.1-forge.jar",
+                        "MD5": "a01e55fd62e02a141083f45865e72cfc",
+                        "size": 2003713,
+                        "path": "mods/copycats-3.0.10+mc.1.20.1-forge.jar"
+                    },
+                    "path": "mods/copycats-3.0.10+mc.1.20.1-forge.jar"
                 }
             ]
         }
