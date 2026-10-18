@@ -1,5 +1,5 @@
 {
-    "version": "1.0.121",
+    "version": "1.0.122",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3951,16 +3951,16 @@
                     "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
                 },
                 {
-                    "id": "VelvetAbyss-1.20.1-1.0.12.jar",
-                    "name": "VelvetAbyss-1.20.1-1.0.12.jar",
+                    "id": "VelvetAbyss-1.20.1-1.0.13.jar",
+                    "name": "VelvetAbyss-1.20.1-1.0.13.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.12.jar",
-                        "MD5": "0afd4f9546fa5085c7bc64351743b4fc",
-                        "size": 5400582,
-                        "path": "mods/VelvetAbyss-1.20.1-1.0.12.jar"
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.13.jar",
+                        "MD5": "08f80048253811cbd054c2d3d77d65c8",
+                        "size": 5401764,
+                        "path": "mods/VelvetAbyss-1.20.1-1.0.13.jar"
                     },
-                    "path": "mods/VelvetAbyss-1.20.1-1.0.12.jar"
+                    "path": "mods/VelvetAbyss-1.20.1-1.0.13.jar"
                 },
                 {
                     "id": "create_connected-1.2.3-mc1.20.1-all.jar",
@@ -7912,16 +7912,16 @@
                     "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
                 },
                 {
-                    "id": "VelvetAbyss-1.20.1-1.0.10.jar",
-                    "name": "VelvetAbyss-1.20.1-1.0.10.jar",
+                    "id": "VelvetAbyss-1.20.1-1.0.13.jar",
+                    "name": "VelvetAbyss-1.20.1-1.0.13.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.10.jar",
-                        "MD5": "4a9b4a1ee5b028221b9f9973c030f811",
-                        "size": 5294483,
-                        "path": "mods/VelvetAbyss-1.20.1-1.0.10.jar"
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.13.jar",
+                        "MD5": "08f80048253811cbd054c2d3d77d65c8",
+                        "size": 5401764,
+                        "path": "mods/VelvetAbyss-1.20.1-1.0.13.jar"
                     },
-                    "path": "mods/VelvetAbyss-1.20.1-1.0.10.jar"
+                    "path": "mods/VelvetAbyss-1.20.1-1.0.13.jar"
                 },
                 {
                     "id": "create_connected-1.2.3-mc1.20.1-all.jar",
