@@ -1,5 +1,5 @@
 {
-    "version": "1.0.122",
+    "version": "1.0.123",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -493,8 +493,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/amendments-1.20-2.2.6.jar",
-                        "MD5": "a3dc62c5daa28ea22d7d1ee03bdd3eef",
-                        "size": 1301359,
+                        "MD5": "5548ba067ba8e2ed3c03e4b5769f2490",
+                        "size": 1301536,
                         "path": "mods/amendments-1.20-2.2.6.jar"
                     },
                     "path": "mods/amendments-1.20-2.2.6.jar"
@@ -4478,8 +4478,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/amendments-1.20-2.2.6.jar",
-                        "MD5": "a3dc62c5daa28ea22d7d1ee03bdd3eef",
-                        "size": 1301359,
+                        "MD5": "5548ba067ba8e2ed3c03e4b5769f2490",
+                        "size": 1301536,
                         "path": "mods/amendments-1.20-2.2.6.jar"
                     },
                     "path": "mods/amendments-1.20-2.2.6.jar"
