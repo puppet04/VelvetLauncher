@@ -1,5 +1,5 @@
 {
-    "version": "1.0.124",
+    "version": "1.0.125",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3387,7 +3387,7 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/curio_trinkets_bridge-1.0.0-beta.jar",
-                        "MD5": "dd9e575d20dcc307c22b0e45a59ac2c9",
+                        "MD5": "0afe8f6c2f7d85f6886fc79139d9fcc2",
                         "size": 95548,
                         "path": "mods/curio_trinkets_bridge-1.0.0-beta.jar"
                     },
@@ -3423,8 +3423,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spectrum-1.8.13.jar",
-                        "MD5": "daf796373c87b3357e1e9226427dfad4",
-                        "size": 87428059,
+                        "MD5": "70f3364559c66fad512b3167f1a8fed0",
+                        "size": 87726211,
                         "path": "mods/spectrum-1.8.13.jar"
                     },
                     "path": "mods/spectrum-1.8.13.jar"
@@ -7348,7 +7348,7 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/curio_trinkets_bridge-1.0.0-beta.jar",
-                        "MD5": "dd9e575d20dcc307c22b0e45a59ac2c9",
+                        "MD5": "0afe8f6c2f7d85f6886fc79139d9fcc2",
                         "size": 95548,
                         "path": "mods/curio_trinkets_bridge-1.0.0-beta.jar"
                     },
@@ -7384,8 +7384,8 @@
                     "type": "File",
                     "artifact": {
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spectrum-1.8.13.jar",
-                        "MD5": "daf796373c87b3357e1e9226427dfad4",
-                        "size": 87428059,
+                        "MD5": "70f3364559c66fad512b3167f1a8fed0",
+                        "size": 87726211,
                         "path": "mods/spectrum-1.8.13.jar"
                     },
                     "path": "mods/spectrum-1.8.13.jar"
