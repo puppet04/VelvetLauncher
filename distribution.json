@@ -1,5 +1,5 @@
 {
-  "version": "1.0.129",
+  "version": "1.0.130",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3387,8 +3387,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/curio_trinkets_bridge-1.0.0-beta.jar",
-            "MD5": "70799631c1b5834bc50f9d7bd6defc93",
-            "size": 94760,
+            "MD5": "5eb678ba13ebb8f613804fc666637eb6",
+            "size": 95279,
             "path": "mods/curio_trinkets_bridge-1.0.0-beta.jar"
           },
           "path": "mods/curio_trinkets_bridge-1.0.0-beta.jar"
@@ -3410,7 +3410,7 @@
           "name": "revelationary-1.3.9+1.20.1.jar",
           "type": "File",
           "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/revelationary-1.3.9%2B1.20.1.jar",
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/revelationary-1.3.9.1.20.1.jar",
             "MD5": "14653eb749dec48c5b234dfd60ab9fc3",
             "size": 155801,
             "path": "mods/revelationary-1.3.9+1.20.1.jar"
@@ -3423,8 +3423,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spectrum-1.8.13.jar",
-            "MD5": "0d51d3f78176d8f06694d780459308cf",
-            "size": 87726865,
+            "MD5": "92282aa30036d2bf6d23d6ab1d67fbba",
+            "size": 87429825,
             "path": "mods/spectrum-1.8.13.jar"
           },
           "path": "mods/spectrum-1.8.13.jar"
@@ -7360,8 +7360,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/curio_trinkets_bridge-1.0.0-beta.jar",
-            "MD5": "70799631c1b5834bc50f9d7bd6defc93",
-            "size": 94760,
+            "MD5": "5eb678ba13ebb8f613804fc666637eb6",
+            "size": 95279,
             "path": "mods/curio_trinkets_bridge-1.0.0-beta.jar"
           },
           "path": "mods/curio_trinkets_bridge-1.0.0-beta.jar"
@@ -7383,7 +7383,7 @@
           "name": "revelationary-1.3.9+1.20.1.jar",
           "type": "File",
           "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/revelationary-1.3.9%2B1.20.1.jar",
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/revelationary-1.3.9.1.20.1.jar",
             "MD5": "14653eb749dec48c5b234dfd60ab9fc3",
             "size": 155801,
             "path": "mods/revelationary-1.3.9+1.20.1.jar"
@@ -7396,8 +7396,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spectrum-1.8.13.jar",
-            "MD5": "0d51d3f78176d8f06694d780459308cf",
-            "size": 87726865,
+            "MD5": "92282aa30036d2bf6d23d6ab1d67fbba",
+            "size": 87429825,
             "path": "mods/spectrum-1.8.13.jar"
           },
           "path": "mods/spectrum-1.8.13.jar"
