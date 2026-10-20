@@ -1,5 +1,5 @@
 {
-  "version": "1.0.132",
+  "version": "1.0.133",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3423,8 +3423,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spectrum-1.8.13.jar",
-            "MD5": "781aaad0643f19b325751f08e705effc",
-            "size": 87429850,
+            "MD5": "9f5ee4b56b9696005f3f6429761bf7c4",
+            "size": 87430428,
             "path": "mods/spectrum-1.8.13.jar"
           },
           "path": "mods/spectrum-1.8.13.jar"
@@ -7396,8 +7396,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spectrum-1.8.13.jar",
-            "MD5": "781aaad0643f19b325751f08e705effc",
-            "size": 87429850,
+            "MD5": "9f5ee4b56b9696005f3f6429761bf7c4",
+            "size": 87430428,
             "path": "mods/spectrum-1.8.13.jar"
           },
           "path": "mods/spectrum-1.8.13.jar"
