@@ -1,5 +1,5 @@
 {
-  "version": "1.0.128",
+  "version": "1.0.129",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -1537,8 +1537,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ftb-essentials-forge-2001.2.4.jar",
-            "MD5": "c46c0af33a0452001e8628075b341eb2",
-            "size": 157732,
+            "MD5": "82eacdce03b95a5be5ce33e7e899c369",
+            "size": 155798,
             "path": "mods/ftb-essentials-forge-2001.2.4.jar"
           },
           "path": "mods/ftb-essentials-forge-2001.2.4.jar"
@@ -3411,8 +3411,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/revelationary-1.3.9%2B1.20.1.jar",
-            "MD5": "6fab06a7bb31fce8747b5b9d135a12b9",
-            "size": 157032,
+            "MD5": "14653eb749dec48c5b234dfd60ab9fc3",
+            "size": 155801,
             "path": "mods/revelationary-1.3.9+1.20.1.jar"
           },
           "path": "mods/revelationary-1.3.9+1.20.1.jar"
@@ -3985,6 +3985,18 @@
             "path": "mods/copycats-3.0.10+mc.1.20.1-forge.jar"
           },
           "path": "mods/copycats-3.0.10+mc.1.20.1-forge.jar"
+        },
+        {
+          "id": "VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar",
+          "name": "VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar",
+            "MD5": "9c2816a92406601bdf42291df7244394",
+            "size": 67190,
+            "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar"
+          },
+          "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar"
         }
       ]
     },
@@ -5510,8 +5522,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ftb-essentials-forge-2001.2.4.jar",
-            "MD5": "c46c0af33a0452001e8628075b341eb2",
-            "size": 157732,
+            "MD5": "82eacdce03b95a5be5ce33e7e899c369",
+            "size": 155798,
             "path": "mods/ftb-essentials-forge-2001.2.4.jar"
           },
           "path": "mods/ftb-essentials-forge-2001.2.4.jar"
@@ -7372,8 +7384,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/revelationary-1.3.9%2B1.20.1.jar",
-            "MD5": "6fab06a7bb31fce8747b5b9d135a12b9",
-            "size": 157032,
+            "MD5": "14653eb749dec48c5b234dfd60ab9fc3",
+            "size": 155801,
             "path": "mods/revelationary-1.3.9+1.20.1.jar"
           },
           "path": "mods/revelationary-1.3.9+1.20.1.jar"
@@ -7946,6 +7958,18 @@
             "path": "mods/copycats-3.0.10+mc.1.20.1-forge.jar"
           },
           "path": "mods/copycats-3.0.10+mc.1.20.1-forge.jar"
+        },
+        {
+          "id": "VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar",
+          "name": "VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar",
+            "MD5": "9c2816a92406601bdf42291df7244394",
+            "size": 67190,
+            "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar"
+          },
+          "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar"
         }
       ]
     }
