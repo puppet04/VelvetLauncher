@@ -1,5 +1,5 @@
 {
-  "version": "1.0.141",
+  "version": "1.0.142",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3951,16 +3951,16 @@
           "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.0.44.jar",
-          "name": "VelvetAbyss-1.20.1-1.0.44.jar",
+          "id": "VelvetAbyss-1.20.1-1.0.45.jar",
+          "name": "VelvetAbyss-1.20.1-1.0.45.jar",
           "type": "File",
           "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.44.jar",
-            "MD5": "43dd0b1a05011eb6548b242e9f4dac5a",
-            "size": 5581398,
-            "path": "mods/VelvetAbyss-1.20.1-1.0.44.jar"
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.45.jar",
+            "MD5": "e4dbf9639ac9da7040f9939ecd91679d",
+            "size": 5596191,
+            "path": "mods/VelvetAbyss-1.20.1-1.0.45.jar"
           },
-          "path": "mods/VelvetAbyss-1.20.1-1.0.44.jar"
+          "path": "mods/VelvetAbyss-1.20.1-1.0.45.jar"
         },
         {
           "id": "create_connected-1.2.3-mc1.20.1-all.jar",
@@ -3987,16 +3987,16 @@
           "path": "mods/copycats-3.0.10+mc.1.20.1-forge.jar"
         },
         {
-          "id": "VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar",
-          "name": "VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar",
+          "id": "VelvetAbyss-PenseGelato-1.20.1-1.0.1.jar",
+          "name": "VelvetAbyss-PenseGelato-1.20.1-1.0.1.jar",
           "type": "File",
           "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar",
-            "MD5": "9c2816a92406601bdf42291df7244394",
-            "size": 67190,
-            "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar"
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-PenseGelato-1.20.1-1.0.1.jar",
+            "MD5": "cacd049a9f55320d2763353d596fefad",
+            "size": 67247,
+            "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.1.jar"
           },
-          "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar"
+          "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.1.jar"
         }
       ]
     },
@@ -7924,16 +7924,16 @@
           "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.0.44.jar",
-          "name": "VelvetAbyss-1.20.1-1.0.44.jar",
+          "id": "VelvetAbyss-1.20.1-1.0.45.jar",
+          "name": "VelvetAbyss-1.20.1-1.0.45.jar",
           "type": "File",
           "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.44.jar",
-            "MD5": "43dd0b1a05011eb6548b242e9f4dac5a",
-            "size": 5581398,
-            "path": "mods/VelvetAbyss-1.20.1-1.0.44.jar"
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.45.jar",
+            "MD5": "e4dbf9639ac9da7040f9939ecd91679d",
+            "size": 5596191,
+            "path": "mods/VelvetAbyss-1.20.1-1.0.45.jar"
           },
-          "path": "mods/VelvetAbyss-1.20.1-1.0.44.jar"
+          "path": "mods/VelvetAbyss-1.20.1-1.0.45.jar"
         },
         {
           "id": "create_connected-1.2.3-mc1.20.1-all.jar",
@@ -7960,16 +7960,16 @@
           "path": "mods/copycats-3.0.10+mc.1.20.1-forge.jar"
         },
         {
-          "id": "VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar",
-          "name": "VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar",
+          "id": "VelvetAbyss-PenseGelato-1.20.1-1.0.1.jar",
+          "name": "VelvetAbyss-PenseGelato-1.20.1-1.0.1.jar",
           "type": "File",
           "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar",
-            "MD5": "9c2816a92406601bdf42291df7244394",
-            "size": 67190,
-            "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar"
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-PenseGelato-1.20.1-1.0.1.jar",
+            "MD5": "cacd049a9f55320d2763353d596fefad",
+            "size": 67247,
+            "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.1.jar"
           },
-          "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.0.jar"
+          "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.1.jar"
         }
       ]
     }
