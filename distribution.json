@@ -1,5 +1,5 @@
 {
-  "version": "1.0.142",
+  "version": "1.0.143",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3538,6 +3538,36 @@
             "MD5": "67137f757164d3476ea8119ed49946fb",
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/super_resolution-forge-1.20.1-0.9.1-alpha.2%2Bopengl.jar.disabled",
             "path": "super_resolution-forge-1.20.1-0.9.1-alpha.2+opengl.jar"
+          }
+        },
+        {
+          "id": "macrokeybinds:macrokeybinds:2.0.0",
+          "name": "Macro Keybinds",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 199685,
+            "MD5": "92878b0afc9b7adbf57b7c56e49dd5d8",
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/1.20.1-macrokeybinds-forge-2.0.0.jar",
+            "path": "1.20.1-macrokeybinds-forge-2.0.0.jar"
+          }
+        },
+        {
+          "id": "net.freecam:freecam:1.2.1+1.20",
+          "name": "Freecam",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 75389,
+            "MD5": "3301388f64a2bcbc760ca33324bca2c0",
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/freecam-forge-1.2.1%2B1.20.jar",
+            "path": "freecam-forge-1.2.1+1.20.jar"
           }
         },
         {
@@ -7511,6 +7541,36 @@
             "MD5": "67137f757164d3476ea8119ed49946fb",
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/super_resolution-forge-1.20.1-0.9.1-alpha.2%2Bopengl.jar.disabled",
             "path": "super_resolution-forge-1.20.1-0.9.1-alpha.2+opengl.jar"
+          }
+        },
+        {
+          "id": "macrokeybinds:macrokeybinds:2.0.0",
+          "name": "Macro Keybinds",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 199685,
+            "MD5": "92878b0afc9b7adbf57b7c56e49dd5d8",
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/1.20.1-macrokeybinds-forge-2.0.0.jar",
+            "path": "1.20.1-macrokeybinds-forge-2.0.0.jar"
+          }
+        },
+        {
+          "id": "net.freecam:freecam:1.2.1+1.20",
+          "name": "Freecam",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 75389,
+            "MD5": "3301388f64a2bcbc760ca33324bca2c0",
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/freecam-forge-1.2.1%2B1.20.jar",
+            "path": "freecam-forge-1.2.1+1.20.jar"
           }
         },
         {
