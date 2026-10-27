@@ -1,5 +1,5 @@
 {
-    "version": "1.0.146",
+    "version": "1.0.147",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -4033,8 +4033,8 @@
                     "name": "Eclipse-Shader-Unstable.zip",
                     "type": "File",
                     "artifact": {
-                        "size": 47068823,
-                        "MD5": "7332cbcbb15ae6738d84f310f6613f2b",
+                        "size": 47086699,
+                        "MD5": "aaed2c7108334a961e04981430ca05b2",
                         "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/Eclipse-Shader-Unstable.zip",
                         "path": "shaderpacks/Eclipse-Shader-Unstable.zip"
                     },
