@@ -1,5 +1,5 @@
 {
-  "version": "1.0.151",
+  "version": "1.0.152",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3435,8 +3435,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/trinkets-3.7.2.jar",
-            "MD5": "989b9479f2a38f6b8b44ca718211c4a4",
-            "size": 235758,
+            "MD5": "3698ff7834ccad27e9f86af1ad5dc46f",
+            "size": 235665,
             "path": "mods/trinkets-3.7.2.jar"
           },
           "path": "mods/trinkets-3.7.2.jar"
@@ -7462,8 +7462,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/trinkets-3.7.2.jar",
-            "MD5": "989b9479f2a38f6b8b44ca718211c4a4",
-            "size": 235758,
+            "MD5": "3698ff7834ccad27e9f86af1ad5dc46f",
+            "size": 235665,
             "path": "mods/trinkets-3.7.2.jar"
           },
           "path": "mods/trinkets-3.7.2.jar"
