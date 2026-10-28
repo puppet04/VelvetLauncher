@@ -1,5 +1,5 @@
 {
-  "version": "1.0.150",
+  "version": "1.0.151",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -8066,18 +8066,6 @@
             "path": "mods/SilentCompat-forge-1.20.1-1.4.0.jar"
           },
           "path": "mods/SilentCompat-forge-1.20.1-1.4.0.jar"
-        },
-        {
-          "id": "createbetterfps-1.20.1-1.1.2.jar",
-          "name": "createbetterfps-1.20.1-1.1.2.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/createbetterfps-1.20.1-1.1.2.jar",
-            "MD5": "f6e19dcecf60a85efe6c05372d331033",
-            "size": 25214,
-            "path": "mods/createbetterfps-1.20.1-1.1.2.jar"
-          },
-          "path": "mods/createbetterfps-1.20.1-1.1.2.jar"
         }
       ]
     }
