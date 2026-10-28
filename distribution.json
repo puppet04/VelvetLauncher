@@ -1,5 +1,5 @@
 {
-    "version": "1.0.148",
+    "version": "1.0.149",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3981,18 +3981,6 @@
                     "path": "mods/immersive_melodies-0.8.0+1.20.1-forge.jar"
                 },
                 {
-                    "id": "VelvetAbyss-1.20.1-1.0.47.jar",
-                    "name": "VelvetAbyss-1.20.1-1.0.47.jar",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.47.jar",
-                        "MD5": "f3f090335ef93e6ef61780f1f6b3f6b9",
-                        "size": 5619419,
-                        "path": "mods/VelvetAbyss-1.20.1-1.0.47.jar"
-                    },
-                    "path": "mods/VelvetAbyss-1.20.1-1.0.47.jar"
-                },
-                {
                     "id": "create_connected-1.2.3-mc1.20.1-all.jar",
                     "name": "create_connected-1.2.3-mc1.20.1-all.jar",
                     "type": "File",
@@ -4017,18 +4005,6 @@
                     "path": "mods/copycats-3.0.10+mc.1.20.1-forge.jar"
                 },
                 {
-                    "id": "VelvetAbyss-PenseGelato-1.20.1-1.0.3.jar",
-                    "name": "VelvetAbyss-PenseGelato-1.20.1-1.0.3.jar",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-PenseGelato-1.20.1-1.0.3.jar",
-                        "MD5": "0963dda55fce02ed0c97a6880716bd81",
-                        "size": 67672,
-                        "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.3.jar"
-                    },
-                    "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.3.jar"
-                },
-                {
                     "id": "Eclipse-Shader-Unstable.zip",
                     "name": "Eclipse-Shader-Unstable.zip",
                     "type": "File",
@@ -4039,6 +4015,42 @@
                         "path": "shaderpacks/Eclipse-Shader-Unstable.zip"
                     },
                     "path": "shaderpacks/Eclipse-Shader-Unstable.zip"
+                },
+                {
+                    "id": "VelvetAbyss-1.20.1-1.0.48.jar",
+                    "name": "VelvetAbyss-1.20.1-1.0.48.jar",
+                    "type": "File",
+                    "artifact": {
+                        "size": 5624575,
+                        "MD5": "9f8a4341354fcb3ab9f43a51a032d6cc",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.48.jar",
+                        "path": "mods/VelvetAbyss-1.20.1-1.0.48.jar"
+                    },
+                    "path": "mods/VelvetAbyss-1.20.1-1.0.48.jar"
+                },
+                {
+                    "id": "VelvetAbyss-PenseGelato-1.20.1-1.0.4.jar",
+                    "name": "VelvetAbyss-PenseGelato-1.20.1-1.0.4.jar",
+                    "type": "File",
+                    "artifact": {
+                        "size": 67671,
+                        "MD5": "0b7b5570adc87724e83942e11b87cd8d",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-PenseGelato-1.20.1-1.0.4.jar",
+                        "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.4.jar"
+                    },
+                    "path": "mods/VelvetAbyss-PenseGelato-1.20.1-1.0.4.jar"
+                },
+                {
+                    "id": "SilentCompat-forge-1.20.1-1.4.0.jar",
+                    "name": "SilentCompat-forge-1.20.1-1.4.0.jar",
+                    "type": "File",
+                    "artifact": {
+                        "size": 606036,
+                        "MD5": "c3c6e4d51dad4322d16d526033e89a10",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/SilentCompat-forge-1.20.1-1.4.0.jar",
+                        "path": "mods/SilentCompat-forge-1.20.1-1.4.0.jar"
+                    },
+                    "path": "mods/SilentCompat-forge-1.20.1-1.4.0.jar"
                 }
             ]
         },
