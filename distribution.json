@@ -1,5 +1,5 @@
 {
-  "version": "1.0.158",
+  "version": "1.0.159",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4075,6 +4075,30 @@
             "path": "config/fastvancements-common.toml"
           },
           "path": "config/fastvancements-common.toml"
+        },
+        {
+          "id": "JEIDrawables-Fabric-20.1.7.jar",
+          "name": "JEIDrawables-Fabric-20.1.7.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/JEIDrawables-Fabric-20.1.7.jar",
+            "MD5": "5a05945f451babb8b1efa3eb89365d3a",
+            "size": 35686,
+            "path": "mods/JEIDrawables-Fabric-20.1.7.jar"
+          },
+          "path": "mods/JEIDrawables-Fabric-20.1.7.jar"
+        },
+        {
+          "id": "FractalJEI-Fabric-2.0.3.jar",
+          "name": "FractalJEI-Fabric-2.0.3.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/FractalJEI-Fabric-2.0.3.jar",
+            "MD5": "d89889e028f0e337b9d117310446bb37",
+            "size": 7777,
+            "path": "mods/FractalJEI-Fabric-2.0.3.jar"
+          },
+          "path": "mods/FractalJEI-Fabric-2.0.3.jar"
         }
       ]
     },
@@ -8114,6 +8138,30 @@
             "path": "config/fastvancements-common.toml"
           },
           "path": "config/fastvancements-common.toml"
+        },
+        {
+          "id": "JEIDrawables-Fabric-20.1.7.jar",
+          "name": "JEIDrawables-Fabric-20.1.7.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/JEIDrawables-Fabric-20.1.7.jar",
+            "MD5": "5a05945f451babb8b1efa3eb89365d3a",
+            "size": 35686,
+            "path": "mods/JEIDrawables-Fabric-20.1.7.jar"
+          },
+          "path": "mods/JEIDrawables-Fabric-20.1.7.jar"
+        },
+        {
+          "id": "FractalJEI-Fabric-2.0.3.jar",
+          "name": "FractalJEI-Fabric-2.0.3.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/FractalJEI-Fabric-2.0.3.jar",
+            "MD5": "d89889e028f0e337b9d117310446bb37",
+            "size": 7777,
+            "path": "mods/FractalJEI-Fabric-2.0.3.jar"
+          },
+          "path": "mods/FractalJEI-Fabric-2.0.3.jar"
         }
       ]
     }
