@@ -1,5 +1,5 @@
 {
-  "version": "1.0.159",
+  "version": "1.0.160",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -2283,8 +2283,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/occultism-1.20.1-1.158.0.jar",
-            "MD5": "d9ed0f363e0cedf59fd381d6a51b5d07",
-            "size": 3974908,
+            "MD5": "c4db807b23a79756148e67c05f85f7d4",
+            "size": 3928454,
             "path": "mods/occultism-1.20.1-1.158.0.jar"
           },
           "path": "mods/occultism-1.20.1-1.158.0.jar"
@@ -6370,8 +6370,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/occultism-1.20.1-1.158.0.jar",
-            "MD5": "d9ed0f363e0cedf59fd381d6a51b5d07",
-            "size": 3974908,
+            "MD5": "c4db807b23a79756148e67c05f85f7d4",
+            "size": 3928454,
             "path": "mods/occultism-1.20.1-1.158.0.jar"
           },
           "path": "mods/occultism-1.20.1-1.158.0.jar"
