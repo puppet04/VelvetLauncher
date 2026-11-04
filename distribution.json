@@ -1,5 +1,5 @@
 {
-    "version": "1.0.163",
+    "version": "1.0.164",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -4329,16 +4329,16 @@
                     "path": "config/jei/jei-client.ini"
                 },
                 {
-                    "id": "mermod-forge-3.0.3+1.20.1.jar",
-                    "name": "mermod-forge-3.0.3+1.20.1.jar",
+                    "id": "mermod-forge-3.0.3.1.20.1.jar",
+                    "name": "mermod-forge-3.0.3.1.20.1.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mermod-forge-3.0.3+1.20.1.jar",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mermod-forge-3.0.3.1.20.1.jar",
                         "MD5": "a8ef8f8e485c4653e41bb44fd16dd846",
                         "size": 328684,
-                        "path": "mods/mermod-forge-3.0.3+1.20.1.jar"
+                        "path": "mods/mermod-forge-3.0.3.1.20.1.jar"
                     },
-                    "path": "mods/mermod-forge-3.0.3+1.20.1.jar"
+                    "path": "mods/mermod-forge-3.0.3.1.20.1.jar"
                 }
             ]
         },
@@ -8632,16 +8632,16 @@
                     "path": "config/jei/jei-client.ini"
                 },
                 {
-                    "id": "mermod-forge-3.0.3+1.20.1.jar",
-                    "name": "mermod-forge-3.0.3+1.20.1.jar",
+                    "id": "mermod-forge-3.0.3.1.20.1.jar",
+                    "name": "mermod-forge-3.0.3.1.20.1.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mermod-forge-3.0.3+1.20.1.jar",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mermod-forge-3.0.3.1.20.1.jar",
                         "MD5": "a8ef8f8e485c4653e41bb44fd16dd846",
                         "size": 328684,
-                        "path": "mods/mermod-forge-3.0.3+1.20.1.jar"
+                        "path": "mods/mermod-forge-3.0.3.1.20.1.jar"
                     },
-                    "path": "mods/mermod-forge-3.0.3+1.20.1.jar"
+                    "path": "mods/mermod-forge-3.0.3.1.20.1.jar"
                 }
             ]
         },
@@ -12971,16 +12971,16 @@
                     "path": "config/jei/jei-client.ini"
                 },
                 {
-                    "id": "mermod-forge-3.0.3+1.20.1.jar",
-                    "name": "mermod-forge-3.0.3+1.20.1.jar",
+                    "id": "mermod-forge-3.0.3.1.20.1.jar",
+                    "name": "mermod-forge-3.0.3.1.20.1.jar",
                     "type": "File",
                     "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mermod-forge-3.0.3+1.20.1.jar",
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mermod-forge-3.0.3.1.20.1.jar",
                         "MD5": "a8ef8f8e485c4653e41bb44fd16dd846",
                         "size": 328684,
-                        "path": "mods/mermod-forge-3.0.3+1.20.1.jar"
+                        "path": "mods/mermod-forge-3.0.3.1.20.1.jar"
                     },
-                    "path": "mods/mermod-forge-3.0.3+1.20.1.jar"
+                    "path": "mods/mermod-forge-3.0.3.1.20.1.jar"
                 }
             ]
         }
