@@ -1,5 +1,5 @@
 {
-    "version": "1.0.165",
+    "version": "1.0.166",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -4293,18 +4293,6 @@
                     "path": "config/iceandfire/iaf-client.json"
                 },
                 {
-                    "id": "correcao_receitas.js",
-                    "name": "correcao_receitas.js",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-                        "MD5": "c82b7d8df4c6e2fabd5fd531a76ddfc2",
-                        "size": 18884,
-                        "path": "kubejs/server_scripts/correcao_receitas.js"
-                    },
-                    "path": "kubejs/server_scripts/correcao_receitas.js"
-                },
-                {
                     "id": "arcos_imbuiveis.js",
                     "name": "arcos_imbuiveis.js",
                     "type": "File",
@@ -4363,6 +4351,18 @@
                         "path": "config/particlerain/config.json"
                     },
                     "path": "config/particlerain/config.json"
+                },
+                {
+                    "id": "correcao_receitas.js",
+                    "name": "correcao_receitas.js",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
+                        "MD5": "a604a3a81c14274788d876b201536498",
+                        "size": 30489,
+                        "path": "kubejs/server_scripts/correcao_receitas.js"
+                    },
+                    "path": "kubejs/server_scripts/correcao_receitas.js"
                 }
             ]
         },
@@ -8620,18 +8620,6 @@
                     "path": "config/iceandfire/iaf-client.json"
                 },
                 {
-                    "id": "correcao_receitas.js",
-                    "name": "correcao_receitas.js",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-                        "MD5": "c82b7d8df4c6e2fabd5fd531a76ddfc2",
-                        "size": 18884,
-                        "path": "kubejs/server_scripts/correcao_receitas.js"
-                    },
-                    "path": "kubejs/server_scripts/correcao_receitas.js"
-                },
-                {
                     "id": "arcos_imbuiveis.js",
                     "name": "arcos_imbuiveis.js",
                     "type": "File",
@@ -8690,6 +8678,18 @@
                         "path": "config/particlerain/config.json"
                     },
                     "path": "config/particlerain/config.json"
+                },
+                {
+                    "id": "correcao_receitas.js",
+                    "name": "correcao_receitas.js",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
+                        "MD5": "a604a3a81c14274788d876b201536498",
+                        "size": 30489,
+                        "path": "kubejs/server_scripts/correcao_receitas.js"
+                    },
+                    "path": "kubejs/server_scripts/correcao_receitas.js"
                 }
             ]
         },
@@ -12983,18 +12983,6 @@
                     "path": "config/iceandfire/iaf-client.json"
                 },
                 {
-                    "id": "correcao_receitas.js",
-                    "name": "correcao_receitas.js",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-                        "MD5": "c82b7d8df4c6e2fabd5fd531a76ddfc2",
-                        "size": 18884,
-                        "path": "kubejs/server_scripts/correcao_receitas.js"
-                    },
-                    "path": "kubejs/server_scripts/correcao_receitas.js"
-                },
-                {
                     "id": "arcos_imbuiveis.js",
                     "name": "arcos_imbuiveis.js",
                     "type": "File",
@@ -13053,6 +13041,18 @@
                         "path": "config/particlerain/config.json"
                     },
                     "path": "config/particlerain/config.json"
+                },
+                {
+                    "id": "correcao_receitas.js",
+                    "name": "correcao_receitas.js",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
+                        "MD5": "a604a3a81c14274788d876b201536498",
+                        "size": 30489,
+                        "path": "kubejs/server_scripts/correcao_receitas.js"
+                    },
+                    "path": "kubejs/server_scripts/correcao_receitas.js"
                 }
             ]
         }
