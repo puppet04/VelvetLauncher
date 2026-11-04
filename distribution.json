@@ -1,5 +1,5 @@
 {
-    "version": "1.0.160",
+    "version": "1.0.161",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -3849,18 +3849,6 @@
                     "path": "mods/persistent_effects-1.0.0_neoforge.jar"
                 },
                 {
-                    "id": "arcos_imbuiveis.js",
-                    "name": "arcos_imbuiveis.js",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/arcos_imbuiveis.js",
-                        "MD5": "bec10535f22075a9242f6d5bf17536f9",
-                        "size": 1452,
-                        "path": "kubejs/server_scripts/arcos_imbuiveis.js"
-                    },
-                    "path": "kubejs/server_scripts/arcos_imbuiveis.js"
-                },
-                {
                     "id": "flan-1.20.1-1.11.16-forge.jar",
                     "name": "flan-1.20.1-1.11.16-forge.jar",
                     "type": "File",
@@ -3907,18 +3895,6 @@
                         "path": "config/legendarysurvivaloverhaul-common.toml"
                     },
                     "path": "config/legendarysurvivaloverhaul-common.toml"
-                },
-                {
-                    "id": "correcao_receitas.js",
-                    "name": "correcao_receitas.js",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-                        "MD5": "ec5d3c5f50d60b3e08205a0d348514d6",
-                        "size": 16853,
-                        "path": "kubejs/server_scripts/correcao_receitas.js"
-                    },
-                    "path": "kubejs/server_scripts/correcao_receitas.js"
                 },
                 {
                     "id": "camera-forge-1.20.1-1.0.20.jar",
@@ -4315,6 +4291,42 @@
                         "path": "config/iceandfire/iaf-client.json"
                     },
                     "path": "config/iceandfire/iaf-client.json"
+                },
+                {
+                    "id": "correcao_receitas.js",
+                    "name": "correcao_receitas.js",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
+                        "MD5": "392d82071941585eb8d29320d7a04360",
+                        "size": 17613,
+                        "path": "kubejs/server_scripts/correcao_receitas.js"
+                    },
+                    "path": "kubejs/server_scripts/correcao_receitas.js"
+                },
+                {
+                    "id": "arcos_imbuiveis.js",
+                    "name": "arcos_imbuiveis.js",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/arcos_imbuiveis.js",
+                        "MD5": "553f69a658e44cb6620d48082b24b4d5",
+                        "size": 1461,
+                        "path": "kubejs/server_scripts/arcos_imbuiveis.js"
+                    },
+                    "path": "kubejs/server_scripts/arcos_imbuiveis.js"
+                },
+                {
+                    "id": "jei-client-config",
+                    "name": "jei-client.ini",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/jei-client.ini",
+                        "MD5": "25183b744c5980e9af716299ad9b4d6a",
+                        "size": 12993,
+                        "path": "config/jei/jei-client.ini"
+                    },
+                    "path": "config/jei/jei-client.ini"
                 }
             ]
         },
@@ -8140,18 +8152,6 @@
                     "path": "mods/persistent_effects-1.0.0_neoforge.jar"
                 },
                 {
-                    "id": "arcos_imbuiveis.js",
-                    "name": "arcos_imbuiveis.js",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/arcos_imbuiveis.js",
-                        "MD5": "bec10535f22075a9242f6d5bf17536f9",
-                        "size": 1452,
-                        "path": "kubejs/server_scripts/arcos_imbuiveis.js"
-                    },
-                    "path": "kubejs/server_scripts/arcos_imbuiveis.js"
-                },
-                {
                     "id": "flan-1.20.1-1.11.16-forge.jar",
                     "name": "flan-1.20.1-1.11.16-forge.jar",
                     "type": "File",
@@ -8198,18 +8198,6 @@
                         "path": "config/legendarysurvivaloverhaul-common.toml"
                     },
                     "path": "config/legendarysurvivaloverhaul-common.toml"
-                },
-                {
-                    "id": "correcao_receitas.js",
-                    "name": "correcao_receitas.js",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-                        "MD5": "ec5d3c5f50d60b3e08205a0d348514d6",
-                        "size": 16853,
-                        "path": "kubejs/server_scripts/correcao_receitas.js"
-                    },
-                    "path": "kubejs/server_scripts/correcao_receitas.js"
                 },
                 {
                     "id": "camera-forge-1.20.1-1.0.20.jar",
@@ -8594,6 +8582,42 @@
                         "path": "config/iceandfire/iaf-client.json"
                     },
                     "path": "config/iceandfire/iaf-client.json"
+                },
+                {
+                    "id": "correcao_receitas.js",
+                    "name": "correcao_receitas.js",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
+                        "MD5": "392d82071941585eb8d29320d7a04360",
+                        "size": 17613,
+                        "path": "kubejs/server_scripts/correcao_receitas.js"
+                    },
+                    "path": "kubejs/server_scripts/correcao_receitas.js"
+                },
+                {
+                    "id": "arcos_imbuiveis.js",
+                    "name": "arcos_imbuiveis.js",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/arcos_imbuiveis.js",
+                        "MD5": "553f69a658e44cb6620d48082b24b4d5",
+                        "size": 1461,
+                        "path": "kubejs/server_scripts/arcos_imbuiveis.js"
+                    },
+                    "path": "kubejs/server_scripts/arcos_imbuiveis.js"
+                },
+                {
+                    "id": "jei-client-config",
+                    "name": "jei-client.ini",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/jei-client.ini",
+                        "MD5": "25183b744c5980e9af716299ad9b4d6a",
+                        "size": 12993,
+                        "path": "config/jei/jei-client.ini"
+                    },
+                    "path": "config/jei/jei-client.ini"
                 }
             ]
         },
@@ -12443,18 +12467,6 @@
                     "path": "mods/persistent_effects-1.0.0_neoforge.jar"
                 },
                 {
-                    "id": "arcos_imbuiveis.js",
-                    "name": "arcos_imbuiveis.js",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/arcos_imbuiveis.js",
-                        "MD5": "bec10535f22075a9242f6d5bf17536f9",
-                        "size": 1452,
-                        "path": "kubejs/server_scripts/arcos_imbuiveis.js"
-                    },
-                    "path": "kubejs/server_scripts/arcos_imbuiveis.js"
-                },
-                {
                     "id": "flan-1.20.1-1.11.16-forge.jar",
                     "name": "flan-1.20.1-1.11.16-forge.jar",
                     "type": "File",
@@ -12501,18 +12513,6 @@
                         "path": "config/legendarysurvivaloverhaul-common.toml"
                     },
                     "path": "config/legendarysurvivaloverhaul-common.toml"
-                },
-                {
-                    "id": "correcao_receitas.js",
-                    "name": "correcao_receitas.js",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-                        "MD5": "ec5d3c5f50d60b3e08205a0d348514d6",
-                        "size": 16853,
-                        "path": "kubejs/server_scripts/correcao_receitas.js"
-                    },
-                    "path": "kubejs/server_scripts/correcao_receitas.js"
                 },
                 {
                     "id": "camera-forge-1.20.1-1.0.20.jar",
@@ -12909,6 +12909,42 @@
                         "path": "config/iceandfire/iaf-client.json"
                     },
                     "path": "config/iceandfire/iaf-client.json"
+                },
+                {
+                    "id": "correcao_receitas.js",
+                    "name": "correcao_receitas.js",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
+                        "MD5": "392d82071941585eb8d29320d7a04360",
+                        "size": 17613,
+                        "path": "kubejs/server_scripts/correcao_receitas.js"
+                    },
+                    "path": "kubejs/server_scripts/correcao_receitas.js"
+                },
+                {
+                    "id": "arcos_imbuiveis.js",
+                    "name": "arcos_imbuiveis.js",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/arcos_imbuiveis.js",
+                        "MD5": "553f69a658e44cb6620d48082b24b4d5",
+                        "size": 1461,
+                        "path": "kubejs/server_scripts/arcos_imbuiveis.js"
+                    },
+                    "path": "kubejs/server_scripts/arcos_imbuiveis.js"
+                },
+                {
+                    "id": "jei-client-config",
+                    "name": "jei-client.ini",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/jei-client.ini",
+                        "MD5": "25183b744c5980e9af716299ad9b4d6a",
+                        "size": 12993,
+                        "path": "config/jei/jei-client.ini"
+                    },
+                    "path": "config/jei/jei-client.ini"
                 }
             ]
         }
