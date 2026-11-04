@@ -1,5 +1,5 @@
 {
-    "version": "1.0.164",
+    "version": "1.0.165",
     "rss": "",
     "mainServer": "velvet",
     "servers": [
@@ -4339,6 +4339,30 @@
                         "path": "mods/mermod-forge-3.0.3.1.20.1.jar"
                     },
                     "path": "mods/mermod-forge-3.0.3.1.20.1.jar"
+                },
+                {
+                    "id": "soundphysics-config",
+                    "name": "soundphysics.properties",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/soundphysics.properties",
+                        "MD5": "095e292d31fbdea326225bd1de78c07c",
+                        "size": 5100,
+                        "path": "config/sound_physics_remastered/soundphysics.properties"
+                    },
+                    "path": "config/sound_physics_remastered/soundphysics.properties"
+                },
+                {
+                    "id": "particlerain-config",
+                    "name": "config.json",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/particlerain-config.json",
+                        "MD5": "7b5f48a0a8a792a6882b9e0a3e061c1b",
+                        "size": 1207,
+                        "path": "config/particlerain/config.json"
+                    },
+                    "path": "config/particlerain/config.json"
                 }
             ]
         },
@@ -8642,6 +8666,30 @@
                         "path": "mods/mermod-forge-3.0.3.1.20.1.jar"
                     },
                     "path": "mods/mermod-forge-3.0.3.1.20.1.jar"
+                },
+                {
+                    "id": "soundphysics-config",
+                    "name": "soundphysics.properties",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/soundphysics.properties",
+                        "MD5": "095e292d31fbdea326225bd1de78c07c",
+                        "size": 5100,
+                        "path": "config/sound_physics_remastered/soundphysics.properties"
+                    },
+                    "path": "config/sound_physics_remastered/soundphysics.properties"
+                },
+                {
+                    "id": "particlerain-config",
+                    "name": "config.json",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/particlerain-config.json",
+                        "MD5": "7b5f48a0a8a792a6882b9e0a3e061c1b",
+                        "size": 1207,
+                        "path": "config/particlerain/config.json"
+                    },
+                    "path": "config/particlerain/config.json"
                 }
             ]
         },
@@ -12981,6 +13029,30 @@
                         "path": "mods/mermod-forge-3.0.3.1.20.1.jar"
                     },
                     "path": "mods/mermod-forge-3.0.3.1.20.1.jar"
+                },
+                {
+                    "id": "soundphysics-config",
+                    "name": "soundphysics.properties",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/soundphysics.properties",
+                        "MD5": "095e292d31fbdea326225bd1de78c07c",
+                        "size": 5100,
+                        "path": "config/sound_physics_remastered/soundphysics.properties"
+                    },
+                    "path": "config/sound_physics_remastered/soundphysics.properties"
+                },
+                {
+                    "id": "particlerain-config",
+                    "name": "config.json",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/particlerain-config.json",
+                        "MD5": "7b5f48a0a8a792a6882b9e0a3e061c1b",
+                        "size": 1207,
+                        "path": "config/particlerain/config.json"
+                    },
+                    "path": "config/particlerain/config.json"
                 }
             ]
         }
