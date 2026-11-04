@@ -3789,18 +3789,6 @@
                     "path": "mods/easy_npc_config_ui-forge-1.20.1-7.14.0.jar"
                 },
                 {
-                    "id": "simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
-                    "name": "simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
-                        "MD5": "b3f7f2922c3599ebf908e491d34de86d",
-                        "size": 7302,
-                        "path": "mods/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar"
-                    },
-                    "path": "mods/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar"
-                },
-                {
                     "id": "Spoiled-forge-1.20.1-2.2.2.jar",
                     "name": "Spoiled-forge-1.20.1-2.2.2.jar",
                     "type": "File",
@@ -4017,18 +4005,6 @@
                     "path": "shaderpacks/Eclipse-Shader-Unstable.zip"
                 },
                 {
-                    "id": "VelvetAbyss-1.20.1-1.0.48.jar",
-                    "name": "VelvetAbyss-1.20.1-1.0.48.jar",
-                    "type": "File",
-                    "artifact": {
-                        "size": 5624575,
-                        "MD5": "9f8a4341354fcb3ab9f43a51a032d6cc",
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.48.jar",
-                        "path": "mods/VelvetAbyss-1.20.1-1.0.48.jar"
-                    },
-                    "path": "mods/VelvetAbyss-1.20.1-1.0.48.jar"
-                },
-                {
                     "id": "VelvetAbyss-PenseGelato-1.20.1-1.0.4.jar",
                     "name": "VelvetAbyss-PenseGelato-1.20.1-1.0.4.jar",
                     "type": "File",
@@ -4099,6 +4075,246 @@
                         "path": "mods/FractalJEI-Fabric-2.0.3.jar"
                     },
                     "path": "mods/FractalJEI-Fabric-2.0.3.jar"
+                },
+                {
+                    "id": "BloodMagic-1.18-1.20.1-3.3.8-50.jar",
+                    "name": "BloodMagic-1.18-1.20.1-3.3.8-50.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/BloodMagic-1.18-1.20.1-3.3.8-50.jar",
+                        "MD5": "77bc0a06061e6d9cadb8edc9e6b2b93d",
+                        "size": 15079434,
+                        "path": "mods/BloodMagic-1.18-1.20.1-3.3.8-50.jar"
+                    },
+                    "path": "mods/BloodMagic-1.18-1.20.1-3.3.8-50.jar"
+                },
+                {
+                    "id": "IceAndFireCE-1.2.10-1.20.1-forge.jar",
+                    "name": "IceAndFireCE-1.2.10-1.20.1-forge.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/IceAndFireCE-1.2.10-1.20.1-forge.jar",
+                        "MD5": "31dabcd2dafd236a63ad2af74b599105",
+                        "size": 27031395,
+                        "path": "mods/IceAndFireCE-1.2.10-1.20.1-forge.jar"
+                    },
+                    "path": "mods/IceAndFireCE-1.2.10-1.20.1-forge.jar"
+                },
+                {
+                    "id": "VelvetAbyss-1.20.1-1.0.58.jar",
+                    "name": "VelvetAbyss-1.20.1-1.0.58.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.58.jar",
+                        "MD5": "2fc44dc8de06a3076c86059aa823a1c6",
+                        "size": 5794495,
+                        "path": "mods/VelvetAbyss-1.20.1-1.0.58.jar"
+                    },
+                    "path": "mods/VelvetAbyss-1.20.1-1.0.58.jar"
+                },
+                {
+                    "id": "ars_additions-1.20.1-1.6.7.jar",
+                    "name": "ars_additions-1.20.1-1.6.7.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ars_additions-1.20.1-1.6.7.jar",
+                        "MD5": "dcd57a53335ab8f42452dc6b22566a17",
+                        "size": 1287601,
+                        "path": "mods/ars_additions-1.20.1-1.6.7.jar"
+                    },
+                    "path": "mods/ars_additions-1.20.1-1.6.7.jar"
+                },
+                {
+                    "id": "ars_creo-1.20.1-4.3.0.jar",
+                    "name": "ars_creo-1.20.1-4.3.0.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ars_creo-1.20.1-4.3.0.jar",
+                        "MD5": "18705b0531cb08f1351f37dd330754e0",
+                        "size": 71944,
+                        "path": "mods/ars_creo-1.20.1-4.3.0.jar"
+                    },
+                    "path": "mods/ars_creo-1.20.1-4.3.0.jar"
+                },
+                {
+                    "id": "ars_nouveau-1.20.1-4.12.7-all.jar",
+                    "name": "ars_nouveau-1.20.1-4.12.7-all.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ars_nouveau-1.20.1-4.12.7-all.jar",
+                        "MD5": "cdd1952cc0031831b37db0f6d6c6ceb1",
+                        "size": 12430237,
+                        "path": "mods/ars_nouveau-1.20.1-4.12.7-all.jar"
+                    },
+                    "path": "mods/ars_nouveau-1.20.1-4.12.7-all.jar"
+                },
+                {
+                    "id": "ars_ocultas-1.20.1-1.2.2-all.jar",
+                    "name": "ars_ocultas-1.20.1-1.2.2-all.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ars_ocultas-1.20.1-1.2.2-all.jar",
+                        "MD5": "b691274ef53e59147ba90a2b5516607f",
+                        "size": 215015,
+                        "path": "mods/ars_ocultas-1.20.1-1.2.2-all.jar"
+                    },
+                    "path": "mods/ars_ocultas-1.20.1-1.2.2-all.jar"
+                },
+                {
+                    "id": "embersrekindled-1.20.1-1.4.7.jar",
+                    "name": "embersrekindled-1.20.1-1.4.7.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/embersrekindled-1.20.1-1.4.7.jar",
+                        "MD5": "263098439f31c38083d4b227955a2ccf",
+                        "size": 15572517,
+                        "path": "mods/embersrekindled-1.20.1-1.4.7.jar"
+                    },
+                    "path": "mods/embersrekindled-1.20.1-1.4.7.jar"
+                },
+                {
+                    "id": "forbidden_arcanus-1.20.1-2.2.6.jar",
+                    "name": "forbidden_arcanus-1.20.1-2.2.6.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/forbidden_arcanus-1.20.1-2.2.6.jar",
+                        "MD5": "bc3fb60d93b4ceb25d6b8a60a16bf921",
+                        "size": 2783387,
+                        "path": "mods/forbidden_arcanus-1.20.1-2.2.6.jar"
+                    },
+                    "path": "mods/forbidden_arcanus-1.20.1-2.2.6.jar"
+                },
+                {
+                    "id": "forbidden_arcanus_js-2001.1.1-all.jar",
+                    "name": "forbidden_arcanus_js-2001.1.1-all.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/forbidden_arcanus_js-2001.1.1-all.jar",
+                        "MD5": "3aa59b8ba21263c5a57d09566961d281",
+                        "size": 693246,
+                        "path": "mods/forbidden_arcanus_js-2001.1.1-all.jar"
+                    },
+                    "path": "mods/forbidden_arcanus_js-2001.1.1-all.jar"
+                },
+                {
+                    "id": "jupiter-2.3.7-1.20.1-forge.jar",
+                    "name": "jupiter-2.3.7-1.20.1-forge.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/jupiter-2.3.7-1.20.1-forge.jar",
+                        "MD5": "2a222bc075b64ac569b6b0766f39276a",
+                        "size": 280116,
+                        "path": "mods/jupiter-2.3.7-1.20.1-forge.jar"
+                    },
+                    "path": "mods/jupiter-2.3.7-1.20.1-forge.jar"
+                },
+                {
+                    "id": "kubejsarsnouveau-1.2.2.jar",
+                    "name": "kubejsarsnouveau-1.2.2.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/kubejsarsnouveau-1.2.2.jar",
+                        "MD5": "48983adaaf1d9056488b1d268523a404",
+                        "size": 13545,
+                        "path": "mods/kubejsarsnouveau-1.2.2.jar"
+                    },
+                    "path": "mods/kubejsarsnouveau-1.2.2.jar"
+                },
+                {
+                    "id": "mna-forge-1.20.1-3.1.11-all.jar",
+                    "name": "mna-forge-1.20.1-3.1.11-all.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mna-forge-1.20.1-3.1.11-all.jar",
+                        "MD5": "0396b0237b5954f15c4afe626786bb93",
+                        "size": 32388968,
+                        "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
+                    },
+                    "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
+                },
+                {
+                    "id": "mna_attributes-forge-1.20.1-0.3.2.jar",
+                    "name": "mna_attributes-forge-1.20.1-0.3.2.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mna_attributes-forge-1.20.1-0.3.2.jar",
+                        "MD5": "bee13f93b009f22e385b19e0d9588fc1",
+                        "size": 43351,
+                        "path": "mods/mna_attributes-forge-1.20.1-0.3.2.jar"
+                    },
+                    "path": "mods/mna_attributes-forge-1.20.1-0.3.2.jar"
+                },
+                {
+                    "id": "moremnaspellicons-1.0.0.jar",
+                    "name": "moremnaspellicons-1.0.0.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/moremnaspellicons-1.0.0.jar",
+                        "MD5": "122cd037461691dc158777594b55d7e0",
+                        "size": 763336,
+                        "path": "mods/moremnaspellicons-1.0.0.jar"
+                    },
+                    "path": "mods/moremnaspellicons-1.0.0.jar"
+                },
+                {
+                    "id": "simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
+                    "name": "simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
+                        "MD5": "b3f7f2922c3599ebf908e491d34de86d",
+                        "size": 7302,
+                        "path": "mods/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar"
+                    },
+                    "path": "mods/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar"
+                },
+                {
+                    "id": "toomanyglyphs-1.20.1-2.3.2.12345.jar",
+                    "name": "toomanyglyphs-1.20.1-2.3.2.12345.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/toomanyglyphs-1.20.1-2.3.2.12345.jar",
+                        "MD5": "5e6bdbfdcfa40e745a4ea8245863005c",
+                        "size": 102190,
+                        "path": "mods/toomanyglyphs-1.20.1-2.3.2.12345.jar"
+                    },
+                    "path": "mods/toomanyglyphs-1.20.1-2.3.2.12345.jar"
+                },
+                {
+                    "id": "uranus-2.2.6-bugfix.2-1.20.1-forge.jar",
+                    "name": "uranus-2.2.6-bugfix.2-1.20.1-forge.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/uranus-2.2.6-bugfix.2-1.20.1-forge.jar",
+                        "MD5": "0f105911ccb83c0af4440b78dd141af4",
+                        "size": 823386,
+                        "path": "mods/uranus-2.2.6-bugfix.2-1.20.1-forge.jar"
+                    },
+                    "path": "mods/uranus-2.2.6-bugfix.2-1.20.1-forge.jar"
+                },
+                {
+                    "id": "valhelsia_core-forge-1.20.1-1.1.2.jar",
+                    "name": "valhelsia_core-forge-1.20.1-1.1.2.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/valhelsia_core-forge-1.20.1-1.1.2.jar",
+                        "MD5": "9702cc714dbc069166b4982c0771a0c4",
+                        "size": 203313,
+                        "path": "mods/valhelsia_core-forge-1.20.1-1.1.2.jar"
+                    },
+                    "path": "mods/valhelsia_core-forge-1.20.1-1.1.2.jar"
+                },
+                {
+                    "id": "iceandfire-client-config",
+                    "name": "iaf-client.json",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/iaf-client.json",
+                        "MD5": "84a4e5689ed7b6d2a9f5ddbd3108ae49",
+                        "size": 110,
+                        "path": "config/iceandfire/iaf-client.json"
+                    },
+                    "path": "config/iceandfire/iaf-client.json"
                 }
             ]
         },
@@ -7864,18 +8080,6 @@
                     "path": "mods/easy_npc_config_ui-forge-1.20.1-7.14.0.jar"
                 },
                 {
-                    "id": "simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
-                    "name": "simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
-                        "MD5": "b3f7f2922c3599ebf908e491d34de86d",
-                        "size": 7302,
-                        "path": "mods/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar"
-                    },
-                    "path": "mods/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar"
-                },
-                {
                     "id": "Spoiled-forge-1.20.1-2.2.2.jar",
                     "name": "Spoiled-forge-1.20.1-2.2.2.jar",
                     "type": "File",
@@ -8080,18 +8284,6 @@
                     "path": "mods/copycats-3.0.10+mc.1.20.1-forge.jar"
                 },
                 {
-                    "id": "VelvetAbyss-1.20.1-1.0.48.jar",
-                    "name": "VelvetAbyss-1.20.1-1.0.48.jar",
-                    "type": "File",
-                    "artifact": {
-                        "size": 5624575,
-                        "MD5": "9f8a4341354fcb3ab9f43a51a032d6cc",
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.48.jar",
-                        "path": "mods/VelvetAbyss-1.20.1-1.0.48.jar"
-                    },
-                    "path": "mods/VelvetAbyss-1.20.1-1.0.48.jar"
-                },
-                {
                     "id": "VelvetAbyss-PenseGelato-1.20.1-1.0.4.jar",
                     "name": "VelvetAbyss-PenseGelato-1.20.1-1.0.4.jar",
                     "type": "File",
@@ -8162,6 +8354,246 @@
                         "path": "mods/FractalJEI-Fabric-2.0.3.jar"
                     },
                     "path": "mods/FractalJEI-Fabric-2.0.3.jar"
+                },
+                {
+                    "id": "BloodMagic-1.18-1.20.1-3.3.8-50.jar",
+                    "name": "BloodMagic-1.18-1.20.1-3.3.8-50.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/BloodMagic-1.18-1.20.1-3.3.8-50.jar",
+                        "MD5": "77bc0a06061e6d9cadb8edc9e6b2b93d",
+                        "size": 15079434,
+                        "path": "mods/BloodMagic-1.18-1.20.1-3.3.8-50.jar"
+                    },
+                    "path": "mods/BloodMagic-1.18-1.20.1-3.3.8-50.jar"
+                },
+                {
+                    "id": "IceAndFireCE-1.2.10-1.20.1-forge.jar",
+                    "name": "IceAndFireCE-1.2.10-1.20.1-forge.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/IceAndFireCE-1.2.10-1.20.1-forge.jar",
+                        "MD5": "31dabcd2dafd236a63ad2af74b599105",
+                        "size": 27031395,
+                        "path": "mods/IceAndFireCE-1.2.10-1.20.1-forge.jar"
+                    },
+                    "path": "mods/IceAndFireCE-1.2.10-1.20.1-forge.jar"
+                },
+                {
+                    "id": "VelvetAbyss-1.20.1-1.0.58.jar",
+                    "name": "VelvetAbyss-1.20.1-1.0.58.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.58.jar",
+                        "MD5": "2fc44dc8de06a3076c86059aa823a1c6",
+                        "size": 5794495,
+                        "path": "mods/VelvetAbyss-1.20.1-1.0.58.jar"
+                    },
+                    "path": "mods/VelvetAbyss-1.20.1-1.0.58.jar"
+                },
+                {
+                    "id": "ars_additions-1.20.1-1.6.7.jar",
+                    "name": "ars_additions-1.20.1-1.6.7.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ars_additions-1.20.1-1.6.7.jar",
+                        "MD5": "dcd57a53335ab8f42452dc6b22566a17",
+                        "size": 1287601,
+                        "path": "mods/ars_additions-1.20.1-1.6.7.jar"
+                    },
+                    "path": "mods/ars_additions-1.20.1-1.6.7.jar"
+                },
+                {
+                    "id": "ars_creo-1.20.1-4.3.0.jar",
+                    "name": "ars_creo-1.20.1-4.3.0.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ars_creo-1.20.1-4.3.0.jar",
+                        "MD5": "18705b0531cb08f1351f37dd330754e0",
+                        "size": 71944,
+                        "path": "mods/ars_creo-1.20.1-4.3.0.jar"
+                    },
+                    "path": "mods/ars_creo-1.20.1-4.3.0.jar"
+                },
+                {
+                    "id": "ars_nouveau-1.20.1-4.12.7-all.jar",
+                    "name": "ars_nouveau-1.20.1-4.12.7-all.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ars_nouveau-1.20.1-4.12.7-all.jar",
+                        "MD5": "cdd1952cc0031831b37db0f6d6c6ceb1",
+                        "size": 12430237,
+                        "path": "mods/ars_nouveau-1.20.1-4.12.7-all.jar"
+                    },
+                    "path": "mods/ars_nouveau-1.20.1-4.12.7-all.jar"
+                },
+                {
+                    "id": "ars_ocultas-1.20.1-1.2.2-all.jar",
+                    "name": "ars_ocultas-1.20.1-1.2.2-all.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/ars_ocultas-1.20.1-1.2.2-all.jar",
+                        "MD5": "b691274ef53e59147ba90a2b5516607f",
+                        "size": 215015,
+                        "path": "mods/ars_ocultas-1.20.1-1.2.2-all.jar"
+                    },
+                    "path": "mods/ars_ocultas-1.20.1-1.2.2-all.jar"
+                },
+                {
+                    "id": "embersrekindled-1.20.1-1.4.7.jar",
+                    "name": "embersrekindled-1.20.1-1.4.7.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/embersrekindled-1.20.1-1.4.7.jar",
+                        "MD5": "263098439f31c38083d4b227955a2ccf",
+                        "size": 15572517,
+                        "path": "mods/embersrekindled-1.20.1-1.4.7.jar"
+                    },
+                    "path": "mods/embersrekindled-1.20.1-1.4.7.jar"
+                },
+                {
+                    "id": "forbidden_arcanus-1.20.1-2.2.6.jar",
+                    "name": "forbidden_arcanus-1.20.1-2.2.6.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/forbidden_arcanus-1.20.1-2.2.6.jar",
+                        "MD5": "bc3fb60d93b4ceb25d6b8a60a16bf921",
+                        "size": 2783387,
+                        "path": "mods/forbidden_arcanus-1.20.1-2.2.6.jar"
+                    },
+                    "path": "mods/forbidden_arcanus-1.20.1-2.2.6.jar"
+                },
+                {
+                    "id": "forbidden_arcanus_js-2001.1.1-all.jar",
+                    "name": "forbidden_arcanus_js-2001.1.1-all.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/forbidden_arcanus_js-2001.1.1-all.jar",
+                        "MD5": "3aa59b8ba21263c5a57d09566961d281",
+                        "size": 693246,
+                        "path": "mods/forbidden_arcanus_js-2001.1.1-all.jar"
+                    },
+                    "path": "mods/forbidden_arcanus_js-2001.1.1-all.jar"
+                },
+                {
+                    "id": "jupiter-2.3.7-1.20.1-forge.jar",
+                    "name": "jupiter-2.3.7-1.20.1-forge.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/jupiter-2.3.7-1.20.1-forge.jar",
+                        "MD5": "2a222bc075b64ac569b6b0766f39276a",
+                        "size": 280116,
+                        "path": "mods/jupiter-2.3.7-1.20.1-forge.jar"
+                    },
+                    "path": "mods/jupiter-2.3.7-1.20.1-forge.jar"
+                },
+                {
+                    "id": "kubejsarsnouveau-1.2.2.jar",
+                    "name": "kubejsarsnouveau-1.2.2.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/kubejsarsnouveau-1.2.2.jar",
+                        "MD5": "48983adaaf1d9056488b1d268523a404",
+                        "size": 13545,
+                        "path": "mods/kubejsarsnouveau-1.2.2.jar"
+                    },
+                    "path": "mods/kubejsarsnouveau-1.2.2.jar"
+                },
+                {
+                    "id": "mna-forge-1.20.1-3.1.11-all.jar",
+                    "name": "mna-forge-1.20.1-3.1.11-all.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mna-forge-1.20.1-3.1.11-all.jar",
+                        "MD5": "0396b0237b5954f15c4afe626786bb93",
+                        "size": 32388968,
+                        "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
+                    },
+                    "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
+                },
+                {
+                    "id": "mna_attributes-forge-1.20.1-0.3.2.jar",
+                    "name": "mna_attributes-forge-1.20.1-0.3.2.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mna_attributes-forge-1.20.1-0.3.2.jar",
+                        "MD5": "bee13f93b009f22e385b19e0d9588fc1",
+                        "size": 43351,
+                        "path": "mods/mna_attributes-forge-1.20.1-0.3.2.jar"
+                    },
+                    "path": "mods/mna_attributes-forge-1.20.1-0.3.2.jar"
+                },
+                {
+                    "id": "moremnaspellicons-1.0.0.jar",
+                    "name": "moremnaspellicons-1.0.0.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/moremnaspellicons-1.0.0.jar",
+                        "MD5": "122cd037461691dc158777594b55d7e0",
+                        "size": 763336,
+                        "path": "mods/moremnaspellicons-1.0.0.jar"
+                    },
+                    "path": "mods/moremnaspellicons-1.0.0.jar"
+                },
+                {
+                    "id": "simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
+                    "name": "simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
+                        "MD5": "b3f7f2922c3599ebf908e491d34de86d",
+                        "size": 7302,
+                        "path": "mods/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar"
+                    },
+                    "path": "mods/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar"
+                },
+                {
+                    "id": "toomanyglyphs-1.20.1-2.3.2.12345.jar",
+                    "name": "toomanyglyphs-1.20.1-2.3.2.12345.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/toomanyglyphs-1.20.1-2.3.2.12345.jar",
+                        "MD5": "5e6bdbfdcfa40e745a4ea8245863005c",
+                        "size": 102190,
+                        "path": "mods/toomanyglyphs-1.20.1-2.3.2.12345.jar"
+                    },
+                    "path": "mods/toomanyglyphs-1.20.1-2.3.2.12345.jar"
+                },
+                {
+                    "id": "uranus-2.2.6-bugfix.2-1.20.1-forge.jar",
+                    "name": "uranus-2.2.6-bugfix.2-1.20.1-forge.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/uranus-2.2.6-bugfix.2-1.20.1-forge.jar",
+                        "MD5": "0f105911ccb83c0af4440b78dd141af4",
+                        "size": 823386,
+                        "path": "mods/uranus-2.2.6-bugfix.2-1.20.1-forge.jar"
+                    },
+                    "path": "mods/uranus-2.2.6-bugfix.2-1.20.1-forge.jar"
+                },
+                {
+                    "id": "valhelsia_core-forge-1.20.1-1.1.2.jar",
+                    "name": "valhelsia_core-forge-1.20.1-1.1.2.jar",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/valhelsia_core-forge-1.20.1-1.1.2.jar",
+                        "MD5": "9702cc714dbc069166b4982c0771a0c4",
+                        "size": 203313,
+                        "path": "mods/valhelsia_core-forge-1.20.1-1.1.2.jar"
+                    },
+                    "path": "mods/valhelsia_core-forge-1.20.1-1.1.2.jar"
+                },
+                {
+                    "id": "iceandfire-client-config",
+                    "name": "iaf-client.json",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/iaf-client.json",
+                        "MD5": "84a4e5689ed7b6d2a9f5ddbd3108ae49",
+                        "size": 110,
+                        "path": "config/iceandfire/iaf-client.json"
+                    },
+                    "path": "config/iceandfire/iaf-client.json"
                 }
             ]
         },
@@ -11951,18 +12383,6 @@
                     "path": "mods/easy_npc_config_ui-forge-1.20.1-7.14.0.jar"
                 },
                 {
-                    "id": "simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
-                    "name": "simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
-                    "type": "File",
-                    "artifact": {
-                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
-                        "MD5": "b3f7f2922c3599ebf908e491d34de86d",
-                        "size": 7302,
-                        "path": "mods/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar"
-                    },
-                    "path": "mods/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar"
-                },
-                {
                     "id": "Spoiled-forge-1.20.1-2.2.2.jar",
                     "name": "Spoiled-forge-1.20.1-2.2.2.jar",
                     "type": "File",
@@ -12477,6 +12897,18 @@
                         "path": "mods/valhelsia_core-forge-1.20.1-1.1.2.jar"
                     },
                     "path": "mods/valhelsia_core-forge-1.20.1-1.1.2.jar"
+                },
+                {
+                    "id": "iceandfire-client-config",
+                    "name": "iaf-client.json",
+                    "type": "File",
+                    "artifact": {
+                        "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/iaf-client.json",
+                        "MD5": "84a4e5689ed7b6d2a9f5ddbd3108ae49",
+                        "size": 110,
+                        "path": "config/iceandfire/iaf-client.json"
+                    },
+                    "path": "config/iceandfire/iaf-client.json"
                 }
             ]
         }
