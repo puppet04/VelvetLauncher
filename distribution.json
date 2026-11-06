@@ -1,5 +1,5 @@
 {
-  "version": "1.0.169",
+  "version": "1.0.170",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -1959,8 +1959,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/letsdo-vinery-forge-1.4.41.jar",
-            "MD5": "bf692e0100772cfa90b9878a38c1f28a",
-            "size": 2041283,
+            "MD5": "ad114bc04bf7fd822a443a361740b26e",
+            "size": 2013793,
             "path": "mods/letsdo-vinery-forge-1.4.41.jar"
           },
           "path": "mods/letsdo-vinery-forge-1.4.41.jar"
@@ -2283,8 +2283,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/occultism-1.20.1-1.158.0.jar",
-            "MD5": "c4db807b23a79756148e67c05f85f7d4",
-            "size": 3928454,
+            "MD5": "d9ed0f363e0cedf59fd381d6a51b5d07",
+            "size": 3974908,
             "path": "mods/occultism-1.20.1-1.158.0.jar"
           },
           "path": "mods/occultism-1.20.1-1.158.0.jar"
@@ -6322,8 +6322,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/letsdo-vinery-forge-1.4.41.jar",
-            "MD5": "bf692e0100772cfa90b9878a38c1f28a",
-            "size": 2041283,
+            "MD5": "ad114bc04bf7fd822a443a361740b26e",
+            "size": 2013793,
             "path": "mods/letsdo-vinery-forge-1.4.41.jar"
           },
           "path": "mods/letsdo-vinery-forge-1.4.41.jar"
@@ -6646,8 +6646,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/occultism-1.20.1-1.158.0.jar",
-            "MD5": "c4db807b23a79756148e67c05f85f7d4",
-            "size": 3928454,
+            "MD5": "d9ed0f363e0cedf59fd381d6a51b5d07",
+            "size": 3974908,
             "path": "mods/occultism-1.20.1-1.158.0.jar"
           },
           "path": "mods/occultism-1.20.1-1.158.0.jar"
@@ -10673,8 +10673,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/letsdo-vinery-forge-1.4.41.jar",
-            "MD5": "bf692e0100772cfa90b9878a38c1f28a",
-            "size": 2041283,
+            "MD5": "ad114bc04bf7fd822a443a361740b26e",
+            "size": 2013793,
             "path": "mods/letsdo-vinery-forge-1.4.41.jar"
           },
           "path": "mods/letsdo-vinery-forge-1.4.41.jar"
@@ -10997,8 +10997,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/occultism-1.20.1-1.158.0.jar",
-            "MD5": "c4db807b23a79756148e67c05f85f7d4",
-            "size": 3928454,
+            "MD5": "d9ed0f363e0cedf59fd381d6a51b5d07",
+            "size": 3974908,
             "path": "mods/occultism-1.20.1-1.158.0.jar"
           },
           "path": "mods/occultism-1.20.1-1.158.0.jar"
