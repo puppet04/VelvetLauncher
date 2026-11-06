@@ -1,5 +1,5 @@
 {
-  "version": "1.0.168",
+  "version": "1.0.169",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4341,18 +4341,6 @@
           "path": "config/particlerain/config.json"
         },
         {
-          "id": "correcao_receitas.js",
-          "name": "correcao_receitas.js",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-            "MD5": "2530a94b727d83473a47ba36086cb2c5",
-            "size": 73255,
-            "path": "kubejs/server_scripts/correcao_receitas.js"
-          },
-          "path": "kubejs/server_scripts/correcao_receitas.js"
-        },
-        {
           "id": "VelvetAbyss-1.20.1-1.0.67.jar",
           "name": "VelvetAbyss-1.20.1-1.0.67.jar",
           "type": "File",
@@ -4363,6 +4351,30 @@
             "path": "mods/VelvetAbyss-1.20.1-1.0.67.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.0.67.jar"
+        },
+        {
+          "id": "vinery-config",
+          "name": "vinery.toml",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/vinery.toml",
+            "MD5": "14a59f32f837875390a1011c229007b1",
+            "size": 2851,
+            "path": "config/vinery.toml"
+          },
+          "path": "config/vinery.toml"
+        },
+        {
+          "id": "correcao_receitas.js",
+          "name": "correcao_receitas.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
+            "MD5": "386a2a48f6362784e24b3cb8a13f039a",
+            "size": 74565,
+            "path": "kubejs/server_scripts/correcao_receitas.js"
+          },
+          "path": "kubejs/server_scripts/correcao_receitas.js"
         }
       ]
     },
@@ -8668,18 +8680,6 @@
           "path": "config/particlerain/config.json"
         },
         {
-          "id": "correcao_receitas.js",
-          "name": "correcao_receitas.js",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-            "MD5": "2530a94b727d83473a47ba36086cb2c5",
-            "size": 73255,
-            "path": "kubejs/server_scripts/correcao_receitas.js"
-          },
-          "path": "kubejs/server_scripts/correcao_receitas.js"
-        },
-        {
           "id": "VelvetAbyss-1.20.1-1.0.67.jar",
           "name": "VelvetAbyss-1.20.1-1.0.67.jar",
           "type": "File",
@@ -8690,6 +8690,30 @@
             "path": "mods/VelvetAbyss-1.20.1-1.0.67.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.0.67.jar"
+        },
+        {
+          "id": "vinery-config",
+          "name": "vinery.toml",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/vinery.toml",
+            "MD5": "14a59f32f837875390a1011c229007b1",
+            "size": 2851,
+            "path": "config/vinery.toml"
+          },
+          "path": "config/vinery.toml"
+        },
+        {
+          "id": "correcao_receitas.js",
+          "name": "correcao_receitas.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
+            "MD5": "386a2a48f6362784e24b3cb8a13f039a",
+            "size": 74565,
+            "path": "kubejs/server_scripts/correcao_receitas.js"
+          },
+          "path": "kubejs/server_scripts/correcao_receitas.js"
         }
       ]
     },
@@ -13031,18 +13055,6 @@
           "path": "config/particlerain/config.json"
         },
         {
-          "id": "correcao_receitas.js",
-          "name": "correcao_receitas.js",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-            "MD5": "2530a94b727d83473a47ba36086cb2c5",
-            "size": 73255,
-            "path": "kubejs/server_scripts/correcao_receitas.js"
-          },
-          "path": "kubejs/server_scripts/correcao_receitas.js"
-        },
-        {
           "id": "VelvetAbyss-1.20.1-1.0.67.jar",
           "name": "VelvetAbyss-1.20.1-1.0.67.jar",
           "type": "File",
@@ -13053,6 +13065,30 @@
             "path": "mods/VelvetAbyss-1.20.1-1.0.67.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.0.67.jar"
+        },
+        {
+          "id": "vinery-config",
+          "name": "vinery.toml",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/vinery.toml",
+            "MD5": "14a59f32f837875390a1011c229007b1",
+            "size": 2851,
+            "path": "config/vinery.toml"
+          },
+          "path": "config/vinery.toml"
+        },
+        {
+          "id": "correcao_receitas.js",
+          "name": "correcao_receitas.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
+            "MD5": "386a2a48f6362784e24b3cb8a13f039a",
+            "size": 74565,
+            "path": "kubejs/server_scripts/correcao_receitas.js"
+          },
+          "path": "kubejs/server_scripts/correcao_receitas.js"
         }
       ]
     }
