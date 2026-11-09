@@ -1,5 +1,5 @@
 {
-  "version": "1.0.171",
+  "version": "1.0.172",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4358,8 +4358,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/vinery.toml",
-            "MD5": "14a59f32f837875390a1011c229007b1",
-            "size": 2851,
+            "MD5": "a36293ccf8596a8345ebba8bc9b1cbd0",
+            "size": 2933,
             "path": "config/vinery.toml"
           },
           "path": "config/vinery.toml"
@@ -4375,6 +4375,18 @@
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
+        },
+        {
+          "id": "remover_criativos.js",
+          "name": "remover_criativos.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/remover_criativos.js",
+            "MD5": "4c0aafdbdbfe43c1a8a1aed880843e69",
+            "size": 1554,
+            "path": "kubejs/server_scripts/remover_criativos.js"
+          },
+          "path": "kubejs/server_scripts/remover_criativos.js"
         }
       ]
     },
@@ -8697,8 +8709,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/vinery.toml",
-            "MD5": "14a59f32f837875390a1011c229007b1",
-            "size": 2851,
+            "MD5": "a36293ccf8596a8345ebba8bc9b1cbd0",
+            "size": 2933,
             "path": "config/vinery.toml"
           },
           "path": "config/vinery.toml"
@@ -8714,6 +8726,18 @@
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
+        },
+        {
+          "id": "remover_criativos.js",
+          "name": "remover_criativos.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/remover_criativos.js",
+            "MD5": "4c0aafdbdbfe43c1a8a1aed880843e69",
+            "size": 1554,
+            "path": "kubejs/server_scripts/remover_criativos.js"
+          },
+          "path": "kubejs/server_scripts/remover_criativos.js"
         }
       ]
     },
@@ -13072,8 +13096,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/vinery.toml",
-            "MD5": "14a59f32f837875390a1011c229007b1",
-            "size": 2851,
+            "MD5": "a36293ccf8596a8345ebba8bc9b1cbd0",
+            "size": 2933,
             "path": "config/vinery.toml"
           },
           "path": "config/vinery.toml"
@@ -13089,6 +13113,18 @@
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
+        },
+        {
+          "id": "remover_criativos.js",
+          "name": "remover_criativos.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/remover_criativos.js",
+            "MD5": "4c0aafdbdbfe43c1a8a1aed880843e69",
+            "size": 1554,
+            "path": "kubejs/server_scripts/remover_criativos.js"
+          },
+          "path": "kubejs/server_scripts/remover_criativos.js"
         }
       ]
     }
