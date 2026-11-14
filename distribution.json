@@ -1,5 +1,5 @@
 {
-  "version": "1.0.174",
+  "version": "1.0.175",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4353,18 +4353,6 @@
           "path": "config/vinery.toml"
         },
         {
-          "id": "correcao_receitas.js",
-          "name": "correcao_receitas.js",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-            "MD5": "04cd44c7c32c8f9fb8240a2f3cd454bc",
-            "size": 78663,
-            "path": "kubejs/server_scripts/correcao_receitas.js"
-          },
-          "path": "kubejs/server_scripts/correcao_receitas.js"
-        },
-        {
           "id": "remover_criativos.js",
           "name": "remover_criativos.js",
           "type": "File",
@@ -4387,6 +4375,18 @@
             "path": "mods/VelvetAbyss-1.20.1-1.0.68.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.0.68.jar"
+        },
+        {
+          "id": "correcao_receitas.js",
+          "name": "correcao_receitas.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
+            "MD5": "23225411d652979f0f172e4577270bd7",
+            "size": 79667,
+            "path": "kubejs/server_scripts/correcao_receitas.js"
+          },
+          "path": "kubejs/server_scripts/correcao_receitas.js"
         }
       ]
     },
@@ -8704,18 +8704,6 @@
           "path": "config/vinery.toml"
         },
         {
-          "id": "correcao_receitas.js",
-          "name": "correcao_receitas.js",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-            "MD5": "04cd44c7c32c8f9fb8240a2f3cd454bc",
-            "size": 78663,
-            "path": "kubejs/server_scripts/correcao_receitas.js"
-          },
-          "path": "kubejs/server_scripts/correcao_receitas.js"
-        },
-        {
           "id": "remover_criativos.js",
           "name": "remover_criativos.js",
           "type": "File",
@@ -8738,6 +8726,18 @@
             "path": "mods/VelvetAbyss-1.20.1-1.0.68.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.0.68.jar"
+        },
+        {
+          "id": "correcao_receitas.js",
+          "name": "correcao_receitas.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
+            "MD5": "23225411d652979f0f172e4577270bd7",
+            "size": 79667,
+            "path": "kubejs/server_scripts/correcao_receitas.js"
+          },
+          "path": "kubejs/server_scripts/correcao_receitas.js"
         }
       ]
     },
@@ -13091,18 +13091,6 @@
           "path": "config/vinery.toml"
         },
         {
-          "id": "correcao_receitas.js",
-          "name": "correcao_receitas.js",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-            "MD5": "04cd44c7c32c8f9fb8240a2f3cd454bc",
-            "size": 78663,
-            "path": "kubejs/server_scripts/correcao_receitas.js"
-          },
-          "path": "kubejs/server_scripts/correcao_receitas.js"
-        },
-        {
           "id": "remover_criativos.js",
           "name": "remover_criativos.js",
           "type": "File",
@@ -13125,6 +13113,18 @@
             "path": "mods/VelvetAbyss-1.20.1-1.0.68.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.0.68.jar"
+        },
+        {
+          "id": "correcao_receitas.js",
+          "name": "correcao_receitas.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
+            "MD5": "23225411d652979f0f172e4577270bd7",
+            "size": 79667,
+            "path": "kubejs/server_scripts/correcao_receitas.js"
+          },
+          "path": "kubejs/server_scripts/correcao_receitas.js"
         }
       ]
     }
