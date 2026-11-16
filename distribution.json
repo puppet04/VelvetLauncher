@@ -1,5 +1,5 @@
 {
-  "version": "1.0.181",
+  "version": "1.0.182",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4365,18 +4365,6 @@
           "path": "kubejs/server_scripts/remover_criativos.js"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.1.1.jar",
-          "name": "VelvetAbyss-1.20.1-1.1.1.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.1.jar",
-            "MD5": "891442d4138b22f047bd20fe2c30503c",
-            "size": 6103421,
-            "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
-          },
-          "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
-        },
-        {
           "id": "add_squid_spawns.json",
           "name": "add_squid_spawns.json",
           "type": "File",
@@ -4411,6 +4399,18 @@
             "path": "kubejs/server_scripts/wellsprings_passivas.js"
           },
           "path": "kubejs/server_scripts/wellsprings_passivas.js"
+        },
+        {
+          "id": "VelvetAbyss-1.20.1-1.1.2.jar",
+          "name": "VelvetAbyss-1.20.1-1.1.2.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.2.jar",
+            "MD5": "24b8d62c573485113e3ca201d220b6f0",
+            "size": 6109327,
+            "path": "mods/VelvetAbyss-1.20.1-1.1.2.jar"
+          },
+          "path": "mods/VelvetAbyss-1.20.1-1.1.2.jar"
         }
       ]
     },
@@ -8740,18 +8740,6 @@
           "path": "kubejs/server_scripts/remover_criativos.js"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.1.1.jar",
-          "name": "VelvetAbyss-1.20.1-1.1.1.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.1.jar",
-            "MD5": "891442d4138b22f047bd20fe2c30503c",
-            "size": 6103421,
-            "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
-          },
-          "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
-        },
-        {
           "id": "add_squid_spawns.json",
           "name": "add_squid_spawns.json",
           "type": "File",
@@ -8786,6 +8774,18 @@
             "path": "kubejs/server_scripts/wellsprings_passivas.js"
           },
           "path": "kubejs/server_scripts/wellsprings_passivas.js"
+        },
+        {
+          "id": "VelvetAbyss-1.20.1-1.1.2.jar",
+          "name": "VelvetAbyss-1.20.1-1.1.2.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.2.jar",
+            "MD5": "24b8d62c573485113e3ca201d220b6f0",
+            "size": 6109327,
+            "path": "mods/VelvetAbyss-1.20.1-1.1.2.jar"
+          },
+          "path": "mods/VelvetAbyss-1.20.1-1.1.2.jar"
         }
       ]
     },
@@ -13151,18 +13151,6 @@
           "path": "kubejs/server_scripts/remover_criativos.js"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.1.1.jar",
-          "name": "VelvetAbyss-1.20.1-1.1.1.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.1.jar",
-            "MD5": "891442d4138b22f047bd20fe2c30503c",
-            "size": 6103421,
-            "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
-          },
-          "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
-        },
-        {
           "id": "add_squid_spawns.json",
           "name": "add_squid_spawns.json",
           "type": "File",
@@ -13197,6 +13185,18 @@
             "path": "kubejs/server_scripts/wellsprings_passivas.js"
           },
           "path": "kubejs/server_scripts/wellsprings_passivas.js"
+        },
+        {
+          "id": "VelvetAbyss-1.20.1-1.1.2.jar",
+          "name": "VelvetAbyss-1.20.1-1.1.2.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.2.jar",
+            "MD5": "24b8d62c573485113e3ca201d220b6f0",
+            "size": 6109327,
+            "path": "mods/VelvetAbyss-1.20.1-1.1.2.jar"
+          },
+          "path": "mods/VelvetAbyss-1.20.1-1.1.2.jar"
         }
       ]
     }
