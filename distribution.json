@@ -1,5 +1,5 @@
 {
-  "version": "1.0.175",
+  "version": "1.0.176",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4365,18 +4365,6 @@
           "path": "kubejs/server_scripts/remover_criativos.js"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.0.68.jar",
-          "name": "VelvetAbyss-1.20.1-1.0.68.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.68.jar",
-            "MD5": "628cc5fe78ae513073d1a2fa3464ce52",
-            "size": 6043655,
-            "path": "mods/VelvetAbyss-1.20.1-1.0.68.jar"
-          },
-          "path": "mods/VelvetAbyss-1.20.1-1.0.68.jar"
-        },
-        {
           "id": "correcao_receitas.js",
           "name": "correcao_receitas.js",
           "type": "File",
@@ -4387,6 +4375,18 @@
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
+        },
+        {
+          "id": "VelvetAbyss-1.20.1-1.1.1.jar",
+          "name": "VelvetAbyss-1.20.1-1.1.1.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.1.jar",
+            "MD5": "891442d4138b22f047bd20fe2c30503c",
+            "size": 6103421,
+            "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
+          },
+          "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
         }
       ]
     },
@@ -8716,18 +8716,6 @@
           "path": "kubejs/server_scripts/remover_criativos.js"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.0.68.jar",
-          "name": "VelvetAbyss-1.20.1-1.0.68.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.68.jar",
-            "MD5": "628cc5fe78ae513073d1a2fa3464ce52",
-            "size": 6043655,
-            "path": "mods/VelvetAbyss-1.20.1-1.0.68.jar"
-          },
-          "path": "mods/VelvetAbyss-1.20.1-1.0.68.jar"
-        },
-        {
           "id": "correcao_receitas.js",
           "name": "correcao_receitas.js",
           "type": "File",
@@ -8738,6 +8726,18 @@
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
+        },
+        {
+          "id": "VelvetAbyss-1.20.1-1.1.1.jar",
+          "name": "VelvetAbyss-1.20.1-1.1.1.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.1.jar",
+            "MD5": "891442d4138b22f047bd20fe2c30503c",
+            "size": 6103421,
+            "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
+          },
+          "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
         }
       ]
     },
@@ -13103,18 +13103,6 @@
           "path": "kubejs/server_scripts/remover_criativos.js"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.0.68.jar",
-          "name": "VelvetAbyss-1.20.1-1.0.68.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.0.68.jar",
-            "MD5": "628cc5fe78ae513073d1a2fa3464ce52",
-            "size": 6043655,
-            "path": "mods/VelvetAbyss-1.20.1-1.0.68.jar"
-          },
-          "path": "mods/VelvetAbyss-1.20.1-1.0.68.jar"
-        },
-        {
           "id": "correcao_receitas.js",
           "name": "correcao_receitas.js",
           "type": "File",
@@ -13125,6 +13113,18 @@
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
+        },
+        {
+          "id": "VelvetAbyss-1.20.1-1.1.1.jar",
+          "name": "VelvetAbyss-1.20.1-1.1.1.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.1.jar",
+            "MD5": "891442d4138b22f047bd20fe2c30503c",
+            "size": 6103421,
+            "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
+          },
+          "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
         }
       ]
     }
