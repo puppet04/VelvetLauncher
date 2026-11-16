@@ -1,5 +1,5 @@
 {
-  "version": "1.0.179",
+  "version": "1.0.180",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4394,8 +4394,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-            "MD5": "4b8760d180b67e5f325b7ba87cfb73d7",
-            "size": 80282,
+            "MD5": "29d827bab39df8f7e78fab66d93d2d43",
+            "size": 80668,
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
@@ -8757,8 +8757,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-            "MD5": "4b8760d180b67e5f325b7ba87cfb73d7",
-            "size": 80282,
+            "MD5": "29d827bab39df8f7e78fab66d93d2d43",
+            "size": 80668,
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
@@ -13156,8 +13156,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-            "MD5": "4b8760d180b67e5f325b7ba87cfb73d7",
-            "size": 80282,
+            "MD5": "29d827bab39df8f7e78fab66d93d2d43",
+            "size": 80668,
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
