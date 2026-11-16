@@ -1,5 +1,5 @@
 {
-  "version": "1.0.176",
+  "version": "1.0.177",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4387,6 +4387,18 @@
             "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
+        },
+        {
+          "id": "add_squid_spawns.json",
+          "name": "add_squid_spawns.json",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/add_squid_spawns.json",
+            "MD5": "cd263ab7a94340dc29a5b52bcb1110b5",
+            "size": 179,
+            "path": "kubejs/data/velvet/forge/biome_modifier/add_squid_spawns.json"
+          },
+          "path": "kubejs/data/velvet/forge/biome_modifier/add_squid_spawns.json"
         }
       ]
     },
@@ -8738,6 +8750,18 @@
             "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
+        },
+        {
+          "id": "add_squid_spawns.json",
+          "name": "add_squid_spawns.json",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/add_squid_spawns.json",
+            "MD5": "cd263ab7a94340dc29a5b52bcb1110b5",
+            "size": 179,
+            "path": "kubejs/data/velvet/forge/biome_modifier/add_squid_spawns.json"
+          },
+          "path": "kubejs/data/velvet/forge/biome_modifier/add_squid_spawns.json"
         }
       ]
     },
@@ -13125,6 +13149,18 @@
             "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.1.1.jar"
+        },
+        {
+          "id": "add_squid_spawns.json",
+          "name": "add_squid_spawns.json",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/add_squid_spawns.json",
+            "MD5": "cd263ab7a94340dc29a5b52bcb1110b5",
+            "size": 179,
+            "path": "kubejs/data/velvet/forge/biome_modifier/add_squid_spawns.json"
+          },
+          "path": "kubejs/data/velvet/forge/biome_modifier/add_squid_spawns.json"
         }
       ]
     }
