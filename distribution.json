@@ -1,5 +1,5 @@
 {
-  "version": "1.0.180",
+  "version": "1.0.181",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4399,6 +4399,18 @@
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
+        },
+        {
+          "id": "wellsprings_passivas.js",
+          "name": "wellsprings_passivas.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/wellsprings_passivas.js",
+            "MD5": "4bcf3a51a36968381ae64fb462cf32fd",
+            "size": 4216,
+            "path": "kubejs/server_scripts/wellsprings_passivas.js"
+          },
+          "path": "kubejs/server_scripts/wellsprings_passivas.js"
         }
       ]
     },
@@ -8762,6 +8774,18 @@
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
+        },
+        {
+          "id": "wellsprings_passivas.js",
+          "name": "wellsprings_passivas.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/wellsprings_passivas.js",
+            "MD5": "4bcf3a51a36968381ae64fb462cf32fd",
+            "size": 4216,
+            "path": "kubejs/server_scripts/wellsprings_passivas.js"
+          },
+          "path": "kubejs/server_scripts/wellsprings_passivas.js"
         }
       ]
     },
@@ -13161,6 +13185,18 @@
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
+        },
+        {
+          "id": "wellsprings_passivas.js",
+          "name": "wellsprings_passivas.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/wellsprings_passivas.js",
+            "MD5": "4bcf3a51a36968381ae64fb462cf32fd",
+            "size": 4216,
+            "path": "kubejs/server_scripts/wellsprings_passivas.js"
+          },
+          "path": "kubejs/server_scripts/wellsprings_passivas.js"
         }
       ]
     }
