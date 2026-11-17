@@ -1,5 +1,5 @@
 {
-  "version": "1.0.183",
+  "version": "1.0.184",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3334,18 +3334,6 @@
           "path": "config/resourcepackoverrides.json"
         },
         {
-          "id": "bubblifymod-1.7.1.jar",
-          "name": "bubblifymod-1.7.1.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/bubblifymod-1.7.1.jar",
-            "MD5": "06ddd49feccd069438a050e9ac01e092",
-            "size": 38161,
-            "path": "mods/bubblifymod-1.7.1.jar"
-          },
-          "path": "mods/bubblifymod-1.7.1.jar"
-        },
-        {
           "id": "AttributeFix-Forge-1.20.1-21.0.5.jar",
           "name": "AttributeFix-Forge-1.20.1-21.0.5.jar",
           "type": "File",
@@ -4411,6 +4399,18 @@
             "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
+        },
+        {
+          "id": "bubblifymod-2.0.jar",
+          "name": "bubblifymod-2.0.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/bubblifymod-2.0.jar",
+            "MD5": "1cb18c9d733f9ba89b199d742b5734f7",
+            "size": 91779,
+            "path": "mods/bubblifymod-2.0.jar"
+          },
+          "path": "mods/bubblifymod-2.0.jar"
         }
       ]
     },
@@ -7721,18 +7721,6 @@
           "path": "config/resourcepackoverrides.json"
         },
         {
-          "id": "bubblifymod-1.7.1.jar",
-          "name": "bubblifymod-1.7.1.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/bubblifymod-1.7.1.jar",
-            "MD5": "06ddd49feccd069438a050e9ac01e092",
-            "size": 38161,
-            "path": "mods/bubblifymod-1.7.1.jar"
-          },
-          "path": "mods/bubblifymod-1.7.1.jar"
-        },
-        {
           "id": "AttributeFix-Forge-1.20.1-21.0.5.jar",
           "name": "AttributeFix-Forge-1.20.1-21.0.5.jar",
           "type": "File",
@@ -8786,6 +8774,18 @@
             "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
+        },
+        {
+          "id": "bubblifymod-2.0.jar",
+          "name": "bubblifymod-2.0.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/bubblifymod-2.0.jar",
+            "MD5": "1cb18c9d733f9ba89b199d742b5734f7",
+            "size": 91779,
+            "path": "mods/bubblifymod-2.0.jar"
+          },
+          "path": "mods/bubblifymod-2.0.jar"
         }
       ]
     },
@@ -12120,18 +12120,6 @@
           "path": "config/resourcepackoverrides.json"
         },
         {
-          "id": "bubblifymod-1.7.1.jar",
-          "name": "bubblifymod-1.7.1.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/bubblifymod-1.7.1.jar",
-            "MD5": "06ddd49feccd069438a050e9ac01e092",
-            "size": 38161,
-            "path": "mods/bubblifymod-1.7.1.jar"
-          },
-          "path": "mods/bubblifymod-1.7.1.jar"
-        },
-        {
           "id": "AttributeFix-Forge-1.20.1-21.0.5.jar",
           "name": "AttributeFix-Forge-1.20.1-21.0.5.jar",
           "type": "File",
@@ -13197,6 +13185,18 @@
             "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
           },
           "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
+        },
+        {
+          "id": "bubblifymod-2.0.jar",
+          "name": "bubblifymod-2.0.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/bubblifymod-2.0.jar",
+            "MD5": "1cb18c9d733f9ba89b199d742b5734f7",
+            "size": 91779,
+            "path": "mods/bubblifymod-2.0.jar"
+          },
+          "path": "mods/bubblifymod-2.0.jar"
         }
       ]
     }
