@@ -1,5 +1,5 @@
 {
-  "version": "1.0.184",
+  "version": "1.0.185",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -3411,8 +3411,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spectrum-1.8.13.jar",
-            "MD5": "e81d67d20019d6d49afcf81ddccd2fd1",
-            "size": 87433583,
+            "MD5": "644b2503ceb75bf865567d41fca96ca8",
+            "size": 87434790,
             "path": "mods/spectrum-1.8.13.jar"
           },
           "path": "mods/spectrum-1.8.13.jar"
@@ -4370,8 +4370,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-            "MD5": "29d827bab39df8f7e78fab66d93d2d43",
-            "size": 80668,
+            "MD5": "6ad6b41f172221ed377879dbc54e969f",
+            "size": 80772,
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
@@ -7798,8 +7798,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spectrum-1.8.13.jar",
-            "MD5": "e81d67d20019d6d49afcf81ddccd2fd1",
-            "size": 87433583,
+            "MD5": "644b2503ceb75bf865567d41fca96ca8",
+            "size": 87434790,
             "path": "mods/spectrum-1.8.13.jar"
           },
           "path": "mods/spectrum-1.8.13.jar"
@@ -8745,8 +8745,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-            "MD5": "29d827bab39df8f7e78fab66d93d2d43",
-            "size": 80668,
+            "MD5": "6ad6b41f172221ed377879dbc54e969f",
+            "size": 80772,
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
@@ -12197,8 +12197,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/spectrum-1.8.13.jar",
-            "MD5": "e81d67d20019d6d49afcf81ddccd2fd1",
-            "size": 87433583,
+            "MD5": "644b2503ceb75bf865567d41fca96ca8",
+            "size": 87434790,
             "path": "mods/spectrum-1.8.13.jar"
           },
           "path": "mods/spectrum-1.8.13.jar"
@@ -13156,8 +13156,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/correcao_receitas.js",
-            "MD5": "29d827bab39df8f7e78fab66d93d2d43",
-            "size": 80668,
+            "MD5": "6ad6b41f172221ed377879dbc54e969f",
+            "size": 80772,
             "path": "kubejs/server_scripts/correcao_receitas.js"
           },
           "path": "kubejs/server_scripts/correcao_receitas.js"
