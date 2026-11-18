@@ -1,5 +1,5 @@
 {
-  "version": "1.0.186",
+  "version": "1.0.187",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4178,8 +4178,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mna-forge-1.20.1-3.1.11-all.jar",
-            "MD5": "0396b0237b5954f15c4afe626786bb93",
-            "size": 32388968,
+            "MD5": "ba0dedb3200795952b2028b1750ff074",
+            "size": 32183886,
             "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
           },
           "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
@@ -8565,8 +8565,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mna-forge-1.20.1-3.1.11-all.jar",
-            "MD5": "0396b0237b5954f15c4afe626786bb93",
-            "size": 32388968,
+            "MD5": "ba0dedb3200795952b2028b1750ff074",
+            "size": 32183886,
             "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
           },
           "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
@@ -12988,8 +12988,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mna-forge-1.20.1-3.1.11-all.jar",
-            "MD5": "0396b0237b5954f15c4afe626786bb93",
-            "size": 32388968,
+            "MD5": "ba0dedb3200795952b2028b1750ff074",
+            "size": 32183886,
             "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
           },
           "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
