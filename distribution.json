@@ -1,5 +1,5 @@
 {
-  "version": "1.0.185",
+  "version": "1.0.186",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4411,6 +4411,18 @@
             "path": "mods/bubblifymod-2.0.jar"
           },
           "path": "mods/bubblifymod-2.0.jar"
+        },
+        {
+          "id": "buff_spellweaver_armor.js",
+          "name": "buff_spellweaver_armor.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/buff_spellweaver_armor.js",
+            "MD5": "4ea4763526bdc3036273442e2f79b8d6",
+            "size": 772,
+            "path": "kubejs/startup_scripts/buff_spellweaver_armor.js"
+          },
+          "path": "kubejs/startup_scripts/buff_spellweaver_armor.js"
         }
       ]
     },
@@ -8786,6 +8798,18 @@
             "path": "mods/bubblifymod-2.0.jar"
           },
           "path": "mods/bubblifymod-2.0.jar"
+        },
+        {
+          "id": "buff_spellweaver_armor.js",
+          "name": "buff_spellweaver_armor.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/buff_spellweaver_armor.js",
+            "MD5": "4ea4763526bdc3036273442e2f79b8d6",
+            "size": 772,
+            "path": "kubejs/startup_scripts/buff_spellweaver_armor.js"
+          },
+          "path": "kubejs/startup_scripts/buff_spellweaver_armor.js"
         }
       ]
     },
@@ -13197,6 +13221,18 @@
             "path": "mods/bubblifymod-2.0.jar"
           },
           "path": "mods/bubblifymod-2.0.jar"
+        },
+        {
+          "id": "buff_spellweaver_armor.js",
+          "name": "buff_spellweaver_armor.js",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/buff_spellweaver_armor.js",
+            "MD5": "4ea4763526bdc3036273442e2f79b8d6",
+            "size": 772,
+            "path": "kubejs/startup_scripts/buff_spellweaver_armor.js"
+          },
+          "path": "kubejs/startup_scripts/buff_spellweaver_armor.js"
         }
       ]
     }
