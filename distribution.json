@@ -1,5 +1,5 @@
 {
-  "version": "1.0.188",
+  "version": "1.0.189",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4178,8 +4178,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mna-forge-1.20.1-3.1.11-all.jar",
-            "MD5": "e869f9781e3f3803344d838f61435048",
-            "size": 32184012,
+            "MD5": "e6adf22dbea9d3037ad2c900ade3707c",
+            "size": 32184257,
             "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
           },
           "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
@@ -4430,8 +4430,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/lore_astro_blade.js",
-            "MD5": "1896805d6b2a237916a079fa08701376",
-            "size": 1581,
+            "MD5": "d1dbebd5405fd7f0f97412f7b6523644",
+            "size": 1766,
             "path": "kubejs/server_scripts/lore_astro_blade.js"
           },
           "path": "kubejs/server_scripts/lore_astro_blade.js"
@@ -8577,8 +8577,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mna-forge-1.20.1-3.1.11-all.jar",
-            "MD5": "e869f9781e3f3803344d838f61435048",
-            "size": 32184012,
+            "MD5": "e6adf22dbea9d3037ad2c900ade3707c",
+            "size": 32184257,
             "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
           },
           "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
@@ -8829,8 +8829,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/lore_astro_blade.js",
-            "MD5": "1896805d6b2a237916a079fa08701376",
-            "size": 1581,
+            "MD5": "d1dbebd5405fd7f0f97412f7b6523644",
+            "size": 1766,
             "path": "kubejs/server_scripts/lore_astro_blade.js"
           },
           "path": "kubejs/server_scripts/lore_astro_blade.js"
@@ -13012,8 +13012,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/mna-forge-1.20.1-3.1.11-all.jar",
-            "MD5": "e869f9781e3f3803344d838f61435048",
-            "size": 32184012,
+            "MD5": "e6adf22dbea9d3037ad2c900ade3707c",
+            "size": 32184257,
             "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
           },
           "path": "mods/mna-forge-1.20.1-3.1.11-all.jar"
@@ -13264,8 +13264,8 @@
           "type": "File",
           "artifact": {
             "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/lore_astro_blade.js",
-            "MD5": "1896805d6b2a237916a079fa08701376",
-            "size": 1581,
+            "MD5": "d1dbebd5405fd7f0f97412f7b6523644",
+            "size": 1766,
             "path": "kubejs/server_scripts/lore_astro_blade.js"
           },
           "path": "kubejs/server_scripts/lore_astro_blade.js"
