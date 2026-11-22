@@ -1,5 +1,5 @@
 {
-  "version": "1.0.189",
+  "version": "1.0.190",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4389,18 +4389,6 @@
           "path": "kubejs/server_scripts/wellsprings_passivas.js"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.1.3.jar",
-          "name": "VelvetAbyss-1.20.1-1.1.3.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.3.jar",
-            "MD5": "94b50393940152c849ba0523c8b8d4d5",
-            "size": 6163054,
-            "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
-          },
-          "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
-        },
-        {
           "id": "bubblifymod-2.0.jar",
           "name": "bubblifymod-2.0.jar",
           "type": "File",
@@ -4435,6 +4423,18 @@
             "path": "kubejs/server_scripts/lore_astro_blade.js"
           },
           "path": "kubejs/server_scripts/lore_astro_blade.js"
+        },
+        {
+          "id": "VelvetAbyss-1.20.1-1.1.3.jar",
+          "name": "VelvetAbyss-1.20.1-1.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.3.jar",
+            "MD5": "80f3efee42135ccb70a97f372a0128c0",
+            "size": 6192268,
+            "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
+          },
+          "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
         }
       ]
     },
@@ -8788,18 +8788,6 @@
           "path": "kubejs/server_scripts/wellsprings_passivas.js"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.1.3.jar",
-          "name": "VelvetAbyss-1.20.1-1.1.3.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.3.jar",
-            "MD5": "94b50393940152c849ba0523c8b8d4d5",
-            "size": 6163054,
-            "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
-          },
-          "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
-        },
-        {
           "id": "bubblifymod-2.0.jar",
           "name": "bubblifymod-2.0.jar",
           "type": "File",
@@ -8834,6 +8822,18 @@
             "path": "kubejs/server_scripts/lore_astro_blade.js"
           },
           "path": "kubejs/server_scripts/lore_astro_blade.js"
+        },
+        {
+          "id": "VelvetAbyss-1.20.1-1.1.3.jar",
+          "name": "VelvetAbyss-1.20.1-1.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.3.jar",
+            "MD5": "80f3efee42135ccb70a97f372a0128c0",
+            "size": 6192268,
+            "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
+          },
+          "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
         }
       ]
     },
@@ -13223,18 +13223,6 @@
           "path": "kubejs/server_scripts/wellsprings_passivas.js"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.1.3.jar",
-          "name": "VelvetAbyss-1.20.1-1.1.3.jar",
-          "type": "File",
-          "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.3.jar",
-            "MD5": "94b50393940152c849ba0523c8b8d4d5",
-            "size": 6163054,
-            "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
-          },
-          "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
-        },
-        {
           "id": "bubblifymod-2.0.jar",
           "name": "bubblifymod-2.0.jar",
           "type": "File",
@@ -13269,6 +13257,18 @@
             "path": "kubejs/server_scripts/lore_astro_blade.js"
           },
           "path": "kubejs/server_scripts/lore_astro_blade.js"
+        },
+        {
+          "id": "VelvetAbyss-1.20.1-1.1.3.jar",
+          "name": "VelvetAbyss-1.20.1-1.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.3.jar",
+            "MD5": "80f3efee42135ccb70a97f372a0128c0",
+            "size": 6192268,
+            "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
+          },
+          "path": "mods/VelvetAbyss-1.20.1-1.1.3.jar"
         }
       ]
     }
