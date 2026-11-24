@@ -1,5 +1,5 @@
 {
-  "version": "1.0.191",
+  "version": "1.0.192",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -35,8 +35,8 @@
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16554,
-                "MD5": "eede38b0c090f69c7789cd35e753853d",
+                "size": 16600,
+                "MD5": "e962bed73678dd72301e005360894eed",
                 "url": "https://raw.githubusercontent.com/puppet04/VelvetLauncher/main/version.json"
               }
             },
@@ -4470,8 +4470,8 @@
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16554,
-                "MD5": "eede38b0c090f69c7789cd35e753853d",
+                "size": 16600,
+                "MD5": "e962bed73678dd72301e005360894eed",
                 "url": "https://raw.githubusercontent.com/puppet04/VelvetLauncher/main/version.json"
               }
             },
@@ -8869,8 +8869,8 @@
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16554,
-                "MD5": "eede38b0c090f69c7789cd35e753853d",
+                "size": 16600,
+                "MD5": "e962bed73678dd72301e005360894eed",
                 "url": "https://raw.githubusercontent.com/puppet04/VelvetLauncher/main/version.json"
               }
             },
