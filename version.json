@@ -27,7 +27,8 @@
             "20230612.114412"
         ],
         "jvm": [
-            "-Djava.net.preferIPv6Addresses=system",
+            "-Djava.net.preferIPv4Stack=true",
+            "-Djava.net.preferIPv6Addresses=false",
             "-DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-,${version_name}.jar",
             "-DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar",
             "-DlibraryDirectory=${library_directory}",
