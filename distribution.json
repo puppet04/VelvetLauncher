@@ -1,5 +1,5 @@
 {
-  "version": "1.0.193",
+  "version": "1.0.194",
   "rss": "",
   "mainServer": "velvet",
   "servers": [
@@ -4425,16 +4425,16 @@
           "path": "kubejs/server_scripts/lore_astro_blade.js"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.1.4.jar",
-          "name": "VelvetAbyss-1.20.1-1.1.4.jar",
+          "id": "VelvetAbyss-1.20.1-1.1.5.jar",
+          "name": "VelvetAbyss-1.20.1-1.1.5.jar",
           "type": "File",
           "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.4.jar",
-            "MD5": "e39115ed613a82e9c5738fcc631750c0",
-            "size": 6197776,
-            "path": "mods/VelvetAbyss-1.20.1-1.1.4.jar"
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.5.jar",
+            "MD5": "720a9e68b29941395572f5a43394342b",
+            "size": 6620762,
+            "path": "mods/VelvetAbyss-1.20.1-1.1.5.jar"
           },
-          "path": "mods/VelvetAbyss-1.20.1-1.1.4.jar"
+          "path": "mods/VelvetAbyss-1.20.1-1.1.5.jar"
         }
       ]
     },
@@ -8824,16 +8824,16 @@
           "path": "kubejs/server_scripts/lore_astro_blade.js"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.1.4.jar",
-          "name": "VelvetAbyss-1.20.1-1.1.4.jar",
+          "id": "VelvetAbyss-1.20.1-1.1.5.jar",
+          "name": "VelvetAbyss-1.20.1-1.1.5.jar",
           "type": "File",
           "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.4.jar",
-            "MD5": "e39115ed613a82e9c5738fcc631750c0",
-            "size": 6197776,
-            "path": "mods/VelvetAbyss-1.20.1-1.1.4.jar"
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.5.jar",
+            "MD5": "720a9e68b29941395572f5a43394342b",
+            "size": 6620762,
+            "path": "mods/VelvetAbyss-1.20.1-1.1.5.jar"
           },
-          "path": "mods/VelvetAbyss-1.20.1-1.1.4.jar"
+          "path": "mods/VelvetAbyss-1.20.1-1.1.5.jar"
         }
       ]
     },
@@ -13259,16 +13259,16 @@
           "path": "kubejs/server_scripts/lore_astro_blade.js"
         },
         {
-          "id": "VelvetAbyss-1.20.1-1.1.4.jar",
-          "name": "VelvetAbyss-1.20.1-1.1.4.jar",
+          "id": "VelvetAbyss-1.20.1-1.1.5.jar",
+          "name": "VelvetAbyss-1.20.1-1.1.5.jar",
           "type": "File",
           "artifact": {
-            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.4.jar",
-            "MD5": "e39115ed613a82e9c5738fcc631750c0",
-            "size": 6197776,
-            "path": "mods/VelvetAbyss-1.20.1-1.1.4.jar"
+            "url": "https://github.com/puppet04/VelvetLauncher/releases/download/v1.0.0/VelvetAbyss-1.20.1-1.1.5.jar",
+            "MD5": "720a9e68b29941395572f5a43394342b",
+            "size": 6620762,
+            "path": "mods/VelvetAbyss-1.20.1-1.1.5.jar"
           },
-          "path": "mods/VelvetAbyss-1.20.1-1.1.4.jar"
+          "path": "mods/VelvetAbyss-1.20.1-1.1.5.jar"
         }
       ]
     }
